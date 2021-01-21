@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gwyddion\n"
 "Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
 "POT-Creation-Date: 2021-01-18 02:14+0100\n"
-"PO-Revision-Date: 2021-01-20 10:06+0900\n"
+"PO-Revision-Date: 2021-01-21 14:44+0900\n"
 "Language-Team: https://github.com/iobataya/gwyddion-ja-translation\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -64,12 +64,12 @@ msgstr "空のかっこ"
 
 #: libgwyddion/gwyexpr.c:1313
 msgid "Stray comma"
-msgstr "迷走カンマ"
+msgstr "不適切なコンマ"
 
 #: libgwyddion/gwyexpr.c:1352
 #, c-format
 msgid "Stray symbol %d"
-msgstr "迷走シンボル%d"
+msgstr "不適切なシンボル%d"
 
 #: libgwyddion/gwyexpr.c:1405
 msgid "Trailing garbage"
@@ -100,12 +100,10 @@ msgid "vdW: sphere"
 msgstr "vdW: 球"
 
 #: libgwyddion/gwyfdcurvepreset.c:837
-#, fuzzy
 msgid "vdW: offset sphere"
 msgstr "vdW: オフセット球"
 
 #: libgwyddion/gwyfdcurvepreset.c:849
-#, fuzzy
 msgid "vdW: two spheres"
 msgstr "vdW: 2 つの球"
 
@@ -1010,23 +1008,23 @@ msgstr "θ:"
 
 #: libgwydgets/gwy3dwindow.c:849 modules/process/cwt.c:151
 msgid "_Scale:"
-msgstr "_Scale:"
+msgstr "スケール:"
 
 #: libgwydgets/gwy3dwindow.c:856
 msgid "_Value scale:"
-msgstr "_Valueスケール:"
+msgstr "値スケール:"
 
 #: libgwydgets/gwy3dwindow.c:862
 msgid "Ph_ysical scale:"
-msgstr "Ph_ysical scale:"
+msgstr "物理スケール:"
 
 #: libgwydgets/gwy3dwindow.c:876
 msgid "verb|Set"
-msgstr "verb|Set"
+msgstr "動詞|Set"
 
 #: libgwydgets/gwy3dwindow.c:886
 msgid "Line _width:"
-msgstr "ライン _width:"
+msgstr "ライン幅:"
 
 #: libgwydgets/gwy3dwindow.c:886 libgwydgets/gwy3dwindow.c:1194
 #: libgwydgets/gwy3dwindow.c:1204 libgwydgets/gwy3dwindow.c:1235
@@ -1098,47 +1096,47 @@ msgstr "px"
 
 #: libgwydgets/gwy3dwindow.c:891
 msgid "Show _axes"
-msgstr "_axes 表示"
+msgstr "軸表示"
 
 #: libgwydgets/gwy3dwindow.c:900
 msgid "Show _labels"
-msgstr "_labels 表示"
+msgstr "ラベル表示"
 
 #: libgwydgets/gwy3dwindow.c:909
 msgid "_Orthographic projection"
-msgstr "_Orthographicプロジェクション"
+msgstr "正射影プロジェクション"
 
 #: libgwydgets/gwy3dwindow.c:918
 msgid "_Hide masked"
-msgstr "マスク_Hide"
+msgstr "マスクを隠す"
 
 #: libgwydgets/gwy3dwindow.c:934
 msgid "_Lighting"
-msgstr "_Lighting"
+msgstr "光源"
 
 #: libgwydgets/gwy3dwindow.c:935
 msgid "_Gradient"
-msgstr "_Gradient"
+msgstr "グラジエント"
 
 #: libgwydgets/gwy3dwindow.c:936
 msgid "_Overlay"
-msgstr "_Overlay"
+msgstr "オーバーレイ"
 
 #: libgwydgets/gwy3dwindow.c:937
 msgid "_Overlay - no light"
-msgstr "_Overlay - 光なし"
+msgstr "オーバーレイ - 光なし"
 
 #: libgwydgets/gwy3dwindow.c:992
 msgid "_Material:"
-msgstr "_Material:"
+msgstr "材質:"
 
 #: libgwydgets/gwy3dwindow.c:1013
 msgid "_Light φ:"
-msgstr "_Light φ:"
+msgstr "光源 φ:"
 
 #: libgwydgets/gwy3dwindow.c:1020
 msgid "L_ight θ:"
-msgstr "L_ight θ:"
+msgstr "光源 θ:"
 
 #: libgwydgets/gwy3dwindow.c:1052 libgwydgets/gwy3dwindow.c:1243
 #: gwyddion/toolbox-editor.c:215 modules/file/hdrimage.cc:2241
@@ -1194,7 +1192,7 @@ msgstr "L_ight θ:"
 #: modules/volume/volume_slice.c:297 modules/volume/volume_strayfield.c:262
 #: modules/volume/volume_zposlevel.c:271
 msgid "_Reset"
-msgstr "_Reset"
+msgstr "リセット"
 
 #: libgwydgets/gwy3dwindow.c:1141
 msgid "X-axis"
@@ -1214,11 +1212,11 @@ msgstr "最大 z 値"
 
 #: libgwydgets/gwy3dwindow.c:1167 modules/file/imgexport.c:3877
 msgid "_Label:"
-msgstr "_Label:"
+msgstr "ラベル:"
 
 #: libgwydgets/gwy3dwindow.c:1180
 msgid "_Text:"
-msgstr "_Text:"
+msgstr "テキスト:"
 
 #: libgwydgets/gwy3dwindow.c:1185
 msgid "Move label"
@@ -1226,58 +1224,58 @@ msgstr "ラベルを移動"
 
 #: libgwydgets/gwy3dwindow.c:1194
 msgid "_Horizontally:"
-msgstr "_Horizontally:"
+msgstr "水平:"
 
 #: libgwydgets/gwy3dwindow.c:1204
 msgid "_Vertically:"
-msgstr "_Vertically:"
+msgstr "垂直:"
 
 #: libgwydgets/gwy3dwindow.c:1212
 msgid "A_ll labels have the same size"
-msgstr "A_ll labels have the same size"
+msgstr "すべてのラベルを同じにする"
 
 #: libgwydgets/gwy3dwindow.c:1223
 msgid "Scale size _automatically"
-msgstr "Scale size _automatically"
+msgstr "サイズを自動スケールする"
 
 #: libgwydgets/gwy3dwindow.c:1235 modules/process/disc_synth.c:421
 #: modules/tools/filter.c:293
 msgid "Si_ze:"
-msgstr "Si_ze:"
+msgstr "サイズ:"
 
 #: libgwydgets/gwy3dwindow.c:1277
 msgid "Show false _colorbar"
-msgstr "疑似_colorbarを表示"
+msgstr "カラーバーを表示"
 
 #: libgwydgets/gwy3dwindow.c:1286
 msgid "Reserve space for _colorbar"
-msgstr "_colorbar用のスペースを確保する"
+msgstr "カラーバーのスペースを確保する"
 
 #: libgwydgets/gwy3dwindow.c:1302 modules/process/cpde_synth.c:420
 #: modules/process/lat_synth.c:651 modules/process/obj_synth.c:576
 #: modules/process/pat_synth.c:1591 modules/process/phase_synth.c:279
 msgid "_Size:"
-msgstr "_Size:"
+msgstr "サイズ:"
 
 #: libgwydgets/gwy3dwindow.c:1311
 msgid "_Vertical alignment:"
-msgstr "_Vertical配置:"
+msgstr "垂直配置:"
 
 #: libgwydgets/gwy3dwindow.c:1845 libgwydgets/gwy3dwindow.c:1898
 msgid "S_witch to Lighting Mode"
-msgstr "S_witch to Lighting Mode"
+msgstr "光源モードへ"
 
 #: libgwydgets/gwy3dwindow.c:1853 libgwydgets/gwy3dwindow.c:1875
 msgid "S_witch to Overlay Mode"
-msgstr "S_witch to Overlay Mode"
+msgstr "オーバーレイモードへ"
 
 #: libgwydgets/gwy3dwindow.c:1867 libgwydgets/gwy3dwindow.c:1890
 msgid "S_witch to Color Gradient Mode"
-msgstr "S_witch to Color Gradient Mode"
+msgstr "カラーグラジエントモードへ"
 
 #: libgwydgets/gwy3dwindow.c:1906
 msgid "T_oggle light"
-msgstr "T_oggleライト"
+msgstr "光源切り替え"
 
 #: libgwydgets/gwyaxisdialog.c:75
 msgid "Axis Properties"
@@ -1289,12 +1287,12 @@ msgstr "ラベル テキスト"
 
 #: libgwydgets/gwydatawindow.c:925
 msgid "_Unset Color Gradient"
-msgstr "_Unset カラーグラデーション"
+msgstr "カラーグラデーションを解除"
 
 #. TRANSLATORS: Countable (more false colour gradients).
 #: libgwydgets/gwydatawindow.c:933
 msgid "_More..."
-msgstr "_More…"
+msgstr "More…"
 
 #: libgwydgets/gwydatawindow.c:962 libgwydgets/gwyoptionmenus.c:826
 msgid "Choose Color Gradient"
@@ -1336,40 +1334,39 @@ msgstr "曲線のプロパティ"
 
 #: libgwydgets/gwygraphareadialog.c:101
 msgid "Pre_v"
-msgstr "Pre_v"
+msgstr "前"
 
 #: libgwydgets/gwygraphareadialog.c:104
 msgid "_Next"
-msgstr "_Next"
+msgstr "次"
 
 #: libgwydgets/gwygraphareadialog.c:123 modules/file/rawgraph.c:307
 msgid "Plot _style:"
-msgstr "プロット_style:"
+msgstr "プロットスタイル:"
 
 #: libgwydgets/gwygraphareadialog.c:131
 msgid "Pl_ot color:"
-msgstr "Pl_ot色:"
+msgstr "プロット色:"
 
 #: libgwydgets/gwygraphareadialog.c:151
 msgid "Point _type:"
-msgstr "ポイント_type:"
+msgstr "ポイントタイプ:"
 
 #: libgwydgets/gwygraphareadialog.c:157
 msgid "_Point size:"
-msgstr "_Pointサイズ:"
+msgstr "ポイントサイズ:"
 
 #: libgwydgets/gwygraphareadialog.c:168
 msgid "_Line type:"
-msgstr "_Lineタイプ:"
+msgstr "ラインタイプ:"
 
 #: libgwydgets/gwygraphareadialog.c:174 modules/file/imgexport.c:3215
 msgid "Line t_hickness:"
-msgstr "ラインt_hickness:"
+msgstr "ライン幅:"
 
 #: libgwydgets/gwygraphareadialog.c:182
-#, fuzzy
 msgid "<b>Label Te_xt</b>"
-msgstr "<b>ラベルTe_xt</b>"
+msgstr "<b>ラベルText</b>"
 
 #: libgwydgets/gwygraphareadialog.c:399
 msgid "Set Curve Color"
@@ -1417,18 +1414,16 @@ msgid "Triangle right"
 msgstr "Triangle right"
 
 #: libgwydgets/gwygraphareadialog.c:562
-#, fuzzy
 msgid "Full square"
-msgstr "フルスクエア"
+msgstr "正方形"
 
 #: libgwydgets/gwygraphareadialog.c:563 modules/process/mask_morph.c:189
 msgid "Disc"
-msgstr "石盤"
+msgstr "円板"
 
 #: libgwydgets/gwygraphareadialog.c:564
-#, fuzzy
 msgid "Full diamond"
-msgstr "フルダイヤモンド"
+msgstr "Full diamond"
 
 #: libgwydgets/gwygraphareadialog.c:565
 msgid "Full triangle up"
@@ -1447,14 +1442,12 @@ msgid "Full triangle right"
 msgstr "Full triangle right"
 
 #: libgwydgets/gwygraphareadialog.c:630
-#, fuzzy
 msgid "line-style|Solid"
-msgstr "線スタイル|固体"
+msgstr "線スタイル|実線"
 
 #: libgwydgets/gwygraphareadialog.c:631
-#, fuzzy
 msgid "line-style|Dash"
-msgstr "線スタイル|ダッシュ"
+msgstr "線スタイル|点線"
 
 #: libgwydgets/gwygraphcurves.c:448
 msgid "Description"
@@ -1469,7 +1462,6 @@ msgid "Color"
 msgstr "色"
 
 #: libgwydgets/gwygraphcurves.c:491
-#, fuzzy
 msgid "Point Type"
 msgstr "ポイントタイプ"
 
@@ -1478,22 +1470,18 @@ msgid "Line Style"
 msgstr "ラインスタイル"
 
 #: libgwydgets/gwygraphlabeldialog.c:63
-#, fuzzy
 msgid "Label Properties"
 msgstr "ラベルプロパティ"
 
 #: libgwydgets/gwygraphlabeldialog.c:74
-#, fuzzy
 msgid "_Frame thickness:"
-msgstr "_Frame厚さ:"
+msgstr "フレーム厚さ:"
 
 #: libgwydgets/gwygraphlabeldialog.c:81
-#, fuzzy
 msgid "_Reversed layout"
-msgstr "_Reversedレイアウト"
+msgstr "反転レイアウト"
 
 #: libgwydgets/gwygraphmodel.c:2241
-#, fuzzy
 msgid "Abscissa"
 msgstr "横軸"
 
@@ -1517,38 +1505,32 @@ msgid "Curves"
 msgstr "曲線"
 
 #: libgwydgets/gwygraphwindow.c:197
-#, fuzzy
 msgid "Measure distances in graph"
 msgstr "グラフ内の距離を測定する"
 
 #: libgwydgets/gwygraphwindow.c:209
-#, fuzzy
 msgid "Zoom in by mouse selection"
 msgstr "マウスの選択による拡大"
 
 #: libgwydgets/gwygraphwindow.c:221
-#, fuzzy
 msgid "Zoom out to full curve"
-msgstr "フルカーブにズームアウト"
+msgstr "曲線全体にズームアウト"
 
 #: libgwydgets/gwygraphwindow.c:233
-#, fuzzy
 msgid "Toggle logarithmic x axis"
-msgstr "対数 x 軸の切り替え"
+msgstr "X軸の対数切り替え"
 
 #: libgwydgets/gwygraphwindow.c:245
-#, fuzzy
 msgid "Toggle logarithmic y axis"
-msgstr "対数 y 軸の切り替え"
+msgstr "Y軸の対数切り替え"
 
 #: libgwydgets/gwygraphwindowmeasuredialog.c:51
 msgid "Intersections"
 msgstr "交差点"
 
 #: libgwydgets/gwygraphwindowmeasuredialog.c:53
-#, fuzzy
 msgid "Points anywhere"
-msgstr "どこでもポイント"
+msgstr "ポイント"
 
 #: libgwydgets/gwygraphwindowmeasuredialog.c:394
 #: libgwydgets/gwygraphwindowmeasuredialog.c:580
@@ -1605,33 +1587,28 @@ msgid "Color Gradient"
 msgstr "カラーグラデーション"
 
 #: libgwydgets/gwyoptionmenus.c:840
-#, fuzzy
 msgid "GL Material"
-msgstr "GLマテリアル"
+msgstr "GL Material"
 
 #: libgwydgets/gwyoptionmenus.c:841
-#, fuzzy
 msgid "Choose GL Material"
-msgstr "GL マテリアルの選択"
+msgstr "Choose GL Material"
 
 #: libgwydgets/gwyscitext.c:80
 msgid "_Bold"
-msgstr "_Bold"
+msgstr "太字"
 
 #: libgwydgets/gwyscitext.c:86
-#, fuzzy
 msgid "_Italic"
-msgstr "_Italic"
+msgstr "斜体"
 
 #: libgwydgets/gwyscitext.c:92
-#, fuzzy
 msgid "_Subscript"
-msgstr "_Subscript"
+msgstr "下付き"
 
 #: libgwydgets/gwyscitext.c:98
-#, fuzzy
 msgid "Su_perscript"
-msgstr "Su_perscript"
+msgstr "上付き"
 
 #: libgwydgets/gwyscitext.c:251
 msgid "A_dd symbol"
@@ -1644,22 +1621,19 @@ msgstr "プレビュー"
 
 #: libgwymodule/gwymodule-file.c:549 modules/file/err.h:41
 #: modules/file/pixmap.c:454
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot open file for reading: %s."
 msgstr "読み取り用のファイルを開くことができません: %s。"
 
 #: libgwymodule/gwymodule-file.c:558
-#, fuzzy
 msgid "No module can load this file type."
 msgstr "このファイルタイプを読み込むモジュールはありません。"
 
 #: libgwymodule/gwymodule-file.c:665
-#, fuzzy
 msgid "No module can save to this file type."
 msgstr "このファイルの種類に保存できるモジュールはありません。"
 
 #: libgwymodule/gwymodulebrowser.c:66
-#, fuzzy
 msgid "Module Browser"
 msgstr "モジュール ブラウザ"
 
@@ -1676,7 +1650,6 @@ msgid "Author"
 msgstr "投稿者"
 
 #: libgwymodule/gwymodulebrowser.c:244
-#, fuzzy
 msgid "Name-Version:"
 msgstr "名前-バージョン:"
 
@@ -1685,7 +1658,6 @@ msgid "File:"
 msgstr "ファイル："
 
 #: libgwymodule/gwymodulebrowser.c:246
-#, fuzzy
 msgid "Registered functions:"
 msgstr "登録された関数:"
 
@@ -1725,34 +1697,28 @@ msgstr ""
 "本当に終了しますか?"
 
 #: app/app.c:453
-#, fuzzy
 msgid "Mask _Color..."
-msgstr "マスク_Color."
+msgstr "色マスク…"
 
 #: app/app.c:469 app/app.c:1793
-#, fuzzy
 msgid "Zoom _1:1"
-msgstr "ズーム _1:1"
+msgstr "ズーム 1:1"
 
 #: app/app.c:473 app/app.c:1797 app/app.c:2027
-#, fuzzy
 msgid "Metadata _Browser..."
-msgstr "メタデータ _Browser."
+msgstr "メタデータブラウザ…"
 
 #: app/app.c:478 app/app.c:1802 app/app.c:2032
-#, fuzzy
 msgid "View _Log..."
-msgstr "_Logを表示します。"
+msgstr "ログを表示…"
 
 #: app/app.c:662
-#, fuzzy
 msgid "Pi_xelwise Square"
-msgstr "Pi_xelwise広場"
+msgstr "ピクセル的に正方形"
 
 #: app/app.c:672
-#, fuzzy
 msgid "_Physically Square"
-msgstr "_Physically広場"
+msgstr "物理的に正方形"
 
 #: app/app.c:871
 msgid "Set as Default"
@@ -1763,71 +1729,59 @@ msgid "Set the current view setup as the default"
 msgstr "現在のビュー設定を既定として設定する"
 
 #: app/app.c:883
-#, fuzzy
 msgid "verb|Save"
 msgstr "動詞|保存"
 
 #: app/app.c:886 app/app.c:890
-#, fuzzy
 msgid "Save 3D view to an image"
 msgstr "3D ビューをイメージに保存する"
 
 #: app/app.c:899
-#, fuzzy
 msgid "_Autocrop"
-msgstr "_Autocrop"
+msgstr "自動切り抜き"
 
 #: app/app.c:903
-#, fuzzy
 msgid "Remove white borders from exported image"
 msgstr "エクスポートしたイメージから白い枠線を削除する"
 
 #: app/app.c:908
-#, fuzzy
 msgid "_Transparent"
-msgstr "_Transparent"
+msgstr "透明"
 
 #: app/app.c:912
-#, fuzzy
 msgid "Export PNG images with transparent background"
 msgstr "透明な背景を持つ PNG 画像をエクスポートする"
 
 #: app/app.c:1000
-#, fuzzy
 msgid "_Show mask"
-msgstr "_Showマスク"
+msgstr "マスクを表示"
 
 #: app/app.c:1234
-#, fuzzy, c-format
+#, c-format
 msgid "Saving of 3D view to `%s' failed"
 msgstr "「%s」への3Dビューの保存に失敗しました"
 
 #: app/app.c:1288
-#, fuzzy
 msgid "Export 3D View"
 msgstr "3D ビューをエクスポート"
 
 #: app/app.c:1544
-#, fuzzy
 msgid "_Change Preview"
-msgstr "プレビュー_Change"
+msgstr "プレビュー変更"
 
 #: app/app.c:1672
-#, fuzzy
 msgid "Change Volume Data Preview"
 msgstr "ボリュームデータプレビューの変更"
 
 #: app/app.c:1682
-#, fuzzy
 msgid "Preview quantity:"
-msgstr "プレビュー数量:"
+msgstr "プレビュー数:"
 
 #: app/app.c:1692 modules/process/extend.c:350 modules/process/grain_stat.c:376
 #: modules/process/multiprofile.c:981 modules/tools/linestats.c:163
 #: modules/volume/volume_linestat.c:149 modules/volume/volume_planestat.c:204
-#, fuzzy
 msgid "Mean"
-msgstr "意味"
+msgstr "平均"
 
 #: app/app.c:1693 modules/graph/graph_stats.c:207
 #: modules/process/polydistort.c:258 modules/tools/filter.c:243
@@ -1869,32 +1823,29 @@ msgid "Channel:"
 msgstr "チャネル："
 
 #: app/app.c:1699
-#, fuzzy
 msgid "Section:"
 msgstr "セクション："
 
 #: app/app.c:1929
-#, fuzzy
 msgid "_Update Preview"
-msgstr "プレビュー_Update"
+msgstr "プレビュー更新"
 
 #: app/app.c:1935
-#, fuzzy
 msgid "_Density Map"
-msgstr "_Densityマップ"
+msgstr "密度マップ"
 
 #: app/data-browser-aux.c:1373
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown channel %d"
 msgstr "不明なチャネル %d"
 
 #: app/data-browser-aux.c:1456
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown volume %d"
 msgstr "不明なボリューム %d"
 
 #: app/data-browser-aux.c:1520
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown XYZ %d"
 msgstr "不明 XYZ %d"
 
@@ -1904,7 +1855,7 @@ msgid "Z levels: %d, Z unit: %s"
 msgstr "Zレベル:%d、Z単位:%s"
 
 #: app/data-browser-aux.c:3007
-#, fuzzy, c-format
+#, c-format
 msgid "Points: %d"
 msgstr "ポイント: %d"
 
@@ -1921,17 +1872,14 @@ msgid "Delete"
 msgstr "削除"
 
 #: app/data-browser.c:5585
-#, fuzzy
 msgid "Data Browser"
 msgstr "データ ブラウザ"
 
 #: app/data-browser.c:5610
-#, fuzzy
 msgid "Show file messages"
 msgstr "ファイル メッセージの表示"
 
 #: app/data-browser.c:5622
-#, fuzzy
 msgid "Close file"
 msgstr "ファイルを閉じる"
 
@@ -1944,7 +1892,6 @@ msgid "Graphs"
 msgstr "グラフ"
 
 #: app/data-browser.c:5663
-#, fuzzy
 msgid "Spectra"
 msgstr "スペクトル"
 
@@ -1953,22 +1900,19 @@ msgid "XYZ"
 msgstr "XYZ"
 
 #: app/data-browser.c:6675
-#, fuzzy, c-format
+#, c-format
 msgid "Messages for %s"
 msgstr "%sのメッセージ"
 
 #: app/data-browser.c:6679
-#, fuzzy
 msgid "Messages for Untitled"
 msgstr "無題のメッセージ"
 
 #: app/datachooser.c:285 app/datachooser.c:596
-#, fuzzy
 msgid "channel|None"
 msgstr "チャンネル|なし"
 
 #: app/file.c:212
-#, fuzzy
 msgid "Imported data are likely incorrect."
 msgstr "インポートされたデータは正しくない可能性があります。"
 
@@ -2000,7 +1944,7 @@ msgstr ""
 "%s"
 
 #: app/file.c:294
-#, fuzzy, c-format
+#, c-format
 msgid "Opening of `%s' failed"
 msgstr "「%s」の開封に失敗しました"
 
@@ -2015,7 +1959,6 @@ msgid "Loaded using: %s."
 msgstr "次の方法で読み込まれました: %s。"
 
 #: app/file.c:389
-#, fuzzy
 msgid "Merge File"
 msgstr "ファイルのマージ"
 
@@ -2024,7 +1967,7 @@ msgid "Open File"
 msgstr "ファイルを開く"
 
 #: app/file.c:529 app/gwymoduleutils.c:192
-#, fuzzy, c-format
+#, c-format
 msgid "Saving of `%s' failed"
 msgstr "「%s」の保存に失敗しました"
 
@@ -2034,155 +1977,133 @@ msgid "Saved using: %s."
 msgstr "%sを使用して保存。"
 
 #: app/file.c:698
-#, fuzzy, c-format
+#, c-format
 msgid "File `%s' already exists.  Replace?"
-msgstr "ファイル '%s' は既に存在します。 置き換える。"
+msgstr "ファイル '%s' は既に存在します。 置き換えますか？"
 
 #: app/file.c:702
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file already exists in `%s'.  Replacing it will overwrite its contents."
 msgstr "ファイルは既に '%s' に存在します。 置き換えると内容が上書きされます。"
 
 #: app/file.c:705
-#, fuzzy
 msgid "Replace File?"
 msgstr "ファイルを置き換えますか?"
 
 #: app/filelist.c:224
-#, fuzzy
 msgid "Document History"
 msgstr "ドキュメント履歴"
 
 #: app/filelist.c:254
-#, fuzzy
 msgid "Clean U_p"
-msgstr "清潔なU_p"
+msgstr "クリーンアップ"
 
 #: app/filelist.c:258
-#, fuzzy
 msgid "Remove entries of files that no longer exist"
 msgstr "存在しないファイルのエントリを削除する"
 
 #: app/filelist.c:267
-#, fuzzy
 msgid "Close file list"
 msgstr "ファイルリストを閉じる"
 
 #: app/filelist.c:274
-#, fuzzy
 msgid "Open selected file"
 msgstr "選択したファイルを開く"
 
 #: app/filelist.c:560 app/gwyappfilechooser.c:597
-#, fuzzy
 msgid "_Filter:"
-msgstr "_Filter:"
+msgstr "フィルター:"
 
 #: app/filelist.c:598 app/gwyappfilechooser.c:633
-#, fuzzy
 msgid "Case _sensitive"
-msgstr "ケース_sensitive"
+msgstr "大小文字を区別"
 
 #: app/glmaterial-editor.c:92
-#, fuzzy
 msgid "GL Material Editor"
 msgstr "GL マテリアル エディタ"
 
 #: app/glmaterial-editor.c:93
-#, fuzzy, c-format
+#, c-format
 msgid "GL Material  `%s'"
 msgstr "GLマテリアル'%s'"
 
 #: app/glmaterial-editor.c:143
-#, fuzzy
 msgid "_Ambient"
-msgstr "_Ambient"
+msgstr "環境光"
 
 #: app/glmaterial-editor.c:144
-#, fuzzy
 msgid "_Diffuse"
-msgstr "_Diffuse"
+msgstr "拡散光"
 
 #: app/glmaterial-editor.c:145
-#, fuzzy
 msgid "Spe_cular"
-msgstr "Spe_cular"
+msgstr "反射"
 
 #: app/glmaterial-editor.c:194
-#, fuzzy
 msgid "Sh_ininess:"
-msgstr "Sh_ininess:"
+msgstr "明るさ:"
 
 #: app/gradient-editor.c:126
-#, fuzzy
 msgid "Color Gradient Editor"
 msgstr "カラーグラデーションエディタ"
 
 #: app/gradient-editor.c:127
-#, fuzzy, c-format
+#, c-format
 msgid "Color Gradient `%s'"
 msgstr "カラーグラデーション '%s'"
 
 #: app/gradient-editor.c:228
-#, fuzzy
 msgid "_Points"
-msgstr "_Points"
+msgstr "ポイント"
 
 #: app/gradient-editor.c:229
-#, fuzzy
 msgid "_Curve"
-msgstr "_Curve"
+msgstr "カーブ"
 
 #: app/gradient-editor.c:267
-#, fuzzy
 msgid "_Snap to control points"
-msgstr "コントロール ポイントに_Snap"
+msgstr "コントロール ポイントにスナップ"
 
 #: app/gwyappfilechooser.c:231
 msgid "Save File"
 msgstr "ファイルの保存"
 
 #: app/gwyappfilechooser.c:389
-#, fuzzy, c-format
+#, c-format
 msgid "File _type: %s"
-msgstr "ファイル_type: %s"
+msgstr "ファイルタイプ: %s"
 
 #: app/gwyappfilechooser.c:396
-#, fuzzy
 msgid "Only loadable shown"
-msgstr "表示されるロード可能なみ"
+msgstr "読込可能なもののみ表示"
 
 #: app/gwyappfilechooser.c:400
-#, fuzzy, c-format
+#, c-format
 msgid "Filter: %s"
 msgstr "フィルタ: %s"
 
 #: app/gwyappfilechooser.c:464
-#, fuzzy
 msgid "Automatic by extension"
-msgstr "延長による自動"
+msgstr "拡張子による自動検出"
 
 #: app/gwyappfilechooser.c:473
 msgid "Automatically detected"
-msgstr "自動的に検出される"
+msgstr "自動的検出"
 
 #: app/gwyappfilechooser.c:575
-#, fuzzy
 msgid "Show only loadable files"
 msgstr "読み込み可能なファイルのみを表示"
 
 #: app/gwyappfilechooser.c:863
-#, fuzzy
 msgid "Plane-level previewed data"
-msgstr "平面レベルのプレビュー データ"
+msgstr "平面レベリングのプレビューデータ"
 
 #: app/gwyappfilechooser.c:879
 msgid "Row-level previewed data"
-msgstr "行レベルのプレビューデータ"
+msgstr "行レベルリングのプレビューデータ"
 
 #: app/gwyappfilechooser.c:995
-#, fuzzy
 msgid "File too large for preview"
 msgstr "ファイルが大きすぎてプレビューできません"
 
@@ -2191,64 +2112,62 @@ msgid "…"
 msgstr "…"
 
 #: app/gwyappfilechooser.c:1360
-#, fuzzy
 msgid "Cannot preview"
 msgstr "プレビューできません"
 
 #: app/gwymoduleutils-file.c:534
-#, fuzzy, c-format
+#, c-format
 msgid "Section %s ended at line %u but it has never started."
 msgstr "セクション%s行%uで終了しましたが、開始されたことはありません。"
 
 #: app/gwymoduleutils-file.c:542
-#, fuzzy, c-format
+#, c-format
 msgid "Section %s ended at line %u instead of %s."
-msgstr "セクション%sは、%sではなく%uで終了しました。"
+msgstr "Section %s ended at line %u instead of %s."
 
 #: app/gwymoduleutils-file.c:579
-#, fuzzy, c-format
+#, c-format
 msgid "Section %s started at line %u before %s ended."
-msgstr "セクション%sは、%sが終了する前に行%uから始まりました。"
+msgstr "Section %s started at line %u before %s ended."
 
 #: app/gwymoduleutils-file.c:585
-#, fuzzy, c-format
+#, c-format
 msgid "Empty section name at header line %u."
 msgstr "ヘッダー行の%uに空のセクション名。"
 
 #: app/gwymoduleutils-file.c:620
-#, fuzzy, c-format
+#, c-format
 msgid "Header line %u lacks prefix %s."
 msgstr "ヘッダー行%uは、プレフィックス %sを欠いています。"
 
 #: app/gwymoduleutils-file.c:645
-#, fuzzy, c-format
+#, c-format
 msgid "Header line %u lacks key-value separator."
 msgstr "ヘッダー行%uキー値の区切り記号がありません。"
 
 #: app/gwymoduleutils-file.c:653
-#, fuzzy, c-format
+#, c-format
 msgid "Key at header line %u is empty."
 msgstr "ヘッダー行のキー%u空です。"
 
 #: app/gwymoduleutils-file.c:680
-#, fuzzy, c-format
+#, c-format
 msgid "Header suddenly ended at line %u; end of header marker is missing"
 msgstr "ヘッダーは突然行%uで終了しました。ヘッダー マーカーの末尾がありません"
 
 #: app/gwymoduleutils.c:197 app/settings.c:131 app/settings.c:142
 #: gwyddion/toolbox-spec.c:536 modules/file/err.h:62
 #: modules/pygwy/pygwy-console.c:520
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot write to file: %s."
 msgstr "ファイルに書き込めません: %s。"
 
 #: app/gwyplaintool.c:566
-#, fuzzy
 msgid "<big><b>Missing layer module.</b></big>"
 msgstr "<big><b>レイヤーモジュールがありません。</b></big>"
 
 #: app/gwyplaintool.c:572
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This tool requires layer of type %s to work, which does not seem to be "
 "installed.  Please check your installation."
@@ -2257,7 +2176,6 @@ msgstr ""
 "ヤーを必要とします。 インストールを確認してください。"
 
 #: app/gwyplaintool.c:788
-#, fuzzy
 msgid "Clear selected objects"
 msgstr "選択したオブジェクトをクリア"
 
@@ -2294,7 +2212,6 @@ msgid "Copy results to clipboard"
 msgstr "結果をクリップボードにコピー"
 
 #: app/gwyresultsexport.c:322
-#, fuzzy
 msgid "Colon:"
 msgstr "コロン："
 
@@ -2311,28 +2228,24 @@ msgid "Result formatting"
 msgstr "結果の書式設定"
 
 #: app/gwyresultsexport.c:385
-#, fuzzy
 msgid "Machine-readable format"
-msgstr "マシン可読形式"
+msgstr "可読形式"
 
 #: app/gwytool.c:294
-#, fuzzy
 msgid "verb|Hide"
 msgstr "動詞|隠す"
 
 #: app/gwytool.c:296
-#, fuzzy
 msgid "Hide tool dialog (Esc)"
 msgstr "ツール ダイアログを非表示にする (Esc キー)"
 
 #: app/help.c:251
-#, fuzzy
 msgid "Cannot display the help."
 msgstr "ヘルプを表示できません。"
 
 #. TRANSLATORS: %s will be replaced with an URL.
 #: app/help.c:254
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "No working method to show\n"
 "%s\n"
@@ -2351,24 +2264,21 @@ msgid "current-language-code|en"
 msgstr "現在の言語コード|en"
 
 #: app/log.c:536
-#, fuzzy, c-format
+#, c-format
 msgid "Log of %s (%s)"
 msgstr "%sのログ (%s)"
 
 #: app/log.c:588 app/meta.c:224 modules/tools/selectionmanager.c:404
-#, fuzzy
 msgid "_Export"
-msgstr "_Export"
+msgstr "エクスポート"
 
 #: app/log.c:594
-#, fuzzy
 msgid "Clea_r"
-msgstr "Clea_r"
+msgstr "クリア"
 
 #: app/log.c:599 app/meta.c:240
-#, fuzzy
 msgid "_Close"
-msgstr "_Close"
+msgstr "閉じる"
 
 #: app/log.c:615 modules/file/imgexport.c:4197 modules/file/rawfile.c:988
 msgid "Type"
@@ -2391,32 +2301,28 @@ msgid "Time"
 msgstr "時間"
 
 #: app/log.c:730
-#, fuzzy
 msgid "Export Log"
 msgstr "ログのエクスポート"
 
 #: app/menu.c:555 gwyddion/toolbox.c:625
-#, fuzzy
 msgid "_Data Process"
-msgstr "_Dataプロセス"
+msgstr "データプロセス"
 
 #: app/menu.c:597 gwyddion/toolbox.c:628
-#, fuzzy
 msgid "_Graph"
-msgstr "_Graph"
+msgstr "グラフ"
 
 #: app/menu.c:640 gwyddion/toolbox.c:631
-#, fuzzy
 msgid "_Volume Data"
-msgstr "データ_Volume"
+msgstr "Volumeデータ"
 
 #: app/menu.c:683 gwyddion/toolbox.c:634
 msgid "_XYZ Data"
-msgstr "_XYZデータ"
+msgstr "XYZデータ"
 
 #: app/menu.c:714
 msgid "Re-show Last"
-msgstr "最後に再表示"
+msgstr "最後を再表示"
 
 #: app/menu.c:729
 msgid "Repeat Last"
@@ -2431,24 +2337,21 @@ msgid "Re-show"
 msgstr "再表示"
 
 #: app/menu.c:1185
-#, fuzzy
 msgid "_Document History..."
-msgstr "_Document歴史."
+msgstr "ドキュメント履歴…"
 
 #: app/meta.c:230
-#, fuzzy
 msgid "_New"
-msgstr "_New"
+msgstr "新規"
 
 #: app/meta.c:235 modules/file/imgexport.c:4694 modules/file/rawfile.c:1050
 #: modules/process/facet_analysis.c:495 modules/process/facet_measure.c:530
 #: modules/process/neural.c:717 modules/tools/selectionmanager.c:410
-#, fuzzy
 msgid "_Delete"
-msgstr "_Delete"
+msgstr "削除"
 
 #: app/meta.c:294
-#, fuzzy, c-format
+#, c-format
 msgid "Metadata of %s (%s)"
 msgstr "%sのメタデータ (%s)"
 
@@ -2461,7 +2364,6 @@ msgid "Save Metadata"
 msgstr "メタデータを保存"
 
 #: app/resource-editor.c:133
-#, fuzzy
 msgid "Edit selected item"
 msgstr "選択した項目の編集"
 
@@ -2470,7 +2372,6 @@ msgid "Create a new item"
 msgstr "新しいアイテムを作成する"
 
 #: app/resource-editor.c:145 modules/process/convolution_filter.c:507
-#, fuzzy
 msgid "Create a new item based on selected one"
 msgstr "選択したアイテムに基づいて新しいアイテムを作成する"
 
@@ -2479,7 +2380,6 @@ msgid "Delete selected item"
 msgstr "選択した項目の削除"
 
 #: app/resource-editor.c:157
-#, fuzzy
 msgid "Set selected item as default"
 msgstr "選択した項目を既定として設定"
 
@@ -2489,37 +2389,34 @@ msgid "Cannot open file for writing: %s."
 msgstr "書き込み用のファイルを開くことができません: %s。"
 
 #: app/settings.c:181 modules/file/err.h:33 modules/file/gwyzip.h:404
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot read file contents: %s"
 msgstr "ファイルの内容を読み取れません: %s"
 
 #: app/settings.c:189
-#, fuzzy
 msgid "File is empty."
 msgstr "ファイルが空です。"
 
 #: app/settings.c:199
-#, fuzzy
 msgid "File is corrupted, magic header does not match."
 msgstr "ファイルが壊れている、マジックヘッダーが一致しません。"
 
 #: app/settings.c:210
-#, fuzzy
 msgid "File is corrupted, deserialization failed."
 msgstr "ファイルが壊れています。"
 
 #: app/settings.c:264
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create user config directory %s: %s"
 msgstr "ユーザー構成ディレクトリ%s作成できません: %s"
 
 #: app/settings.c:277
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create user ui directory %s: %s"
 msgstr "ユーザー UI ディレクトリ %sを作成できません: %s"
 
 #: app/settings.c:294
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create user module directory %s: %s"
 msgstr "ユーザー モジュール ディレクトリ %sを作成できません: %s"
 
@@ -2529,44 +2426,43 @@ msgid "byte at position %d"
 msgstr "位置%dのバイト"
 
 #: app/validate.c:161 app/validate.c:174
-#, fuzzy, c-format
+#, c-format
 msgid "%s instead of %s"
 msgstr "%sの代わりに%s"
 
 #: app/validate.c:389
-#, fuzzy, c-format
+#, c-format
 msgid "no channel %d exists for %s"
-msgstr "%sにチャネル %dが存在しません"
+msgstr "チャネル%dが%sに存在しません"
 
 #: app/validate.c:401
-#, fuzzy, c-format
+#, c-format
 msgid "no graph %d exists for %s"
-msgstr "%sに対するグラフ%dが存在しない"
+msgstr "グラフ%dが%sに存在しません"
 
 #: app/validate.c:411
-#, fuzzy, c-format
+#, c-format
 msgid "no spectra %d exists for %s"
-msgstr "%sにスペクトル%dが存在しません"
+msgstr "スペクトル%dが%sに存在しません"
 
 #: app/validate.c:427
-#, fuzzy, c-format
+#, c-format
 msgid "no brick %d exists for %s"
-msgstr "%sにはレンガ造りの%dが存在しません"
+msgstr "brick%dが%sに存在しません"
 
 #: app/validate.c:443
-#, fuzzy, c-format
+#, c-format
 msgid "no surface %d exists for %s"
-msgstr "%sに対するサーフェス%dが存在しない"
+msgstr "サーフェス%dが%sに存在しません"
 
 #: app/validate.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "ref_count is %d for %s"
-msgstr "ref_countは%sに%d"
+msgstr "参照カウントは%d(%s)"
 
 #: app/validate.c:683
-#, fuzzy
 msgid "Invalid item key format"
-msgstr "無効な品目キー形式"
+msgstr "無効な項目キー形式"
 
 #: app/validate.c:684
 msgid "Item key contains invalid characters"
@@ -2577,27 +2473,22 @@ msgid "Item key does not belong to any known data"
 msgstr "項目キーが既知のデータに属していない"
 
 #: app/validate.c:686
-#, fuzzy
 msgid "Wrong data item id"
 msgstr "データ項目 ID が正しくありません"
 
 #: app/validate.c:687
-#, fuzzy
 msgid "Unexpected data item type"
 msgstr "予期しないデータ項目の種類"
 
 #: app/validate.c:688
-#, fuzzy
 msgid "String value is not valid UTF-8"
 msgstr "文字列値が有効な UTF-8 ではありません"
 
 #: app/validate.c:689
-#, fuzzy
 msgid "Object has several references"
-msgstr "オブジェクトにはいくつかの参照があります"
+msgstr "オブジェクトに複数の参照があります"
 
 #: app/validate.c:690
-#, fuzzy
 msgid "Secondary data item has no primary data"
 msgstr "セカンダリ データ 項目にプライマリ データがありません"
 
@@ -2615,12 +2506,10 @@ msgid "About %s"
 msgstr "%s　について"
 
 #: gwyddion/about.c:99
-#, fuzzy
 msgid "An SPM data visualization and analysis tool."
-msgstr "SPM データの視覚化と分析ツール。"
+msgstr "SPMデータの視覚化と分析ツール。"
 
 #: gwyddion/about.c:107
-#, fuzzy
 msgid "Report bugs to:"
 msgstr "バグの報告:"
 
@@ -2633,7 +2522,7 @@ msgid "License"
 msgstr "ライセンス"
 
 #: gwyddion/about.c:144
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s is free software; you can redistribute it and/or modify it under the "
 "terms of the GNU General Public License as published by the Free Software "
@@ -2641,11 +2530,11 @@ msgid ""
 "version. For full license text see file COPYING included in the source "
 "tarball."
 msgstr ""
-"%sは自由ソフトウェアです。自由ソフトウェア財団が発行したGNU一般公衆ライセンス"
-"の条項に基づいて、再配布または変更を行うことができます。ライセンスのバージョ"
-"ン 2、または(オプションで)それ以降のバージョンのいずれか。フルライセンステキ"
-"ストについては、ソース tarball に含まれているファイル COPYING を参照してくだ"
-"さい。"
+"%s is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version. For full license text see file COPYING included in the source "
+"tarball."
 
 #: gwyddion/about.c:166 modules/process/logistic.c:269
 msgid "Features"
@@ -2656,84 +2545,72 @@ msgid "Developers"
 msgstr "開発者"
 
 #: gwyddion/about.c:227
-#, fuzzy
 msgid "Translators"
-msgstr "翻訳"
+msgstr "翻訳者"
 
 #: gwyddion/about.c:231
-#, fuzzy
 msgid "Development is supported by the Czech Metrology Institute: "
-msgstr "開発はチェコメトロロジー研究所によってサポートされています。"
+msgstr "Development is supported by the Czech Metrology Institute: "
 
 #: gwyddion/about.c:281 gwyddion/about.c:284
-#, fuzzy
 msgid "OpenGL 3D View"
-msgstr "オープンGL 3D ビュー"
+msgstr "OpenGL 3D View"
 
 #: gwyddion/about.c:293 gwyddion/about.c:296
-#, fuzzy
 msgid "OpenMP parallelization"
-msgstr "オープン MP 並列化"
+msgstr "OpenMP parallelization"
 
 #: gwyddion/about.c:304
 msgid "X11 protocol\n"
-msgstr "X11 プロトコル\n"
+msgstr "X11 protocol\n"
 
 #: gwyddion/about.c:306
-#, fuzzy
 msgid "Win32 protocol\n"
-msgstr "Win32 プロトコル\n"
+msgstr "Win32 protocol\n"
 
 #: gwyddion/about.c:308
-#, fuzzy
 msgid "LibUnique\n"
-msgstr "一意\n"
+msgstr "LibUnique\n"
 
 #: gwyddion/about.c:312
-#, fuzzy
 msgid "Remote Control"
-msgstr "リモートコントロール"
+msgstr "Remote Control"
 
 #: gwyddion/about.c:316 gwyddion/about.c:320
-#, fuzzy
 msgid "Python Scripting Interface"
-msgstr "Python スクリプト インターフェイス"
+msgstr "Python Scripting Interface"
 
 #. TRANSLATORS: %s is replaced with date in ISO format YYYY-MM-DD.
 #: gwyddion/about.c:372
-#, fuzzy, c-format
+#, c-format
 msgid "Released %s"
 msgstr "リリース%s"
 
 #. TRANSLATORS: %s is replaced with date in ISO format YYYY-MM-DD.
 #: gwyddion/about.c:376
-#, fuzzy, c-format
+#, c-format
 msgid "Development version, built %s"
-msgstr "開発バージョン、構築%s"
+msgstr "開発バージョン、ビルド%s"
 
 #: gwyddion/gwyddion.c:167
-#, fuzzy
 msgid "Loading document history"
 msgstr "ドキュメント履歴の読み込み"
 
 #: gwyddion/gwyddion.c:172
-#, fuzzy
 msgid "Registering "
-msgstr "登録"
+msgstr "登録 "
 
 #: gwyddion/gwyddion.c:173
 msgid "stock items"
-msgstr "stock items"
+msgstr "ストック項目"
 
 #: gwyddion/gwyddion.c:177
-#, fuzzy
 msgid "color gradients"
 msgstr "カラーグラデーション"
 
 #: gwyddion/gwyddion.c:179
-#, fuzzy
 msgid "GL materials"
-msgstr "GL材料"
+msgstr "GL materials"
 
 #: gwyddion/gwyddion.c:181
 msgid "grain quantities"
@@ -2748,17 +2625,15 @@ msgid "Loading settings"
 msgstr "読み込み設定"
 
 #: gwyddion/gwyddion.c:203
-#, fuzzy
 msgid "Registering modules"
-msgstr "モジュールの登録"
+msgstr "モジュール登録"
 
 #: gwyddion/gwyddion.c:505
-#, fuzzy
 msgid "Could not read settings."
 msgstr "設定を読み取ることができませんでした。"
 
 #: gwyddion/gwyddion.c:508
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Settings file `%s' cannot be read: %s\n"
 "\n"
@@ -2771,12 +2646,12 @@ msgstr ""
 "ります。"
 
 #: gwyddion/gwyddion.c:546
-#, fuzzy, c-format
+#, c-format
 msgid "Many modules (%u) failed to register."
 msgstr "多くのモジュール (%u) は登録に失敗しました。"
 
 #: gwyddion/gwyddion.c:551
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Most likely Gwyddion was not upgraded correctly.  Instead, one installation "
 "was just overwritten with another, and now it is a mess.\n"
@@ -2801,28 +2676,24 @@ msgstr ""
 "特定のエラーについては、「モジュール ブラウザー→情報」を参照してください。"
 
 #: gwyddion/splash.c:1260
-#, fuzzy
 msgid "Starting "
-msgstr "開始"
+msgstr "開始 "
 
 #: gwyddion/splash.c:1313
 msgid " is free software released under GNU GPL."
 msgstr " is free software released under GNU GPL."
 
 #: gwyddion/tips.c:54
-#, fuzzy
 msgid ""
 "Holding Shift restricts directions of selected lines to multiples of 15°."
-msgstr "Shift キーを押しながら、選択したラインの方向を 15°の倍数に制限します。"
+msgstr "Shift キーを押しながら、選択したラインの方向を 15°ごとに制限します。"
 
 #: gwyddion/tips.c:59
-#, fuzzy
 msgid ""
 "Holding Shift restricts shapes of selected rectangles to perfect squares."
 msgstr "Shift キーを押しながら選択した長方形の形状を完全な正方形に制限します。"
 
 #: gwyddion/tips.c:64
-#, fuzzy
 msgid "Holding Shift restricts shapes of selected ellipses to perfect circles."
 msgstr "Shift キーを押しながら、選択した楕円の形状を完全な円に制限します。"
 
@@ -2836,7 +2707,6 @@ msgstr ""
 "右ボタンでクリックすると、個々の領域を削除できます。"
 
 #: gwyddion/tips.c:75
-#, fuzzy
 msgid ""
 "Data presentations created by functions in Data Process → Presentation do "
 "not change the underlying data.  All subsequent operations still apply to "
@@ -2847,7 +2717,6 @@ msgstr ""
 "になるデータに適用されます。"
 
 #: gwyddion/tips.c:88
-#, fuzzy
 msgid ""
 "Pressing Ctrl-F runs the last used data processing function with with the "
 "same parameters on the current data."
@@ -2856,7 +2725,6 @@ msgstr ""
 "ターを使用して実行されます。"
 
 #: gwyddion/tips.c:93
-#, fuzzy
 msgid ""
 "Pressing Ctrl-Shift-F re-shows the parameter dialog of the last used data "
 "processing function (or executes it immediately if it has no parameters)."
@@ -2865,7 +2733,6 @@ msgstr ""
 "表示されます (または、パラメータがない場合は直ちに実行されます)。"
 
 #: gwyddion/tips.c:100
-#, fuzzy
 msgid ""
 "When Gwyddion is run with a directory argument it opens a file open dialog "
 "showing this directory."
@@ -2874,7 +2741,6 @@ msgstr ""
 "ダイアログが開きます。"
 
 #: gwyddion/tips.c:105
-#, fuzzy
 msgid ""
 "File → Open Recent → Document History opens a browser of recently loaded "
 "files with the possibility to search them by name."
@@ -2883,7 +2749,6 @@ msgstr ""
 "が開き、名前で検索できます。"
 
 #: gwyddion/tips.c:111
-#, fuzzy
 msgid ""
 "Automatic import of unrecognized files as raw data can be enabled/disabled "
 "in the Raw file import dialog."
@@ -2892,7 +2757,6 @@ msgstr ""
 "インポート]ダイアログで有効/無効にできます。"
 
 #: gwyddion/tips.c:116
-#, fuzzy
 msgid ""
 "To export the image of a channel to a pixmap graphic format (PNG, TIFF, "
 "JPEG, ...) just save it as this format with File → Save As."
@@ -2901,14 +2765,12 @@ msgstr ""
 "するには、ファイル→名前を付けて保存してこの形式で保存するだけです。"
 
 #: gwyddion/tips.c:122
-#, fuzzy
 msgid "File → Merge imports all data from selected file to the current file."
 msgstr ""
 "ファイル → Merge では、選択したファイルから現在のファイルにすべてのデータがイ"
 "ンポートされます。"
 
 #: gwyddion/tips.c:127
-#, fuzzy
 msgid ""
 "Previews in the file open dialog can be shown with plane and/or line "
 "leveling applied.  Use the switches at the bottom of the preview list."
@@ -2917,7 +2779,6 @@ msgstr ""
 "ます。 プレビューリストの下部にあるスイッチを使用します。"
 
 #: gwyddion/tips.c:134
-#, fuzzy
 msgid ""
 "Your favorite false color gradient can be set as default in the gradient "
 "editor: Edit → Color Gradients.  The default gradient is shown in bold face."
@@ -2927,7 +2788,6 @@ msgstr ""
 "は太字で表示されます。"
 
 #: gwyddion/tips.c:140
-#, fuzzy
 msgid ""
 "Your favorite GL material can be set as default in the material editor: Edit "
 "→ GL Materials.  The default material is shown in bold face."
@@ -2937,7 +2797,6 @@ msgstr ""
 "ます。"
 
 #: gwyddion/tips.c:146
-#, fuzzy
 msgid ""
 "Edit → Default Mask Color sets the default mask color.  This color is used "
 "when a mask is created on data that have not had a mask before."
@@ -2946,7 +2805,6 @@ msgstr ""
 "スクが設定されていないデータにマスクが作成されたときに使用されます。"
 
 #: gwyddion/tips.c:152
-#, fuzzy
 msgid ""
 "Each channel has its own metadata.  Display them by clicking with the right "
 "mouse button and choosing Metadata Browser."
@@ -2955,7 +2813,6 @@ msgstr ""
 "タデータブラウザーを選択して、それらを表示します。"
 
 #: gwyddion/tips.c:158
-#, fuzzy
 msgid ""
 "Each volume data have their own metadata.  Display them by clicking with the "
 "right mouse button and choosing Metadata Browser."
@@ -2964,7 +2821,6 @@ msgstr ""
 "リックし、メタデータブラウザーを選択して、それらを表示します。"
 
 #: gwyddion/tips.c:164
-#, fuzzy
 msgid ""
 "A record of applied data processing operations can be browsed using View Log "
 "in the channel or volume data right-click menu."
@@ -2973,7 +2829,6 @@ msgstr ""
 "リックメニューの[ログの表示]を使用して参照できます。"
 
 #: gwyddion/tips.c:170
-#, fuzzy
 msgid ""
 "Curves can be copied to other (compatible) graphs by dragging them from "
 "Curves tab to the graph window."
@@ -2982,23 +2837,19 @@ msgstr ""
 "る)グラフにコピーできます。"
 
 #: gwyddion/tips.c:175
-#, fuzzy
 msgid "Graph curve properties can be edited by clicking on the curve."
 msgstr "グラフカーブのプロパティは、カーブをクリックして編集できます。"
 
 #: gwyddion/tips.c:179
-#, fuzzy
 msgid "Graph axis labels can be edited after by clicking on the label."
 msgstr "グラフ軸ラベルは、ラベルをクリックすると後で編集できます。"
 
 #: gwyddion/tips.c:183
-#, fuzzy
 msgid ""
 "Graph key (legend) properties can be edited by double-clicking on the legend."
 msgstr "グラフキー(凡例)プロパティは、凡例をダブルクリックして編集できます。"
 
 #: gwyddion/tips.c:188
-#, fuzzy
 msgid ""
 "Curves can be deleted from graphs by selecting the curve in Curves tab and "
 "pressing Delete."
@@ -3007,22 +2858,18 @@ msgstr ""
 "ます。"
 
 #: gwyddion/tips.c:194
-#, fuzzy
 msgid "Key ‛+’ or ‛=’ zooms in a data window."
 msgstr "キー '+' または '=' は、データ ウィンドウをズームします。"
 
 #: gwyddion/tips.c:198
-#, fuzzy
 msgid "Key ‛-’ (minus) zooms out a data window."
 msgstr "キー '-' (マイナス) は、データ ウィンドウを縮小します。"
 
 #: gwyddion/tips.c:202
-#, fuzzy
 msgid "Key ‛Z’ resets data window zoom to 1:1."
 msgstr "キー 'Z' は、データ ウィンドウのズームを 1:1 にリセットします。"
 
 #: gwyddion/tips.c:206
-#, fuzzy
 msgid ""
 "Data with different <i>x</i> and <i>y</i> measures can be displayed either "
 "with pixel-wise or realistic aspect ratio.  The menu in data window top left "
@@ -3033,7 +2880,6 @@ msgstr ""
 "用すると、これら 2 つのモードを切り替えることができます。"
 
 #: gwyddion/tips.c:213
-#, fuzzy
 msgid ""
 "Clicking on a false color scale with the right mouse button brings a false "
 "color gradient selector."
@@ -3042,7 +2888,6 @@ msgstr ""
 "ションセレクターが表示されます。"
 
 #: gwyddion/tips.c:218
-#, fuzzy
 msgid ""
 "Mask color can be changed by right-clicking on a data view and selecting "
 "Mask Color from the menu."
@@ -3051,7 +2896,6 @@ msgstr ""
 "することで変更できます。"
 
 #: gwyddion/tips.c:224
-#, fuzzy
 msgid ""
 "Clicking on a 3D view with the right mouse button brings a GL material or "
 "false color gradient selector."
@@ -3060,7 +2904,6 @@ msgstr ""
 "ション セレクターが表示されます。"
 
 #: gwyddion/tips.c:229
-#, fuzzy
 msgid ""
 "3D view transformation modes can be selected with keys: R (rotate), S "
 "(scale), V (value scale) and L (light source)."
@@ -3069,7 +2912,6 @@ msgstr ""
 "で選択できます。"
 
 #: gwyddion/tips.c:234
-#, fuzzy
 msgid ""
 "You can make a specific 3D view setup the default using the Set as Default "
 "button."
@@ -3077,7 +2919,6 @@ msgstr ""
 "[既定に設定]ボタンを使用して、特定の 3D ビュー設定を既定に設定できます。"
 
 #: gwyddion/tips.c:240
-#, fuzzy
 msgid ""
 "Pressing Ctrl-C copies the image of a channel, graph or 3D view to the "
 "clipboard."
@@ -3086,7 +2927,6 @@ msgstr ""
 "ボードにコピーされます。"
 
 #: gwyddion/tips.c:245
-#, fuzzy
 msgid ""
 "Dragging channels or graphs from Data Browser to a window copies them to the "
 "corresponding file."
@@ -3095,12 +2935,10 @@ msgstr ""
 "るファイルにそれらのチャンネルまたはグラフがコピーされます。"
 
 #: gwyddion/tips.c:250
-#, fuzzy
 msgid "Info → Show Data Browser brings back a closed Data Browser."
 msgstr "データ ブラウザー→表示は、閉じたデータ ブラウザーを戻します。"
 
 #: gwyddion/tips.c:254
-#, fuzzy
 msgid ""
 "Channels and graphs can be renamed by double-clicking on their name in Data "
 "Browser."
@@ -3109,7 +2947,6 @@ msgstr ""
 "できます。"
 
 #: gwyddion/tips.c:260
-#, fuzzy
 msgid ""
 "Facet Level offers to use/exclude the masked area if a mask is present on "
 "the data."
@@ -3117,7 +2954,6 @@ msgstr ""
 "マスクがデータに存在する場合、ファセットレベルはマスク領域を使用/除外します。"
 
 #: gwyddion/tips.c:265
-#, fuzzy
 msgid ""
 "Plane Level offers to use/exclude the masked area if a mask is present on "
 "the data."
@@ -3125,7 +2961,6 @@ msgstr ""
 "マスクがデータに存在する場合、平面レベルはマスク領域を使用/除外します。"
 
 #: gwyddion/tips.c:270
-#, fuzzy
 msgid ""
 "Align Rows offers to use/exclude the masked area if a mask is present on the "
 "data."
@@ -3134,14 +2969,12 @@ msgstr ""
 "す。"
 
 #: gwyddion/tips.c:275
-#, fuzzy
 msgid ""
 "Data Arithmetic works as a scientific calculator: just type an arithmetic "
 "expression."
 msgstr "データ演算は、科学電卓として機能します: 単に算術式を入力します。"
 
 #: gwyddion/tips.c:280
-#, fuzzy
 msgid ""
 "Data Arithmetic expressions can include values (d), mask values (m), "
 "derivatives (bx, by) and coordinates (x, y)."
@@ -3150,7 +2983,6 @@ msgstr ""
 "めることができます。"
 
 #: gwyddion/tips.c:285
-#, fuzzy
 msgid ""
 "Facet Level can often level data with large features that make impossible to "
 "use standard plane leveling.  It levels the surface by making normals of "
@@ -3161,7 +2993,6 @@ msgstr ""
 "サーフェスを水平にします。"
 
 #: gwyddion/tips.c:291
-#, fuzzy
 msgid ""
 "Flatten Base performs automated leveling of base flat surface with positive "
 "features."
@@ -3170,7 +3001,6 @@ msgstr ""
 "化を実行します。"
 
 #: gwyddion/tips.c:296
-#, fuzzy
 msgid ""
 "Too small grains can be filtered out with Data Process → Grains → Filter."
 msgstr ""
@@ -3178,7 +3008,6 @@ msgstr ""
 "除外できます。"
 
 #: gwyddion/tips.c:301
-#, fuzzy
 msgid ""
 "Data Process → Presentation → Edge Detection → Step is a fine step detector "
 "with a good dynamic range"
@@ -3187,7 +3016,6 @@ msgstr ""
 "ンジを備えた微細なステップ検出器です"
 
 #: gwyddion/tips.c:306
-#, fuzzy
 msgid ""
 "Data Process → Basic Operations → Dimensions and Units changes scales, "
 "offsets and even lateral and value units."
@@ -3204,7 +3032,6 @@ msgstr ""
 "何か面白いことをすることができます。"
 
 #: gwyddion/tips.c:317
-#, fuzzy
 msgid ""
 "Remove Scars in the toolbox runs with the settings last used in Mark Scars."
 msgstr ""
@@ -3212,12 +3039,10 @@ msgstr ""
 "します。"
 
 #: gwyddion/tips.c:322
-#, fuzzy
 msgid "Data synthesis modules can be also used to modify existing images."
 msgstr "データ合成モジュールは、既存の画像を変更するためにも使用できます。"
 
 #: gwyddion/tips.c:327
-#, fuzzy
 msgid ""
 "Data Process → Mask → Mark With can set the image mask based on another "
 "data, mask or presentation."
@@ -3226,29 +3051,24 @@ msgstr ""
 "ンに基づいてイメージマスクを設定することができます。"
 
 #: gwyddion/tips.c:333
-#, fuzzy
 msgid "Graph → Critical Dimension measures steps on extracted profile graphs."
 msgstr ""
 "グラフ → 重要なディメンションは、抽出されたプロファイル グラフのステップを測"
 "定します。"
 
 #: gwyddion/tips.c:338
-#, fuzzy
 msgid "All Graph functions are available also in the graph right-click menu."
 msgstr "グラフの右クリックメニューでは、すべてのグラフ機能も使用できます。"
 
 #: gwyddion/tips.c:344
-#, fuzzy
 msgid "Pressing Esc hides tool windows."
 msgstr "Esc キーを押すと、ツール ウィンドウが非表示になります。"
 
 #: gwyddion/tips.c:348
-#, fuzzy
 msgid "Read Value tool displays also the local facet normal."
 msgstr "値を読み取りツールには、ローカルファセット法線も表示されます。"
 
 #: gwyddion/tips.c:352
-#, fuzzy
 msgid ""
 "Read Value tool can shift data to make <i>z</i>=0 plane pass through the "
 "selected point."
@@ -3257,7 +3077,6 @@ msgstr ""
 "きます。"
 
 #: gwyddion/tips.c:357
-#, fuzzy
 msgid ""
 "Individual lines can be deleted in Distance tool by selecting them in the "
 "list and pressing Delete."
@@ -3266,7 +3085,6 @@ msgstr ""
 "します。"
 
 #: gwyddion/tips.c:362
-#, fuzzy
 msgid ""
 "Individual lines can be deleted in Profiles tool by selecting them in the "
 "list and pressing Delete."
@@ -3275,7 +3093,6 @@ msgstr ""
 "を押します。"
 
 #: gwyddion/tips.c:367
-#, fuzzy
 msgid ""
 "Spectroscopy tool displays point spectroscopy data and extracts them to "
 "standalone graphs that can be subsequently analysed for instance with Graph "
@@ -3285,7 +3102,6 @@ msgstr ""
 "析することができるスタンドアロングラフに抽出します。"
 
 #: gwyddion/tips.c:373
-#, fuzzy
 msgid ""
 "Statistical Quantities tool allows limiting the area of interest by a mask, "
 "rectangular selection or the intersection of both."
@@ -3303,7 +3119,6 @@ msgstr ""
 "(PSDF)およびその他の関数を計算します。"
 
 #: gwyddion/tips.c:384
-#, fuzzy
 msgid ""
 "Path Level tool levels misaligned rows by lining them up along manually "
 "selected lines.  If there are no large features automatic Align Rows usually "
@@ -3321,13 +3136,11 @@ msgstr ""
 "→粒子で利用できます。"
 
 #: gwyddion/tips.c:396
-#, fuzzy
 msgid "Mask Editor tool can create, edit, invert, grow and shrink masks."
 msgstr ""
 "マスクエディタツールは、マスクの作成、編集、反転、拡大、縮小ができます。"
 
 #: gwyddion/tips.c:400
-#, fuzzy
 msgid ""
 "Color Range tool offers several false color scale mapping modes and can make "
 "any of them the default mode."
@@ -3336,7 +3149,6 @@ msgstr ""
 "らのいずれかのモードをデフォルトモードにすることができます。"
 
 #: gwyddion/tips.c:405
-#, fuzzy
 msgid ""
 "Dragging selections from Selections Manager tool to a data window copies the "
 "selection to the target data."
@@ -3345,7 +3157,6 @@ msgstr ""
 "ターゲット データにコピーされます。"
 
 #: gwyddion/tips.c:411
-#, fuzzy
 msgid ""
 "Pressing F1 or the Help buttons in most windows shows a relevant part of the "
 "user guide in a web browser."
@@ -3354,7 +3165,6 @@ msgstr ""
 "ザー ガイドの関連部分が表示されます。"
 
 #: gwyddion/tips.c:416
-#, fuzzy
 msgid ""
 "Gwyddion User Guide explains in detail many of the methods and algorithms "
 "implemented in Gwyddion."
@@ -3363,62 +3173,53 @@ msgstr ""
 "ズムについて詳しく説明しています。"
 
 #: gwyddion/tips.c:421
-#, fuzzy
 msgid "Gwyddion is a son of Math."
-msgstr "グウィディオンは数学の息子です。"
+msgstr "Gwyddionは数学の申し子です。"
 
 #: gwyddion/tips.c:483
-#, fuzzy
 msgid "Gwyddion Tip of the Day"
-msgstr "グウィディオン・チップ・オブ・ザ・デイ"
+msgstr "Gwyddion Tip of the Day"
 
 #: gwyddion/tips.c:496
-#, fuzzy
 msgid "_Previous Tip"
-msgstr "_Previousヒント"
+msgstr "前のヒント"
 
 #: gwyddion/tips.c:502
-#, fuzzy
 msgid "_Next Tip"
-msgstr "_Nextヒント"
+msgstr "次のヒント"
 
 #: gwyddion/tips.c:532
 msgid "_Show tips at startup"
 msgstr "起動時にヒントを表示"
 
 #: gwyddion/toolbox-editor.c:212
-#, fuzzy
 msgid "Toolbox Editor"
 msgstr "ツールボックス エディター"
 
 #: gwyddion/toolbox-editor.c:257
-#, fuzzy
 msgid "_New Item"
-msgstr "_Newアイテム"
+msgstr "新規項目"
 
 #: gwyddion/toolbox-editor.c:262
-#, fuzzy
 msgid "_New Group"
-msgstr "_Newグループ"
+msgstr "新規グループ"
 
 #: gwyddion/toolbox-editor.c:268 gwyddion/toolbox.c:621
 msgid "_Edit"
-msgstr "編集(_E)"
+msgstr "編集"
 
 #: gwyddion/toolbox-editor.c:273 modules/process/fft_filter_2d.c:499
 #: modules/tools/maskedit.c:554 modules/volume/volume_zcal.c:181
 msgid "_Remove"
-msgstr "_削除する"
+msgstr "削除する"
 
 #: gwyddion/toolbox-editor.c:278
-#, fuzzy
 msgid "Move _Up"
-msgstr "_Upを移動する"
+msgstr "上に移動"
 
 #: gwyddion/toolbox-editor.c:283
-#, fuzzy
 msgid "Move _Down"
-msgstr "_Downを移動する"
+msgstr "下に移動"
 
 #: gwyddion/toolbox-editor.c:292 modules/file/hdrimage.cc:2332
 #: modules/file/imgexport.c:3175 modules/file/pixmap.c:831
@@ -3426,54 +3227,45 @@ msgstr "_Downを移動する"
 #: modules/process/crosscor.c:257 modules/process/dimensions.h:467
 #: modules/process/fibre_synth.c:526 modules/process/pileup_synth.c:533
 #: modules/process/tip_blind.c:334
-#, fuzzy
 msgid "_Width:"
-msgstr "_Width:"
+msgstr "幅:"
 
 #: gwyddion/toolbox-editor.c:787
-#, fuzzy
 msgid "Toolbox Group"
 msgstr "ツールボックス グループ"
 
 #: gwyddion/toolbox-editor.c:804 modules/file/rawgraph.c:272
 msgid "_Title:"
-msgstr "_タイトル:"
+msgstr "タイトル:"
 
 #: gwyddion/toolbox-editor.c:818
-#, fuzzy
 msgid "_Id:"
-msgstr "_id："
+msgstr "ID："
 
 #: gwyddion/toolbox-editor.c:831
-#, fuzzy
 msgid "_Suggest"
-msgstr "_Suggest"
+msgstr "提案"
 
 #: gwyddion/toolbox-editor.c:837
-#, fuzzy
 msgid "Trans_latable title"
-msgstr "Trans_latableタイトル"
+msgstr "Translatable title"
 
 #: gwyddion/toolbox-editor.c:887
-#, fuzzy
 msgid "Group id is not a valid identifier"
 msgstr "グループ ID は有効な識別子ではありません"
 
 #: gwyddion/toolbox-editor.c:895
-#, fuzzy
 msgid "Group id is not unique"
 msgstr "グループ ID が一意ではありません"
 
 #: gwyddion/toolbox-editor.c:975
-#, fuzzy
 msgid "Toolbox Item"
 msgstr "ツールボックス項目"
 
 #: gwyddion/toolbox-editor.c:996 modules/process/coerce.c:343
 #: modules/tools/filter.c:286
-#, fuzzy
 msgid "_Type:"
-msgstr "_Type:"
+msgstr "タイプ:"
 
 #: gwyddion/toolbox-editor.c:1003
 msgid "Placeholder"
@@ -3484,12 +3276,10 @@ msgid "Builtin"
 msgstr "組み込み"
 
 #: gwyddion/toolbox-editor.c:1005 gwyddion/toolbox.c:113
-#, fuzzy
 msgid "Data Process"
 msgstr "データプロセス"
 
 #: gwyddion/toolbox-editor.c:1007
-#, fuzzy
 msgid "Volume Data"
 msgstr "ボリュームデータ"
 
@@ -3503,9 +3293,8 @@ msgstr "ツール"
 
 #: gwyddion/toolbox-editor.c:1016 modules/process/multiprofile.c:419
 #: modules/tools/cprofile.c:358
-#, fuzzy
 msgid "_Mode:"
-msgstr "_Mode:"
+msgstr "モード:"
 
 #: gwyddion/toolbox-editor.c:1023 gwyddion/toolbox-editor.c:1042
 msgid "Default"
@@ -3516,14 +3305,12 @@ msgid "Interactive"
 msgstr "対話型"
 
 #: gwyddion/toolbox-editor.c:1025
-#, fuzzy
 msgid "Non-interactive"
 msgstr "非インタラクティブ"
 
 #: gwyddion/toolbox-editor.c:1033
-#, fuzzy
 msgid "Use _icon from:"
-msgstr "_iconの使用:"
+msgstr "ここからアイコン使用:"
 
 #: gwyddion/toolbox-editor.c:1067
 msgid "Functions"
@@ -3538,7 +3325,6 @@ msgid "interactive"
 msgstr "インタラクティブ"
 
 #: gwyddion/toolbox-spec.c:42
-#, fuzzy
 msgid "non-interactive"
 msgstr "非インタラクティブ"
 
@@ -3551,9 +3337,8 @@ msgid "builtin"
 msgstr "組み込み"
 
 #: gwyddion/toolbox-spec.c:48
-#, fuzzy
 msgid "proc"
-msgstr "Proc"
+msgstr "proc"
 
 #: gwyddion/toolbox-spec.c:49
 msgid "graph"
@@ -3580,7 +3365,6 @@ msgid "remaining tools"
 msgstr "残りのツール"
 
 #: gwyddion/toolbox-spec.c:711
-#, fuzzy
 msgid "All tools not placed explicitly go here."
 msgstr "明示的に配置されていないすべてのツールは、ここに表示されます。"
 
@@ -3594,17 +3378,15 @@ msgstr "ツール"
 
 #: gwyddion/toolbox.c:619
 msgid "_File"
-msgstr "ファイル(_F)"
+msgstr "ファイル(F)"
 
 #: gwyddion/toolbox.c:637
-#, fuzzy
 msgid "_Info"
-msgstr "_Info"
+msgstr "情報"
 
 #: gwyddion/toolbox.c:747
-#, fuzzy
 msgid "Display a 3D view of data"
-msgstr "データの 3D ビューを表示する"
+msgstr "データを3Dビューで表示する"
 
 #: gwyddion/toolbox.c:751
 msgid "Undo"
@@ -3631,7 +3413,6 @@ msgid "Zoom out"
 msgstr "ズームアウト"
 
 #: gwyddion/toolbox.c:767
-#, fuzzy
 msgid "Zoom 1:1"
 msgstr "ズーム 1:1"
 
@@ -3640,106 +3421,90 @@ msgid "/Show _Data Browser"
 msgstr "/データブラウザーを表示"
 
 #: gwyddion/toolbox.c:840
-#, fuzzy
 msgid "/Module _Browser"
-msgstr "/モジュール_Browser"
+msgstr "/モジュールブラウザー"
 
 #: gwyddion/toolbox.c:848
 msgid "/Program _Messages"
-msgstr "/プログラム_メッセージ"
+msgstr "/プログラムメッセージ"
 
 #: gwyddion/toolbox.c:863
-#, fuzzy
 msgid "/_User Guide"
-msgstr "/_User ガイド"
+msgstr "/ユーザーガイド"
 
 #: gwyddion/toolbox.c:871
-#, fuzzy
 msgid "/_Tip of the Day"
-msgstr "/ティップ・オブ・ザ・デイ"
+msgstr "/Tip of the Day"
 
 #: gwyddion/toolbox.c:879
 msgid "/_About Gwyddion"
-msgstr "/_Gwyddionについて"
+msgstr "/Gwyddionについて"
 
 #: gwyddion/toolbox.c:916
-#, fuzzy
 msgid "/_Open..."
-msgstr "/_Open.."
+msgstr "/開く…"
 
 #: gwyddion/toolbox.c:924 modules/xyz/xyzops.c:93
-#, fuzzy
 msgid "/_Merge..."
-msgstr "/_Merge.."
+msgstr "/結合…"
 
 #: gwyddion/toolbox.c:932
-#, fuzzy
 msgid "/Open _Recent"
-msgstr "/_Recentを開く"
+msgstr "/最近のファイルを開く"
 
 #: gwyddion/toolbox.c:940
-#, fuzzy
 msgid "/_Save"
-msgstr "/_Save"
+msgstr "/保存"
 
 #: gwyddion/toolbox.c:948
 msgid "/Save _As..."
-msgstr "/_名前をつけて保存…"
+msgstr "/名前をつけて保存…"
 
 #: gwyddion/toolbox.c:956
 msgid "/_Close"
-msgstr "/_閉じる"
+msgstr "/閉じる"
 
 #: gwyddion/toolbox.c:964
-#, fuzzy
 msgid "/Remo_ve All Logs"
-msgstr "/Remo_ve すべてのログ"
+msgstr "/すべてのログを削除"
 
 #: gwyddion/toolbox.c:980
-#, fuzzy
 msgid "/_Quit"
-msgstr "/_Quit"
+msgstr "/終了"
 
 #: gwyddion/toolbox.c:1020
-#, fuzzy
 msgid "/_Undo"
-msgstr "/_Undo"
+msgstr "/取り消し"
 
 #: gwyddion/toolbox.c:1028
-#, fuzzy
 msgid "/_Redo"
-msgstr "/_Redo"
+msgstr "/繰り返し"
 
 #: gwyddion/toolbox.c:1044
-#, fuzzy
 msgid "/Default Mask _Color..."
-msgstr "/既定のマスク _Color."
+msgstr "/既定のマスク色…"
 
 #: gwyddion/toolbox.c:1052
 msgid "/Color _Gradients..."
-msgstr "/カラー_グラデーション…"
+msgstr "/カラーグラーデーション…"
 
 #: gwyddion/toolbox.c:1060
 msgid "/G_L Materials..."
-msgstr "/G_L Materials..."
+msgstr "/GL材質..."
 
 #: gwyddion/toolbox.c:1068
-#, fuzzy
 msgid "/_Toolbox..."
-msgstr "/_Toolbox.."
+msgstr "/ツールボックス…"
 
 #: gwyddion/toolbox.c:1076
-#, fuzzy
 msgid "/_Keyboard Shortcuts"
-msgstr "/_Keyboard ショートカット"
+msgstr "/ショートカット"
 
 #: gwyddion/toolbox.c:1084
-#, fuzzy
 msgid "/_Logging Enabled"
-msgstr "/_Logging 有効"
+msgstr "/ログ有効"
 
 #: gwyddion/toolbox.c:1193
-#, fuzzy
 msgid "Program Messages"
 msgstr "プログラムメッセージ"
 
@@ -3748,17 +3513,14 @@ msgid "Change Default Mask Color"
 msgstr "既定のマスクの色を変更する"
 
 #: gwyddion/toolbox.c:1458
-#, fuzzy
 msgid "OpenGL 3D graphics not available"
 msgstr "OpenGL 3D グラフィックスは使用できません"
 
 #: gwyddion/toolbox.c:1463
-#, fuzzy
 msgid "OpenGL was disabled with a command-line option."
 msgstr "OpenGL はコマンド ライン オプションで無効にされました。"
 
 #: gwyddion/toolbox.c:1471
-#, fuzzy
 msgid ""
 "Initialization of OpenGL failed.  Check output of <tt>glxinfo</tt> and "
 "warning messages printed to console during Gwyddion startup."
@@ -3767,22 +3529,19 @@ msgstr ""
 "<tt>glxinfo</tt> および警告メッセージの出力を確認してください。"
 
 #: gwyddion/toolbox.c:1478
-#, fuzzy
 msgid "This version of Gwyddion was built without OpenGL support."
 msgstr "このバージョンの Gwyddion は、OpenGL のサポートなしで構築されました。"
 
 #: modules/file/accurexii-txt.c:73
-#, fuzzy
 msgid "Imports Accurex II text files."
 msgstr "Accurex II テキスト ファイルをインポートします。"
 
 #: modules/file/accurexii-txt.c:86
-#, fuzzy
 msgid "Accurex II text files (.txt)"
 msgstr "Accurex II テキスト ファイル (.txt)"
 
 #: modules/file/accurexii-txt.c:153
-#, fuzzy, c-format
+#, c-format
 msgid "File header cannot be converted from ISO-8859-1 character set: %s"
 msgstr "ファイル ヘッダーは ISO-8859-1 文字セットから変換できません: %s"
 
@@ -3796,99 +3555,85 @@ msgstr "AFM Workshopのスペクトラム ファイル (.csv)"
 
 #: modules/file/afmw-spec.c:438 modules/file/nanonis-spec.c:446
 #: modules/file/nanoobserver.c:405
-#, fuzzy
 msgid "Data block is truncated"
-msgstr "データ ブロックが切り捨てられる"
+msgstr "データブロックが切り捨てられます"
 
 #: modules/file/aistfile.c:123
-#, fuzzy
 msgid "Imports AIST-NT data files."
 msgstr "AIST-NT データ ファイルをインポートします。"
 
 #: modules/file/aistfile.c:136
-#, fuzzy
 msgid "AIST-NT files (.aist)"
 msgstr "AIST-NT ファイル (.aist)"
 
 #: modules/file/alicona.c:147
-#, fuzzy
 msgid "Imports Alicona Imaging AL3D files."
-msgstr "Alicona イメージング AL3D ファイルをインポートします。"
+msgstr "Alicona Imaging AL3D ファイルをインポートします。"
 
 #: modules/file/alicona.c:160
-#, fuzzy
 msgid "Alicona Imaging AL3D files (.al3d)"
-msgstr "アルコナイメージングAL3Dファイル(.al3d)"
+msgstr "Alicona Imaging AL3D files (.al3d)"
 
 #: modules/file/alicona.c:496
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid plane number %u in tag ‘%s’."
-msgstr "タグ '%s' に無効な平面番号%u。"
+msgstr "不正な平面番号%uがタグ '%s' にあります。"
 
 #: modules/file/alicona.c:583
-#, fuzzy
 msgid "Header tag key is not nul-terminated."
 msgstr "ヘッダー タグ キーは、nul 終端ではありません。"
 
 #: modules/file/alicona.c:588
-#, fuzzy
 msgid "Header tag key is empty."
 msgstr "ヘッダー タグ キーが空です。"
 
 #: modules/file/alicona.c:595
-#, fuzzy, c-format
+#, c-format
 msgid "Header tag ‘%s’ key is not nul-padded."
 msgstr "ヘッダータグ '%s' キーは、nul に埋め込まれません。"
 
 #: modules/file/alicona.c:602
-#, fuzzy, c-format
+#, c-format
 msgid "Header tag ‘%s’ lacks CRLF terminator."
 msgstr "ヘッダー タグ '%s' には CRLF ターミネータがありません。"
 
 #: modules/file/alicona.c:608
-#, fuzzy, c-format
+#, c-format
 msgid "Header tag ‘%s’ value is not nul-terminated."
 msgstr "ヘッダータグ '%s' 値は nul で終了しません。"
 
 #: modules/file/alicona.c:618
-#, fuzzy, c-format
+#, c-format
 msgid "Header tag ‘%s’ value is not nul-padded."
 msgstr "ヘッダー タグ '%s' の値は、nul に埋め込まれません。"
 
 #: modules/file/alicona.c:683
-#, fuzzy
 msgid "Comment lacks CRLF termination."
-msgstr "コメントには CRLF の終了が欠けている。"
+msgstr "コメントにCRLF の終了コードがありません。"
 
 #: modules/file/alicona.c:688
-#, fuzzy
 msgid "Comment is not nul-terminated."
 msgstr "コメントは NUL で終了しません。"
 
 #: modules/file/ambfile.c:83
-#, fuzzy
 msgid "Imports Ambios AMB data files."
 msgstr "Ambios AMB データ ファイルをインポートします。"
 
 #: modules/file/ambfile.c:96
-#, fuzzy
 msgid "Ambios amb files (.amb)"
-msgstr "アンビオスアンブファイル (.amb)"
+msgstr "Ambios amb files (.amb)"
 
 #: modules/file/ambprofile.c:108
-#, fuzzy
 msgid "Imports Ambios 1D profilometry data files."
-msgstr "Ambios 1D プロフィロメトリー データ ファイルをインポートします。"
+msgstr "Ambios 1D profilometryデータ ファイルをインポートします。"
 
 #: modules/file/ambprofile.c:121
-#, fuzzy
 msgid "Ambios 1D profilometry data files (.xml)"
-msgstr "アンビオス 1D プロフィロメトリー データ ファイル (.xml)"
+msgstr "Ambios 1D profilometry data files (.xml)"
 
 #: modules/file/ambprofile.c:127
-#, fuzzy
 msgid "Ambios 1D profilometry data files (.dat)"
-msgstr "アンビオス 1D プロフィロメトリー データ ファイル (.dat)"
+msgstr "Ambios 1D profilometry data files (.dat)"
 
 #: modules/file/ambprofile.c:253 modules/file/dektakxml.c:208
 #: modules/file/evovisxml.c:198 modules/file/lextfile.c:268
@@ -3899,7 +3644,7 @@ msgstr "XML 解析に失敗しました: %s"
 
 #: modules/file/ambprofile.c:389
 msgid "Different number of X and Z values"
-msgstr "X 値と Z 値の数が異なる"
+msgstr "X 値と Z 値の数が異なります"
 
 #: modules/file/ambprofile.c:467 modules/file/dektakxml.c:376
 #: modules/file/evovisxml.c:332 modules/file/lextfile.c:171
@@ -3909,71 +3654,58 @@ msgid "Top-level element is not ‘%s’."
 msgstr "最上位の要素は '%s' ではありません。"
 
 #: modules/file/anasys_xml.c:106
-#, fuzzy
 msgid "Imports Analysis Studio XML (.axz & .axd) files."
-msgstr "分析スタジオ XML (.axz および .axd) ファイルをインポートします。"
+msgstr "Analysis Studio XML (.axz & .axd) ファイルをインポートします。"
 
 #: modules/file/anasys_xml.c:119
-#, fuzzy
 msgid "Analysis Studio XML (.axz, .axd)"
-msgstr "分析スタジオ XML (.axz、.axd)"
+msgstr "Analysis Studio XML (.axz, .axd)"
 
 #: modules/file/anfatec.c:87
-#, fuzzy
 msgid "Imports Anfatec data files (two-part .txt + .int)."
 msgstr "Infatec データ ファイル (2 つの部分.txt + .int) をインポートします。"
 
 #: modules/file/anfatec.c:100
-#, fuzzy
 msgid "Anfatec files (.par + .int)"
-msgstr "アンファテックファイル (.par + .int)"
+msgstr "Anfatec files (.par + .int)"
 
 #: modules/file/anfatec.c:232
-#, fuzzy
 msgid "The parameter file cannot be loaded."
 msgstr "パラメーター ファイルを読み込めません。"
 
 #: modules/file/anfatec.c:238
-#, fuzzy
 msgid "Cannot find the corresponding parameter file."
 msgstr "対応するパラメータ ファイルが見つかりません。"
 
 #: modules/file/anfatec.c:255
-#, fuzzy
 msgid "FileDescBegin cannot be inside another FileDesc."
-msgstr "ファイルを別のファイルの中に入れることはできません。"
+msgstr "FileDescBeginをFileDescの中に入れることはできません。"
 
 #: modules/file/anfatec.c:267
-#, fuzzy
 msgid "FileDescEnd has no corresponding FileDescBegin."
-msgstr "対応するファイルを持っていません。"
+msgstr "FileDescEnd has no corresponding FileDescBegin."
 
 #: modules/file/anfatec.c:294
-#, fuzzy
 msgid "FileDescBegin has no corresponding FileDescEnd."
-msgstr "ファイルを持っていません対応するファイルを終了します。"
+msgstr "FileDescBegin has no corresponding FileDescEnd."
 
 #: modules/file/apedaxfile.c:261
-#, fuzzy
 msgid "Imports A.P.E. Research DAX data files."
-msgstr "A.P.E. リサーチ DAX データ ファイルをインポートします。"
+msgstr "A.P.E. Research DAX データ ファイルをインポートします。"
 
 #: modules/file/apedaxfile.c:276
-#, fuzzy
 msgid "A.P.E. Research DAX Files (.dax) and APDT File (.apdt)"
-msgstr "A.P.E. 研究 DAX ファイル (.dax) と APDT ファイル (.apdt)"
+msgstr "A.P.E. Research DAX Files (.dax) and APDT File (.apdt)"
 
 #: modules/file/apefile.c:196
-#, fuzzy
 msgid "Imports APE (Applied Physics and Engineering) data files."
-msgstr "APE (応用物理学と工学) データ ファイルをインポートします。"
+msgstr "APE (Applied Physics and Engineering) データをインポートします。"
 
 #: modules/file/apefile.c:209
 msgid "APE files (.dat)"
 msgstr "APE ファイル (.dat)"
 
 #: modules/file/asciiexport.c:93
-#, fuzzy
 msgid "Exports data as simple ASCII matrix."
 msgstr "データを単純な ASCII 行列としてエクスポートします。"
 
@@ -3983,7 +3715,6 @@ msgstr "ASCII データ行列 (.txt)"
 
 #: modules/file/asciiexport.c:222 modules/graph/graph_export_ascii.c:111
 #: modules/volume/volume_asciiexport.c:176
-#, fuzzy
 msgid "Export Text"
 msgstr "テキストのエクスポート"
 
@@ -4014,20 +3745,17 @@ msgstr "小数点記号としてピリオドを使用する"
 
 #: modules/file/asciiexport.c:244 modules/file/xyzexport.c:329
 #: modules/process/grain_dist.c:318
-#, fuzzy
 msgid "Add _informational comment header"
-msgstr "コメントヘッダー_informational追加"
+msgstr "コメントヘッダーに情報追加"
 
 #: modules/file/asciiexport.c:250
-#, fuzzy
 msgid "Conca_tenate exports of all images"
-msgstr "すべての画像のConca_tenateエクスポート"
+msgstr "すべての画像をつなげてエクスポート"
 
 #: modules/file/asciiexport.c:259 modules/file/xyzexport.c:338
 #: modules/volume/volume_asciiexport.c:208
-#, fuzzy
 msgid "_Precision:"
-msgstr "_Precision:"
+msgstr "Precision:"
 
 #: modules/file/asciiexport.c:316 modules/file/asciiexport.c:335
 msgid "Width:"
@@ -4038,7 +3766,6 @@ msgid "Height:"
 msgstr "高さ："
 
 #: modules/file/asciiexport.c:347 modules/file/xyzexport.c:256
-#, fuzzy
 msgid "Value units:"
 msgstr "値の単位:"
 
@@ -4051,62 +3778,55 @@ msgid "Assing AFM files (.afm)"
 msgstr "Assing AFM ファイル (.afm)"
 
 #: modules/file/attocube.c:84
-#, fuzzy
 msgid "Imports Attocube Systems ASC files."
-msgstr "アトキューブシステムのASCファイルをインポートします。"
+msgstr "Attocube Systems ASC ファイルをインポートします。files."
 
 #: modules/file/attocube.c:97
-#, fuzzy
 msgid "Attocube ASCII files (.asc)"
-msgstr "アトキューブ ASCII ファイル (.asc)"
+msgstr "Attocube ASCII files (.asc)"
 
 #: modules/file/bcrfile.c:141
-#, fuzzy
 msgid "Imports Image Metrology BCR data files."
-msgstr "画像計測BCRデータファイルをインポートします。"
+msgstr "Image Metrology BCR データファイルをインポートします。"
 
 #: modules/file/bcrfile.c:154
-#, fuzzy
 msgid "BCR files (.bcr, .bcrf)"
-msgstr "BCR ファイル (.bcr、.bcrf)"
+msgstr "BCR files (.bcr, .bcrf)"
 
 #: modules/file/bcrfile.c:233
-#, fuzzy, c-format
+#, c-format
 msgid "File header is not convertible from UTF-16: %s"
 msgstr "ファイル ヘッダーは UTF-16 から変換できません: %s"
 
 #: modules/file/bcrfile.c:346
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown file type header: `%s'."
-msgstr "不明なファイルタイプヘッダー: '%s'"
+msgstr "不明なファイルタイプヘッダー: ‘%s’。"
 
 #: modules/file/burleigh.c:127
-#, fuzzy
 msgid "Imports Burleigh IMG data files version 2.1."
-msgstr "バーリー IMG データ ファイルバージョン 2.1 をインポートします。"
+msgstr "Burleigh IMG data files version 2.1　をインポートします。"
 
 #: modules/file/burleigh.c:140
 msgid "Burleigh 2.1 files (.img)"
 msgstr "Burleigh 2.1 files (.img)"
 
 #: modules/file/burleigh.c:223
-#, fuzzy, c-format
+#, c-format
 msgid "File format version %.1f is not supported."
 msgstr "ファイル形式のバージョン %.1fはサポートされていません。"
 
 #: modules/file/burleigh_bii.c:75
-#, fuzzy
 msgid "Imports Burleigh BII binary data files."
-msgstr "バーリー BII バイナリ データ ファイルをインポートします。"
+msgstr "Burleigh BII binary データをインポートします。"
 
 #: modules/file/burleigh_bii.c:88
 msgid "Burleigh Image Studio files (.bii)"
 msgstr "Burleigh Image Studio files (.bii)"
 
 #: modules/file/burleigh_exp.c:88
-#, fuzzy
 msgid "Imports Burleigh text/bin exported images."
-msgstr "バーリーテキスト/ビンエクスポートされたイメージをインポートします。"
+msgstr "Burleigh text/bin をインポートします。"
 
 #: modules/file/burleigh_exp.c:101
 msgid "Burleigh exported data (.txt, .bin)"
@@ -4115,29 +3835,24 @@ msgstr "Burleigh exported data (.txt, .bin)"
 #: modules/file/burleigh_exp.c:226 modules/file/burleigh_exp.c:267
 #: modules/file/nanoscope.c:2334 modules/file/omicron.c:416
 #: modules/file/shimadzu.c:468
-#, fuzzy
 msgid "Missing colon in header line."
 msgstr "ヘッダー行にコロンがありません。"
 
 #: modules/file/codevfile.c:71
-#, fuzzy
 msgid "Imports Code V interferogram files."
-msgstr "コード V 干渉ファイルをインポートします。"
+msgstr "Code V interferogram ファイルをインポートします。"
 
 #: modules/file/codevfile.c:84
-#, fuzzy
 msgid "Code V interferogram files (.int)"
-msgstr "コード V 干渉ファイル (.int)"
+msgstr "Code V interferogram files (.int)"
 
 #: modules/file/createc.c:133
-#, fuzzy
 msgid "Imports Createc data files."
 msgstr "Createc データ ファイルをインポートします。"
 
 #: modules/file/createc.c:146
-#, fuzzy
 msgid "Createc files (.dat)"
-msgstr "ファイルの作成 (.dat)"
+msgstr "Createc files (.dat)"
 
 #: modules/file/createc.c:185
 #, c-format
@@ -4151,35 +3866,30 @@ msgid "zlib initialization failed with error %d, cannot decompress data."
 msgstr "zlib初期化はエラー %dで失敗しました。"
 
 #: modules/file/createc.c:785 modules/file/rhk-sm4.c:1482
-#, fuzzy, c-format
+#, c-format
 msgid "Decompression of compressed data failed with error %d."
 msgstr "圧縮データの解凍に失敗し、エラー%d。"
 
 #: modules/file/createc.c:830 modules/file/rhk-sm4.c:1525
-#, fuzzy
 msgid "Cannot decompress compressed data.  Zlib support was not built in."
 msgstr ""
 "圧縮データを解凍できません。 Zlib サポートは組み込まれていませんでした。"
 
 #: modules/file/csmfile.c:83
-#, fuzzy
 msgid "Imports Benyuan CSM data files."
-msgstr "ベンユアン CSM データ ファイルをインポートします。"
+msgstr "Benyuan CSM データをインポートします。"
 
 #: modules/file/csmfile.c:96
-#, fuzzy
 msgid "Benyuan CSM files (.csm)"
-msgstr "ベンユアン CSM ファイル (.csm)"
+msgstr "Benyuan CSM files (.csm)"
 
 #: modules/file/dektakvca.c:196
-#, fuzzy
 msgid "Imports Dektak OPDx data files."
-msgstr "デクタック OPDx データ ファイルをインポートします。"
+msgstr "Dektak OPDx データをインポートします。"
 
 #: modules/file/dektakvca.c:209
-#, fuzzy
 msgid "Dektak OPDx data files (.OPDx)"
-msgstr "デクタック OPDx データ ファイル (.オプDx)"
+msgstr "Dektak OPDx data files (.OPDx)"
 
 #: modules/file/dektakvca.c:653
 #, c-format
@@ -4187,153 +3897,131 @@ msgid "Item `%s' has unexpected type %u instead of %u."
 msgstr "項目 '%s' が%uではなく、予期しない型%u。"
 
 #: modules/file/dektakxml.c:118
-#, fuzzy
 msgid "Imports Dektak XML data files."
 msgstr "Dektak XML データ ファイルをインポートします。"
 
 #: modules/file/dektakxml.c:131
-#, fuzzy
 msgid "Dektak XML data files (.xml)"
-msgstr "デクタック XML データ ファイル (.xml)"
+msgstr "Dektak XML data files (.xml)"
 
 #: modules/file/dimensionfile.c:76
 msgid "Imports old Veeco Dimension 3100D files."
-msgstr "古いVeeco次元3100Dファイルをインポートします。"
+msgstr "旧Veeco Dimension 3100D ファイルをインポートします。"
 
 #: modules/file/dimensionfile.c:89
-#, fuzzy
 msgid "Dimension 3100D files (.001, .002, ...)"
-msgstr "ディメンション 3100D ファイル (.001,.002,.)"
+msgstr "Dimension 3100D files (.001, .002, ...)"
 
 #: modules/file/dm3file.c:286
-#, fuzzy
 msgid "Reads Digital Micrograph DM3 and DM4 files."
-msgstr "デジタルマイクログラフDM3およびDM4ファイルを読み取ります。"
+msgstr "Digital Micrograph DM3 and DM4 ファイルをインポートします。"
 
 #: modules/file/dm3file.c:299
-#, fuzzy
 msgid "Digital Micrograph DM3 TEM data (.dm3)"
-msgstr "デジタルマイクログラフ DM3 TEM データ(.dm3)"
+msgstr "Digital Micrograph DM3 TEM data (.dm3)"
 
 #: modules/file/dm3file.c:305
-#, fuzzy
 msgid "Digital Micrograph DM4 TEM data (.dm4)"
-msgstr "デジタルマイクログラフ DM4 TEM データ(.dm4)"
+msgstr "Digital Micrograph DM4 TEM data (.dm4)"
 
 #: modules/file/dm3file.c:1125
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid tag type definition in entry ‘%s’."
 msgstr "エントリ '%s' に無効なタグ型定義があります。"
 
 #: modules/file/dm3file.c:1229 modules/file/dm3file.c:1289
-#, fuzzy
 msgid "Tag entry type is neither group nor data."
 msgstr "タグエントリの種類は、グループでもデータでもありません。"
 
 #: modules/file/dm3file.c:1349 modules/file/dm3file.c:1414
-#, fuzzy, c-format
+#, c-format
 msgid "Tag type does not start with marker ‘%s’."
-msgstr "タグタイプは、マーカー'%s'で始まらない。"
+msgstr "タグタイプは、マーカー'%s'で始まりません。"
 
 #: modules/file/dm3file.c:1567
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid or unsupported tag type %u."
 msgstr "無効またはサポートされていないタグの種類%u。"
 
 #: modules/file/dmefile.c:131
-#, fuzzy
 msgid "Imports Danish Micro Engineering (DME) data files."
-msgstr ""
-"デンマークマイクロエンジニアリング (DME) データファイルをインポートします。"
+msgstr "Danish Micro Engineering (DME) データをインポートします。"
 
 #: modules/file/dmefile.c:144
-#, fuzzy
 msgid "DME files (.img)"
-msgstr "DME ファイル (.img)"
+msgstr "DME files (.img)"
 
 #: modules/file/dmefile.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "Header is too short (only %d bytes)."
 msgstr "ヘッダーが短すぎます (%d バイトのみ)。"
 
 #: modules/file/dmefile.c:212
-#, fuzzy, c-format
+#, c-format
 msgid "Data size %u does not match data dimensions (%u×%u)."
 msgstr "データ サイズ%uデータ ディメンション (%u×%u) と一致しません。"
 
 #: modules/file/dumbfile.c:70
-#, fuzzy
 msgid "Reads and exports Gwyddion dumb dump files."
-msgstr "Gwyddion ダム ダンプ ファイルを読み取り、エクスポートします。"
+msgstr "Gwyddion dumb dump ファイルの読込や出力をします。"
 
 #: modules/file/dumbfile.c:83
-#, fuzzy
 msgid "Gwyddion dumb dump files (.dump)"
-msgstr "グウィディオンダムダンプファイル(.ダンプ)"
+msgstr "Gwyddion dumb dump files (.dump)"
 
 #: modules/file/dumbfile.c:161 modules/plugin-proxy.c:1255
-#, fuzzy
 msgid "End of file reached when value was expected."
 msgstr "値が予期された時点でファイルの終わりに達しました。"
 
 #: modules/file/dumbfile.c:193 modules/plugin-proxy.c:1284
-#, fuzzy
 msgid "Missing data field width."
-msgstr "データ フィールドの幅がありません。"
+msgstr "データフィールド幅がありません。"
 
 #: modules/file/dumbfile.c:206 modules/plugin-proxy.c:1297
-#, fuzzy
 msgid "Missing data field height."
-msgstr "データ フィールドの高さが不足しています。"
+msgstr "データフィールド高さがありません。"
 
 #: modules/file/dumbfile.c:236 modules/plugin-proxy.c:1327
-#, fuzzy
 msgid "Data field dimensions are not positive numbers."
 msgstr "データ フィールドのディメンションは正の数ではありません。"
 
 #: modules/file/dumbfile.c:277 modules/plugin-proxy.c:1368
-#, fuzzy
 msgid "End of file reached inside a data field."
 msgstr "データ フィールド内でファイルの末尾に到達しました。"
 
 #: modules/file/dumbfile.c:298 modules/plugin-proxy.c:1389
-#, fuzzy
 msgid "Missing end of data field marker."
 msgstr "データ フィールド マーカーの終わりがありません。"
 
 #: modules/file/ecsfile.c:84
-#, fuzzy
 msgid "Imports ECS IMG files."
 msgstr "ECS IMG ファイルをインポートします。"
 
 #: modules/file/ecsfile.c:97
-#, fuzzy
 msgid "ECS files (.img)"
 msgstr "ECSファイル (.img)"
 
 #: modules/file/ecsfile.c:174
-#, fuzzy
 msgid "Scan size header field overlaps with data."
 msgstr "スキャン サイズ のヘッダー フィールドはデータと重複します。"
 
 #: modules/file/err.h:48 modules/file/nrrdfile.c:775
 #: modules/file/nrrdfile.c:820 modules/pygwy/pygwy-console.c:496
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot read from file: %s."
 msgstr "ファイルから読み取れません: %s。"
 
 #: modules/file/err.h:70
-#, fuzzy, c-format
+#, c-format
 msgid "No data file corresponding to `%s' was found."
 msgstr "「%s」に対応するデータ ファイルが見つかりませんでした。"
 
 #: modules/file/err.h:78
-#, fuzzy
 msgid "File is too short to be of the assumed file type."
 msgstr "ファイルが短すぎるので、想定されるファイルの種類にできません。"
 
 #: modules/file/err.h:85
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "File is not a %s file, it is seriously damaged, or it is of an unknown "
 "format version."
@@ -4342,7 +4030,7 @@ msgstr ""
 "バージョンです。"
 
 #: modules/file/err.h:96
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Expected data size calculated from file headers is %u bytes, but the real "
 "size is %u bytes."
@@ -4352,22 +4040,21 @@ msgstr ""
 
 #. TRANSLATORS: %s is replaced by some item, struct or file part id.
 #: modules/file/err.h:107
-#, fuzzy, c-format
+#, c-format
 msgid "File component/item ‘%s’ is truncated."
 msgstr "ファイルコンポーネント/アイテム '%s' が切り捨てられます。"
 
 #: modules/file/err.h:114
-#, fuzzy
 msgid "File header is truncated."
 msgstr "ファイル ヘッダーが切り捨てられます。"
 
 #: modules/file/err.h:124 modules/file/rhk-sm4.c:763
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid field dimension: %d."
-msgstr "無効なフィールド分析コード: %d。"
+msgstr "無効なフィールド次元: %d。"
 
 #: modules/file/err.h:132
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The number of bits per sample %d is invalid or unsupported for this file "
 "type."
@@ -4376,71 +4063,62 @@ msgstr ""
 "ていません。"
 
 #: modules/file/err.h:142
-#, fuzzy, c-format
+#, c-format
 msgid "Data type %d is invalid or unsupported."
 msgstr "%dデータ型が無効か、サポートされていません。"
 
 #: modules/file/err.h:149
-#, fuzzy, c-format
+#, c-format
 msgid "Header field `%s' is missing."
 msgstr "ヘッダー フィールド '%s' がありません。"
 
 #: modules/file/err.h:157
-#, fuzzy, c-format
+#, c-format
 msgid "The value of parameter `%s' is invalid or unsupported."
 msgstr "パラメータ '%s' の値が無効またはサポートされていません。"
 
 #: modules/file/err.h:165
-#, fuzzy, c-format
+#, c-format
 msgid "Parameter `%s' is missing or invalid."
 msgstr "パラメータ '%s' がないか、または無効です。"
 
 #: modules/file/err.h:173
-#, fuzzy
 msgid "File contains no (importable) data."
 msgstr "ファイルに (インポート可能な) データが含まれています。"
 
 #: modules/file/err.h:180
-#, fuzzy
 msgid "File contains no exportable channel."
 msgstr "ファイルにエクスポート可能なチャネルがありません。"
 
 #: modules/file/err.h:188
-#, fuzzy
 msgid "File import was canceled by user."
 msgstr "ユーザーがファイルのインポートをキャンセルしました。"
 
 #: modules/file/err.h:202
-#, fuzzy
 msgid "Missing header."
 msgstr "ヘッダーがありません。"
 
 #: modules/file/evovisxml.c:111
-#, fuzzy
 msgid "Imports Evovis XML data files."
-msgstr "エボビスの XML データ ファイルをインポートします。"
+msgstr "Evovis XML データをインポートします。"
 
 #: modules/file/evovisxml.c:124
-#, fuzzy
 msgid "Evovis XML data files (.xml)"
-msgstr "エボビス XML データ ファイル (.xml)"
+msgstr "Evovis XML data files (.xml)"
 
 #: modules/file/ezdfile.c:135
-#, fuzzy
 msgid "Imports Nanosurf EZD and NID data files."
-msgstr "ナノサーフィン EZD および NID データファイルをインポートします。"
+msgstr "Nanosurf EZD and NID データをインポートします。"
 
 #: modules/file/ezdfile.c:148
-#, fuzzy
 msgid "Nanosurf files (.ezd, .nid)"
-msgstr "ナノサーフファイル(.ezd、.nid)"
+msgstr "Nanosurf files (.ezd, .nid)"
 
 #: modules/file/ezdfile.c:321
 msgid "Garbage before first header section."
 msgstr "最初のヘッダー部分より前は捨てる。"
 
 #: modules/file/ezdfile.c:332 modules/file/nanoscope-ii.c:259
-#, fuzzy
 msgid "Malformed header line (missing =)."
 msgstr "ヘッダー行の形式が正しくありません (=)。"
 
@@ -4449,100 +4127,83 @@ msgid "First section isn't DataSet"
 msgstr "最初のセクションはデータセットではありません"
 
 #: modules/file/ezdfile.c:437
-#, fuzzy
 msgid "GroupCount in [DataSet]"
 msgstr "グループカウント [データセット]"
 
 #: modules/file/femtoscan-txt.c:77
-#, fuzzy
 msgid "Imports FemtoScan TXT files."
-msgstr "フェムトスキャン TXT ファイルをインポートします。"
+msgstr "FemtoScan TXT ファイルをインポートします。"
 
 #: modules/file/femtoscan-txt.c:90
-#, fuzzy
 msgid "FemtoScan text files (.txt)"
-msgstr "フェムトスキャンテキストファイル (.txt)"
+msgstr "FemtoScan text files (.txt)"
 
 #: modules/file/femtoscan-txt.c:189
-#, fuzzy
 msgid "Data line does not start with a Y abscissa."
-msgstr "データ行は Y の棄権で始まらない。"
+msgstr "データ行がYの横座標で始まりません。"
 
 #: modules/file/femtoscan-txt.c:197
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Data line length %u does not correspond to the number of X abscissas %u."
-msgstr "データ行の長%uは、x の棄権数に対応%u。"
+msgstr "データ行の長さ(%u)がX座標の数に対応しません。%u。"
 
 #: modules/file/femtoscan.c:81
-#, fuzzy
 msgid "Imports FemtoScan SPM data files."
-msgstr "フェムトスキャンの SPM データ ファイルをインポートします。"
+msgstr "FemtoScan SPM データをインポートします。"
 
 #: modules/file/femtoscan.c:94
-#, fuzzy
 msgid "FemtoScan SPM files"
-msgstr "フェムトスキャン SPM ファイル"
+msgstr "FemtoScan SPM files"
 
 #: modules/file/femtoscan.c:285 modules/file/miffile.c:690
 #: modules/file/mulfile.c:304
-#, fuzzy
 msgid "Image data are outside the file."
 msgstr "画像データはファイルの外部にあります。"
 
 #: modules/file/fitsfile.c:81
-#, fuzzy
 msgid "Reads Flexible Image Transport System (FITS) files."
-msgstr ""
-"フレキシブルイメージトランスポートシステム(FITS)ファイルを読み込みます。"
+msgstr "Flexible Image Transport System (FITS) データをインポートします。"
 
 #: modules/file/fitsfile.c:94
-#, fuzzy
 msgid "Flexible Image Transport System FITS (.fits)"
-msgstr "フレキシブル画像転送システム FITS (.fits)"
+msgstr "Flexible Image Transport System FITS (.fits)"
 
 #: modules/file/fitsfile.c:133
-#, fuzzy, c-format
+#, c-format
 msgid "CFITSIO error while reading the FITS file: %s."
 msgstr "FITS ファイルの読み取り中に CFITSIO エラー: %s。"
 
 #: modules/file/fitsfile.c:165 modules/file/fitsfile.c:177
 #: modules/file/fitsfile.c:188 modules/file/spmxfile.c:385
-#, fuzzy
 msgid "Only two-dimensional images are supported."
 msgstr "2 次元イメージのみがサポートされます。"
 
 #: modules/file/formats3d.c:294
-#, fuzzy
 msgid "VTK structured grid (.vtk)"
-msgstr "VTK 構造化グリッド (.vtk)"
+msgstr "VTK structured grid (.vtk)"
 
 #: modules/file/formats3d.c:299
-#, fuzzy
 msgid "Polygon file format (.ply)"
-msgstr "ポリゴン ファイル形式 (.ply)"
+msgstr "Polygon file format (.ply)"
 
 #: modules/file/formats3d.c:304
-#, fuzzy
 msgid "Wavefront geometry definition (.obj)"
-msgstr "波面ジオメトリ定義 (.obj)"
+msgstr "Wavefront geometry definition (.obj)"
 
 #: modules/file/formats3d.c:309
-#, fuzzy
 msgid "Object File Format (.off)"
-msgstr "オブジェクト ファイル形式 (.off)"
+msgstr "Object File Format (.off)"
 
 #: modules/file/formats3d.c:314
-#, fuzzy
 msgid "Stereolitography STL (.stl)"
-msgstr "ステレオリトグラフィー STL (.stl)"
+msgstr "Stereolitography STL (.stl)"
 
 #: modules/file/formats3d.c:321
 msgid "XYZ data files (.xyz)"
 msgstr "XYZ データ ファイル (.xyz)"
 
 #: modules/file/formats3d.c:339
-#, fuzzy
 msgid ""
 "Exports images as miscellaneous 3D data formats and imports XYZ points from "
 "3D formats."
@@ -4551,7 +4212,6 @@ msgstr ""
 "みます。"
 
 #: modules/file/formats3d.c:1201
-#, fuzzy
 msgid "None (only points)"
 msgstr "なし (ポイントのみ)"
 
@@ -4560,17 +4220,14 @@ msgid "Plain along main diagonals"
 msgstr "主な対角線に沿った平面"
 
 #: modules/file/formats3d.c:1203
-#, fuzzy
 msgid "With pixel midpoints"
 msgstr "ピクセル中点"
 
 #: modules/file/formats3d.c:1204
-#, fuzzy
 msgid "Random orientation"
 msgstr "ランダムな方向"
 
 #: modules/file/formats3d.c:1205
-#, fuzzy
 msgid "Following features"
 msgstr "以下の機能"
 
@@ -4584,19 +4241,16 @@ msgid "Z scale:"
 msgstr "Zスケール:"
 
 #: modules/file/formats3d.c:1244
-#, fuzzy
 msgid "_Automatic Z-scale"
-msgstr "_Automatic Zスケール"
+msgstr "自動Zスケール"
 
 #: modules/file/formats3d.c:1246
-#, fuzzy
 msgid "_Physical 1:1"
-msgstr "_Physical 1:1"
+msgstr "物理 1:1"
 
 #: modules/file/formats3d.c:1248
-#, fuzzy
 msgid "Other _scale:"
-msgstr "その他の_scale:"
+msgstr "他のスケール:"
 
 #: modules/file/formats3d.c:1264
 msgid "Triangulation type:"
@@ -4615,12 +4269,10 @@ msgstr "Z 軸を反転"
 #: modules/file/phoenix.c:964 modules/file/phoenix.c:977
 #: modules/file/princetonspe.c:339 modules/file/psia.c:357
 #: modules/file/wsxmfile.c:699 modules/file/zemax.c:168
-#, fuzzy
 msgid "File is truncated."
-msgstr "ファイルが切り捨てられます。"
+msgstr "ファイルが欠けています。"
 
 #: modules/file/formats3d.c:1743
-#, fuzzy
 msgid "File contains NaNs or infinities."
 msgstr "ファイルに NaN または無限大が含まれています。"
 
@@ -4632,7 +4284,6 @@ msgid "Import %s"
 msgstr "インポート %s"
 
 #: modules/file/formats3d.c:1800 modules/graph/graph_stats.c:303
-#, fuzzy
 msgid "Number of points:"
 msgstr "ポイント数:"
 
@@ -4649,127 +4300,112 @@ msgid "Z-range:"
 msgstr "Z範囲:"
 
 #: modules/file/formats3d.c:1831
-#, fuzzy
 msgid "Create image _directly from regular points"
-msgstr "通常のポイントからイメージ_directlyを作成する"
+msgstr "通常のポイントからイメージディレクトリを作成する"
 
 #: modules/file/formats3d.c:1903
-#, fuzzy
 msgid "_Lateral units:"
 msgstr "水平単位:"
 
 #: modules/file/formats3d.c:1915 modules/process/dimensions.h:491
-#, fuzzy
 msgid "_Value units:"
-msgstr "_Value単位:"
+msgstr "値の単位:"
 
 #: modules/file/gdeffile.c:133
-#, fuzzy
 msgid "Imports DME GDEF data files."
-msgstr "DME GDEF データ ファイルをインポートします。"
+msgstr "DME GDEF データをインポートします。"
 
 #: modules/file/gdeffile.c:146
-#, fuzzy
 msgid "DME GDEF files (.gdf)"
-msgstr "DME GDEF ファイル (.gdf)"
+msgstr "DME GDEF files (.gdf)"
 
 #: modules/file/gdeffile.c:190
-#, fuzzy, c-format
+#, c-format
 msgid "File version %u.%u is not supported."
 msgstr "ファイル バージョン %u.%u はサポートされていません。"
 
 #: modules/file/gdeffile.c:226
-#, fuzzy
 msgid "Control block mark is not CB, file is damaged."
 msgstr "制御ブロックマークがCBではない、ファイルが破損している。"
 
 #: modules/file/gdeffile.c:259
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown variable type %u."
 msgstr "不明な変数型%u。"
 
 #: modules/file/gsffile.c:91
-#, fuzzy
 msgid "Reads and exports Gwyddion Simple Field files."
 msgstr "Gwyddion シンプルフィールドファイルを読み取り、エクスポートします。"
 
 #: modules/file/gsffile.c:104
-#, fuzzy
 msgid "Gwyddion Simple Field (.gsf)"
-msgstr "グウィディオンシンプルフィールド (.gsf)"
+msgstr "Gwyddion Simple Field (.gsf)"
 
 #: modules/file/gwyfile.c:104
-#, fuzzy
 msgid "Loads and saves Gwyddion native data files (serialized objects)."
 msgstr ""
 "Gwyddion ネイティブ データ ファイル (シリアル化されたオブジェクト) を読み込ん"
 "で保存します。"
 
 #: modules/file/gwyfile.c:117
-#, fuzzy
 msgid "Gwyddion native format (.gwy)"
-msgstr "グウィディオンネイティブフォーマット(.gwy)"
+msgstr "Gwyddion native format (.gwy)"
 
 #: modules/file/gwyfile.c:179
-#, fuzzy
 msgid "Data deserialization failed."
 msgstr "データの逆シリアル化に失敗しました。"
 
 #: modules/file/gwyfile.c:184
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Data deserialization succeeded, but resulted in an unexpected object %s."
 msgstr "データの逆シリアル化は成功しましたが、予期しないオブジェクト%s。"
 
 #: modules/file/gwytiff.h:372 modules/file/gwytiff.h:388
-#, fuzzy, c-format
+#, c-format
 msgid "TIFF directory %lu ended unexpectedly."
 msgstr "TIFF ディレクトリ%luが予期せず終了しました。"
 
 #: modules/file/gwytiff.h:427
-#, fuzzy, c-format
+#, c-format
 msgid "BigTIFF data type %u was found in a classic TIFF."
-msgstr "bigTIFF データ型%uは、従来の TIFF で見つかりました。"
+msgstr "BigTIFF データ型%uは、従来の TIFF で見つかりました。"
 
 #: modules/file/gwytiff.h:444
-#, fuzzy
 msgid "Invalid tag data positions were found."
 msgstr "無効なタグ データ位置が見つかりました。"
 
 #: modules/file/gwytiff.h:534
-#, fuzzy, c-format
+#, c-format
 msgid "BigTIFF reserved fields are %u and %u instead of 8 and 0."
 msgstr "BigTIFF 予約フィールドは、8 と 0 ではなく%uされ、%uされます。"
 
 #: modules/file/gwytiff.h:1246 modules/file/gwytiff.h:1256
 #: modules/file/gwytiff.h:1423 modules/file/gwytiff.h:1430
-#, fuzzy, c-format
+#, c-format
 msgid "Required tag %u was not found."
 msgstr "必須のタグ %uが見つかりませんでした。"
 
 #: modules/file/gwytiff.h:1295 modules/file/gwytiff.h:1359
 #: modules/file/gwytiff.h:1486 modules/file/zeisslsm.c:957
-#, fuzzy, c-format
+#, c-format
 msgid "Compression type %u is not supported."
 msgstr "圧縮タイプ%uはサポートされていません。"
 
 #: modules/file/gwytiff.h:1455
-#, fuzzy
 msgid "Non-uniform bits per sample are unsupported."
 msgstr "サンプルごとの不均一ビットはサポートされていません。"
 
 #: modules/file/gwytiff.h:1494
-#, fuzzy, c-format
+#, c-format
 msgid "Planar configuration %u is not supported."
 msgstr "平面構成%uはサポートされていません。"
 
 #: modules/file/gwytiff.h:1518
-#, fuzzy
 msgid "Unsupported sample format"
 msgstr "サポートされていないサンプル形式"
 
 #: modules/file/gwyzip.h:157 modules/file/gwyzip.h:176
-#, fuzzy
 msgid "Minizip cannot open the file as a ZIP file."
 msgstr "ファイルを ZIP ファイルとして開くことはできません。"
 
@@ -4778,17 +4414,14 @@ msgid "Unknown error"
 msgstr "不明なエラー"
 
 #: modules/file/gwyzip.h:195
-#, fuzzy
 msgid "End of file"
 msgstr "ファイルの終わり"
 
 #: modules/file/gwyzip.h:197 modules/file/gwyzip.h:634
-#, fuzzy
 msgid "End of list of files"
 msgstr "ファイルのリストの末尾"
 
 #: modules/file/gwyzip.h:199
-#, fuzzy
 msgid "Parameter error"
 msgstr "パラメータ エラー"
 
@@ -4801,7 +4434,6 @@ msgid "Internal error"
 msgstr "内部エラー"
 
 #: modules/file/gwyzip.h:205
-#, fuzzy
 msgid "CRC error"
 msgstr "CRC エラー"
 
@@ -4822,7 +4454,6 @@ msgid "Minizip error %d while reading the zip file."
 msgstr "Minizip error %d while reading the zip file."
 
 #: modules/file/gwyzip.h:609
-#, fuzzy
 msgid "Libzip cannot open the file as a ZIP file."
 msgstr "ファイルを ZIP ファイルとして開くことはできません。"
 
@@ -4832,32 +4463,27 @@ msgid "Libzip error while reading the zip file: %s."
 msgstr "Zipファイルの読み取り中に Libzip エラー: %s。"
 
 #: modules/file/gwyzip.h:729
-#, fuzzy
 msgid "Cannot obtain the uncompressed file size."
 msgstr "圧縮されていないファイル サイズを取得できません。"
 
 #: modules/file/gwyzip.h:743
-#, fuzzy
 msgid "Cannot read file contents."
 msgstr "ファイルの内容を読み取れません。"
 
 #: modules/file/gxyzffile.c:118
-#, fuzzy
 msgid "Imports Gwyddion XYZ field files."
 msgstr "Gwyddion XYZ フィールドファイルをインポートします。"
 
 #: modules/file/gxyzffile.c:131
-#, fuzzy
 msgid "GwyXYZ data files"
 msgstr "GwyXYZ データファイル"
 
 #: modules/file/gxyzffile.c:225
-#, fuzzy, c-format
+#, c-format
 msgid "Data size %lu is not a multiple of point size %u."
 msgstr "データ サイズ%luは、ポイント サイズ%uの倍数ではありません。"
 
 #: modules/file/gxyzffile.c:380
-#, fuzzy
 msgid "Export GXYZF"
 msgstr "GXYZF のエクスポート"
 
@@ -4867,22 +4493,19 @@ msgid "XYZ data:"
 msgstr "XYZ データ:"
 
 #: modules/file/gxyzffile.c:404
-#, fuzzy
 msgid "Multi-channel file with all compatible data"
 msgstr "すべての互換性のあるデータを含むマルチチャンネルファイル"
 
 #: modules/file/hdf4file.c:329
-#, fuzzy
 msgid "Imports Hierarchical Data Format (HDF) files, version 4."
-msgstr "バージョン 4 の階層データ形式 (HDF) ファイルをインポートします。"
+msgstr ""
+"Hierarchical Data Format (HDF) files, version 4データをインポートします。"
 
 #: modules/file/hdf4file.c:350
-#, fuzzy
 msgid "Psi HDF4 files (.hdf)"
-msgstr "Psi HDF4 ファイル (.hdf)"
+msgstr "Psi HDF4 files (.hdf)"
 
 #: modules/file/hdf4file.c:531
-#, fuzzy
 msgid "PSI binary header is too short."
 msgstr "PSI バイナリ ヘッダーが短すぎます。"
 
@@ -4891,15 +4514,12 @@ msgid "HDF data with `native' type is not supported."
 msgstr "ネイティブ型の HDF データはサポートされていません。"
 
 #: modules/file/hdf5file.c:148
-#, fuzzy
 msgid "Imports files based on Hierarchical Data Format (HDF), version 5."
-msgstr ""
-"階層データ形式 (HDF) バージョン 5 に基づいてファイルをインポートします。"
+msgstr "Hierarchical Data Format (HDF), version 5 データをインポートします。"
 
 #: modules/file/hdf5file.c:175
-#, fuzzy
 msgid "Asylum Research Ergo HDF5 files (.h5)"
-msgstr "アサイラムリサーチエルゴHDF5ファイル(.h5)"
+msgstr "Asylum Research Ergo HDF5 files (.h5)"
 
 #: modules/file/hdf5file.c:218
 #, c-format
@@ -4907,12 +4527,11 @@ msgid "HDF5 library error %ld in function %s."
 msgstr "HDF5 library error %ld in function %s."
 
 #: modules/file/hdf5file.c:393
-#, fuzzy, c-format
+#, c-format
 msgid "Dataset %s has %d items, which does not match image resolution %d×%d."
 msgstr "データセット %sには、画像解像度%d×%dと一致しない%dアイテムがあります。"
 
 #: modules/file/hdrimage.cc:279
-#, fuzzy
 msgid ""
 "Imports 16bit grayscale PPM, PNG and TIFF images, imports and exports "
 "OpenEXR images (if available)."
@@ -4921,59 +4540,51 @@ msgstr ""
 "インポートし、エクスポートします(可能な場合)。"
 
 #: modules/file/hdrimage.cc:294
-#, fuzzy
 msgid "OpenEXR images (.exr)"
-msgstr "オープンEXR画像 (.exr)"
+msgstr "OpenEXR images (.exr)"
 
 #: modules/file/hdrimage.cc:302
 msgid "PNG images with 16bit depth (.png)"
-msgstr "深さ 16 ビットの PNG イメージ (.png)"
+msgstr "PNG images with 16bit depth (.png)"
 
 #: modules/file/hdrimage.cc:309
-#, fuzzy
 msgid "PGM images with 16bit depth (.pgm)"
-msgstr "16 ビット深度の PGM イメージ (.pgm)"
+msgstr "PGM images with 16bit depth (.pgm)"
 
 #: modules/file/hdrimage.cc:315
 msgid "TIFF and BigTIFF images with high depth (.tiff)"
-msgstr "高い深さの TIFF および BigTIFF イメージ (.tiff)"
+msgstr "TIFF and BigTIFF images with high depth (.tiff)"
 
 #: modules/file/hdrimage.cc:396
-#, fuzzy, c-format
+#, c-format
 msgid "EXR image writing failed with libImf error: %s"
-msgstr "%s exR イメージの書き込みが失敗しました。"
+msgstr "EXR image writing failed with libImf error: %s"
 
 #: modules/file/hdrimage.cc:419
-#, fuzzy
 msgid "Export EXR Image"
 msgstr "EXR イメージのエクスポート"
 
 #: modules/file/hdrimage.cc:435
-#, fuzzy
 msgid "Data format:"
 msgstr "データ形式:"
 
 #: modules/file/hdrimage.cc:444
-#, fuzzy
 msgid "Half (16bit float)"
-msgstr "ハーフ(16ビットフロート)"
+msgstr "Half (16bit float)"
 
 #: modules/file/hdrimage.cc:445
-#, fuzzy
 msgid "Float (32bit)"
-msgstr "フロート(32ビット)"
+msgstr "Float (32bit)"
 
 #: modules/file/hdrimage.cc:446
-#, fuzzy
 msgid "Integer (32bit)"
-msgstr "整数 (32 ビット)"
+msgstr "Integer (32bit)"
 
 #: modules/file/hdrimage.cc:451
 msgid "_Z scale:"
-msgstr "_Zスケール:"
+msgstr "Zスケール:"
 
 #: modules/file/hdrimage.cc:480
-#, fuzzy
 msgid "Representable"
 msgstr "表現"
 
@@ -4986,43 +4597,38 @@ msgid "Maximum:"
 msgstr "最大:"
 
 #: modules/file/hdrimage.cc:532 modules/process/deconvolve.c:469
-#, fuzzy
 msgid "_Use"
-msgstr "_Use"
+msgstr "Use"
 
 #: modules/file/hdrimage.cc:830
-#, fuzzy, c-format
+#, c-format
 msgid "EXR image loading failed with libImf error: %s"
-msgstr "exR イメージの読み込みに失敗し、libImf エラーが発生しました: %s"
+msgstr "EXR image loading failed with libImf error: %s"
 
 #: modules/file/hdrimage.cc:979
-#, fuzzy, c-format
+#, c-format
 msgid "OpenEXR data type %u is invalid or unsupported."
-msgstr "OpenEXR データ型%u無効またはサポートされていません。"
+msgstr "OpenEXR data type %u is invalid or unsupported."
 
 #: modules/file/hdrimage.cc:1438 modules/file/hdrimage.cc:1447
 #: modules/file/imgexport.c:5279 modules/file/imgexport.c:5290
-#, fuzzy, c-format
+#, c-format
 msgid "libpng initialization error (in %s)"
 msgstr "libpng 初期化エラー (%s)"
 
 #: modules/file/hdrimage.cc:1456 modules/file/imgexport.c:5354
-#, fuzzy
 msgid "libpng error occurred"
 msgstr "libpng エラーが発生しました"
 
 #: modules/file/hdrimage.cc:2053 modules/file/hdrimage.cc:2137
-#, fuzzy
 msgid "Failed to read image data."
 msgstr "イメージ データの読み取りに失敗しました。"
 
 #: modules/file/hdrimage.cc:2265 modules/file/pixmap.c:773
-#, fuzzy
 msgid "Image Information"
 msgstr "画像情報"
 
 #: modules/file/hdrimage.cc:2274 modules/file/pixmap.c:780
-#, fuzzy
 msgid "Horizontal size:"
 msgstr "水平サイズ:"
 
@@ -5031,7 +4637,6 @@ msgid "Vertical size:"
 msgstr "垂直サイズ:"
 
 #: modules/file/hdrimage.cc:2285 modules/file/pixmap.c:791
-#, fuzzy
 msgid "Channels:"
 msgstr "チャンネル："
 
@@ -5043,7 +4648,6 @@ msgstr "ページ:"
 #: modules/file/pixmap.c:821 modules/file/rawfile.c:641
 #: modules/process/dimensions.h:461 modules/xyz/xyz_drift.c:774
 #: modules/xyz/xyz_raster.c:554
-#, fuzzy
 msgid "Physical Dimensions"
 msgstr "物理寸法"
 
@@ -5057,34 +4661,30 @@ msgstr "物理寸法"
 #: modules/process/dimensions.h:144 modules/process/volumize_layers.c:262
 #: modules/volume/volume_calibrate.c:447 modules/volume/volume_calibrate.c:468
 #: modules/volume/volume_calibrate.c:489 modules/volume/volume_calibrate.c:542
-#, fuzzy
 msgid "verb|Change"
 msgstr "動詞|変更"
 
 #: modules/file/hdrimage.cc:2373 modules/file/pixmap.c:866
 #: modules/file/rawfile.c:686 modules/process/crosscor.c:265
 #: modules/process/dimensions.h:471
-#, fuzzy
 msgid "H_eight:"
-msgstr "H_eight:"
+msgstr "高さ:"
 
 #: modules/file/hdrimage.cc:2382 modules/file/nmmxyz.c:611
 #: modules/file/pixmap.c:873 modules/file/rawfile.c:693
-#, fuzzy
 msgid "Identical _measures"
-msgstr "同一_measures"
+msgstr "Identical _measures"
 
 #: modules/file/hdrimage.cc:2396 modules/file/pixmap.c:885
 #: modules/file/rawfile.c:705
 msgid "_Z-scale (per sample unit):"
-msgstr "_Zスケール(サンプル単位あたり):"
+msgstr "Zスケール(サンプルごと):"
 
 #: modules/file/hdrimage.cc:2585 modules/file/pixmap.c:1168
 #: modules/file/rawfile.c:1378 modules/process/calcoefs_new.c:819
 #: modules/process/calcoefs_simple.c:1202 modules/process/calcoefs_view.c:1380
 #: modules/process/calibrate.c:1086 modules/process/dimensions.h:178
 #: modules/process/volumize_layers.c:317 modules/volume/volume_calibrate.c:1016
-#, fuzzy
 msgid "Change Units"
 msgstr "単位の変更"
 
@@ -5097,147 +4697,126 @@ msgid "New _units:"
 msgstr "新しい_units:"
 
 #: modules/file/hitachi-afm.c:107
-#, fuzzy
 msgid "Imports Hitachi AFM files."
-msgstr "日立 AFM ファイルをインポートします。"
+msgstr "Hitachi AFM データをインポートします。"
 
 #: modules/file/hitachi-afm.c:122
-#, fuzzy
 msgid "Hitachi AFM files (.afm)"
-msgstr "日立AFMファイル(.afm)"
+msgstr "Hitachi AFM files (.afm)"
 
 #: modules/file/hitachi-afm.c:128
-#, fuzzy
 msgid "Hitachi AFM files, old (.afm)"
-msgstr "日立AFMファイル、古い(.afm)"
+msgstr "Hitachi AFM files, old (.afm)"
 
 #: modules/file/hitachi-afm.c:205
-#, fuzzy, c-format
+#, c-format
 msgid "Hitachi-AFM has not registered file type `%s'."
-msgstr "日立AFMは、ファイルタイプ'%s'を登録していません。"
+msgstr "Hitachi-AFM has not registered file type `%s'."
 
 #: modules/file/hitachi-sem.c:84
-#, fuzzy
 msgid "Imports Hitachi S-3700 and S-4800 SEM files."
-msgstr "日立S-3700およびS-4800 SEMファイルをインポートします。"
+msgstr "Hitachi S-3700 and S-4800 SEM filesデータをインポートします。"
 
 #: modules/file/hitachi-sem.c:97
-#, fuzzy
 msgid "Hitachi SEM files (.txt + image)"
-msgstr "日立SEMファイル(.txt+画像)"
+msgstr "Hitachi SEM files (.txt + image)"
 
 #: modules/file/hitachi-sem.c:167 modules/file/oldmda.c:247
 #: modules/file/tescan.c:441 modules/file/unisoku.c:235
-#, fuzzy
 msgid "No corresponding data file was found for header file."
 msgstr "ヘッダー ファイルに対応するデータ ファイルが見つかりませんでした。"
 
 #: modules/file/hitachi-sem.c:173
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot load image: %s"
 msgstr "イメージを読み込めません: %s"
 
 #: modules/file/hitachi-sem.c:189
-#, fuzzy, c-format
+#, c-format
 msgid "Field DataSize %ux%u does not match image dimensions %ux%u."
 msgstr ""
 "フィールド データ サイズ %ux%u はイメージのサイズ %ux%u と一致しません。"
 
 #: modules/file/igorfile.c:211
-#, fuzzy
 msgid "Imports Igor binary waves (.ibw)."
-msgstr "イゴールバイナリ波(.ibw)を輸入します。"
+msgstr "Imports Igor binary waves (.ibw)."
 
 #: modules/file/igorfile.c:224
-#, fuzzy
 msgid "Igor binary waves (.ibw)"
-msgstr "イゴールバイナリ波 (.ibw)"
+msgstr "Igor binary waves (.ibw)"
 
 #: modules/file/igorfile.c:284
-#, fuzzy, c-format
+#, c-format
 msgid "Format version is %d.  Only version 5 is supported."
 msgstr "フォーマットバージョンが%d。 バージョン 5 のみがサポートされます。"
 
 #: modules/file/igorfile.c:306
-#, fuzzy
 msgid "Only two-dimensional data are supported."
-msgstr "2 次元データのみがサポートされます。"
+msgstr "2次元データのみがサポートされます。"
 
 #: modules/file/igorfile.c:318
-#, fuzzy, c-format
+#, c-format
 msgid "Number of data points %u does not match resolutions %u×%u×%u."
 msgstr "解像度%u一致しないデータ ポイントの数%u×%u×%u。"
 
 #: modules/file/igorfile.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "Data size %u does not match the number of data points %u×%u."
 msgstr "データ サイズ%uは、%u×%uデータ ポイントの数と一致しません。"
 
 #: modules/file/igorfile.c:370
-#, fuzzy
 msgid "Cannot read channel labels."
-msgstr "チャネル ラベルを読み取れません。"
+msgstr "チャンネルラベルを読み取れません。"
 
 #: modules/file/imgexport.c:400 modules/file/pixmap.c:215
-#, fuzzy
 msgid "Portable Network Graphics (.png)"
-msgstr "ポータブル ネットワーク グラフィックス (.png)"
+msgstr "Portable Network Graphics (.png)"
 
 #: modules/file/imgexport.c:406 modules/file/pixmap.c:220
 msgid "JPEG (.jpeg,.jpg)"
 msgstr "JPEG (.jpeg,.jpg)"
 
 #: modules/file/imgexport.c:412 modules/file/pixmap.c:229
-#, fuzzy
 msgid "TIFF (.tiff,.tif)"
 msgstr "TIFF (.tiff,.tif)"
 
 #: modules/file/imgexport.c:418 modules/file/pixmap.c:235
-#, fuzzy
 msgid "Portable Pixmap (.ppm,.pnm)"
-msgstr "ポータブルピックスマップ(.ppm、.pnm)"
+msgstr "Portable Pixmap (.ppm,.pnm)"
 
 #: modules/file/imgexport.c:424 modules/file/pixmap.c:240
-#, fuzzy
 msgid "Windows or OS2 Bitmap (.bmp)"
-msgstr "ウィンドウまたは OS2 ビットマップ (.bmp)"
+msgstr "Windows or OS2 Bitmap (.bmp)"
 
 #: modules/file/imgexport.c:430 modules/file/pixmap.c:245
-#, fuzzy
 msgid "TARGA (.tga,.targa)"
-msgstr "タルガ (.tga,.タルガ)"
+msgstr "TARGA (.tga,.targa)"
 
 #: modules/file/imgexport.c:437 modules/file/pixmap.c:280
-#, fuzzy
 msgid "WebP (.webp)"
-msgstr "ウェブP (.webp)"
+msgstr "WebP (.webp)"
 
 #: modules/file/imgexport.c:445
-#, fuzzy
 msgid "Portable document format (.pdf)"
-msgstr "ポータブル ドキュメント形式 (.pdf)"
+msgstr "Portable document format (.pdf)"
 
 #: modules/file/imgexport.c:453
-#, fuzzy
 msgid "Encapsulated PostScript (.eps)"
-msgstr "カプセル化されたポストスクリプト (.eps)"
+msgstr "Encapsulated PostScript (.eps)"
 
 #: modules/file/imgexport.c:461
-#, fuzzy
 msgid "Scalable Vector Graphics (.svg)"
-msgstr "スケーラブルベクターグラフィックス(.svg)"
+msgstr "Scalable Vector Graphics (.svg)"
 
 #: modules/file/imgexport.c:471 modules/tools/selectionmanager.c:272
-#, fuzzy
 msgid "Horiz./vert. lines"
-msgstr "ホリス/ヴァートライン"
+msgstr "水平/垂直ライン"
 
 #: modules/file/imgexport.c:475 modules/tools/selectionmanager.c:273
 msgid "Crosses"
 msgstr "交差"
 
 #: modules/file/imgexport.c:479 modules/tools/selectionmanager.c:274
-#, fuzzy
 msgid "Ellipses"
 msgstr "楕円"
 
@@ -5260,27 +4839,22 @@ msgid "Path"
 msgstr "パス"
 
 #: modules/file/imgexport.c:505 modules/file/imgexport.c:511
-#, fuzzy
 msgid "ruler|_None"
-msgstr "定規|_None"
+msgstr "定規|なし"
 
 #: modules/file/imgexport.c:506
-#, fuzzy
 msgid "_Rulers"
-msgstr "_Rulers"
+msgstr "定規"
 
 #: modules/file/imgexport.c:507
-#, fuzzy
 msgid "_Inset scale bar"
-msgstr "_Insetスケール バー"
+msgstr "内部スケールバー"
 
 #: modules/file/imgexport.c:512
-#, fuzzy
 msgid "_False color ruler"
-msgstr "カラールーラー_False"
+msgstr "カラーバー"
 
 #: modules/file/imgexport.c:516
-#, fuzzy
 msgid "title|None"
 msgstr "タイトル|なし"
 
@@ -5289,12 +4863,10 @@ msgid "At the top"
 msgstr "一番上"
 
 #: modules/file/imgexport.c:518
-#, fuzzy
 msgid "Along the right edge"
 msgstr "右端に沿って"
 
 #: modules/file/imgexport.c:524
-#, fuzzy
 msgid ""
 "Renders data into vector (SVG, PDF, EPS) and pixmap (PNG, JPEG, TIFF, WebP, "
 "PPM, BMP, TARGA) images. Export to some formats relies on GDK and other "
@@ -5318,14 +4890,12 @@ msgid "Black"
 msgstr "黒"
 
 #: modules/file/imgexport.c:3130
-#, fuzzy
 msgid "Pi_xel size:"
-msgstr "Pi_xelサイズ:"
+msgstr "ピクセルサイズ:"
 
 #: modules/file/imgexport.c:3138
-#, fuzzy
 msgid "Pixels per _inch:"
-msgstr "_inchあたりのピクセル数:"
+msgstr "インチあたりのピクセル数:"
 
 #: modules/file/imgexport.c:3163
 msgid "_Zoom:"
@@ -5341,57 +4911,48 @@ msgstr "拡大:"
 #: modules/process/pat_synth.c:1276 modules/process/pat_synth.c:1623
 #: modules/process/pat_synth.c:2072 modules/process/pat_synth.c:2453
 #: modules/process/phase_synth.c:298 modules/process/tip_blind.c:342
-#, fuzzy
 msgid "_Height:"
-msgstr "_Height:"
+msgstr "高さ:"
 
 #: modules/file/imgexport.c:3197
-#, fuzzy
 msgid "_Font:"
-msgstr "_Font:"
+msgstr "フォント:"
 
 #: modules/file/imgexport.c:3206
-#, fuzzy
 msgid "_Font size:"
-msgstr "_Fontサイズ:"
+msgstr "フォントサイズ:"
 
 #: modules/file/imgexport.c:3224
 msgid "_Border width:"
-msgstr "_Border幅:"
+msgstr "ボーダー幅:"
 
 #: modules/file/imgexport.c:3233
-#, fuzzy
 msgid "_Tick length:"
-msgstr "_Tickの長さ:"
+msgstr "Tickの長さ:"
 
 #: modules/file/imgexport.c:3240
-#, fuzzy
 msgid "Tie sizes to _data pixels"
-msgstr "ピクセルのサイズを_dataにタイ"
+msgstr "サイズをデータのピクセルサイズに合わせる"
 
 #: modules/file/imgexport.c:3250 modules/file/rawfile.c:835
-#, fuzzy
 msgid "_Decimal separator is comma"
-msgstr "_Decimal区切り記号はカンマです"
+msgstr "数値区切り記号はカンマです"
 
 #: modules/file/imgexport.c:3262
 msgid "Colors"
 msgstr "色"
 
 #: modules/file/imgexport.c:3267
-#, fuzzy
 msgid "_Line and text color:"
-msgstr "_Lineとテキストの色:"
+msgstr "ラインとテキストの色:"
 
 #: modules/file/imgexport.c:3272
-#, fuzzy
 msgid "_Transparent background"
-msgstr "_Transparent背景"
+msgstr "透明背景"
 
 #: modules/file/imgexport.c:3283
-#, fuzzy
 msgid "_Background color:"
-msgstr "_Background色:"
+msgstr "背景色:"
 
 #: modules/file/imgexport.c:3493 modules/process/fibre_synth.c:582
 #: modules/process/obj_synth.c:647 modules/process/pat_synth.c:481
@@ -5420,64 +4981,52 @@ msgid "bottom"
 msgstr "下"
 
 #: modules/file/imgexport.c:3539
-#, fuzzy
 msgid "Lateral scale"
 msgstr "横目盛"
 
 #: modules/file/imgexport.c:3556 modules/process/lno_synth.c:1068
-#, fuzzy
 msgid "_Length:"
-msgstr "_Length:"
+msgstr "長さ:"
 
 #: modules/file/imgexport.c:3562
-#, fuzzy
 msgid "_Auto"
-msgstr "_Auto"
+msgstr "自動"
 
 #: modules/file/imgexport.c:3579 modules/file/imgexport.c:3903
-#, fuzzy
 msgid "Hori_zontal gap:"
-msgstr "Hori_zontalギャップ:"
+msgstr "水平ギャップ:"
 
 #: modules/file/imgexport.c:3586 modules/file/imgexport.c:3883
-#, fuzzy
 msgid "_Vertical gap:"
-msgstr "_Verticalギャップ:"
+msgstr "垂直ギャップ:"
 
 #: modules/file/imgexport.c:3598 modules/file/imgexport.c:4213
-#, fuzzy
 msgid "Colo_r:"
-msgstr "Colo_r:"
+msgstr "色:"
 
 #: modules/file/imgexport.c:3602 modules/file/imgexport.c:4217
-#, fuzzy
 msgid "Out_line color:"
-msgstr "Out_line色:"
+msgstr "外枠色:"
 
 #: modules/file/imgexport.c:3609 modules/file/imgexport.c:4224
-#, fuzzy
 msgid "O_utline thickness:"
-msgstr "O_utline厚さ:"
+msgstr "外枠幅:"
 
 #: modules/file/imgexport.c:3618 modules/file/imgexport.c:4233
-#, fuzzy
 msgid "O_pacity:"
-msgstr "O_pacity:"
+msgstr "透明度:"
 
 #: modules/file/imgexport.c:3625
-#, fuzzy
 msgid "Draw _ticks"
-msgstr "_ticksを描画する"
+msgstr "Tickを描画"
 
 #: modules/file/imgexport.c:3635
-#, fuzzy
 msgid "Draw _label"
-msgstr "_labelを描画する"
+msgstr "ラベルを描画"
 
 #: modules/file/imgexport.c:3645
-#, fuzzy
 msgid "Draw text _above scale bar"
-msgstr "スケール バー_aboveテキストを描画する"
+msgstr "文字をスケールバーの上に描画"
 
 #: modules/file/imgexport.c:3809 modules/process/acf2d.c:286
 #: modules/process/curvature.c:578 modules/process/fit-shape.c:2039
@@ -5500,34 +5049,28 @@ msgstr "画像"
 #: modules/process/straighten_path.c:270 modules/process/unrotate.c:277
 #: modules/tools/profile.c:514 modules/tools/roughness.c:612
 #: modules/tools/sfunctions.c:493 modules/xyz/xyz_raster.c:620
-#, fuzzy
 msgid "_Interpolation type:"
-msgstr "_Interpolationタイプ:"
+msgstr "内挿タイプ:"
 
 #: modules/file/imgexport.c:3843
-#, fuzzy
 msgid "Draw _frame"
-msgstr "_frameを描画する"
+msgstr "フレームを描画"
 
 #: modules/file/imgexport.c:3852
-#, fuzzy
 msgid "Draw _mask"
-msgstr "_maskを描画する"
+msgstr "マスクを描画"
 
 #: modules/file/imgexport.c:3862
-#, fuzzy
 msgid "Draw mask _legend"
-msgstr "マスク_legendを描画する"
+msgstr "マスクのラベルを描画"
 
 #: modules/file/imgexport.c:3890
-#, fuzzy
 msgid "Value Scale"
 msgstr "値のスケール"
 
 #: modules/file/imgexport.c:3911
-#, fuzzy
 msgid "Fi_xed precision:"
-msgstr "Fi_xed精度:"
+msgstr "固定精度:"
 
 #: modules/file/imgexport.c:3926
 msgid "Fixed _kilo threshold:"
@@ -5538,64 +5081,53 @@ msgid "Title"
 msgstr "タイトル"
 
 #: modules/file/imgexport.c:3948
-#, fuzzy
 msgid "Posi_tion:"
-msgstr "Posi_tion:"
+msgstr "位置:"
 
 #: modules/file/imgexport.c:3955
-#, fuzzy
 msgid "_Gap:"
-msgstr "_Gap:"
+msgstr "ギャップ:"
 
 #: modules/file/imgexport.c:3962
-#, fuzzy
 msgid "Put _units to title"
-msgstr "_unitsをタイトルにする"
+msgstr "タイトルに単位を追加"
 
 #: modules/file/imgexport.c:4154
-#, fuzzy
 msgid "Draw _selection"
-msgstr "_selectionを描画する"
+msgstr "選択範囲を描画"
 
 #: modules/file/imgexport.c:4205 modules/tools/selectionmanager.c:366
 msgid "Objects"
 msgstr "オブジェクト"
 
 #: modules/file/imgexport.c:4637
-#, fuzzy
 msgid "Lateral"
-msgstr "横"
+msgstr "水平"
 
 #: modules/file/imgexport.c:4676 modules/file/rawfile.c:1032
 #: modules/process/calcoefs_load.c:229 modules/process/neural.c:699
-#, fuzzy
 msgid "verb|_Load"
-msgstr "動詞|_Load"
+msgstr "動詞|読込"
 
 #: modules/file/imgexport.c:4682 modules/file/rawfile.c:1038
 #: modules/process/neural.c:705
-#, fuzzy
 msgid "verb|_Store"
-msgstr "動詞|_Store"
+msgstr "動詞|格納"
 
 #: modules/file/imgexport.c:4688 modules/file/rawfile.c:1044
 #: modules/process/neural.c:711
-#, fuzzy
 msgid "_Rename"
-msgstr "_Rename"
+msgstr "名称変更"
 
 #: modules/file/imgexport.c:4708 modules/file/rawfile.c:1063
-#, fuzzy
 msgid "Preset _name:"
-msgstr "プリセット_name:"
+msgstr "プリセット名:"
 
 #: modules/file/imgexport.c:4801
-#, fuzzy
 msgid "Export as 1_6 bit grayscale"
-msgstr "1_6 ビットのグレースケールとしてエクスポート"
+msgstr "16 ビットのグレースケールとしてエクスポート"
 
 #: modules/file/imgexport.c:4824
-#, fuzzy
 msgid "Lateral Scale"
 msgstr "横目盛"
 
@@ -5613,51 +5145,45 @@ msgid "Presets"
 msgstr "プリセット"
 
 #: modules/file/imgexport.c:5606
-#, fuzzy, c-format
+#, c-format
 msgid "Cairo error occurred: %s"
-msgstr "カイロ エラーが発生しました: %s"
+msgstr "Cairoでエラーが発生しました: %s"
 
 #: modules/file/imgexport.c:5630
-#, fuzzy, c-format
+#, c-format
 msgid "Pixbuf save failed: %s."
-msgstr "ピックスビューフの保存に失敗しました: %s。"
+msgstr "Pixbuf 保存に失敗: %s."
 
 #: modules/file/imgexport.c:5908
-#, fuzzy
 msgid "Image is too large to be stored as TARGA."
 msgstr "イメージが大きすぎて TARGA として格納できません。"
 
 #: modules/file/imgexport.c:6643 modules/file/imgexport.c:6672
-#, fuzzy
 msgid "Draw _numbers"
-msgstr "_numbersを描画する"
+msgstr "数を描画"
 
 #: modules/file/imgexport.c:6655 modules/file/imgexport.c:6703
-#, fuzzy
 msgid "_End marker length:"
-msgstr "_Endマーカーの長さ:"
+msgstr "終了マーカーの長さ:"
 
 #: modules/file/imgexport.c:6684
-#, fuzzy
 msgid "Marker _radius:"
-msgstr "マーカー_radius:"
+msgstr "マーカー半径:"
 
 #: modules/file/imgexportpreset.h:171 modules/process/maskops.c:150
 msgid "Mask"
 msgstr "マスク"
 
 #: modules/file/intelliwave.c:231
-#, fuzzy
 msgid "Imports IntelliWave interferometric ESD data."
-msgstr "インテッリ波干渉ESDデータをインポートします。"
+msgstr "IntelliWave interferometric ESD データをインポートします。"
 
 #: modules/file/intelliwave.c:244
-#, fuzzy
 msgid "IntelliWave interferometric data (.esd)"
-msgstr "インテッリ波干渉データ(.esd)"
+msgstr "IntelliWave interferometric data (.esd)"
 
 #: modules/file/intelliwave.c:306
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Invalid data address 0x%0x found.  File is in some unknown format version."
 msgstr ""
@@ -5665,37 +5191,31 @@ msgstr ""
 "式のバージョンです。"
 
 #: modules/file/intematix.c:125
-#, fuzzy
 msgid "Imports Intematix SDF data files."
-msgstr "Intematix SDF データ ファイルをインポートします。"
+msgstr "Intematix SDF データをインポートします。"
 
 #: modules/file/intematix.c:138
-#, fuzzy
 msgid "Intematix SDF data files (.sdf)"
-msgstr "インテマティクス SDF データ ファイル (.sdf)"
+msgstr "Intematix SDF data files (.sdf)"
 
 #: modules/file/intematix.c:306
-#, fuzzy
 msgid "Parameter tag set is incomplete."
 msgstr "パラメータタグセットが不完全です。"
 
 #: modules/file/intematix.c:311
-#, fuzzy
 msgid "image depth"
 msgstr "画像の深さ"
 
 #: modules/file/iso28600.c:543
-#, fuzzy
 msgid "Imports and exports ISO 28600:2011 SPM data transfer format."
-msgstr "インポートとエクスポート ISO 28600:2011 SPM データ転送形式。"
+msgstr "ISO 28600:2011 SPM フォーマットのインポート・エクスポート。"
 
 #: modules/file/iso28600.c:559
-#, fuzzy
 msgid "ISO 28600:2011 SPM data transfer files (.spm)"
-msgstr "ISO 28600:2011 SPM データ転送ファイル (.spm)"
+msgstr "ISO 28600:2011 SPM data transfer files (.spm)"
 
 #: modules/file/iso28600.c:658
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Only regular and irregular mappings are implemented but the file has mapping "
 "type ‘%s’."
@@ -5705,37 +5225,36 @@ msgstr ""
 
 #: modules/file/iso28600.c:687 modules/file/iso28600.c:696
 #: modules/file/iso28600.c:705
-#, fuzzy, c-format
+#, c-format
 msgid "List ‘%s’ has %u items which differs from the number %u given by ‘%s’."
-msgstr "リスト '%s' には、%u項目が 「%s」で指定%u数と異なります。"
+msgstr "List ‘%s’ has %u items which differs from the number %u given by ‘%s’."
 
 #: modules/file/iso28600.c:773 modules/file/spip-asc.c:412
-#, fuzzy, c-format
+#, c-format
 msgid "End of file reached when reading sample #%u of %u"
 msgstr "サンプル #%u の %u を読み取る際に、ファイルの終わりに達しました"
 
 #: modules/file/iso28600.c:782 modules/file/iso28600.c:871
 #: modules/file/spip-asc.c:399
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed data encountered when reading sample #%u"
 msgstr "サンプル #%u を読み取る際に不正な形式のデータが検出されました"
 
 #: modules/file/iso28600.c:795 modules/file/iso28600.c:885
 #: modules/file/iso28600.c:1018
-#, fuzzy
 msgid "Missing end-of-data marker."
 msgstr "データの終わりマーカーがありません。"
 
 #: modules/file/iso28600.c:999 modules/file/sdfile.c:862
 #: modules/file/sdfile.c:879 modules/file/spip-asc.c:270
 #: modules/file/witec-asc.c:222 modules/file/wsffile.c:238
-#, fuzzy, c-format
+#, c-format
 msgid "End of file reached when reading sample #%d of %d"
 msgstr "サンプル #%d の %d を読み取る際に、ファイルの終わりに達しました"
 
 #: modules/file/iso28600.c:1008 modules/file/spip-asc.c:278
 #: modules/file/witec-asc.c:229 modules/file/wsffile.c:245
-#, fuzzy, c-format
+#, c-format
 msgid "Malformed data encountered when reading sample #%d of %d"
 msgstr "サンプル #%d の %d を読み取る際に、不正な形式のデータが検出されました"
 
@@ -5749,12 +5268,10 @@ msgid "Imports JEOL data files."
 msgstr "JEOL データファイルをインポート."
 
 #: modules/file/jeol.c:550
-#, fuzzy
 msgid "JEOL data files (.tif)"
-msgstr "JEOL データ ファイル (.tif)"
+msgstr "JEOL data files (.tif)"
 
 #: modules/file/jeol.c:678
-#, fuzzy
 msgid "The type of data is unknown.  Please report it to the developers."
 msgstr "データの種類が不明です。 開発者に報告してください。"
 
@@ -5771,42 +5288,37 @@ msgid "JPK force curves (.jpk-force, .jpk-force-map, .jpk-qi-data)"
 msgstr "JPKフォースカーブ(.jpk-force, .jpk-force-map, .jpk-qi-data)"
 
 #: modules/file/jpkscan.c:373
-#, fuzzy
 msgid "File does not contain grid dimensions."
 msgstr "ファイルにグリッド寸法が含まれていません。"
 
 #: modules/file/jpkscan.c:745 modules/file/jpkscan.c:2737
-#, fuzzy, c-format
+#, c-format
 msgid "Scanning file (%u curves)..."
 msgstr "ファイルをスキャン (%uカーブ)."
 
 #: modules/file/jpkscan.c:785 modules/file/nmmxyz.c:309
-#, fuzzy
 msgid "Reading files..."
-msgstr "ファイルの読み取り."
+msgstr "ファイルの読み取り中…"
 
 #: modules/file/jpkscan.c:803
-#, fuzzy
 msgid "Creating volume data..."
-msgstr "ボリュームデータの作成."
+msgstr "ボリュームデータの作成…"
 
 #: modules/file/jpkscan.c:955
-#, fuzzy
 msgid "Non-uniform point and/or segment numbering is not supported."
 msgstr "不均等なポイントやセグメントの番号付けはサポートされていません。"
 
 #: modules/file/jpkscan.c:964
-#, fuzzy
 msgid "Non-uniform channel lists are not supported."
 msgstr "非一様チャネル リストはサポートされていません。"
 
 #: modules/file/jpkscan.c:972
-#, fuzzy, c-format
+#, c-format
 msgid "Data file %s was found instead of expected %s."
 msgstr "予期される%sではなく、データ ファイル %sが見つかりました。"
 
 #: modules/file/jpkscan.c:1897
-#, fuzzy, c-format
+#, c-format
 msgid "Header properties file for index %u is missing."
 msgstr "インデックス%uのヘッダー プロパティ ファイルがありません。"
 
@@ -5819,105 +5331,91 @@ msgid "Imports JEOL JSPM data files."
 msgstr "JEOL JSPM データファイルをインポート."
 
 #: modules/file/jspmfile.c:201
-#, fuzzy
 msgid "JEOL JSPM data files (.tif)"
-msgstr "JEOL JSPM データ ファイル (.tif)"
+msgstr "JEOL JSPM data files (.tif)"
 
 #: modules/file/jspmfile.c:280
-#, fuzzy, c-format
+#, c-format
 msgid "Header block %u has invalid position or size."
 msgstr "ヘッダー ブロック%uの位置またはサイズが無効です。"
 
 #: modules/file/jspmfile.c:362 modules/file/jspmfile.c:369
 #: modules/file/jspmfile.c:431 modules/file/jspmfile.c:438
-#, fuzzy
 msgid "Cannot find image header block."
 msgstr "イメージ ヘッダー ブロックが見つかりません。"
 
 #: modules/file/jspmfile.c:483
-#, fuzzy
 msgid "Cannot find piezo header block."
 msgstr "ピエゾヘッダーブロックが見つかりません。"
 
 #: modules/file/keyence.c:315
-#, fuzzy
 msgid "Imports Keyence VK4 files."
-msgstr "キーエンス VK4 ファイルをインポートします。"
+msgstr "Keyence VK4 データをインポートします。"
 
 #: modules/file/keyence.c:328
-#, fuzzy
 msgid "Keyence VK4 data files (.vk4)"
-msgstr "キーエンス VK4 データ ファイル (.vk4)"
+msgstr "Keyence VK4 data files (.vk4)"
 
 #: modules/file/keyence.c:896 modules/file/omicronflat.c:2511
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot convert string from UTF-16: %s"
 msgstr "文字列を UTF-16 から変換できません: %s"
 
 #: modules/file/leica.c:176
-#, fuzzy
 msgid "Imports Leica CLSM image files (LIF)."
-msgstr "ライカ CLSM イメージ ファイル (LIF) をインポートします。"
+msgstr "Leica CLSM image files (LIF) データをインポートします。"
 
 #: modules/file/leica.c:189
-#, fuzzy
 msgid "Leica LIF image files (.lif)"
-msgstr "ライカ LIF イメージ ファイル (.lif)"
+msgstr "Leica LIF image files (.lif)"
 
 #: modules/file/lextfile.c:88
-#, fuzzy
 msgid "Imports LEXT data files."
-msgstr "LEXT データ ファイルをインポートします。"
+msgstr "LEXT データをインポートします。"
 
 #: modules/file/lextfile.c:101
-#, fuzzy
 msgid "Olympus LEXT OLS4000 (.lext)"
-msgstr "オリンパス LEXT OLS4000 (.lext)"
+msgstr "Olympus LEXT OLS4000 (.lext)"
 
 #: modules/file/magellan.c:66
-#, fuzzy
 msgid "Imports FEI Magellan SEM images."
-msgstr "FEI マゼラン SEM イメージをインポートします。"
+msgstr "FEI Magellan SEM データをインポートします。"
 
 #: modules/file/magellan.c:79
-#, fuzzy
 msgid "FEI Magellan SEM image (.tif)"
-msgstr "フェイ・マゼランSEM画像(.tif)"
+msgstr "FEI Magellan SEM image (.tif)"
 
 #: modules/file/mapvue.c:467
-#, fuzzy
 msgid "Imports MapVue data files (.map)."
-msgstr "マップビューデータファイル (.map) をインポートします。"
+msgstr "MapVue data files (.map) データをインポートします。"
 
 #: modules/file/mapvue.c:480
-#, fuzzy
 msgid "MapVue files (.map)"
-msgstr "マップビューファイル (.map)"
+msgstr "MapVue files (.map)"
 
 #: modules/file/mapvue.c:556 modules/file/mapvue.c:586
-#, fuzzy, c-format
+#, c-format
 msgid "Required tag %u or %u was not found."
 msgstr "必須タグ %uまたは%uが見つかりませんでした。"
 
 #: modules/file/mapvue.c:798
-#, fuzzy
 msgid "File end was reached while scanning tags."
 msgstr "タグのスキャン中にファイルの末尾に到達しました。"
 
 #: modules/file/mapvue.c:810
-#, fuzzy, c-format
+#, c-format
 msgid "Expected tag %u size is %u bytes, but the actual size is %u bytes."
 msgstr ""
 "想定されるタグ %u サイズは %u バイトですが、実際のサイズは %u バイトです。"
 
 #: modules/file/mapvue.c:824
-#, fuzzy, c-format
+#, c-format
 msgid "Tag %u size is %u bytes, which is not enough to hold the tag marker."
 msgstr ""
 "タグ%uサイズは%uバイトで、タグマーカーを保持するには十分ではありません。"
 
 #: modules/file/mapvue.c:835 modules/file/mapvue.c:848
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Tag %u size is %u bytes, which is not enough to hold the tag marker and size."
 msgstr ""
@@ -5925,12 +5423,11 @@ msgstr ""
 "ん。"
 
 #: modules/file/mapvue.c:859
-#, fuzzy, c-format
+#, c-format
 msgid "Tag marker is missing on an unknown tag %u."
 msgstr "不明なタグ%uにタグ マーカーがありません。"
 
 #: modules/file/mapvue.c:878 modules/file/mapvue.c:888
-#, fuzzy
 msgid "Character array does not fit into the file."
 msgstr "文字配列はファイルに収まりません。"
 
@@ -5940,66 +5437,55 @@ msgid "Fiducial record does not fit into the file."
 msgstr "基準レコードがファイルに収まりません。"
 
 #: modules/file/mapvue.c:1150
-#, fuzzy, c-format
+#, c-format
 msgid "Tag %u size is %u which is not sufficient to hold its content."
 msgstr "タグ%uサイズは%uで、コンテンツを保持するには不十分です。"
 
 #: modules/file/matfile.c:214
-#, fuzzy
 msgid "Imports Matlab MAT files v5."
-msgstr "Matlab MAT ファイル v5 をインポートします。"
+msgstr "Matlab MAT files v5 データをインポートします。"
 
 #: modules/file/matfile.c:227
-#, fuzzy
 msgid "Matlab MAT 5 files (.mat)"
-msgstr "Matlab MAT 5 ファイル (.mat)"
+msgstr "Matlab MAT 5 files (.mat)"
 
 #: modules/file/matfile.c:296
-#, fuzzy
 msgid "Compressed data inside compressed data found."
 msgstr "圧縮データ内の圧縮データが見つかりました。"
 
 #: modules/file/matfile.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid short tag of type %u claims to consists of %u bytes."
 msgstr "%uバイトで構成される型%uクレームの無効な short タグ。"
 
 #: modules/file/matfile.c:602
-#, fuzzy, c-format
+#, c-format
 msgid "Decompression of compressed variable failed with error %d."
 msgstr "圧縮変数の解凍がエラー%dで失敗しました。"
 
 #: modules/file/metropro.c:340
-#, fuzzy
 msgid "Imports binary MetroPro (Zygo) data files."
-msgstr "バイナリメトロプロ (Zygo) データファイルをインポートします。"
+msgstr "MetroPro (Zygo) データをインポートします。"
 
 #: modules/file/metropro.c:353
-#, fuzzy
 msgid "MetroPro files (.dat)"
-msgstr "メトロプロファイル (.dat)"
+msgstr "MetroPro files (.dat)"
 
 #: modules/file/metropro.c:540
-#, fuzzy
 msgid "File header is larger than file."
-msgstr "ファイル ヘッダーがファイルより大きい。"
+msgstr "ファイル ヘッダーがファイルより大きいです。"
 
 #: modules/file/microprof.c:986
-#, fuzzy
 msgid "Imports MicroProf FRT profilometer data files."
-msgstr ""
-"マイクロプロフェット FRT プロフィロメーター データ ファイルをインポートしま"
-"す。"
+msgstr "MicroProf FRT profilometer データをインポートします。"
 
 #: modules/file/microprof.c:999
-#, fuzzy
 msgid "MicroProf FRT files (.frt)"
-msgstr "マイクロプロフFRTファイル(.frt)"
+msgstr "MicroProf FRT files (.frt)"
 
 #: modules/file/microprof.c:1005
-#, fuzzy
 msgid "MicroProf FRT text files (.txt)"
-msgstr "マイクロプロフ FRT テキスト ファイル (.txt)"
+msgstr "MicroProf FRT text files (.txt)"
 
 #: modules/file/microprof.c:1324
 #, c-format
@@ -6007,22 +5493,18 @@ msgid "Duplicate block %02x."
 msgstr "重複ブロック%02x。"
 
 #: modules/file/microprof.c:2705
-#, fuzzy
 msgid "File contains fewer than XSize*YSize data points."
 msgstr "ファイルに含まれるデータ ポイントが XSize*YSize 未満です。"
 
 #: modules/file/miffile.c:200
-#, fuzzy
 msgid "Imports DME MIF data files."
-msgstr "DME MIF データ ファイルをインポートします。"
+msgstr "DME MIF データをインポートします。"
 
 #: modules/file/miffile.c:213
-#, fuzzy
 msgid "DME MIF files (.mif)"
-msgstr "DME MIF ファイル (.mif)"
+msgstr "DME MIF files (.mif)"
 
 #: modules/file/miffile.c:240
-#, fuzzy
 msgid "Image header record is too short."
 msgstr "イメージ ヘッダー レコードが短すぎます。"
 
@@ -6031,258 +5513,217 @@ msgid "Axis display info record is too short."
 msgstr "軸の表示情報が短すぎます。"
 
 #: modules/file/miffile.c:282
-#, fuzzy, c-format
+#, c-format
 msgid "Loading of file version %u.%u is not implemented."
 msgstr "ファイルバージョン%u.%uのロードは実装されていません。"
 
 #: modules/file/miffile.c:300
-#, fuzzy
 msgid "File information block is outside the file."
 msgstr "ファイル情報ブロックはファイルの外部にあります。"
 
 #: modules/file/miffile.c:334
-#, fuzzy
 msgid "File information block size is invalid."
 msgstr "ファイル情報のブロック サイズが無効です。"
 
 #: modules/file/miffile.c:398
-#, fuzzy
 msgid "Unique id record is too short."
 msgstr "一意の ID レコードが短すぎます。"
 
 #: modules/file/mifile.c:177
-#, fuzzy
 msgid "Imports Molecular Imaging MI data files."
-msgstr "分子イメージング MI データファイルをインポートします。"
+msgstr "Molecular Imaging MI データをインポートします。"
 
 #: modules/file/mifile.c:190
-#, fuzzy
 msgid "PicoView Data Files (.mi)"
-msgstr "ピコビューデータファイル(.mi)"
+msgstr "PicoView Data Files (.mi)"
 
 #: modules/file/mifile.c:366 modules/file/mifile.c:453
-#, fuzzy
 msgid "Spectroscopy Graph"
-msgstr "分光グラフ"
+msgstr "スペクトロスコピー"
 
 #: modules/file/mulfile.c:160
-#, fuzzy
 msgid "Imports Aarhus MUL files."
-msgstr "オーフス MUL ファイルをインポートします。"
+msgstr "Aarhus MUL データをインポートします。"
 
 #: modules/file/mulfile.c:173
-#, fuzzy
 msgid "Aarhus MUL files (.mul)"
-msgstr "オーフス MUL ファイル (.mul)"
+msgstr "Aarhus MUL files (.mul)"
 
 #: modules/file/mulfile.c:295
-#, fuzzy, c-format
+#, c-format
 msgid "Image number in the label %u does not match the number %u in the index."
 msgstr "ラベル%uの画像番号がインデックス内の%uの数と一致しません。"
 
 #: modules/file/mulfile.c:354 modules/file/mulfile.c:363
-#, fuzzy, c-format
+#, c-format
 msgid "Label string length %u is larger than 20."
 msgstr "ラベル文字列の長さは%u20より大きい。"
 
 #: modules/file/nanoeducator.c:290
-#, fuzzy
 msgid "Imports Nanoeducator data files."
-msgstr "ナノエデュケーターデータファイルをインポートします。"
+msgstr "Nanoeducator データをインポートします。"
 
 #: modules/file/nanoeducator.c:303
-#, fuzzy
 msgid "Nanoeducator files (.mspm, .spm, .stm)"
-msgstr "ナノエデュケーターファイル(.mspm、.spm、.stm)"
+msgstr "Nanoeducator files (.mspm, .spm, .stm)"
 
 #: modules/file/nanoeducator.c:361 modules/file/unisoku.c:301
-#, fuzzy
 msgid "format version"
 msgstr "フォーマットバージョン"
 
 #: modules/file/nanoeducator.c:389 modules/file/nanoeducator.c:432
 #: modules/file/nanoeducator.c:537
-#, fuzzy
 msgid "Image data starts past the end of file."
 msgstr "画像データはファイルの終わりを越えて開始されます。"
 
 #: modules/file/nanoeducator.c:474
-#, fuzzy
 msgid "Spectra data starts past the end of file."
 msgstr "スペクトルデータはファイルの終わりを越えて開始されます。"
 
 #: modules/file/nanoeducator.c:930 modules/file/opengps.c:332
 #: modules/file/sensofar.c:1416
-#, fuzzy, c-format
+#, c-format
 msgid "Profile %u"
 msgstr "プロファイル%u"
 
 #: modules/file/nanoeducator.c:1043
-#, fuzzy
 msgid "F-D spectra"
 msgstr "F-Dスペクトル"
 
 #: modules/file/nanoeducator.c:1136
-#, fuzzy
 msgid "I-V spectra"
 msgstr "I-Vスペクトル"
 
 #: modules/file/nanoeducator.c:1221
-#, fuzzy
 msgid "I-Z spectra"
 msgstr "I-Zスペクトル"
 
 #: modules/file/nanomagnetics.c:402
-#, fuzzy
 msgid "Imports Nanomagnetics' NMI file format version 3 and 5"
-msgstr "ナノ磁気のNMIファイル形式バージョン3および5をインポート"
+msgstr ""
+"Nanomagnetics' NMI file format version 3 and 5 データをインポートします"
 
 #: modules/file/nanomagnetics.c:415
-#, fuzzy
 msgid "Nanomagnetics File (.nmi)"
-msgstr "ナノマグネティックスファイル (.nmi)"
+msgstr "Nanomagnetics File (.nmi)"
 
 #: modules/file/nanonics.c:104
-#, fuzzy
 msgid "Imports Nanonics NAN data files."
-msgstr "ナノニクス NAN データ ファイルをインポートします。"
+msgstr "Nanonics NAN データをインポートします。"
 
 #: modules/file/nanonics.c:117
-#, fuzzy
 msgid "Nanonics files (.nan)"
-msgstr "ナノニクスファイル(.nan)"
+msgstr "Nanonics files (.nan)"
 
 #: modules/file/nanonics.c:177 modules/file/nanonics.c:446
 #: modules/file/wsxmfile.c:316
-#, fuzzy, c-format
+#, c-format
 msgid "Expected header end marker ‘%s’ was not found."
 msgstr "予期されるヘッダー終了マーカー '%s' が見つかりませんでした。"
 
 #: modules/file/nanonics.c:214
-#, fuzzy, c-format
+#, c-format
 msgid "HeaderLength %u differs from actual header length %u"
 msgstr "ヘッダー長%u実際のヘッダー長%uとは異なります"
 
 #: modules/file/nanonics.c:371 modules/file/witec-asc.c:166
-#, fuzzy, c-format
+#, c-format
 msgid "Expected header start marker ‘%s’ but found ‘%s’."
 msgstr ""
 "予期されるヘッダー開始マーカー '%s' が見つかりましたが、'%s' が見つかりまし"
 "た。"
 
 #: modules/file/nanonis-spec.c:98
-#, fuzzy
 msgid "Imports Nanonis DAT spectrum files."
-msgstr "ナナニス DAT スペクトル ファイルをインポートします。"
+msgstr "Nanonis DAT spectrum データをインポートします。"
 
 #: modules/file/nanonis-spec.c:111
-#, fuzzy
 msgid "Nanonis spectrum files (.dat)"
-msgstr "ナナニススペクトラムファイル(.dat)"
+msgstr "Nanonis spectrum files (.dat)"
 
 #: modules/file/nanonis.c:126
-#, fuzzy
 msgid "Imports Nanonis SXM data files."
-msgstr "ナナニス SXM データ ファイルをインポートします。"
+msgstr "Nanonis SXM データをインポートします。"
 
 #: modules/file/nanonis.c:146
-#, fuzzy
 msgid "Nanonis SXM files (.sxm)"
-msgstr "ナナニス SXM ファイル (.sxm)"
+msgstr "Nanonis SXM files (.sxm)"
 
 #: modules/file/nanonis.c:245 modules/file/omicron.c:520
 #: modules/file/unisoku.c:278
-#, fuzzy
 msgid "File header ended unexpectedly."
 msgstr "ファイル ヘッダーが予期せず終了しました。"
 
 #: modules/file/nanonis.c:266
-#, fuzzy
 msgid "Garbage was found in place of tag header line."
 msgstr "タグ ヘッダー行の代わりにガベージが見つかりました。"
 
 #: modules/file/nanonis.c:332
-#, fuzzy, c-format
+#, c-format
 msgid "DATA_INFO does not contain the expected columns: %s."
 msgstr "DATA_INFOには、%s列が含まれていません。"
 
 #: modules/file/nanonis.c:354
-#, fuzzy, c-format
+#, c-format
 msgid "DATA_INFO line contains fewer than %d fields."
 msgstr "DATA_INFO行に含まれるフィールドは%d未満です。"
 
 #: modules/file/nanonis.c:554
-#, fuzzy
 msgid "Missing data start marker \\x1a\\x04."
 msgstr "データ開始マーカー \\x1a\\x04 が見つかりません。"
 
 #: modules/file/nanoobserver.c:201
-#, fuzzy
 msgid "Reads Nano-Solution/NanoObserver .nao files."
-msgstr "ナノソリューション/ナノオブザーバー .naoファイルを読み取ります。"
+msgstr "Nano-Solution/NanoObserver .nao データをインポートします。"
 
 #: modules/file/nanoobserver.c:214
-#, fuzzy
 msgid "Nano-Solution/NanoObserver data (.nao)"
-msgstr "ナノソリューション/ナノオブザーバーデータ(.nao)"
+msgstr "Nano-Solution/NanoObserver data (.nao)"
 
 #: modules/file/nanoscan.c:191
-#, fuzzy
 msgid "Imports NanoScan XML files."
-msgstr "ナノスキャン XML ファイルをインポートします。"
+msgstr "NanoScan XML データをインポートします。"
 
 #: modules/file/nanoscan.c:204
-#, fuzzy
 msgid "NanoScan XML files (.xml)"
-msgstr "ナノスキャン XML ファイル (.xml)"
+msgstr "NanoScan XML files (.xml)"
 
 #: modules/file/nanoscan.c:937
-#, fuzzy
 msgid "Wrong size of Base64 encoded data."
 msgstr "Base64 エンコードデータのサイズが間違っています。"
 
 #: modules/file/nanoscantech.c:129
-#, fuzzy
 msgid "Imports NanoScanTech .nstdat files."
-msgstr "ナノスキャンテック .nstdat ファイルをインポートします。"
+msgstr "NanoScanTech .nstdat データをインポートします。"
 
 #: modules/file/nanoscantech.c:142
-#, fuzzy
 msgid "NanoScanTech data (.nstdat)"
-msgstr "ナノスキャンテックデータ(.nstdat)"
+msgstr "NanoScanTech data (.nstdat)"
 
 #: modules/file/nanoscope-ii.c:86
-#, fuzzy
 msgid "Imports Digital Instruments Nanoscope II data files."
-msgstr ""
-"デジタルインスツルメンツナノスコープIIデータファイルをインポートします。"
+msgstr "Digital Instruments Nanoscope II データをインポートします。"
 
 #: modules/file/nanoscope-ii.c:99
-#, fuzzy
 msgid "Nanoscope II files"
-msgstr "ナノスコープIIファイル"
+msgstr "Nanoscope II files"
 
 #: modules/file/nanoscope.c:269
-#, fuzzy
 msgid ""
 "Imports Veeco (Digital Instruments) Nanoscope data files, version 3 or newer."
 msgstr ""
-"Veeco(デジタル機器)ナノスコープデータファイル、バージョン3以降をインポートし"
-"ます。"
+"Veeco (Digital Instruments) Nanoscope (version 3以降) データをインポートしま"
+"す。"
 
 #: modules/file/nanoscope.c:283
-#, fuzzy
 msgid "Nanoscope III files"
-msgstr "ナノスコープIIIファイル"
+msgstr "Nanoscope III files"
 
 #: modules/file/nanoscope.c:356
-#, fuzzy
 msgid "File is not a Nanoscope file, or it is a unknown subtype."
-msgstr ""
-"ファイルがナノスコープ ファイルではないか、または不明なサブタイプです。"
+msgstr "ファイルがNanoscopeファイルではないか、または不明なサブタイプです。"
 
 #: modules/file/nanoscope.c:363
-#, fuzzy
 msgid ""
 "File has been damaged by change of line endings, resulting in corruption of "
 "the binary part of the file.\n"
@@ -6301,68 +5742,57 @@ msgstr ""
 "る場合に発生します。"
 
 #: modules/file/nanoscope.c:458
-#, fuzzy
 msgid "Reading channels..."
-msgstr "チャンネルを読む."
+msgstr "チャンネルを読む…"
 
 #: modules/file/nanoscope.c:820 modules/file/nanoscope.c:836
 msgid "Cannot parse `Scan size' field."
 msgstr "'スキャンサイズ' フィールドを解析できません。"
 
 #: modules/file/nanoscope.c:2253 modules/file/nrrdfile.c:1092
-#, fuzzy, c-format
+#, c-format
 msgid "Garbage after data sample #%u."
 msgstr "データ サンプル #%u の後にガベージを実行します。"
 
 #: modules/file/nanoscope.c:2324
-#, fuzzy
 msgid "Truncated header line."
 msgstr "切り捨てられたヘッダー行。"
 
 #: modules/file/nanosystemz.c:100
-#, fuzzy
 msgid "Imports NanoSystem profilometry data files."
-msgstr "ナノシステムプロフィロメトリーデータファイルをインポートします。"
+msgstr "NanoSystem profilometry データをインポートします。"
 
 #: modules/file/nanosystemz.c:113
-#, fuzzy
 msgid "NanoSystem profilometry files (.spm)"
-msgstr "ナノシステムプロフィロメトリーファイル(.spm)"
+msgstr "NanoSystem profilometry files (.spm)"
 
 #: modules/file/nanotop.c:107
-#, fuzzy
 msgid "Imports NANOTOP AFM files"
-msgstr "ナノトップ AFM ファイルをインポートします。"
+msgstr "NANOTOP AFM データをインポートします"
 
 #: modules/file/nanotop.c:120
-#, fuzzy
 msgid "Nanotop files (.spm)"
-msgstr "ナノトップファイル (.spm)"
+msgstr "Nanotop files (.spm)"
 
 #: modules/file/netcdf.c:178
-#, fuzzy
 msgid "Imports network Common Data Form (netCDF) files created by GXSM."
 msgstr ""
-"GXSM によって作成されたネットワーク共通データ形式 (netCDF) ファイルをインポー"
-"トします。"
+"GXSMで作成された network Common Data Form (netCDF) データをインポートします。"
 
 #: modules/file/netcdf.c:191
-#, fuzzy
 msgid "GSXM netCDF files (.nc)"
-msgstr "GSXM netCDF ファイル (.nc)"
+msgstr "GSXM netCDF files (.nc)"
 
 #: modules/file/netcdf.c:237
-#, fuzzy, c-format
+#, c-format
 msgid "Variable `%s' refers to invalid or nonexistent data."
 msgstr "変数 '%s' は、無効なデータまたは存在しないデータを参照します。"
 
 #: modules/file/netcdf.c:357
-#, fuzzy
 msgid "NetCDF records are not supported."
 msgstr "NetCDF レコードはサポートされていません。"
 
 #: modules/file/netcdf.c:408
-#, fuzzy
 msgid "Value series values must be of type FLOAT."
 msgstr "値系列値は、FLOAT タイプでなければなりません。"
 
@@ -6379,84 +5809,70 @@ msgid "Time series order is wrong."
 msgstr "時系列の順序が間違っています。"
 
 #: modules/file/netcdf.c:1233
-#, fuzzy, c-format
+#, c-format
 msgid "File ended unexpectedly inside `%s'."
 msgstr "ファイルが予期せず '%s' の中で終了しました。"
 
 #: modules/file/netcdf.c:1242
-#, fuzzy, c-format
+#, c-format
 msgid "Expected `%s' array or `ABSENT'."
 msgstr "予期される '%s' 配列または 'ABSENT' です。"
 
 #: modules/file/netcdf.c:1250
-#, fuzzy, c-format
+#, c-format
 msgid "Array `%s' has non-zero number of elements in spite of being absent."
 msgstr "配列 '%s' は、存在しないにもかかわらず、ゼロ以外の数の要素を持ちます。"
 
 #: modules/file/netcdf.c:1309
-#, fuzzy
 msgid "More than one record dimension found."
 msgstr "複数のレコード ディメンションが見つかりました。"
 
 #: modules/file/nmmxyz.c:210
-#, fuzzy
 msgid "Imports Nano Measuring Machine profile files."
-msgstr "ナノ計測機プロファイルファイルをインポートします。"
+msgstr "Nano Measuring Machine profile データをインポートします。"
 
 #: modules/file/nmmxyz.c:223
-#, fuzzy
 msgid "Nano Measuring Machine files (*.dsc)"
-msgstr "ナノ測定機ファイル(*.dsc)"
+msgstr "Nano Measuring Machine files (*.dsc)"
 
 #: modules/file/nmmxyz.c:269
-#, fuzzy
 msgid "Nano Measuring Machine data import must be run as interactive."
-msgstr ""
-"ナノ測定機データのインポートは、インタラクティブとして実行する必要がありま"
-"す。"
+msgstr "Nano Measuring Machine data import must be run as interactive."
 
 #: modules/file/nmmxyz.c:316 modules/process/lat_synth.c:1224
 #: modules/process/wave_synth.c:800
-#, fuzzy
 msgid "Rendering surface..."
-msgstr "レンダリング サーフェス."
+msgstr "表面のレンダリング…"
 
 #: modules/file/nmmxyz.c:405
-#, fuzzy
 msgid "Import NMM Profile Set"
-msgstr "NMM プロファイル セットのインポート"
+msgstr "NMM Profile Setデータをインポートします"
 
 #: modules/file/nmmxyz.c:421 modules/file/rawfile.c:443
 msgid "Information"
 msgstr "インフォメーション"
 
 #: modules/file/nmmxyz.c:426
-#, fuzzy
 msgid "Number of data files:"
 msgstr "データ ファイルの数:"
 
 #: modules/file/nmmxyz.c:428
-#, fuzzy
 msgid "Total number of points:"
-msgstr "ポイントの合計数:"
+msgstr "ポイント数合計:"
 
 #: modules/file/nmmxyz.c:430
-#, fuzzy
 msgid "Points per profile:"
 msgstr "プロファイルあたりのポイント数:"
 
 #: modules/file/nmmxyz.c:435
-#, fuzzy
 msgid "Imported Channels"
 msgstr "インポートされたチャンネル"
 
 #: modules/file/nmmxyz.c:460
-#, fuzzy
 msgid "Plot point density map"
-msgstr "プロットポイント密度マップ"
+msgstr "ポイント密度マップをプロット"
 
 #: modules/file/nmmxyz.c:468
-#, fuzzy
 msgid "Align scan lines with X axis"
 msgstr "スキャン ラインを X 軸に合わせる"
 
@@ -6470,104 +5886,87 @@ msgstr "解像度"
 #: modules/process/dimensions.h:445 modules/process/psf.c:458
 #: modules/volume/volume_psf.c:497 modules/xyz/xyz_drift.c:729
 #: modules/xyz/xyz_raster.c:399
-#, fuzzy
 msgid "_Horizontal size:"
-msgstr "_Horizontalサイズ:"
+msgstr "水平サイズ:"
 
 #: modules/file/nmmxyz.c:595 modules/file/rawfile.c:630
 #: modules/process/dimensions.h:448 modules/process/psf.c:465
 #: modules/volume/volume_psf.c:504 modules/xyz/xyz_drift.c:744
 #: modules/xyz/xyz_raster.c:405
-#, fuzzy
 msgid "_Vertical size:"
-msgstr "_Verticalサイズ:"
+msgstr "垂直サイズ:"
 
 #: modules/file/nmmxyz.c:875
-#, fuzzy
 msgid "Point density map"
 msgstr "ポイント密度マップ"
 
 #: modules/file/nmmxyz.c:952
-#, fuzzy
 msgid "Something is changing the data files on disk."
 msgstr "ディスク上のデータファイルを変更しています。"
 
 #: modules/file/nrrdfile.c:180
-#, fuzzy
 msgid "Imports and exports nearly raw raster data (NRRD) files."
-msgstr ""
-"ほぼ生のラスター データ (NRRD) ファイルをインポートおよびエクスポートします。"
+msgstr "Nearly raw raster data (NRRD) データをインポートします。"
 
 #: modules/file/nrrdfile.c:193
-#, fuzzy
 msgid "Nearly raw raster data (NRRD) files (.nrrd)"
-msgstr "ほぼ生のラスター データ (NRRD) ファイル (.nrrd)"
+msgstr "Nearly raw raster data (NRRD) files (.nrrd)"
 
 #: modules/file/nrrdfile.c:335
-#, fuzzy
 msgid "Detached header does not refer to any data file."
 msgstr "デタッチされたヘッダーは、データ ファイルを参照しません。"
 
 #: modules/file/nrrdfile.c:363
-#, fuzzy
 msgid "Only two- and three-dimensional data are supported."
 msgstr "2 次元データと 3 次元データのみがサポートされます。"
 
 #: modules/file/nrrdfile.c:383
-#, fuzzy
 msgid "Non-zero lineskip is supported only for uncompressed files."
 msgstr "非ゼロ行スキップは、非圧縮ファイルに対してのみサポートされます。"
 
 #: modules/file/nrrdfile.c:423
-#, fuzzy
 msgid "Compression is supported only for detached files."
 msgstr "圧縮は、デタッチされたファイルに対してのみサポートされます。"
 
 #: modules/file/nrrdfile.c:741
-#, fuzzy
 msgid "Split detached data files are not supported."
 msgstr "分割されたデタッチされたデータ ファイルはサポートされていません。"
 
 #: modules/file/nrrdfile.c:787
-#, fuzzy
 msgid "Cannot decompress gzip-encoded data.  Zlib support was not built in."
 msgstr ""
-"gzip エンコードされたデータを解凍できません。 Zlib サポートは組み込まれていま"
+"Gzipエンコードされたデータを解凍できません。 Zlib サポートは組み込まれていま"
 "せんでした。"
 
 #: modules/file/nrrdfile.c:832
-#, fuzzy
 msgid "Cannot decompress bzip2-encoded data.  Bzip2 support was not built in."
 msgstr ""
-"bzip2 でエンコードされたデータを解凍できません。 Bzip2 サポートは組み込まれて"
+"Bzip2 でエンコードされたデータを解凍できません。 Bzip2 サポートは組み込まれて"
 "いませんでした。"
 
 #: modules/file/nrrdfile.c:964
-#, fuzzy, c-format
+#, c-format
 msgid "Hex data contain fewer values (%u) than corresponds to the sizes (%u)."
 msgstr ""
 "16 進データの値 (%u) は、サイズ (%u) に対応する値よりも少なくなります。"
 
 #: modules/file/nrrdfile.c:1087
-#, fuzzy, c-format
+#, c-format
 msgid "Text data contain fewer values (%u) than corresponds to the sizes (%u)."
 msgstr ""
 "テキスト データの値 (%u) が、サイズ (%u) に対応する値より少ない数です。"
 
 #: modules/file/nrrdfile.c:1141
-#, fuzzy
 msgid "Field byteskip cannot be -1 for text encodings."
 msgstr ""
 "テキスト エンコーディングの場合、フィールドバイトスキップを -1 にすることはで"
 "きません。"
 
 #: modules/file/nrrdfile.c:1152
-#, fuzzy
 msgid "Field lineskip specifies more lines than there are in the file."
 msgstr "フィールド行スキップは、ファイル内の行数よりも多い行を指定します。"
 
 #: modules/file/nrrdfile.c:1195
-#, fuzzy
 msgid "Field byteskip specifies more bytes than there are in the file."
 msgstr ""
 "フィールドバイトスキップは、ファイル内のバイト数よりも多くを指定します。"
@@ -6588,118 +5987,102 @@ msgid "Per-axis header field %s contains too few items."
 msgstr "軸ごとのヘッダー フィールド%sに含まれる項目が少なすぎます。"
 
 #: modules/file/nt-mdt.c:851
-#, fuzzy
 msgid "Imports NT-MDT data files."
-msgstr "NT-MDT データ ファイルをインポートします。"
+msgstr "NT-MDT データをインポートします。"
 
 #: modules/file/nt-mdt.c:864
-#, fuzzy
 msgid "NT-MDT files (.mdt)"
-msgstr "NT-MDT ファイル (.mdt)"
+msgstr "NT-MDT files (.mdt)"
 
 #: modules/file/nt-mdt.c:1499 modules/file/nt-mdt.c:1607
-#, fuzzy
 msgid "Frame is too short for Frame Mode."
 msgstr "フレームモードに対してフレームが短すぎます。"
 
 #: modules/file/nt-mdt.c:1514 modules/file/nt-mdt.c:1622
-#, fuzzy
 msgid "Frame is too short for dots or data."
 msgstr "ドットまたはデータに対してフレームが短すぎます。"
 
 #: modules/file/nt-mdt.c:1880
-#, fuzzy, c-format
+#, c-format
 msgid "End of file reached in frame header #%u."
 msgstr "フレーム ヘッダー #%u でファイルの末尾に到達しました。"
 
 #: modules/file/nt-mdt.c:1888
-#, fuzzy, c-format
+#, c-format
 msgid "End of file reached in frame data #%u."
 msgstr "フレーム データ #%u でファイルの末尾に到達しました。"
 
 #: modules/file/nt-mdt.c:1921
-#, fuzzy, c-format
+#, c-format
 msgid "Frame #%u is too short for scanned data header."
 msgstr "フレーム #%u は、スキャンされたデータ ヘッダーに対して短すぎます。"
 
 #: modules/file/nt-mdt.c:1938
-#, fuzzy, c-format
+#, c-format
 msgid "Frame #%u is too short for spectroscopy data header."
 msgstr "フレーム #%u は、分光法データ ヘッダーには短すぎます。"
 
 #: modules/file/nxiifile.c:121
-#, fuzzy
 msgid "Imports EM4SYS data files."
-msgstr "EM4SYS データ ファイルをインポートします。"
+msgstr "EM4SYS データをインポートします。"
 
 #: modules/file/nxiifile.c:134
-#, fuzzy
 msgid "EM4SYS NX II files (.bmp)"
-msgstr "EM4SYS NX II ファイル (.bmp)"
+msgstr "EM4SYS NX II files (.bmp)"
 
 #: modules/file/oirfile.c:242
-#, fuzzy
 msgid "Imports Olympus OIR data files."
-msgstr "オリンパス OIR データ ファイルをインポートします。"
+msgstr "Olympus OIR データをインポートします。"
 
 #: modules/file/oirfile.c:259
-#, fuzzy
 msgid "Olympus OIR data files (.oir)"
-msgstr "オリンパス OIR データ ファイル (.oir)"
+msgstr "Olympus OIR data files (.oir)"
 
 #: modules/file/oirfile.c:266
-#, fuzzy
 msgid "Olympus packed OIR data files (.poir)"
-msgstr "オリンパスパックOIRデータファイル(.poir)"
+msgstr "Olympus packed OIR data files (.poir)"
 
 #: modules/file/oirfile.c:449 modules/file/oirfile.c:465
-#, fuzzy, c-format
+#, c-format
 msgid "Chunk type %u occured multiple times."
 msgstr "チャンクタイプ%u複数回発生しました。"
 
 #: modules/file/oldmda.c:152
 msgid "Imports old NTMDT MDA Spectra files."
-msgstr "古い NTMDT MDA スペクトル ファイルをインポートします。"
+msgstr "古い NTMDT MDA Spectra データをインポートします。"
 
 #: modules/file/oldmda.c:165
-#, fuzzy
 msgid "NTMDT old MDA Spectra data (.sxml .dat)"
-msgstr "NTMDT 古い MDA スペクトル データ (.sxml .dat)"
+msgstr "NTMDT old MDA Spectra data (.sxml .dat)"
 
 #: modules/file/oldmda.c:238
-#, fuzzy
 msgid "Incorrect number of axes in parameter file."
 msgstr "パラメータ ファイルの軸の数が正しくありません。"
 
 #: modules/file/oldmda.c:253
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot load data file: %s"
 msgstr "データ ファイルを読み込めません: %s"
 
 #: modules/file/oldmda.c:261
-#, fuzzy
 msgid "Data file is too short."
 msgstr "データ ファイルが短すぎます。"
 
 #: modules/file/ols.c:65
-#, fuzzy
 msgid "Imports OLS data files."
-msgstr "OLS データ ファイルをインポートします。"
+msgstr "OLS データをインポートします。"
 
 #: modules/file/ols.c:78
-#, fuzzy
 msgid "Olympus LEXT OLS3000 (.ols)"
-msgstr "オリンパス LEXT OLS3000 (.ols)"
+msgstr "Olympus LEXT OLS3000 (.ols)"
 
 #: modules/file/ometiff.c:154
-#, fuzzy
 msgid "Imports OME-TIFF data files."
-msgstr "OME-TIFF データ ファイルをインポートします。"
+msgstr "OME-TIFF データをインポートします。"
 
 #: modules/file/ometiff.c:167
-#, fuzzy
 msgid "Open Microscopy OME-TIFF (.ome.tiff)"
-msgstr "オープン顕微鏡OME-TIFF(.ome.tiff)"
+msgstr "Open Microscopy OME-TIFF (.ome.tiff)"
 
 #: modules/file/ometiff.c:650
 #, c-format
@@ -6707,7 +6090,6 @@ msgid "ZTC coordinates (%u,%u,%u) fall outside the given ranges."
 msgstr "ZTC 座標 (%u,%u,%u) は、指定された範囲の範囲外です。"
 
 #: modules/file/ometiff.c:658
-#, fuzzy
 msgid ""
 "The OME TIFF header specifies more TIFF directories than there are in the "
 "file."
@@ -6716,44 +6098,36 @@ msgstr ""
 "トリを指定します。"
 
 #: modules/file/ometiff.c:669
-#, fuzzy, c-format
+#, c-format
 msgid "TIFF directory %u is assigned to multiple conflicting ZTC coordinates."
 msgstr "TIFF ディレクトリ %uは、複数の競合する ZTC 座標に割り当てられます。"
 
 #: modules/file/omicron.c:164
-#, fuzzy
 msgid "Imports Omicron data files (two-part .par + .tf*, .tb*, .sf*, .sb*)."
 msgstr ""
-"Omicron データ ファイル (2 部構成の .par + .tf*、.tb*、.sf*、.sb*) をインポー"
-"トします。"
+"Omicron (two-part .par + .tf*, .tb*, .sf*, .sb*)データをインポートします。"
 
 #: modules/file/omicron.c:177
-#, fuzzy
 msgid "Omicron files (.par + data)"
-msgstr "オミクロンファイル(.par + データ)"
+msgstr "Omicron files (.par + data)"
 
 #: modules/file/omicron.c:422
-#, fuzzy
 msgid "Header line starts with a colon."
 msgstr "ヘッダー行はコロンで始まります。"
 
 #: modules/file/omicron.c:529
-#, fuzzy
 msgid "Channel information ended unexpectedly."
 msgstr "チャネル情報が予期せず終了しました。"
 
 #: modules/file/omicronflat.c:358
-#, fuzzy
 msgid "Imports Omicron flat files."
-msgstr "Omicron フラット ファイルをインポートします。"
+msgstr "Omicron flat データをインポートします。"
 
 #: modules/file/omicronflat.c:371
-#, fuzzy
 msgid "Omicron flat files (*.*_flat)"
-msgstr "オミクロン フラット ファイル (*.*_flat)"
+msgstr "Omicron flat files (*.*_flat) データをインポートします。"
 
 #: modules/file/omicronflat.c:1717
-#, fuzzy
 msgid "File name does not have the expected form for Omicron Flat files."
 msgstr ""
 "ファイル名は、Omicron フラット ファイルの想定される形式ではありません。"
@@ -6764,34 +6138,29 @@ msgstr "軸の階層を理解できません。"
 
 #. TRANSLATORS: %s is replaced with an expression of the data shape.
 #: modules/file/omicronflat.c:2547
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot figure out how to load data in the following form: %s."
 msgstr "データの読み込み方法を次の形式で理解できません: %s。"
 
 #: modules/file/omicronmatrix.c:202
-#, fuzzy
 msgid "Omicron MATRIX (param.mtrx & data.mtrx)"
-msgstr "オミクロンマトリックス(パラム.mtrx&データ.mtrx)"
+msgstr "Omicron MATRIX (param.mtrx & data.mtrx)データをインポートします。"
 
 #: modules/file/omicronmatrix.c:218
-#, fuzzy
 msgid "Omicron MATRIX (.mtrx & .mtrx)"
-msgstr "オミクロンマトリックス (.mtrx & .mtrx)"
+msgstr "Omicron MATRIX (.mtrx & .mtrx)"
 
 #: modules/file/opdfile.c:199
-#, fuzzy
 msgid "Imports Wyko OPD and ASC files."
-msgstr "Wyko OPD ファイルと ASC ファイルをインポートします。"
+msgstr "Wyko OPD and ASC filesデータをインポートします。"
 
 #: modules/file/opdfile.c:212
-#, fuzzy
 msgid "Wyko OPD files (.opd)"
-msgstr "ワイコ OPD ファイル (.opd)"
+msgstr "Wyko OPD files (.opd)"
 
 #: modules/file/opdfile.c:219
-#, fuzzy
 msgid "Wyko ASCII export files (.asc)"
-msgstr "ワイコ ASCII エクスポート ファイル (.asc)"
+msgstr "Wyko ASCII export files (.asc)"
 
 #: modules/file/opdfile.c:309
 #, c-format
@@ -6809,9 +6178,8 @@ msgid "Reads ISO 5436-2 OpenGPS .x3p files."
 msgstr "ISO 5436-2 OpenGPS .x3pファイルを読み取ります。"
 
 #: modules/file/opengps.c:147
-#, fuzzy
 msgid "ISO 5436-2 OpenGPS data (.x3p)"
-msgstr "ISO 5436-2 オープンGPSデータ(.x3p)"
+msgstr "ISO 5436-2 OpenGPS data (.x3p)"
 
 #: modules/file/opengps.c:416 modules/file/opengps.c:449
 msgid "Too many DataList items for given matrix dimensions."
@@ -6831,15 +6199,12 @@ msgid "Only type %s is supported for axis %s."
 msgstr "軸%sでは、タイプ %sのみがサポートされます。"
 
 #: modules/file/phoenix.c:219
-#, fuzzy
 msgid "Imports AFM data files from NASA Phoenix Mars mission."
-msgstr ""
-"NASAフェニックス火星ミッションからAFMデータファイルをインポートします。"
+msgstr "NASA Phoenix Mars missionデータをインポートします。"
 
 #: modules/file/phoenix.c:232
-#, fuzzy
 msgid "AFM data from NASA Phoenix mission (.dat, .lbl + .tab)"
-msgstr "NASAフェニックスミッションからのAFMデータ(.dat、.lbl + .tab)"
+msgstr "AFM data from NASA Phoenix mission (.dat, .lbl + .tab)"
 
 #: modules/file/phoenix.c:502
 #, c-format
@@ -6901,72 +6266,65 @@ msgid "Alpha"
 msgstr "Alpha"
 
 #: modules/file/pixmap.c:250
-#, fuzzy
 msgid "Graphics Interchange Format GIF (.gif)"
-msgstr "グラフィックス インターチェンジ形式 GIF (.gif)"
+msgstr "Graphics Interchange Format GIF (.gif)"
 
 #: modules/file/pixmap.c:255
 msgid "JPEG 2000 (.jpx)"
 msgstr "JPEG 2000 (.jpx)"
 
 #: modules/file/pixmap.c:260
-#, fuzzy
 msgid "PCX (.pcx)"
 msgstr "PCX (.pcx)"
 
 #: modules/file/pixmap.c:265
 msgid "X Pixmap (.xpm)"
-msgstr "X ピクセルマップ (.xpm)"
+msgstr "X Pixmap (.xpm)"
 
 #: modules/file/pixmap.c:270
-#, fuzzy
 msgid "Sun raster image (.ras)"
-msgstr "太陽ラスター画像 (.ras)"
+msgstr "Sun raster image (.ras)"
 
 #: modules/file/pixmap.c:275
 msgid "Apple icon (.icns)"
-msgstr "アップルのアイコン(.icns)"
+msgstr "Apple icon (.icns)"
 
 #: modules/file/pixmap.c:295
-#, fuzzy
 msgid ""
 "Imports data from low-depth pixmap images (PNG, TIFF, JPEG, ...).  The set "
 "of available formats depends on available GDK pixbuf loaders."
 msgstr ""
-"低層の pixmap イメージ (PNG、TIFF、JPEG、.. 使用可能なフォーマットのセット"
-"は、使用可能な GDK pixbuf ローダーによって異なります。"
+"低深度のピクセルデータ (PNG, TIFF, JPEG, …)からインポートします。読込可能な形"
+"式はGDK pixbufに依存します。"
 
 #: modules/file/pixmap.c:448
-#, fuzzy, c-format
+#, c-format
 msgid "Pixmap has not registered file type `%s'."
 msgstr "Pixmap はファイルタイプ '%s' を登録していません。"
 
 #: modules/file/pixmap.c:463
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot get pixbuf loader: %s."
-msgstr "pixbuf ローダーを取得できません: %s。"
+msgstr "Cannot get pixbuf loader: %s."
 
 #: modules/file/pixmap.c:476 modules/file/pixmap.c:489
 #: modules/file/renishaw.c:552 modules/file/renishaw.c:562
 #: modules/file/tescan.c:447
-#, fuzzy, c-format
+#, c-format
 msgid "Pixbuf loader refused data: %s."
 msgstr "Pixbuf ローダーはデータを拒否しました: %s。"
 
 #: modules/file/pixmap.c:918
-#, fuzzy
 msgid "verb|Use"
 msgstr "動詞|使用"
 
 #: modules/file/pixmap.c:918
-#, fuzzy
 msgid "as data"
 msgstr "データとして"
 
 #: modules/file/pixmap.c:934
-#, fuzzy
 msgid "_Hue offset:"
-msgstr "_Hueオフセット:"
+msgstr "Hueオフセット:"
 
 #: modules/file/pixmap.c:943
 msgid ""
@@ -6980,115 +6338,100 @@ msgstr "Nanosurf PLTファイルをインポート."
 
 #: modules/file/pltfile.c:92
 msgid "Nanosurf PLT files (.plt)"
-msgstr "Nanosurf PLT ファイル (.plt)"
+msgstr "Nanosurf PLT files (.plt)"
 
 #: modules/file/pnifile.c:117
-#, fuzzy
 msgid "Imports Pacific Nanotechnology PNI data files."
-msgstr "太平洋ナノテクノロジーのPNIデータファイルをインポートします。"
+msgstr "Pacific Nanotechnology PNI データをインポートします。"
 
 #: modules/file/pnifile.c:130
-#, fuzzy
 msgid "PNI files (.pni)"
-msgstr "PNI ファイル (.pni)"
+msgstr "PNI files (.pni)"
 
 #: modules/file/princetonspe.c:110
-#, fuzzy
 msgid "Princeton Instruments camera SPE files."
-msgstr "プリンストンインスツルメンツカメラSPEファイル。"
+msgstr "Princeton Instruments camera SPE files."
 
 #: modules/file/princetonspe.c:123
-#, fuzzy
 msgid "Princeton Instruments SPE files"
-msgstr "プリンストンインスツルメンツSPEファイル"
+msgstr "Princeton Instruments SPE files"
 
 #: modules/file/princetonspe.c:333
 msgid "XML footer overlaps with data."
 msgstr "XML フッターはデータと重なっています。"
 
 #: modules/file/psia.c:246
-#, fuzzy
 msgid "Imports Park Systems data files."
-msgstr "パーク システムのデータ ファイルをインポートします。"
+msgstr "Park Systems データをインポートします。"
 
 #: modules/file/psia.c:259
-#, fuzzy
 msgid "Park Systems data files (.tiff, .tif)"
-msgstr "パークシステムデータファイル(.tiff、.tif)"
+msgstr "Park Systems data files (.tiff, .tif)"
 
 #: modules/file/psia.c:347
-#, fuzzy
 msgid "Data tag is missing."
 msgstr "データ タグがありません。"
 
 #: modules/file/psia.c:518
-#, fuzzy, c-format
+#, c-format
 msgid "Header is too short (only %lu bytes)."
 msgstr "ヘッダーが短すぎます (%lu バイトのみ)。"
 
 #: modules/file/psia.c:635
-#, fuzzy, c-format
+#, c-format
 msgid "Spectroscopy header is too short (only %lu bytes)."
-msgstr "分光法のヘッダーが短すぎます (%lu バイトのみ)。"
+msgstr "スペクトロスコピーのヘッダーが短すぎます (%lu バイトのみ)。"
 
 #: modules/file/pt3file.c:296
-#, fuzzy
 msgid "Imports SymPhoTime data files, version 2.0."
-msgstr "SymPhoTime データファイル、バージョン 2.0 をインポートします。"
+msgstr "SymPhoTime data files, version 2.0 データをインポートします。"
 
 #: modules/file/pt3file.c:309
-#, fuzzy
 msgid "PicoHarp files (.pt3)"
-msgstr "ピコハープファイル (.pt3)"
+msgstr "PicoHarp files (.pt3)"
 
 #: modules/file/pt3file.c:396
-#, fuzzy
 msgid "T2 measurement mode is not implemented."
 msgstr "T2測定モードは実装されていません。"
 
 #: modules/file/pt3file.c:402
-#, fuzzy
 msgid "Only PI E710 and KDT180-100-Im imaging formats are implemented."
 msgstr ""
 "PI E710 および KDT180-100-Im イメージングフォーマットのみが実装されています。"
 
 #: modules/file/pt3file.c:540
-#, fuzzy, c-format
+#, c-format
 msgid "Measurement mode must be 2 or 3; %u is invalid."
 msgstr "測定モードは 2 または 3 でなければなりません。%uが無効です。"
 
 #: modules/file/pt3file.c:546 modules/file/pt3file.c:558
-#, fuzzy
 msgid "Only area imaging files are supported."
 msgstr "エリア イメージング ファイルのみがサポートされます。"
 
 #: modules/file/pt3file.c:577
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown instrument number %u."
 msgstr "不明な機器番号%u。"
 
 #: modules/file/pt3file.c:584
-#, fuzzy, c-format
+#, c-format
 msgid "Wrong imaging header size: %u instead of %u."
 msgstr "イメージヘッダーのサイズが正しくありません:%uではなく%u。"
 
 #: modules/file/pt3file.c:733
-#, fuzzy, c-format
+#, c-format
 msgid "Number of line triggers %u is smaller than the number of scan lines %u."
 msgstr "%u行の数が%uスキャン行数より少ない行トリガー数。"
 
 #: modules/file/quesant.c:68
-#, fuzzy
 msgid "Imports Quesant file format."
-msgstr "クィサントファイル形式をインポートします。"
+msgstr "Quesant データをインポートします。"
 
 #: modules/file/quesant.c:81
-#, fuzzy
 msgid "Quesant files (.afm)"
-msgstr "クィサントファイル (.afm)"
+msgstr "Quesant files (.afm)"
 
 #: modules/file/rawfile.c:250
-#, fuzzy
 msgid ""
 "Imports raw data files, both ASCII and binary, according to user-specified "
 "format."
@@ -7097,17 +6440,14 @@ msgstr ""
 "ポートします。"
 
 #: modules/file/rawfile.c:259
-#, fuzzy
 msgid "User-specified"
 msgstr "ユーザー指定"
 
 #: modules/file/rawfile.c:260
-#, fuzzy
 msgid "Signed byte"
 msgstr "符号付きバイト"
 
 #: modules/file/rawfile.c:261
-#, fuzzy
 msgid "Unsigned byte"
 msgstr "符号なしバイト"
 
@@ -7116,7 +6456,6 @@ msgid "Signed 16bit word"
 msgstr "符号あり16 ビットワード"
 
 #: modules/file/rawfile.c:263
-#, fuzzy
 msgid "Unsigned 16bit word"
 msgstr "符号なし 16 ビットワード"
 
@@ -7125,7 +6464,6 @@ msgid "Signed 32bit word"
 msgstr "符号あり32 ビット ワード"
 
 #: modules/file/rawfile.c:265
-#, fuzzy
 msgid "Unsigned 32bit word"
 msgstr "符号なし 32 ビットワード"
 
@@ -7134,47 +6472,38 @@ msgid "Signed 64bit word"
 msgstr "符号あり64 ビット ワード"
 
 #: modules/file/rawfile.c:267
-#, fuzzy
 msgid "Unsigned 64bit word"
 msgstr "符号なし 64 ビットワード"
 
 #: modules/file/rawfile.c:268
-#, fuzzy
 msgid "IEEE single"
-msgstr "IEEE シングル"
+msgstr "IEEE single"
 
 #: modules/file/rawfile.c:269
-#, fuzzy
 msgid "IEEE double"
-msgstr "IEEE ダブル"
+msgstr "IEEE double"
 
 #: modules/file/rawfile.c:270
-#, fuzzy
 msgid "IEEE half"
-msgstr "IEEEハーフ"
+msgstr "IEEE half"
 
 #: modules/file/rawfile.c:271
-#, fuzzy
 msgid "Pascal real"
-msgstr "パスカルリアル"
+msgstr "Pascal real"
 
 #: modules/file/rawfile.c:326
-#, fuzzy
 msgid "Raw data files"
 msgstr "生データ ファイル"
 
 #: modules/file/rawfile.c:368
-#, fuzzy
 msgid "Raw data import must be run as interactive."
 msgstr "生データのインポートは対話形式で実行する必要があります。"
 
 #: modules/file/rawfile.c:416
-#, fuzzy
 msgid "Read Raw File"
 msgstr "未加工ファイルの読み取り"
 
 #: modules/file/rawfile.c:448
-#, fuzzy
 msgid "Data Format"
 msgstr "データ形式"
 
@@ -7202,93 +6531,80 @@ msgstr "データ形式"
 #: modules/volume/volume_planestat.c:405 modules/volume/volume_strayfield.c:257
 #: modules/volume/volume_zposlevel.c:266 modules/xyz/xyz_drift.c:618
 #: modules/xyz/xyz_raster.c:474
-#, fuzzy
 msgid "_Update"
-msgstr "_Update"
+msgstr "更新"
 
 #: modules/file/rawfile.c:594
-#, fuzzy
 msgid "<b>File</b>"
 msgstr "<b>ファイル</b>"
 
 #: modules/file/rawfile.c:635
-#, fuzzy
 msgid "S_quare sample"
-msgstr "S_quareサンプル"
+msgstr "正方形サンプル"
 
 #: modules/file/rawfile.c:737
-#, fuzzy
 msgid "Missin_g value substitute:"
-msgstr "Missin_g値の代用:"
+msgstr "不明な値の代用:"
 
 #: modules/file/rawfile.c:753
-#, fuzzy
 msgid "_Automatically offer raw data import of unknown files"
-msgstr "_Automatically未知のファイルの生データインポートを提供"
+msgstr "自動的に未知のファイルの生データインポートを提供"
 
 #: modules/file/rawfile.c:782
-#, fuzzy
 msgid "_Text data"
-msgstr "_Textデータ"
+msgstr "テキストデータ"
 
 #: modules/file/rawfile.c:783
 msgid "_Binary data"
-msgstr "_バイナリデータ"
+msgstr "バイナリデータ"
 
 #: modules/file/rawfile.c:792
-#, fuzzy
 msgid "Start from _line:"
-msgstr "_lineから開始:"
+msgstr "開始行:"
 
 #: modules/file/rawfile.c:799
 msgid "E_ach row skip:"
-msgstr "行E_achスキップ:"
+msgstr "スキップ行:"
 
 #: modules/file/rawfile.c:800
 msgid "fields"
 msgstr "フィールド"
 
 #: modules/file/rawfile.c:804
-#, fuzzy
 msgid "_Field delimiter:"
-msgstr "_Field区切り文字:"
+msgstr "フィールド区切り文字:"
 
 #: modules/file/rawfile.c:812
 msgid "Any whitespace"
 msgstr "任意の空白"
 
 #: modules/file/rawfile.c:813
-#, fuzzy
 msgid "TAB character"
-msgstr "TAB 文字"
+msgstr "TAB文字"
 
 #: modules/file/rawfile.c:814
-#, fuzzy
 msgid "Other character"
 msgstr "その他の文字"
 
 #: modules/file/rawfile.c:822
-#, fuzzy
 msgid "_Other delimiter:"
-msgstr "_Other区切り文字:"
+msgstr "他の区切り文字:"
 
 #: modules/file/rawfile.c:853
 msgid "Byte s_wap pattern:"
 msgstr "バイトスワップパターン:"
 
 #: modules/file/rawfile.c:868
-#, fuzzy
 msgid "Start at _offset:"
-msgstr "_offsetから開始:"
+msgstr "開始オフセット:"
 
 #: modules/file/rawfile.c:869
 msgid "bytes"
 msgstr "バイト"
 
 #: modules/file/rawfile.c:875
-#, fuzzy
 msgid "_Sample size:"
-msgstr "_Sampleサイズ:"
+msgstr "サンプルサイズ:"
 
 #: modules/file/rawfile.c:876 modules/file/rawfile.c:884
 #: modules/file/rawfile.c:892
@@ -7296,29 +6612,24 @@ msgid "bits"
 msgstr "ビット"
 
 #: modules/file/rawfile.c:883
-#, fuzzy
 msgid "After each sample s_kip:"
-msgstr "各サンプルs_kipの後:"
+msgstr "各サンプルスキップ後:"
 
 #: modules/file/rawfile.c:891
-#, fuzzy
 msgid "After each _row skip:"
-msgstr "各_rowスキップ後:"
+msgstr "各行スキップ後:"
 
 #: modules/file/rawfile.c:897
-#, fuzzy
 msgid "_Reverse bits in bytes"
-msgstr "バイト単位で_Reverseビット"
+msgstr "バイト単位でビットを反転"
 
 #: modules/file/rawfile.c:902
-#, fuzzy
 msgid "Reverse bi_ts in samples"
-msgstr "サンプル内のbi_tsを逆にする"
+msgstr "サンプル内のビットを反転する"
 
 #: modules/file/rawfile.c:907
-#, fuzzy
 msgid "Samples are si_gned"
-msgstr "サンプルはsi_gned"
+msgstr "Samples are signed"
 
 #: modules/file/rawfile.c:937
 msgid "Binary"
@@ -7347,7 +6658,7 @@ msgid "Info"
 msgstr "情報"
 
 #: modules/file/rawfile.c:1174
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Too short file</b>\n"
 "The format would require %u bytes long file (at least), but the length of `"
@@ -7358,7 +6669,7 @@ msgstr ""
 "%u バイトだけです。"
 
 #: modules/file/rawfile.c:1190
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>Parsing failed</b>\n"
 "The contents of `%s' does not match format: %s."
@@ -7367,12 +6678,12 @@ msgstr ""
 "' ' の内容 %s が形式と一致しません %s : 。"
 
 #: modules/file/rawfile.c:1664 modules/process/neural.c:1569
-#, fuzzy, c-format
+#, c-format
 msgid "The name `%s' is invalid."
 msgstr "名前 '%s' が無効です。"
 
 #: modules/file/rawfile.c:2268
-#, fuzzy, c-format
+#, c-format
 msgid "Not enough lines (%d) for offset (%d)"
 msgstr "オフセット (%d) に十分なライン (%d) がありません"
 
@@ -7382,14 +6693,14 @@ msgid "Expected whitespace to skip more fields in row %u, got `%.16s'"
 msgstr "Expected whitespace to skip more fields in row %u, got `%.16s'"
 
 #: modules/file/rawfile.c:2307
-#, fuzzy, c-format
+#, c-format
 msgid "Expected `%c' to skip more fields in row %u, got `%.16s'"
 msgstr ""
 "「%c」が行%uでより多くのフィールドをスキップすることが期待され、「%.16s」を得"
 "ました"
 
 #: modules/file/rawfile.c:2321
-#, fuzzy, c-format
+#, c-format
 msgid "Expected `%s' to skip more fields in row %u, got `%.16s'"
 msgstr ""
 "「%s」が行%uでより多くのフィールドをスキップすることが期待され、「%.16s」を得"
@@ -7412,7 +6723,6 @@ msgid "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
 msgstr "Expected delimiter `%s' after data in row %u, column %u, got `%.16s'"
 
 #: modules/file/rawgraph.c:112
-#, fuzzy
 msgid "Imports simple text files as graph curves."
 msgstr "単純なテキスト ファイルをグラフ カーブとして読み込みます。"
 
@@ -7421,14 +6731,12 @@ msgid "ASCII graph curve files"
 msgstr "ASCII グラフ曲線ファイル"
 
 #: modules/file/rawgraph.c:193
-#, fuzzy
 msgid "ASCII graph import must be run as interactive."
 msgstr "ASCII グラフのインポートは、対話形式で実行する必要があります。"
 
 #: modules/file/rawgraph.c:247
-#, fuzzy
 msgid "Import Graph Data"
-msgstr "グラフ データのインポート"
+msgstr "グラフデータのインポート"
 
 #: modules/file/rawgraph.c:279
 msgid "_X label:"
@@ -7440,14 +6748,13 @@ msgstr "_Yラベル:"
 
 #: modules/file/rawgraph.c:289
 msgid "X _units:"
-msgstr "X _units:"
+msgstr "X単位:"
 
 #: modules/file/rawgraph.c:295
 msgid "Y un_its:"
-msgstr "Y 単位:"
+msgstr "Y単位:"
 
 #: modules/file/rawgraph.c:465
-#, fuzzy
 msgid "Only files with two columns can be imported."
 msgstr "インポートできるのは、2 つの列を持つファイルだけです。"
 
@@ -7457,107 +6764,92 @@ msgid "Curve"
 msgstr "カーブ"
 
 #: modules/file/renishaw.c:368
-#, fuzzy
 msgid "Imports Renishaw WiRE data files (WDF)."
-msgstr "レニショー WiRE データ ファイル (WDF) をインポートします。"
+msgstr "Renishaw WiRE data files (WDF) データをインポートします。"
 
 #: modules/file/renishaw.c:381
-#, fuzzy
 msgid "Renishaw WiRE data files (.wdf)"
-msgstr "レニショー WiRE データ ファイル (.wdf)"
+msgstr "Renishaw WiRE data files (.wdf)"
 
 #: modules/file/renishaw.c:777
-#, fuzzy
 msgid "Random points order unsupported"
 msgstr "ランダムポイントの順序がサポートされていません"
 
 #: modules/file/rhk-sm3.c:236
-#, fuzzy
 msgid "Imports RHK Technology SM3 data files."
-msgstr "RHK テクノロジー SM3 データ ファイルをインポートします。"
+msgstr "RHK Technology SM3 データをインポートします。"
 
 #: modules/file/rhk-sm3.c:256
-#, fuzzy
 msgid "RHK SM3 files (.sm3)"
-msgstr "RHK SM3 ファイル (.sm3)"
+msgstr "RHK SM3 files (.sm3)"
 
 #: modules/file/rhk-sm3.c:336 modules/file/rhk-sm3.c:349
-#, fuzzy
 msgid "End of file reached in page header."
 msgstr "ページ ヘッダーでファイルの末尾に到達しました。"
 
 #: modules/file/rhk-sm3.c:340
-#, fuzzy
 msgid "magic page header"
 msgstr "マジックページヘッダー"
 
 #: modules/file/rhk-sm3.c:421
-#, fuzzy, c-format
+#, c-format
 msgid "End of file reached in string #%u."
 msgstr "文字列 #%u でファイルの末尾に達しました。"
 
 #: modules/file/rhk-sm3.c:442
-#, fuzzy
 msgid "End of file reached in color data header."
 msgstr "カラー データ ヘッダーでファイルの末尾に到達しました。"
 
 #: modules/file/rhk-sm3.c:451
-#, fuzzy
 msgid "End of file reached in color data."
 msgstr "ファイルの終わりがカラー データに到達しました。"
 
 #: modules/file/rhk-sm3.c:720
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown line %d"
 msgstr "不明な行%d"
 
 #: modules/file/rhk-sm4.c:397
-#, fuzzy
 msgid "Imports RHK Technology SM4 data files."
-msgstr "RHK テクノロジー SM4 データ ファイルをインポートします。"
+msgstr "RHK Technology SM4 データをインポートします。"
 
 #: modules/file/rhk-sm4.c:417
-#, fuzzy
 msgid "RHK SM4 files (.sm4)"
-msgstr "RHK SM4 ファイル (.sm4)"
+msgstr "RHK SM4 files (.sm4)"
 
 #: modules/file/rhk-sm4.c:944
-#, fuzzy, c-format
+#, c-format
 msgid "Object list in %s is truncated."
 msgstr "%sのオブジェクトリストは切り捨てられます。"
 
 #: modules/file/rhk-sm4.c:961
-#, fuzzy, c-format
+#, c-format
 msgid "Object of type %s is truncated."
 msgstr "%s型のオブジェクトは切り捨てられます。"
 
 #: modules/file/rhk-sm4.c:986
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot find object %s in %s."
 msgstr "%sにオブジェクト %sが見つかりません。"
 
 #: modules/file/rhk-spm32.c:176
-#, fuzzy
 msgid "Imports RHK Technology SPM32 data files."
-msgstr "RHK テクノロジー SPM32 データ ファイルをインポートします。"
+msgstr "RHK Technology SPM32 データをインポートします。"
 
 #: modules/file/rhk-spm32.c:196
-#, fuzzy
 msgid "RHK SPM32 files (.sm2)"
-msgstr "RHK SPM32 ファイル (.sm2)"
+msgstr "RHK SPM32 files (.sm2)"
 
 #: modules/file/rhk-spm32.c:379
-#, fuzzy
 msgid "Invalid file header."
 msgstr "ファイル ヘッダーが無効です。"
 
 #: modules/file/rhk-spm32.c:392
-#, fuzzy
 msgid "Only image and line files are supported."
 msgstr "イメージ ファイルとライン ファイルのみがサポートされます。"
 
 #: modules/file/rhk-spm32.c:398
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid data type %d for image data."
 msgstr "イメージ データに対して無効なデータ型%d。"
 
@@ -7567,102 +6859,84 @@ msgid "Invalid data type %d for line data."
 msgstr "行データに対して無効なデータ型%d。"
 
 #: modules/file/rhk-spm32.c:425
-#, fuzzy
 msgid "data ranges"
 msgstr "データ範囲"
 
 #: modules/file/rhk-spm32.c:490
-#, fuzzy
 msgid "data offset"
 msgstr "データ オフセット"
 
 #: modules/file/robotics.c:81
-#, fuzzy
 msgid "Imports Automation & Robotics Dual Lensmapper data files"
-msgstr ""
-"オートメーション&ロボティクスデュアルレンズマッパーデータファイルをインポート"
+msgstr "Imports Automation & Robotics Dual Lensmapper data files"
 
 #: modules/file/robotics.c:94
-#, fuzzy
 msgid "Dual Lensmapper files"
-msgstr "デュアルレンズマッパーファイル"
+msgstr "Dual Lensmapper files"
 
 #: modules/file/s94file.c:105
-#, fuzzy
 msgid "Imports S94 STM data files."
-msgstr "S94 STM データ ファイルをインポートします。"
+msgstr "S94 STMデータをインポートします。"
 
 #: modules/file/s94file.c:118
-#, fuzzy
 msgid "S94 STM files (.s94)"
-msgstr "S94 STM ファイル (.s94)"
+msgstr "S94 STM files (.s94)"
 
 #: modules/file/sdfile.c:158
-#, fuzzy
 msgid "Imports Surfstand group SDF (Surface Data File) files."
-msgstr ""
-"サーフスタンド グループ SDF(サーフェス データ ファイル)ファイルをインポートし"
-"ます。"
+msgstr "Surfstand group SDF (Surface Data File) データをインポートします。"
 
 #: modules/file/sdfile.c:173
-#, fuzzy
 msgid "Surfstand SDF files, binary (.sdf)"
-msgstr "サーフスタンドSDFファイル、バイナリ(.sdf)"
+msgstr "Surfstand SDF files, binary (.sdf)"
 
 #: modules/file/sdfile.c:179
-#, fuzzy
 msgid "Surfstand SDF files, text (.sdf)"
-msgstr "サーフスタンド SDF ファイル、テキスト (.sdf)"
+msgstr "Surfstand SDF files, text (.sdf)"
 
 #: modules/file/sdfile.c:185
-#, fuzzy
 msgid "Micromap SDF files (.sdfa)"
-msgstr "マイクロマップ SDF ファイル (.sdfa)"
+msgstr "Micromap SDF files (.sdfa)"
 
 #: modules/file/sdfile.c:658
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid `%s' value: %d."
 msgstr "無効な '%s' 値: %d。"
 
 #: modules/file/sdfile.c:667
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid `%s' value: %g."
 msgstr "無効な '%s' 値: %g。"
 
 #: modules/file/sdfile.c:725
-#, fuzzy
 msgid "Missing data start marker (*)."
 msgstr "データ開始マーカー (*) がありません。"
 
 #: modules/file/sdfile.c:749
-#, fuzzy, c-format
+#, c-format
 msgid "End of file reached when looking for `%s' field."
 msgstr "「%s」フィールドを探すときに、ファイルの終わりに達しました。"
 
 #: modules/file/sdfile.c:757
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid line found when looking for `%s' field."
 msgstr "「%s」フィールドを検索するときに無効な行が見つかりました。"
 
 #: modules/file/seiko.c:118
-#, fuzzy
 msgid "Imports Seiko XQB, XQD, XQT and XQP files."
-msgstr "セイコーXQB、XQD、XQTおよびXQPファイルをインポートします。"
+msgstr "Seiko XQB, XQD, XQT and XQP データをインポートします。"
 
 #: modules/file/seiko.c:131
-#, fuzzy
 msgid "Seiko files (.xqb, .xqd, .xqt, .xqp)"
-msgstr "セイコー ファイル (.xqb、.xqd、.xqt、.xqp)"
+msgstr "Seiko files (.xqb, .xqd, .xqt, .xqp)"
 
 #: modules/file/sensofar.c:890
-#, fuzzy
 msgid "Imports Sensofar PLu file format, version 2000 or newer."
-msgstr "読み込み Sensofar PLu ファイル形式、バージョン 2000 以降。"
+msgstr "Sensofar PLu file format, version 2000以降 データをインポートします。"
 
 #: modules/file/sensofar.c:903
-#, fuzzy
 msgid "Sensofar PLu files (.plu, .apx)"
-msgstr "センソファー PLu ファイル (.plu,.apx)"
+msgstr "Sensofar PLu files (.plu, .apx)"
 
 #: modules/file/sensofar.c:1384 modules/file/sensofar.c:1414
 #: modules/process/good_profile.c:244
@@ -7670,178 +6944,145 @@ msgid "Profile"
 msgstr "プロフィール"
 
 #: modules/file/sensofarx.c:90
-#, fuzzy
 msgid "Reads Sensofar PLUx files."
-msgstr "センソファーのPLUxファイルを読み取ります。"
+msgstr "Sensofar PLUx データをインポートします。"
 
 #: modules/file/sensofarx.c:103
-#, fuzzy
 msgid "Sensofar PLUx files (.plux)"
-msgstr "センサファーのPLUxファイル(.plux)"
+msgstr "Sensofar PLUx files (.plux)"
 
 #: modules/file/sensolytics.c:111
-#, fuzzy
 msgid "Imports Sensolytics text files."
-msgstr "センソリティテキストファイルをインポートします。"
+msgstr "Sensolytics text データをインポートします。"
 
 #: modules/file/sensolytics.c:124
-#, fuzzy
 msgid "Sensolytics text files (.dat)"
-msgstr "センソリティクステキストファイル (.dat)"
+msgstr "Sensolytics text files (.dat)"
 
 #: modules/file/shimadzu.c:133
-#, fuzzy
 msgid "Imports Shimadzu SPM data files."
-msgstr "島津 SPM データファイルをインポートします。"
+msgstr "Shimadzu SPM データをインポートします。"
 
 #: modules/file/shimadzu.c:146
-#, fuzzy
 msgid "Shimadzu files"
-msgstr "島津ファイル"
+msgstr "Shimadzu files"
 
 #: modules/file/shimadzu.c:372
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot parse data values after %d of %d."
 msgstr "%dの%d後にデータ値を解析できません。"
 
 #: modules/file/sicmfile.c:195
-#, fuzzy
 msgid "Imports IonScope SICM data files."
-msgstr "IonScope SICM データ ファイルをインポートします。"
+msgstr "IonScope SICM データをインポートします。"
 
 #: modules/file/sicmfile.c:209
-#, fuzzy
 msgid "IonScope SICM files (.img)"
-msgstr "イオンスコープ SICM ファイル (.img)"
+msgstr "IonScope SICM files (.img)"
 
 #: modules/file/sis.c:464
-#, fuzzy
 msgid "Imports SIS (Surface Imaging Systems) data files."
-msgstr ""
-"SIS (サーフェス イメージング システム) データ ファイルをインポートします。"
+msgstr "SIS (Surface Imaging Systems) データをインポートします。"
 
 #: modules/file/sis.c:477
-#, fuzzy
 msgid "SIS files (.sis)"
-msgstr "SIS ファイル (.sis)"
+msgstr "SIS files (.sis)"
 
 #: modules/file/sis.c:814
 msgid "Block not a document block."
 msgstr "Block not a document block."
 
 #: modules/file/sis.c:823
-#, fuzzy
 msgid "Too short document info."
 msgstr "ドキュメント情報が短すぎます。"
 
 #: modules/file/sis.c:844
-#, fuzzy
 msgid "Too short parameter info."
 msgstr "パラメーター情報が短すぎます。"
 
 #: modules/file/sis.c:946
-#, fuzzy
 msgid "Unexpected image block."
 msgstr "予期しないイメージ ブロック。"
 
 #: modules/file/sis.c:984 modules/file/sis.c:1015
-#, fuzzy
 msgid "End of file reached in image block."
 msgstr "ファイルの終わりがイメージ ブロックに到達しました。"
 
 #: modules/file/sis.c:1029
-#, fuzzy
 msgid "End of file reached in channel block."
 msgstr "チャネル ブロックでファイルの終わりに達しました。"
 
 #: modules/file/sis.c:1053
-#, fuzzy
 msgid "End of file reached when another channel was expected."
 msgstr "別のチャネルが予期されたときにファイルの終わりに達しました。"
 
 #: modules/file/spcfile.c:281
-#, fuzzy
 msgid "Imports Thermo Fisher SPC files."
-msgstr "インポートサーモフィッシャーSPCファイル。"
+msgstr "Imports Thermo Fisher SPC files."
 
 #: modules/file/spcfile.c:294
-#, fuzzy
 msgid "Thermo Fisher SPC files"
-msgstr "サーモフィッシャーSPCファイル"
+msgstr "Thermo Fisher SPC files"
 
 #: modules/file/spip-asc.c:100
-#, fuzzy
 msgid "Imports SPIP ASC files."
-msgstr "SPIP ASC ファイルをインポートします。"
+msgstr "SPIP ASC データをインポートします。"
 
 #: modules/file/spip-asc.c:113
-#, fuzzy
 msgid "SPIP ASCII files (.asc)"
-msgstr "SPIP ASCII ファイル (.asc)"
+msgstr "SPIP ASCII files (.asc)"
 
 #: modules/file/spml.c:108
-#, fuzzy
 msgid "Loads SPML (Scanning Probe Microscopy Markup Language) data files."
 msgstr ""
-"SPML (スキャンプローブ顕微鏡マークアップ言語) データファイルをロードします。"
+"SPML (Scanning Probe Microscopy Markup Language) データをインポートします。"
 
 #: modules/file/spml.c:122
-#, fuzzy
 msgid "SPML files (.xml)"
-msgstr "SPML ファイル (.xml)"
+msgstr "SPML files (.xml)"
 
 #: modules/file/spmlab.c:175
-#, fuzzy
 msgid "Imports Thermicroscopes SpmLab R3 to R7 data files."
-msgstr "R7 データ ファイルにサー顕微鏡 SpmLab R3 をインポートします。"
+msgstr "Thermicroscopes SpmLab R3 to R7 データをインポートします。"
 
 #: modules/file/spmlab.c:188
-#, fuzzy
 msgid "Thermicroscopes SpmLab files"
-msgstr "サー顕微鏡 SpmLab ファイル"
+msgstr "Thermicroscopes SpmLab files"
 
 #: modules/file/spmlab.c:259
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown format version %c."
 msgstr "不明な形式のバージョン%c。"
 
 #: modules/file/spmlabf.c:79
-#, fuzzy
 msgid "Imports SPMLab floating-point files."
-msgstr "SPMLab 浮動小数点ファイルをインポートします。"
+msgstr "SPMLab floating-point データをインポートします。"
 
 #: modules/file/spmlabf.c:92
-#, fuzzy
 msgid "SPMLab floating-point files (.flt)"
-msgstr "SPMLab 浮動小数点ファイル (.flt)"
+msgstr "SPMLab floating-point files (.flt)"
 
 #: modules/file/spmlabf.c:152
-#, fuzzy
 msgid "Missing data start marker [Data]."
 msgstr "データ開始マーカー [データ] がありません。"
 
 #: modules/file/spmxfile.c:96
-#, fuzzy
 msgid "Reads ATC SPMxFormat files."
-msgstr "ATC SPMx フォーマット ファイルを読み取ります。"
+msgstr "ATC SPMxFormat データをインポートします。"
 
 #: modules/file/spmxfile.c:109
-#, fuzzy
 msgid "ATC SPMxFormat data (.spm)"
-msgstr "データを取得します。"
+msgstr "ATC SPMxFormat data (.spm)"
 
 #: modules/file/stmprg.c:232
-#, fuzzy
 msgid "Imports Omicron STMPRG data files (tp ta)."
-msgstr "Omicron STMPRG データ ファイル (tp ta) をインポートします。"
+msgstr "Omicron STMPRG (tp ta) データをインポートします。"
 
 #: modules/file/stmprg.c:245
-#, fuzzy
 msgid "Omicron STMPRG files (tp ta)"
-msgstr "オミクロンSTMPRGファイル(tp ta)"
+msgstr "Omicron STMPRG files (tp ta)"
 
 #: modules/file/stmprg.c:284
-#, fuzzy
 msgid "Parameter file is too short."
 msgstr "パラメータ ファイルが短すぎます。"
 
@@ -7850,183 +7091,148 @@ msgid "First channel is switched off."
 msgstr "最初のチャンネルはオフになります。"
 
 #: modules/file/stpfile.c:117
-#, fuzzy
 msgid "Topography"
-msgstr "地形"
+msgstr "トポグラフィー"
 
 #: modules/file/stpfile.c:118
-#, fuzzy
 msgid "Current or Deflection or Amplitude"
-msgstr "電流または偏向または振幅"
+msgstr "電流・反り・振幅"
 
 #: modules/file/stpfile.c:119
-#, fuzzy
 msgid "Electrochemical Voltage (Vec)"
 msgstr "電気化学電圧(Vec)"
 
 #: modules/file/stpfile.c:120
-#, fuzzy
 msgid "Topography and SPS"
 msgstr "トポグラフィーとSPS"
 
 #: modules/file/stpfile.c:121
-#, fuzzy
 msgid "Topography and SPS (scripted)"
-msgstr "地形と SPS (スクリプト)"
+msgstr "トポグラフィーとSPS (スクリプト)"
 
 #: modules/file/stpfile.c:122
-#, fuzzy
 msgid "Electrochemical Current (Iec)"
-msgstr "電気化学電流(Iec)"
+msgstr "電気化学電流 (Iec)"
 
 #: modules/file/stpfile.c:123
-#, fuzzy
 msgid "Friction or Phase"
 msgstr "摩擦または位相"
 
 #: modules/file/stpfile.c:124
-#, fuzzy
 msgid "AUX in BNC"
 msgstr "AUX in BNC"
 
 #: modules/file/stpfile.c:125
-#, fuzzy
 msgid "AUX in 3 (Sum)"
-msgstr "AUX in 3 (合計)"
+msgstr "AUX in 3 (SUM)"
 
 #: modules/file/stpfile.c:126
-#, fuzzy
 msgid "AUX in 4 (Raw Deflection)"
-msgstr "AUX in 4 (生のたわみ)"
+msgstr "AUX in 4 (反りシグナル)"
 
 #: modules/file/stpfile.c:127
-#, fuzzy
 msgid "AUX in 5 (PicoPlus Aux BNC)"
-msgstr "AUX イン 5 (ピコプラス オー BNC)"
+msgstr "AUX in 5 (PicoPlus Aux BNC)"
 
 #: modules/file/stpfile.c:128
-#, fuzzy
 msgid "AUX in 6 (Surface Potential)"
-msgstr "6のAUX(表面電位)"
+msgstr "AUX in 6 (Surface Potential)"
 
 #: modules/file/stpfile.c:129
-#, fuzzy
 msgid "AUX in 7"
-msgstr "7でAUX"
+msgstr "AUX in 7"
 
 #: modules/file/stpfile.c:130
-#, fuzzy
 msgid "AUX in 8"
-msgstr "8でAUX"
+msgstr "AUX in 8"
 
 #: modules/file/stpfile.c:131
-#, fuzzy
 msgid "AUX in 9"
-msgstr "9でAUX"
+msgstr "AUX in 9"
 
 #: modules/file/stpfile.c:132
-#, fuzzy
 msgid "AUX in 10"
-msgstr "10のAUX"
+msgstr "AUX in 10"
 
 #: modules/file/stpfile.c:133
-#, fuzzy
 msgid "Topography and Flexgrid"
-msgstr "トポグラフィとフレックスグリッド"
+msgstr "トポグラフィとFlexgird"
 
 #: modules/file/stpfile.c:134
 msgid "External"
 msgstr "外部"
 
 #: modules/file/stpfile.c:140
-#, fuzzy
 msgid "Imports Molecular Imaging STP data files."
-msgstr "分子イメージング STP データ ファイルをインポートします。"
+msgstr "Molecular Imaging STP データをインポートします。"
 
 #: modules/file/stpfile.c:153
-#, fuzzy
 msgid "STP files (.stp)"
-msgstr "STP ファイル (.stp)"
+msgstr "STP files (.stp)"
 
 #: modules/file/surffile.c:283
-#, fuzzy
 msgid "Imports Surf data files."
-msgstr "サーフ データ ファイルをインポートします。"
+msgstr "Surf データをインポートします。"
 
 #: modules/file/surffile.c:296
-#, fuzzy
 msgid "Surf files (.sur)"
-msgstr "サーフファイル(.sur)"
+msgstr "Surf files (.sur)"
 
 #: modules/file/tescan.c:118
-#, fuzzy
 msgid "Imports Tescan SEM images."
-msgstr "テスカン SEM イメージをインポートします。"
+msgstr "Tescan SEM データをインポートします。"
 
 #: modules/file/tescan.c:131
-#, fuzzy
 msgid "Tescan TIF SEM image (.tif)"
-msgstr "テスカン TIF SEM イメージ (.tif)"
+msgstr "Tescan TIF SEM image (.tif)"
 
 #: modules/file/tescan.c:137
-#, fuzzy
 msgid "Tescan two-part SEM image (.hdr + .png)"
-msgstr "テスカン 2 部構成の SEM イメージ (.hdr + .png)"
+msgstr "Tescan two-part SEM image (.hdr + .png)"
 
 #: modules/file/tiaser.c:179
-#, fuzzy
 msgid "Imports FEI Tecnai imaging and analysis (former Emispec) files."
 msgstr ""
-"FEI Tecnaiイメージングおよび分析(旧Emispec)ファイルをインポートします。"
+"FEI Tecnai imaging and analysis (former Emispec) データをインポートします。"
 
 #: modules/file/tiaser.c:192
-#, fuzzy
 msgid "FEI TIA (Emispec) data"
-msgstr "FEI TIA (エミスペック) データ"
+msgstr "FEI TIA (Emispec) data"
 
 #: modules/file/ttffile.c:109
-#, fuzzy
 msgid "Imports Corning Tropel UltraSort files."
-msgstr "コーニングトロペルウルトラソートファイルをインポートします。"
+msgstr "Corning Tropel UltraSortデータをインポートします。"
 
 #: modules/file/ttffile.c:122
-#, fuzzy
 msgid "Corning Tropel UltraSort data (.ttf)"
-msgstr "コーニングトロペルウルトラソートデータ(.ttf)"
+msgstr "Corning Tropel UltraSort data (.ttf)"
 
 #: modules/file/ttffile.c:128
-#, fuzzy
 msgid "Corning Tropel UltraSort CSV export (.csv)"
-msgstr "コーニング トロペル ウルトラソート CSV エクスポート (.csv)"
+msgstr "Corning Tropel UltraSort CSV export (.csv)"
 
 #: modules/file/unisoku.c:145
-#, fuzzy
 msgid "Imports Unisoku data files (two-part .hdr + .dat)."
-msgstr "Unisoku データ ファイル (2 部構成の .hdr + .dat) をインポートします。"
+msgstr "Unisoku data files (two-part .hdr + .dat)データをインポートします。"
 
 #: modules/file/unisoku.c:160
-#, fuzzy
 msgid "Unisoku files (.hdr + .dat)"
-msgstr "ユニソクファイル (.hdr + .dat)"
+msgstr "Unisoku files (.hdr + .dat)"
 
 #: modules/file/unisoku.c:316
-#, fuzzy
 msgid "format flags"
 msgstr "フォーマット フラグ"
 
 #: modules/file/unisoku.c:323
-#, fuzzy
 msgid "resolution"
-msgstr "解像 度"
+msgstr "解像度"
 
 #: modules/file/unisoku.c:334
-#, fuzzy
 msgid ""
 "Missing or invalid some integers heaven knows what they mean but that should "
 "be here."
 msgstr ""
-"天国は彼らが何を意味するか知っているが、それはここにあるべきであるいくつかの"
-"整数を欠くか無効にします。"
+"いくつかの整数が無いか不正です。天国は何を意味するか知っているでしょうけど。"
 
 #: modules/file/unisoku.c:348
 msgid "x scale parameters"
@@ -8041,98 +7247,81 @@ msgid "z scale parameters"
 msgstr "z スケール パラメータ"
 
 #: modules/file/unisoku.c:391
-#, fuzzy
 msgid "data type parameters"
 msgstr "データ型パラメーター"
 
 #: modules/file/win_stm.c:91
-#, fuzzy
 msgid "Imports WinSTM (.stm) files."
-msgstr "WinSTM (.stm) ファイルをインポートします。"
+msgstr "Imports WinSTM (.stm) files."
 
 #: modules/file/win_stm.c:104
-#, fuzzy
 msgid "WinSTM files (.stm)"
-msgstr "ファイル (.stm)"
+msgstr "WinSTM files (.stm)"
 
 #: modules/file/wipfile.c:281
-#, fuzzy
 msgid "Imports WItec Project data files."
-msgstr "WItec プロジェクトデータファイルをインポートします。"
+msgstr "WItec Projectデータをインポートします。"
 
 #: modules/file/wipfile.c:294
-#, fuzzy
 msgid "WItec Project files (.wip)"
-msgstr "WItec プロジェクト ファイル (.wip)"
+msgstr "WItec Project files (.wip)"
 
 #: modules/file/witec-asc.c:74
-#, fuzzy
 msgid "Imports WITec ASCII export files."
-msgstr "WITec ASCII エクスポート ファイルをインポートします。"
+msgstr "WITec ASCII export データをインポートします。"
 
 #: modules/file/witec-asc.c:87
-#, fuzzy
 msgid "WITec ASCII files (.dat)"
-msgstr "WITec ASCII ファイル (.dat)"
+msgstr "WITec ASCII files (.dat)"
 
 #: modules/file/witfile.c:211
-#, fuzzy
 msgid "Imports WITec WIT data files."
-msgstr "WITec WIT データ ファイルをインポートします。"
+msgstr "WITec WIT データをインポートします。"
 
 #: modules/file/witfile.c:224
-#, fuzzy
 msgid "WITec files (.wit)"
-msgstr "WITec ファイル (.ウィット)"
+msgstr "WITec files (.wit)"
 
 #: modules/file/wsffile.c:89
-#, fuzzy
 msgid "Imports WSF ASCII files."
-msgstr "WSF ASCII ファイルをインポートします。"
+msgstr "WSF ASCII データをインポートします。"
 
 #: modules/file/wsffile.c:102
-#, fuzzy
 msgid "WSF ASCII files (.wsf)"
-msgstr "WSF ASCII ファイル (.wsf)"
+msgstr "WSF ASCII files (.wsf)"
 
 #: modules/file/wsffile.c:170
-#, fuzzy
 msgid "File header does not end with an empty line."
 msgstr "ファイル ヘッダーの末尾が空行ではありません。"
 
 #: modules/file/wsxmfile.c:121
-#, fuzzy
 msgid "Imports Nanotec WSxM data files."
-msgstr "ナノテック WSxM データ ファイルをインポートします。"
+msgstr "Nanotec WSxM データをインポートします。"
 
 #: modules/file/wsxmfile.c:134
-#, fuzzy
 msgid "WSxM files (.tom, .top, .stp)"
-msgstr "WSxMファイル(.tom、.top、.stp)"
+msgstr "WSxM files (.tom, .top, .stp)"
 
 #: modules/file/wsxmfile.c:140
-#, fuzzy
 msgid "WSxM curve files (.cur)"
-msgstr "WSxM カーブ ファイル (.cur)"
+msgstr "WSxM curve files (.cur)"
 
 #: modules/file/wsxmfile.c:389
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown data type `%s'."
 msgstr "不明なデータ型 '%s' です。"
 
 #: modules/file/xyzexport.c:94
-#, fuzzy
 msgid "Exports data as simple XYZ text file."
 msgstr "データをシンプル XYZ テキスト ファイルとしてエクスポートします。"
 
 #: modules/file/xyzexport.c:107
 msgid "XYZ text data (.xyz)"
-msgstr "XYZ テキスト データ (.xyz)"
+msgstr "XYZ text data (.xyz)"
 
 #: modules/file/xyzexport.c:252
-#, fuzzy
 msgid "Lateral units:"
-msgstr "横単位:"
+msgstr "水平単位:"
 
 #: modules/file/xyzexport.c:298
 msgid "Export XYZ"
@@ -8142,46 +7331,40 @@ msgstr "XYZ のエクスポート"
 #: modules/process/level.c:287 modules/process/neural.c:596
 #: modules/tools/corrlen.c:331 modules/tools/filter.c:303
 #: modules/tools/stats.c:367
-#, fuzzy
 msgid "Masking Mode"
-msgstr "マスキングモード"
+msgstr "マスクモード"
 
 #: modules/file/zeiss.c:66
-#, fuzzy
 msgid "Imports Carl Zeiss SEM images."
-msgstr "カールツァイスSEM画像をインポートします。"
+msgstr "Carl Zeiss SEM データをインポートします。"
 
 #: modules/file/zeiss.c:79
-#, fuzzy
 msgid "Carl Zeiss SEM scans (.tif)"
-msgstr "カール・ツァイスSEMスキャン(.tif)"
+msgstr "Carl Zeiss SEM scans (.tif)"
 
 #: modules/file/zeisslsm.c:383
-#, fuzzy
 msgid "Imports Carl Zeiss CLSM images."
-msgstr "カールツァイスCLSM画像をインポートします。"
+msgstr "Carl Zeiss CLSM データをインポートします。"
 
 #: modules/file/zeisslsm.c:396
-#, fuzzy
 msgid "Carl Zeiss CLSM images (.lsm)"
-msgstr "カールツァイスCLSM画像(.lsm)"
+msgstr "Carl Zeiss CLSM images (.lsm)"
 
 #: modules/file/zemax.c:72
 msgid "Imports Zemax grid sag data files."
 msgstr "Zemax グリッドサグデータファイルをインポートします。"
 
 #: modules/file/zemax.c:85
-#, fuzzy
 msgid "Zemax grid sag data (.dat)"
-msgstr "ゼマックスグリッドサグデータ(.dat)"
+msgstr "Zemax grid sag data (.dat)"
 
 #: modules/file/zemax.c:178
-#, fuzzy, c-format
+#, c-format
 msgid "Data line %u does not contain four items."
 msgstr "データ行%uには 4 つの項目が含まれていません。"
 
 #: modules/file/zemax.c:327
-#, fuzzy, c-format
+#, c-format
 msgid "Unit code %d is invalid or unsupported."
 msgstr "ユニット コード %dが無効か、サポートされていません。"
 
@@ -8190,18 +7373,16 @@ msgid "The first line contains too many items."
 msgstr "最初の行に含まれる項目が多すぎます。"
 
 #: modules/graph/graph_align.c:60
-#, fuzzy
 msgid "Aligns graph curves."
-msgstr "グラフカーブを整列します。"
+msgstr "グラフを整列。"
 
 #: modules/graph/graph_align.c:74
 msgid "/_Align"
-msgstr "/_Align"
+msgstr "/整列"
 
 #: modules/graph/graph_align.c:77
-#, fuzzy
 msgid "Align curves"
-msgstr "カーブを整列する"
+msgstr "カーブを整列"
 
 #: modules/graph/graph_cd.c:136
 msgid "Critical dimension measurements"
@@ -8212,41 +7393,36 @@ msgid "/_Critical Dimension..."
 msgstr "/臨界寸法(CD)…"
 
 #: modules/graph/graph_cd.c:153
-#, fuzzy
 msgid "Fit critical dimension"
-msgstr "クリティカルディメンションに適合"
+msgstr "臨界寸法にフィッティング"
 
 #: modules/graph/graph_cd.c:209 modules/graph/graph_fit.c:270
-#, fuzzy
 msgid "Fit Graph"
-msgstr "フィットグラフ"
+msgstr "グラフにフィッティング"
 
 #: modules/graph/graph_cd.c:212 modules/graph/graph_fdfit.c:254
 #: modules/graph/graph_fit.c:273 modules/process/fit-shape.c:393
 #: modules/process/terracefit.c:437 modules/volume/volume_fdfit.c:299
-#, fuzzy
 msgid "verb|_Fit"
-msgstr "動詞|_Fit"
+msgstr "動詞|フィッティング"
 
 #: modules/graph/graph_cd.c:262 modules/graph/graph_cut.c:168
 #: modules/graph/graph_fdfit.c:313 modules/graph/graph_fit.c:332
 #: modules/graph/graph_peaks.c:204 modules/graph/graph_sfuncs.c:205
 #: modules/graph/graph_stats.c:266 modules/graph/graph_terraces.c:514
-#, fuzzy
 msgid "_Graph curve:"
-msgstr "_Graphカーブ:"
+msgstr "曲線グラフ:"
 
 #: modules/graph/graph_cd.c:276 modules/graph/graph_fdfit.c:327
 #: modules/graph/graph_fit.c:346 modules/volume/volume_fdfit.c:389
-#, fuzzy
 msgid "F_unction:"
-msgstr "F_unction:"
+msgstr "関数:"
 
 #: modules/graph/graph_cd.c:305 modules/graph/graph_fdfit.c:368
 #: modules/graph/graph_fit.c:382 modules/process/curvature.c:718
 #: modules/process/fit-shape.c:791 modules/volume/volume_fdfit.c:422
 msgid "Parameter"
-msgstr "Paramètre"
+msgstr "パラメーター"
 
 #: modules/graph/graph_cd.c:307 modules/graph/graph_fdfit.c:370
 #: modules/graph/graph_fit.c:384 modules/process/fit-shape.c:793
@@ -8265,28 +7441,25 @@ msgstr "範囲:"
 #: modules/graph/graph_fdfit.c:433 modules/graph/graph_fit.c:451
 #: modules/graph/graph_stats.c:288 modules/volume/volume_fdfit.c:487
 #: modules/volume/volume_linestat.c:421 modules/volume/volume_strayfield.c:374
-#, fuzzy
 msgid "range|to"
-msgstr "範囲|"
+msgstr "範囲|終端"
 
 #: modules/graph/graph_cd.c:347
-#, fuzzy
 msgid "_Draw whole circle"
-msgstr "_Draw丸一周"
+msgstr "円を描画"
 
 #: modules/graph/graph_cd.c:382 modules/graph/graph_fdfit.c:498
 #: modules/graph/graph_fit.c:538 modules/graph/graph_terraces.c:626
 #: modules/process/fit-shape.c:527 modules/process/roddeposit_synth.c:619
 #: modules/process/terracefit.c:773 modules/volume/volume_fdfit.c:549
-#, fuzzy
 msgid "Save Fit Report"
-msgstr "フィット レポートを保存"
+msgstr "フィッティングレポートを保存"
 
 #: modules/graph/graph_cd.c:529 modules/graph/graph_cd.c:1107
 #: modules/graph/graph_fdfit.c:725 modules/graph/graph_fit.c:779
 #: modules/process/relate.c:832 modules/volume/volume_fdfit.c:883
 msgid "Fit"
-msgstr "フィット"
+msgstr "フィッティング"
 
 #: modules/graph/graph_cd.c:555 modules/graph/graph_fdfit.c:765
 #: modules/graph/graph_fit.c:819 modules/volume/volume_fdfit.c:955
@@ -8297,19 +7470,18 @@ msgstr ""
 
 #: modules/graph/graph_cd.c:993 modules/graph/graph_fdfit.c:1381
 #: modules/graph/graph_fit.c:1518 modules/volume/volume_fdfit.c:1715
-#, fuzzy
 msgid "===== Fit Results ====="
-msgstr "=== フィット結果 ="
+msgstr "=====フィッティング結果====="
 
 #: modules/graph/graph_cd.c:997 modules/graph/graph_fdfit.c:1385
 #: modules/graph/graph_fit.c:1522 modules/volume/volume_fdfit.c:1719
-#, fuzzy, c-format
+#, c-format
 msgid "Data:             %s\n"
 msgstr "データ: %s\n"
 
 #: modules/graph/graph_cd.c:1000 modules/graph/graph_fdfit.c:1388
 #: modules/graph/graph_fit.c:1525 modules/volume/volume_fdfit.c:1722
-#, fuzzy, c-format
+#, c-format
 msgid "Number of points: %d of %d\n"
 msgstr "ポイント数:%dの%d\n"
 
@@ -8321,9 +7493,9 @@ msgstr "X 範囲: %.*fから%.*f %s\n"
 
 #: modules/graph/graph_cd.c:1010 modules/graph/graph_fdfit.c:1398
 #: modules/graph/graph_fit.c:1535 modules/volume/volume_fdfit.c:1732
-#, fuzzy, c-format
+#, c-format
 msgid "Fitted function:  %s\n"
-msgstr "適合機能:%s\n"
+msgstr "フィッティング関数:%s\n"
 
 #: modules/graph/graph_cd.c:1013 modules/graph/graph_fdfit.c:1401
 #: modules/graph/graph_fit.c:1538 modules/volume/volume_fdfit.c:1735
@@ -8331,66 +7503,57 @@ msgid "Results\n"
 msgstr "結果\n"
 
 #: modules/graph/graph_cut.c:87
-#, fuzzy
 msgid "Cut graph"
-msgstr "カットグラフ"
+msgstr "グラフの切り取り"
 
 #: modules/graph/graph_cut.c:101
 msgid "/_Cut..."
-msgstr "/_切り取り…"
+msgstr "/切り取り…"
 
 #: modules/graph/graph_cut.c:104
-#, fuzzy
 msgid "Extract part of graph into new one"
-msgstr "グラフの一部を新しいものに抽出する"
+msgstr "グラフの一部から新規に作成"
 
 #: modules/graph/graph_cut.c:145
-#, fuzzy
 msgid "Cut Graph"
-msgstr "カットグラフ"
+msgstr "グラフを切り取り"
 
 #: modules/graph/graph_cut.c:173
-#, fuzzy
 msgid "Cut _all curves"
-msgstr "_allカーブをカットする"
+msgstr "すべてのカーブを切り取り"
 
 #: modules/graph/graph_dos_spectrum.c:42
-#, fuzzy
 msgid "DOS Spectrum"
-msgstr "DOS スペクトラム"
+msgstr "DOSスペクトル"
 
 #: modules/graph/graph_dos_spectrum.c:56
 msgid "/_DOS Spectrum"
-msgstr "/_DOS Spectrum"
+msgstr "/_DOSスペクトル"
 
 #: modules/graph/graph_dos_spectrum.c:59
-#, fuzzy
 msgid "Calculate DOS spectrum from I-V tunneling spectroscopy"
-msgstr "I-Vトンネリング分光からDOSスペクトルを計算する"
+msgstr "I-Vトンネル電流スペクトルからDOS spectrumを計算"
 
 #: modules/graph/graph_dos_spectrum.c:95
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Graph should be I-V spectroscopy."
 msgstr "%s:グラフはI-V分光法である必要があります。"
 
 #: modules/graph/graph_dos_spectrum.c:115
-#, fuzzy, c-format
+#, c-format
 msgid "DOS Spectrum for \"%s\""
 msgstr "「%s」のためのDOSスペクトラム"
 
 #: modules/graph/graph_export_ascii.c:63
-#, fuzzy
 msgid "Exports graph data to text files."
 msgstr "グラフ データをテキスト ファイルにエクスポートします。"
 
 #: modules/graph/graph_export_ascii.c:77
 #: modules/volume/volume_asciiexport.c:108
-#, fuzzy
 msgid "/Export _Text..."
-msgstr "/輸出_Text."
+msgstr "/テキストエクスポート…"
 
 #: modules/graph/graph_export_ascii.c:80
-#, fuzzy
 msgid "Export graph data to a text file"
 msgstr "グラフデータをテキストファイルにエクスポートする"
 
@@ -8399,95 +7562,77 @@ msgid "Plain text"
 msgstr "プレーンテキスト"
 
 #: modules/graph/graph_export_ascii.c:102
-#, fuzzy
 msgid "Gnuplot friendly"
-msgstr "グナプロットフレンドリー"
+msgstr "Gnuplotに合う"
 
 #: modules/graph/graph_export_ascii.c:103
-#, fuzzy
 msgid "Comma separated values"
 msgstr "コンマ区切り値"
 
 #: modules/graph/graph_export_ascii.c:104
-#, fuzzy
 msgid "Origin friendly"
-msgstr "オリジンフレンドリー"
+msgstr "生データに合う"
 
 #: modules/graph/graph_export_ascii.c:105
-#, fuzzy
 msgid "Igor Pro text wave"
-msgstr "イゴールプロのテキストウェーブ"
+msgstr "Igor Pro text wave"
 
 #: modules/graph/graph_export_ascii.c:127
-#, fuzzy
 msgid "POSIX _number format"
 msgstr "POSIX _number形式"
 
 #: modules/graph/graph_export_ascii.c:133
-#, fuzzy
 msgid "Single _merged abscissa"
-msgstr "シングル_mergedアブシッサ"
+msgstr "Single merged abscissa"
 
 #: modules/graph/graph_export_ascii.c:139
-#, fuzzy
 msgid "Export _labels"
-msgstr "エクスポート _labels"
+msgstr "ラベルエクスポート"
 
 #: modules/graph/graph_export_ascii.c:145
-#, fuzzy
 msgid "Export _units"
-msgstr "輸出_units"
+msgstr "単位エクスポート"
 
 #: modules/graph/graph_export_ascii.c:151
-#, fuzzy
 msgid "Export _metadata"
-msgstr "エクスポート_metadata"
+msgstr "メタデータエクスポート"
 
 #: modules/graph/graph_export_ascii.c:194
 #: modules/volume/volume_asciiexport.c:153
-#, fuzzy
 msgid "Export to Text File"
-msgstr "テキスト ファイルにエクスポート"
+msgstr "テキストファイルエクスポート"
 
 #: modules/graph/graph_export_bitmap.c:36
-#, fuzzy
 msgid "Export graph into bitmap"
 msgstr "グラフをビットマップにエクスポート"
 
 #: modules/graph/graph_export_bitmap.c:50
-#, fuzzy
 msgid "/Export _Bitmap"
-msgstr "/輸出_Bitmap"
+msgstr "/ビットマップにエクスポート"
 
 #: modules/graph/graph_export_bitmap.c:53
-#, fuzzy
 msgid "Export graph to a raster image"
-msgstr "ラスター イメージにグラフをエクスポートする"
+msgstr "グラフをラスターイメージにエクスポートする"
 
 #: modules/graph/graph_export_bitmap.c:65
-#, fuzzy
 msgid "Export to PNG"
 msgstr "PNG にエクスポート"
 
 #: modules/graph/graph_export_vector.c:36
-#, fuzzy
 msgid "Exports graphs to PostScript"
-msgstr "ポストスクリプトにグラフをエクスポート"
+msgstr "グラフをPostScriptにエクスポート"
 
 #: modules/graph/graph_export_vector.c:50
-#, fuzzy
 msgid "/Export _PostScript"
-msgstr "/輸出_PostScript"
+msgstr "/PostScriptエクスポート"
 
 #: modules/graph/graph_export_vector.c:53
-#, fuzzy
 msgid "Export graph to PostScript"
-msgstr "ポストスクリプトへのグラフのエクスポート"
+msgstr "グラフをPostScriptへエクスポート"
 
 #: modules/graph/graph_export_vector.c:66
-#, fuzzy
 msgid "Export to PostScript"
-msgstr "ポストスクリプトにエクスポート"
+msgstr "PostScriptにエクスポート"
 
 #: modules/graph/graph_fdfit.c:169
 msgid "Fit force-distance data"
@@ -8502,22 +7647,19 @@ msgid "Fit a force-distance curve"
 msgstr "フォースカーブをフィッティングする"
 
 #: modules/graph/graph_fdfit.c:251 modules/volume/volume_fdfit.c:296
-#, fuzzy
 msgid "Fit FD Curve"
-msgstr "FD カーブをフィット"
+msgstr "フォースカーブをフィッティング"
 
 #: modules/graph/graph_fdfit.c:258 modules/graph/graph_fit.c:277
 #: modules/process/correct_affine.c:347 modules/process/fit-shape.c:397
 #: modules/process/measure_lattice.c:293 modules/volume/volume_fdfit.c:303
-#, fuzzy
 msgid "verb|_Estimate"
-msgstr "動詞|_Estimate"
+msgstr "動詞|算出"
 
 #: modules/graph/graph_fdfit.c:260 modules/graph/graph_fit.c:279
 #: modules/volume/volume_fdfit.c:305
-#, fuzzy
 msgid "_Plot Inits"
-msgstr "_Plotイニッツ"
+msgstr "Plot Inits"
 
 #: modules/graph/graph_fdfit.c:366 modules/graph/graph_fit.c:380
 #: modules/process/fit-shape.c:789 modules/volume/volume_fdfit.c:420
@@ -8537,26 +7679,22 @@ msgstr "χ<sup>2</sup> 結果:"
 #: modules/graph/graph_fdfit.c:399 modules/graph/graph_fit.c:417
 #: modules/process/fit-shape.c:471 modules/process/fit-shape.c:2065
 #: modules/volume/volume_fdfit.c:453
-#, fuzzy
 msgid "Correlation Matrix"
 msgstr "相関行列"
 
 #: modules/graph/graph_fdfit.c:454 modules/graph/graph_fit.c:492
 #: modules/process/wpour_mark.c:413 modules/volume/volume_fdfit.c:508
-#, fuzzy
 msgid "Instant:"
 msgstr "インスタント："
 
 #: modules/graph/graph_fdfit.c:457 modules/graph/graph_fit.c:495
-#, fuzzy
 msgid "esti_mate"
-msgstr "esti_mate"
+msgstr "見積もり"
 
 #: modules/graph/graph_fdfit.c:464 modules/graph/graph_fit.c:502
 #: modules/volume/volume_fdfit.c:518
-#, fuzzy
 msgid "p_lot"
-msgstr "p_lot"
+msgstr "プロット"
 
 #: modules/graph/graph_fdfit.c:724 modules/graph/graph_fit.c:778
 #: modules/volume/volume_fdfit.c:882
@@ -8571,12 +7709,10 @@ msgstr "残渣: %g\n"
 
 #: modules/graph/graph_fdfit.c:1431 modules/graph/graph_fit.c:1568
 #: modules/volume/volume_fdfit.c:1766
-#, fuzzy
 msgid "Correlation matrix\n"
 msgstr "相関行列\n"
 
 #: modules/graph/graph_filter.c:40
-#, fuzzy
 msgid "Remove graph noise by filtering."
 msgstr "フィルタリングでグラフノイズを除去します。"
 
@@ -8585,7 +7721,6 @@ msgid "/_Filter"
 msgstr "/_フィルター"
 
 #: modules/graph/graph_filter.c:57
-#, fuzzy
 msgid "Remove noise from graph curves"
 msgstr "グラフカーブからノイズを除去"
 
@@ -8598,17 +7733,14 @@ msgid "/_Fit Function..."
 msgstr "/フィッティング機能…"
 
 #: modules/graph/graph_fit.c:199
-#, fuzzy
 msgid "Fit a function on graph data"
 msgstr "グラフデータに関数を合わせる"
 
 #: modules/graph/graph_fit.c:393
-#, fuzzy
 msgid "Copy all fitted values to estimates"
 msgstr "すべての適合値を見積もりにコピー"
 
 #: modules/graph/graph_fit.c:467
-#, fuzzy
 msgid "Plot full range"
 msgstr "全範囲をプロット"
 
@@ -8617,88 +7749,72 @@ msgid "Create a difference graph"
 msgstr "変位グラフを作成する"
 
 #: modules/graph/graph_level.c:39
-#, fuzzy
 msgid "Level graph by line."
-msgstr "折れ線グラフ"
+msgstr "折れ線グラフをレベリング。"
 
 #: modules/graph/graph_level.c:53
-#, fuzzy
 msgid "/_Level"
-msgstr "/_レベリング"
+msgstr "/レベリング"
 
 #: modules/graph/graph_level.c:56
-#, fuzzy
 msgid "Level graph curves"
-msgstr "レベルグラフカーブ"
+msgstr "カーブをレベリング"
 
 #: modules/graph/graph_logscale.c:95
-#, fuzzy
 msgid "Physically transforms graph data to logarithmic scale."
-msgstr "グラフ データを対数スケールに物理的に変換します。"
+msgstr "グラフデータを対数スケールに変換します。"
 
 #: modules/graph/graph_logscale.c:109
-#, fuzzy
 msgid "/_Logscale Transform..."
-msgstr "/_Logscale 変換."
+msgstr "/対数スケール変換…"
 
 #: modules/graph/graph_logscale.c:112
-#, fuzzy
 msgid "Transform graph axes to logarithmic scale"
 msgstr "グラフ軸を対数スケールに変換する"
 
 #: modules/graph/graph_logscale.c:262
-#, fuzzy
 msgid "Logscale Transform"
-msgstr "ログスケール変換"
+msgstr "対数スケール変換"
 
 #: modules/graph/graph_logscale.c:279
-#, fuzzy
 msgid "Axes to transform:"
 msgstr "変換する軸:"
 
 #: modules/graph/graph_logscale.c:287
-#, fuzzy
 msgid "Abscissa _X"
-msgstr "アブサシッサ_X"
+msgstr "横軸X"
 
 #: modules/graph/graph_logscale.c:288
-#, fuzzy
 msgid "Ordinate _Y"
-msgstr "オーディネート_Y"
+msgstr "縦軸Y"
 
 #: modules/graph/graph_logscale.c:289 modules/tools/grainremover.c:116
 msgid "_Both"
-msgstr "_Both"
+msgstr "両方"
 
 #: modules/graph/graph_logscale.c:295
-#, fuzzy
 msgid "Negative abscissa handling:"
-msgstr "負のアブシッサ処理:"
+msgstr "負の横軸処理:"
 
 #: modules/graph/graph_logscale.c:304 modules/graph/graph_logscale.c:321
-#, fuzzy
 msgid "O_mit"
-msgstr "O_mit"
+msgstr "省略"
 
 #: modules/graph/graph_logscale.c:305 modules/graph/graph_logscale.c:322
-#, fuzzy
 msgid "_Take absolute value"
-msgstr "絶対値_Take"
+msgstr "絶対値を取る"
 
 #: modules/graph/graph_logscale.c:312
-#, fuzzy
 msgid "Negative ordinate handling:"
-msgstr "負の縦座標処理:"
+msgstr "負の縦軸処理:"
 
 #: modules/graph/graph_logscale.c:329
-#, fuzzy
 msgid "Base:"
 msgstr "ベース："
 
 #: modules/graph/graph_logscale.c:337
-#, fuzzy
 msgid "Natural (e)"
-msgstr "ナチュラル (e)"
+msgstr "自然対数 (e)"
 
 #: modules/graph/graph_logscale.c:338
 msgid "10"
@@ -8709,17 +7825,14 @@ msgid "2"
 msgstr "2"
 
 #: modules/graph/graph_peaks.c:123
-#, fuzzy
 msgid "Finds peaks on graph curves."
 msgstr "グラフ曲線上のピークを検索します。"
 
 #: modules/graph/graph_peaks.c:137
-#, fuzzy
 msgid "/Find _Peaks..."
-msgstr "/_Peaksを見つける."
+msgstr "/ピークを見つける…"
 
 #: modules/graph/graph_peaks.c:140
-#, fuzzy
 msgid "Find graph curve peaks"
 msgstr "グラフ曲線のピークを検索する"
 
@@ -8730,50 +7843,41 @@ msgstr "隆起"
 #: modules/graph/graph_peaks.c:164 modules/process/convolve.c:189
 #: modules/tools/grainremover.c:123 modules/tools/spotremove.c:296
 msgid "Zero"
-msgstr "解放"
+msgstr "ゼロ"
 
 #: modules/graph/graph_peaks.c:165
-#, fuzzy
 msgid "Bilateral minimum"
-msgstr "二国間の最小値"
+msgstr "Bilateral最小値"
 
 #: modules/graph/graph_peaks.c:181
-#, fuzzy
 msgid "Graph Peaks"
 msgstr "グラフピーク"
 
 #: modules/graph/graph_peaks.c:214
-#, fuzzy
 msgid "_Background type:"
-msgstr "_Backgroundタイプ:"
+msgstr "バックグラウンドタイプ:"
 
 #: modules/graph/graph_peaks.c:224
-#, fuzzy
 msgid "Order peaks _by:"
-msgstr "注文ピーク_by:"
+msgstr "ピークの順序:"
 
 #: modules/graph/graph_peaks.c:230
-#, fuzzy
 msgid "Invert (find valleys)"
 msgstr "反転(谷を見つける)"
 
 #: modules/graph/graph_peaks.c:240
-#, fuzzy
 msgid "Number of _peaks:"
-msgstr "_peaks数:"
+msgstr "ピーク数:"
 
 #: modules/graph/graph_peaks.c:260 modules/process/polylevel.c:605
-#, fuzzy
 msgid "Save table to a file"
 msgstr "テーブルをファイルに保存する"
 
 #: modules/graph/graph_peaks.c:264 modules/process/polylevel.c:615
-#, fuzzy
 msgid "Copy table to clipboard"
 msgstr "テーブルをクリップボードにコピー"
 
 #: modules/graph/graph_peaks.c:642
-#, fuzzy
 msgid "Save Peak Parameters"
 msgstr "ピークパラメータの保存"
 
@@ -8798,12 +7902,10 @@ msgid "ACF"
 msgstr "ACF"
 
 #: modules/graph/graph_sfuncs.c:113 modules/tools/sfunctions.c:238
-#, fuzzy
 msgid "HHCF"
 msgstr "HHCF"
 
 #: modules/graph/graph_sfuncs.c:114 modules/tools/sfunctions.c:239
-#, fuzzy
 msgid "PSDF"
 msgstr "PSDF"
 
@@ -8815,60 +7917,51 @@ msgstr "1 次元統計関数 (高さ分布、相関、PSDF) を計算します�
 
 #: modules/graph/graph_sfuncs.c:145
 msgid "/Statistical _Functions..."
-msgstr "/統計_Functions…"
+msgstr "/統計関数…"
 
 #: modules/graph/graph_sfuncs.c:148 modules/tools/sfunctions.c:273
-#, fuzzy
 msgid "Calculate 1D statistical functions"
 msgstr "1D統計関数の計算"
 
 #: modules/graph/graph_sfuncs.c:180 modules/tools/sfunctions.c:272
-#, fuzzy
 msgid "Statistical Functions"
 msgstr "統計関数"
 
 #: modules/graph/graph_sfuncs.c:209
-#, fuzzy
 msgid "_All curves"
-msgstr "_Allカーブ"
+msgstr "すべてのカーブ"
 
 #: modules/graph/graph_sfuncs.c:221 modules/process/wave_synth.c:443
 #: modules/tools/linestats.c:331 modules/tools/sfunctions.c:427
 #: modules/volume/volume_linestat.c:383 modules/volume/volume_planestat.c:487
 #: modules/volume/volume_strayfield.c:343
-#, fuzzy
 msgid "_Quantity:"
-msgstr "_Quantity:"
+msgstr "量:"
 
 #: modules/graph/graph_sfuncs.c:229 modules/process/acf2d.c:457
 #: modules/process/grain_dist.c:338 modules/process/psdf2d.c:447
 #: modules/tools/profile.c:476 modules/tools/rprofile.c:406
 #: modules/tools/sfunctions.c:468
-#, fuzzy
 msgid "_Fixed resolution:"
-msgstr "_Fixed解像度:"
+msgstr "固定解像度:"
 
 #: modules/graph/graph_sfuncs.c:244
-#, fuzzy
 msgid "O_versampling:"
-msgstr "O_versampling:"
+msgstr "オーバーサンプリング:"
 
 #: modules/graph/graph_stats.c:116
-#, fuzzy
 msgid "Calculates simple graph curve statistics."
-msgstr "単純なグラフ曲線の統計情報を計算します。"
+msgstr "グラフ曲線の単純な統計情報。"
 
 #: modules/graph/graph_stats.c:130
 msgid "/_Statistics..."
 msgstr "/統計処理…"
 
 #: modules/graph/graph_stats.c:133
-#, fuzzy
 msgid "Calculate graph curve statistics"
-msgstr "グラフ曲線の統計情報を計算する"
+msgstr "グラフ曲線の統計情報を計算"
 
 #: modules/graph/graph_stats.c:194 modules/graph/graph_stats.c:244
-#, fuzzy
 msgid "Graph Statistics"
 msgstr "グラフ統計"
 
@@ -8890,7 +7983,6 @@ msgstr "範囲"
 
 #. TRANSLATORS: %{from}v and %{to}v are ids, do NOT translate them.
 #: modules/graph/graph_stats.c:200
-#, fuzzy
 msgid "%{from}v to %{to}v"
 msgstr "%{from}v から %{to}v"
 
@@ -8900,7 +7992,6 @@ msgid "Number of points"
 msgstr "ポイントの数"
 
 #: modules/graph/graph_stats.c:206 modules/graph/graph_stats.c:317
-#, fuzzy
 msgid "Simple Parameters"
 msgstr "単純なパラメータ"
 
@@ -8913,12 +8004,10 @@ msgstr "Median"
 
 #: modules/graph/graph_stats.c:211 modules/tools/linestats.c:172
 #: modules/volume/volume_linestat.c:160
-#, fuzzy
 msgid "Ra"
 msgstr "Ra"
 
 #: modules/graph/graph_stats.c:212
-#, fuzzy
 msgid "Rms (Rq)"
 msgstr "Rms (Rq)"
 
@@ -8931,64 +8020,54 @@ msgstr "傾斜"
 #: modules/graph/graph_stats.c:214 modules/process/col_synth.c:172
 #: modules/tools/linestats.c:177 modules/tools/stats.c:275
 #: modules/volume/volume_linestat.c:165 modules/volume/volume_planestat.c:240
-#, fuzzy
 msgid "Excess kurtosis"
 msgstr "過剰な尖度"
 
 #: modules/graph/graph_stats.c:217 modules/graph/graph_stats.c:320
-#, fuzzy
 msgid "Integrals"
 msgstr "積分"
 
 #: modules/graph/graph_stats.c:218
-#, fuzzy
 msgid "Projected length"
 msgstr "予想長"
 
 #: modules/graph/graph_stats.c:219
-#, fuzzy
 msgid "Developed length"
-msgstr "開発された長さ"
+msgstr "Developed length"
 
 #: modules/graph/graph_stats.c:220 modules/process/diff_synth.c:195
 #: modules/tools/linestats.c:171 modules/tools/stats.c:309
 #: modules/volume/volume_linestat.c:159 modules/volume/volume_planestat.c:258
 msgid "Variation"
-msgstr "バリエーション"
+msgstr "Variation"
 
 #: modules/graph/graph_stats.c:222
 msgid "Area under curve"
 msgstr "曲線下の領域"
 
 #: modules/graph/graph_stats.c:226
-#, fuzzy
 msgid "Positive area"
-msgstr "ポジティブエリア"
+msgstr "正領域"
 
 #: modules/graph/graph_stats.c:230
-#, fuzzy
 msgid "Negative area"
-msgstr "負の領域"
+msgstr "負領域"
 
 #: modules/graph/graph_stats.c:234
-#, fuzzy
 msgid "Root mean square"
 msgstr "二乗平均平方根"
 
 #: modules/graph/graph_stats.c:325 modules/process/acf2d.c:546
 #: modules/process/measure_lattice.c:437 modules/process/psdf2d.c:524
 #: modules/process/relate.c:425
-#, fuzzy
 msgid "Save Parameters"
 msgstr "パラメータの保存"
 
 #: modules/graph/graph_terraces.c:258 modules/graph/graph_terraces.c:574
-#, fuzzy
 msgid "Data + fit"
 msgstr "データ + フィット"
 
 #: modules/graph/graph_terraces.c:259 modules/graph/graph_terraces.c:575
-#, fuzzy
 msgid "Data + polynomials"
 msgstr "データ + 多項式"
 
@@ -9008,45 +8087,38 @@ msgstr "差"
 
 #: modules/graph/graph_terraces.c:261 modules/graph/graph_terraces.c:577
 #: modules/process/terracefit.c:281 modules/process/terracefit.c:708
-#, fuzzy
 msgid "Terraces (ideal)"
 msgstr "テラス(理想的)"
 
 #: modules/graph/graph_terraces.c:262 modules/graph/graph_terraces.c:578
 #: modules/graph/graph_terraces.c:1432 modules/process/terracefit.c:282
 #: modules/process/terracefit.c:709
-#, fuzzy
 msgid "Leveled surface"
-msgstr "サーフェスの平準化"
+msgstr "サーフェスのレベリング"
 
 #: modules/graph/graph_terraces.c:263 modules/graph/graph_terraces.c:579
 #: modules/graph/graph_terraces.c:1447 modules/process/terracefit.c:283
 #: modules/process/terracefit.c:710
-#, fuzzy
 msgid "Polynomial background"
-msgstr "多項式背景"
+msgstr "多項式バックグラウンド"
 
 #: modules/graph/graph_terraces.c:287 modules/process/terracefit.c:307
-#, fuzzy
 msgid "Fits terraces with polynomial background."
-msgstr "多項式背景を持つテラスにフィットします。"
+msgstr "多項式バックグラウンドを持つテラスにフィットします。"
 
 #: modules/graph/graph_terraces.c:301
-#, fuzzy
 msgid "/_Terraces..."
-msgstr "/_Terraces."
+msgstr "/テラス…"
 
 #: modules/graph/graph_terraces.c:304 modules/process/terracefit.c:325
-#, fuzzy
 msgid "Fit terraces with polynomial background"
-msgstr "多項式背景を持つテラスを合わせる"
+msgstr "多項式バックグラウンドを持つテラスを合わせる"
 
 #: modules/graph/graph_terraces.c:358 modules/process/fit-shape.c:2034
 #: modules/process/relate.c:399 modules/process/relate.c:1075
 #: modules/process/terracefit.c:419
-#, fuzzy
 msgid "Fit Results"
-msgstr "フィット結果"
+msgstr "フィッティング結果"
 
 #: modules/graph/graph_terraces.c:364 modules/process/terracefit.c:425
 msgid "Fitted step height"
@@ -9054,27 +8126,22 @@ msgstr "フィッテイングされたステップ高"
 
 #: modules/graph/graph_terraces.c:365 modules/process/fit-shape.c:2044
 #: modules/process/relate.c:1083 modules/process/terracefit.c:426
-#, fuzzy
 msgid "Mean square difference"
 msgstr "平均平方差"
 
 #: modules/graph/graph_terraces.c:366 modules/process/terracefit.c:427
-#, fuzzy
 msgid "Terrace discrepancy"
 msgstr "テラスの不一致"
 
 #: modules/graph/graph_terraces.c:367 modules/process/terracefit.c:428
-#, fuzzy
 msgid "Number of terraces"
 msgstr "テラスの数"
 
 #: modules/graph/graph_terraces.c:373 modules/process/terracefit.c:433
-#, fuzzy
 msgid "Fit Terraces"
 msgstr "フィットテラス"
 
 #: modules/graph/graph_terraces.c:398 modules/process/terracefit.c:484
-#, fuzzy
 msgid "Terrace List"
 msgstr "テラスリスト"
 
@@ -9088,19 +8155,16 @@ msgid "Survey"
 msgstr "アンケート"
 
 #: modules/graph/graph_terraces.c:520 modules/process/terracefit.c:651
-#, fuzzy
 msgid "_Step detection kernel:"
 msgstr "_Step検出カーネル:"
 
 #: modules/graph/graph_terraces.c:528 modules/process/terracefit.c:659
-#, fuzzy
 msgid "Step detection _threshold:"
-msgstr "ステップ検出_threshold:"
+msgstr "ステップ検出しきい値:"
 
 #: modules/graph/graph_terraces.c:537 modules/process/terracefit.c:667
-#, fuzzy
 msgid "Step _broadening:"
-msgstr "ステップ_broadening:"
+msgstr "ステップ拡大:"
 
 #: modules/graph/graph_terraces.c:546
 msgid "Minimum terrace _length:"
@@ -9108,80 +8172,69 @@ msgstr "最小テラス長さ:"
 
 #: modules/graph/graph_terraces.c:554 modules/process/linematch.c:885
 #: modules/process/terracefit.c:684
-#, fuzzy
 msgid "_Polynomial degree:"
-msgstr "_Polynomial度:"
+msgstr "多項式の次数:"
 
 #: modules/graph/graph_terraces.c:562 modules/process/terracefit.c:692
-#, fuzzy
 msgid "_Independent heights"
-msgstr "_Independent高さ"
+msgstr "高さ"
 
 #: modules/graph/graph_terraces.c:580
-#, fuzzy
 msgid "Step detection"
 msgstr "ステップ検出"
 
 #: modules/graph/graph_terraces.c:582 modules/process/deconvolve.c:505
 #: modules/process/psf.c:502 modules/process/terracefit.c:712
 #: modules/volume/volume_psf.c:541
-#, fuzzy
 msgid "_Display:"
-msgstr "_Display:"
+msgstr "表示:"
 
 #: modules/graph/graph_terraces.c:587
-#, fuzzy
 msgid "Select regions _manually"
-msgstr "_manually領域の選択"
+msgstr "領域の手動選択"
 
 #: modules/graph/graph_terraces.c:598 modules/process/fractal.c:310
 #: modules/process/mark_with.c:394 modules/process/neural.c:562
 #: modules/process/psf.c:508 modules/process/terracefit.c:745
 #: modules/volume/volume_psf.c:547
 msgid "Result"
-msgstr "Result"
+msgstr "結果"
 
 #: modules/graph/graph_terraces.c:827 modules/process/terracefit.c:1002
-#, fuzzy
 msgid "Save Terrace Table"
 msgstr "テラステーブルを保存"
 
 #: modules/graph/graph_terraces.c:877 modules/process/terracefit.c:1052
-#, fuzzy
 msgid "_Polynomial degree"
-msgstr "_Polynomial度"
+msgstr "多項式の次数"
 
 #: modules/graph/graph_terraces.c:889 modules/process/terracefit.c:1064
-#, fuzzy
 msgid "M_inimum polynomial degree:"
-msgstr "多項M_inimum度:"
+msgstr "最小次数:"
 
 #: modules/graph/graph_terraces.c:899 modules/process/polylevel.c:478
 #: modules/process/terracefit.c:1074
-#, fuzzy
 msgid "_Maximum polynomial degree:"
-msgstr "多項_Maximum度:"
+msgstr "最大次数:"
 
 #: modules/graph/graph_terraces.c:908 modules/process/terracefit.c:1083
-#, fuzzy
 msgid "Step _broadening"
-msgstr "ステップ_broadening"
+msgstr "ステップ拡大"
 
 #: modules/graph/graph_terraces.c:921 modules/process/terracefit.c:1096
 msgid "Minimum broadening:"
-msgstr "Minimum broadening:"
+msgstr "最小拡大:"
 
 #: modules/graph/graph_terraces.c:932 modules/process/terracefit.c:1107
 msgid "Maximum broadening:"
-msgstr "Maximum broadening:"
+msgstr "最大拡大:"
 
 #: modules/graph/graph_terraces.c:1110 modules/process/terracefit.c:1322
-#, fuzzy
 msgid "Survey cannot be run with independent degrees."
 msgstr "独立度で測量を実行することはできません。"
 
 #: modules/graph/graph_terraces.c:1117 modules/process/terracefit.c:1329
-#, fuzzy, c-format
+#, c-format
 msgid "Number of combinations: %u."
 msgstr "組み合わせの数: %u。"
 
@@ -9190,7 +8243,7 @@ msgid "No free parameters are selected."
 msgstr "空きパラメータは選択されていません。"
 
 #: modules/graph/graph_terraces.c:1266 modules/graph/graph_terraces.c:1359
-#, fuzzy, c-format
+#, c-format
 msgid "Segment %u"
 msgstr "セグメント%u"
 
@@ -9204,9 +8257,8 @@ msgstr "レベル %d"
 #: modules/process/fit-shape.c:1858 modules/process/terracefit.c:1810
 #: modules/process/terracefit.c:1829 modules/process/terracefit.c:1980
 #: modules/process/terracefit.c:1999
-#, fuzzy
 msgid "Fit failed"
-msgstr "フィットに失敗しました"
+msgstr "フィッティングに失敗"
 
 #: modules/graph/graph_terraces.c:2282 modules/process/terracefit.c:2030
 #, fuzzy
@@ -15651,9 +14703,8 @@ msgid "/SPM M_odes/_Magnetic/_Perpendicular Media Field..."
 msgstr "/SPMモード/磁気力/_Perpendicular Media Field…"
 
 #: modules/process/mfm_field.c:173
-#, fuzzy
 msgid "Compute stray field above perpendicular magnetic medium"
-msgstr "垂直磁気媒体の上の迷走場を計算する"
+msgstr "垂直磁気媒体の上の迷磁場を計算する"
 
 #: modules/process/mfm_field.c:298
 #, fuzzy
@@ -18642,7 +17693,7 @@ msgstr "Python スクリプトを開く"
 #: pygwy.c:130
 #, fuzzy
 msgid "Pygwy, the Gwyddion Python wrapper."
-msgstr "ピグウィ、グウィディオンパイソンラッパー。"
+msgstr "ピグウィ、Gwyddionパイソンラッパー。"
 
 #: pygwy.c:271
 #, fuzzy
