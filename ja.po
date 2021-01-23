@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gwyddion\n"
 "Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
 "POT-Creation-Date: 2021-01-18 02:14+0100\n"
-"PO-Revision-Date: 2021-01-21 14:44+0900\n"
+"PO-Revision-Date: 2021-01-23 15:47+0900\n"
 "Language-Team: https://github.com/iobataya/gwyddion-ja-translation\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -601,7 +601,7 @@ msgstr "検出されました"
 
 #: libprocess/gwyprocessenums.c:80
 msgid "Parallel"
-msgstr "Parallel"
+msgstr "平行"
 
 #: libprocess/gwyprocessenums.c:81
 msgid "Triangular"
@@ -2448,7 +2448,7 @@ msgstr "スペクトル%dが%sに存在しません"
 #: app/validate.c:427
 #, c-format
 msgid "no brick %d exists for %s"
-msgstr "brick%dが%sに存在しません"
+msgstr "3D-brick%dが%sに存在しません"
 
 #: app/validate.c:443
 #, c-format
@@ -2712,9 +2712,8 @@ msgid ""
 "not change the underlying data.  All subsequent operations still apply to "
 "the underlying data."
 msgstr ""
-"データ プロセス→プレゼンテーションの関数によって作成されたデータプレゼンテー"
-"ションでは、基になるデータは変更されません。 後続のすべての操作は、引き続き基"
-"になるデータに適用されます。"
+"データ プロセス→画像処理ツールよって作成された画像処理では、基になるデータは"
+"変更されません。 後続のすべての操作は、引き続き基になるデータに適用されます。"
 
 #: gwyddion/tips.c:88
 msgid ""
@@ -3012,8 +3011,8 @@ msgid ""
 "Data Process → Presentation → Edge Detection → Step is a fine step detector "
 "with a good dynamic range"
 msgstr ""
-"エッジ検出→ステップ→データプロセス→プレゼンテーションは、良好なダイナミックレ"
-"ンジを備えた微細なステップ検出器です"
+"データ処理→画像処理→エッジ検出→ステップは、良好なダイナミックレンジを備えた微"
+"細なステップ検出器です"
 
 #: gwyddion/tips.c:306
 msgid ""
@@ -3047,8 +3046,8 @@ msgid ""
 "Data Process → Mask → Mark With can set the image mask based on another "
 "data, mask or presentation."
 msgstr ""
-"データプロセス→マスク→マーク付けは、別のデータ、マスクまたはプレゼンテーショ"
-"ンに基づいてイメージマスクを設定することができます。"
+"データ処理→マスク→マーク付けは、別のデータ、マスクまたは画像処理に基づいてイ"
+"メージマスクを設定することができます。"
 
 #: gwyddion/tips.c:333
 msgid "Graph → Critical Dimension measures steps on extracted profile graphs."
@@ -3124,8 +3123,8 @@ msgid ""
 "selected lines.  If there are no large features automatic Align Rows usually "
 "works well."
 msgstr ""
-"[パス レベル] ツールは、手動で選択したラインに沿って並べて行を不整列にしま"
-"す。 大きな機能がない場合は、通常、行を自動的に整列します。"
+"[パス レベリング] ツールは、手動で選択したラインに沿ってスキャンラインを揃え"
+"てレベリングします。 大きな形状がない場合は、通常、行を自動的に整列します。"
 
 #: gwyddion/tips.c:390
 msgid ""
@@ -6168,14 +6167,12 @@ msgid "Item `%s' is beyond the end of the file."
 msgstr "項目 '%s' がファイルの終わりを越えています。"
 
 #: modules/file/opdfile.c:635
-#, fuzzy
 msgid "Nested directories found"
 msgstr "ネストされたディレクトリが見つかりました"
 
 #: modules/file/opengps.c:134
-#, fuzzy
 msgid "Reads ISO 5436-2 OpenGPS .x3p files."
-msgstr "ISO 5436-2 OpenGPS .x3pファイルを読み取ります。"
+msgstr "ISO 5436-2 OpenGPS .x3p データをインポートします。"
 
 #: modules/file/opengps.c:147
 msgid "ISO 5436-2 OpenGPS data (.x3p)"
@@ -6187,7 +6184,6 @@ msgstr ""
 "指定されたマトリックス ディメンションの DataList アイテムが多すぎます。"
 
 #: modules/file/opengps.c:537
-#, fuzzy
 msgid "File main.xml contains multiple data elements."
 msgstr "ファイルのメイン.xmlには複数のデータ要素が含まれています。"
 
@@ -6217,17 +6213,14 @@ msgid "Invalid object nesting at line %u."
 msgstr "行%uでオブジェクトのネストが無効です。"
 
 #: modules/file/phoenix.c:703 modules/file/spmlab.c:283
-#, fuzzy
 msgid "Data block is truncated."
 msgstr "データ ブロックは切り捨てられます。"
 
 #: modules/file/phoenix.c:1081
-#, fuzzy
 msgid "Cannot parse AFM HEADER_TABLE values."
 msgstr "AFM HEADER_TABLE値を解析できません。"
 
 #: modules/file/pixmap.c:198
-#, fuzzy
 msgid "All channels"
 msgstr "すべてのチャンネル"
 
@@ -6244,12 +6237,10 @@ msgid "Blue"
 msgstr "青"
 
 #: modules/file/pixmap.c:202
-#, fuzzy
 msgid "Value (max)"
 msgstr "値 (最大)"
 
 #: modules/file/pixmap.c:203
-#, fuzzy
 msgid "RGB sum"
 msgstr "RGB の合計"
 
@@ -7571,7 +7562,7 @@ msgstr "コンマ区切り値"
 
 #: modules/graph/graph_export_ascii.c:104
 msgid "Origin friendly"
-msgstr "生データに合う"
+msgstr "元データに合う"
 
 #: modules/graph/graph_export_ascii.c:105
 msgid "Igor Pro text wave"
@@ -8261,20 +8252,17 @@ msgid "Fit failed"
 msgstr "フィッティングに失敗"
 
 #: modules/graph/graph_terraces.c:2282 modules/process/terracefit.c:2030
-#, fuzzy
 msgid "No suitable terrace steps found"
 msgstr "適切なテラスステップが見つかりません"
 
 #: modules/graph/graph_terraces.c:2365 modules/process/terracefit.c:2228
 #: modules/process/terracefit.c:2636
-#, fuzzy
 msgid "No terraces were found"
 msgstr "テラスが見つかりませんでした"
 
 #: modules/graph/graph_terraces.c:2463 modules/process/polylevel.c:924
 #: modules/process/terracefit.c:2715 modules/tools/distance.c:579
 #: modules/tools/selectionmanager.c:737
-#, fuzzy
 msgid "Save Table"
 msgstr "テーブルの保存"
 
@@ -8284,61 +8272,49 @@ msgid "Fitting in progress..."
 msgstr "フィッティング進行中…"
 
 #: modules/graph/graph_terraces.c:2690 modules/process/terracefit.c:2950
-#, fuzzy
 msgid "Save Terrace Fit Survey"
 msgstr "テラスフィット調査を保存"
 
 #: modules/layer/axis.c:143
-#, fuzzy
 msgid "Layer allowing selection of horizontal or vertical lines."
 msgstr "水平線または垂直線の選択を可能にするレイヤー。"
 
 #: modules/layer/cross.c:152
-#, fuzzy
 msgid "Layer allowing selection of combined horizontal and vertical lines."
-msgstr "レイヤーは、結合された水平線と垂直線の選択を可能にします。"
+msgstr "結合された水平線と垂直線の選択を可能にするレイヤー。"
 
 #: modules/layer/ellipse.c:146
-#, fuzzy
 msgid "Layer allowing selection of elliptic areas."
 msgstr "楕円領域の選択を可能にするレイヤー。"
 
 #: modules/layer/lattice.c:126
-#, fuzzy
 msgid "Layer allowing selection of a two-dimensional lattice."
 msgstr "2 次元の格子の選択を可能にするレイヤー。"
 
 #: modules/layer/line.c:180
-#, fuzzy
 msgid "Layer allowing selection of arbitrary straight lines."
 msgstr "任意の直線の選択を可能にするレイヤー。"
 
 #: modules/layer/path.c:174
-#, fuzzy
 msgid "Layer allowing selection of a single long curve."
 msgstr "単一の長い曲線の選択を可能にするレイヤー。"
 
 #: modules/layer/point.c:172
-#, fuzzy
 msgid ""
 "Layer allowing selection of several points, displayed as crosses or "
 "invisible."
 msgstr ""
-"レイヤーは、十字または非表示として表示される複数のポイントの選択を可能にしま"
-"す。"
+"十字または非表示として表示される複数のポイントの選択を可能にするレイヤー。"
 
 #: modules/layer/projective.c:131
-#, fuzzy
 msgid "Layer allowing selection of a projective plane."
 msgstr "投影面の選択を可能にするレイヤー。"
 
 #: modules/layer/rectangle.c:150
-#, fuzzy
 msgid "Layer allowing selection of rectangular areas."
 msgstr "長方形の領域の選択を可能にするレイヤー。"
 
 #: modules/plugin-proxy.c:145
-#, fuzzy
 msgid ""
 "Plug-in proxy is a module capable of querying, registering, and running "
 "external programs (plug-ins) on data pretending they are data processing or "
@@ -8350,60 +8326,58 @@ msgstr ""
 
 #: modules/plugin-proxy.c:463
 msgid "/_Plug-Ins"
-msgstr "/_プラグイン"
+msgstr "/プラグイン"
 
 #: modules/plugin-proxy.c:464
-#, fuzzy, c-format
+#, c-format
 msgid "Run plug-in %s"
 msgstr "プラグイン %sの実行"
 
 #: modules/plugin-proxy.c:737 modules/plugin-proxy.c:838
-#, fuzzy
 msgid "Plugin-proxy must be run as interactive."
 msgstr "プラグインプロキシはインタラクティブとして実行する必要があります。"
 
 #: modules/plugin-proxy.c:743
-#, fuzzy, c-format
+#, c-format
 msgid "Plug-in `%s' does not implement file loading."
 msgstr "プラグイン '%s' はファイルの読み込みを実装しません。"
 
 #: modules/plugin-proxy.c:761
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot read temporary file: %s."
 msgstr "一時ファイルを読み取れません: %s。"
 
 #: modules/plugin-proxy.c:768 modules/plugin-proxy.c:863
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot execute plug-in `%s': %s."
 msgstr "プラグイン '%s' を実行できません: %s。"
 
 #: modules/plugin-proxy.c:777 modules/plugin-proxy.c:872
-#, fuzzy, c-format
+#, c-format
 msgid "Plug-in `%s' returned non-zero exit status: %d."
 msgstr "プラグイン '%s' はゼロ以外の終了状況を返しました: %d。"
 
 #: modules/plugin-proxy.c:790
-#, fuzzy, c-format
+#, c-format
 msgid "Plug-in `%s' did not return any meaningful data."
 msgstr "プラグイン '%s' は意味のあるデータを返しませんでした。"
 
 #: modules/plugin-proxy.c:844
-#, fuzzy, c-format
+#, c-format
 msgid "Plug-in `%s' does not implement file saving."
 msgstr "プラグイン '%s' はファイル保存を実装しません。"
 
 #: modules/plugin-proxy.c:1204 modules/plugin-proxy.c:1213
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create a temporary file: %s."
 msgstr "一時ファイルを作成できません: %s。"
 
 #: modules/plugin-proxy.c:1221
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot fdopen() already open file: %s."
-msgstr "fdopen() 既にファイルを開くことができません: %s。"
+msgstr "Fdopen() できません。既にファイルが開かれています: %s。"
 
 #: modules/process/acf2d.c:195
-#, fuzzy
 msgid "Calculates and analyzes two-dimensional autocorrelation function."
 msgstr "2 次元自己相関関数を計算して分析します。"
 
@@ -8422,9 +8396,8 @@ msgstr "自己相関関数"
 #: modules/process/acf2d.c:287 modules/process/curvature.c:579
 #: modules/process/psdf2d.c:277 modules/process/terracefit.c:422
 #: modules/tools/corrlen.c:259 modules/tools/stats.c:264
-#, fuzzy
 msgid "Mask in use"
-msgstr "マスク使用中"
+msgstr "使用中のマスク"
 
 #: modules/process/acf2d.c:290 modules/process/col_synth.c:173
 msgid "Autocorrelation length"
@@ -8443,7 +8416,6 @@ msgid "Slowest decay direction"
 msgstr "最も遅い減衰方向"
 
 #: modules/process/acf2d.c:295
-#, fuzzy
 msgid "Texture aspect ratio"
 msgstr "テクスチャアスペクト比"
 
@@ -8457,31 +8429,26 @@ msgid "Zoom:"
 msgstr "ズーム："
 
 #: modules/process/acf2d.c:396
-#, fuzzy
 msgid "Data adjustment:"
 msgstr "データ調整:"
 
 #: modules/process/acf2d.c:404
-#, fuzzy
 msgid "data-adjustment|None"
 msgstr "データ調整|なし"
 
 #: modules/process/acf2d.c:406
-#, fuzzy
 msgid "Mean value subtraction"
 msgstr "平均値減算"
 
 #: modules/process/acf2d.c:408
-#, fuzzy
 msgid "Plane leveling"
-msgstr "平面の平準化"
+msgstr "平面レベリング"
 
 #: modules/process/acf2d.c:415
 msgid "Create ACF image"
 msgstr "ACF イメージの作成"
 
 #: modules/process/acf2d.c:425 modules/process/psdf2d.c:415
-#, fuzzy
 msgid "Only zoomed part"
 msgstr "ズームされたパーツのみ"
 
@@ -8493,27 +8460,23 @@ msgstr "ズームされたパーツのみ"
 #: modules/process/terracefit.c:721 modules/tools/cprofile.c:368
 #: modules/tools/linestats.c:392 modules/tools/profile.c:523
 #: modules/tools/rprofile.c:443 modules/tools/sfunctions.c:502
-#, fuzzy
 msgid "_Masking:"
-msgstr "_マスクing:"
+msgstr "マスク:"
 
 #: modules/process/acf2d.c:471 modules/process/multiprofile.c:384
 #: modules/process/psdf2d.c:461 modules/process/straighten_path.c:278
 #: modules/tools/cprofile.c:375 modules/tools/pathlevel.c:256
 #: modules/tools/profile.c:465 modules/tools/roughness.c:601
-#, fuzzy
 msgid "_Thickness:"
-msgstr "_Thickness:"
+msgstr "厚み:"
 
 #: modules/process/acf2d.c:477 modules/process/psdf2d.c:467
-#, fuzzy
 msgid "_Separate curves"
-msgstr "_Separateカーブ"
+msgstr "分離曲線"
 
 #: modules/process/acf2d.c:513 modules/process/calcoefs_simple.c:466
-#, fuzzy
 msgid "_Threshold"
-msgstr "_Threshold"
+msgstr "しきい値"
 
 #: modules/process/acf2d.c:520 modules/process/drift.c:362
 #: modules/process/facet_analysis.c:684 modules/process/facet_measure.c:455
@@ -8523,9 +8486,8 @@ msgstr "_Threshold"
 #: modules/process/mark_disconn.c:301 modules/process/mask_morph.c:304
 #: modules/process/mask_shift.c:236 modules/process/scars.c:408
 #: modules/process/terracefit.c:739 modules/process/wpour_mark.c:372
-#, fuzzy
 msgid "_Mask color:"
-msgstr "_マスク色:"
+msgstr "マスク色:"
 
 #: modules/process/acf2d.c:878
 #, c-format
@@ -8537,7 +8499,6 @@ msgid "2D ACF"
 msgstr "2D ACF"
 
 #: modules/process/angle_dist.c:102
-#, fuzzy
 msgid ""
 "Calculates two-dimensional distribution of angles, that is projections of "
 "slopes to all directions."
@@ -8548,7 +8509,6 @@ msgid "/_Statistics/An_gle Distribution..."
 msgstr "/統計処理/角度分布…"
 
 #: modules/process/angle_dist.c:121
-#, fuzzy
 msgid "Calculate two-dimensional angle distribution"
 msgstr "2 次元角度分布の計算"
 
@@ -8570,26 +8530,22 @@ msgid "Output _size:"
 msgstr "出力サイズ:"
 
 #: modules/process/angle_dist.c:193 modules/process/grain_wshed.c:210
-#, fuzzy
 msgid "_Number of steps:"
-msgstr "_Numberの手順:"
+msgstr "ステップ数:"
 
 #: modules/process/angle_dist.c:198 modules/process/slope_dist.c:363
-#, fuzzy
 msgid "_Logarithmic value scale"
-msgstr "_Logarithmic値スケール"
+msgstr "対数スケール"
 
 #: modules/process/angle_dist.c:204 modules/process/entropy.c:225
 #: modules/process/slope_dist.c:373
-#, fuzzy
 msgid "Use local plane _fitting"
-msgstr "ローカル平面_fittingを使用する"
+msgstr "局所平面フィッティングを使用"
 
 #: modules/process/angle_dist.c:213 modules/process/entropy.c:236
 #: modules/process/slope_dist.c:384
-#, fuzzy
 msgid "_Plane size:"
-msgstr "_Planeサイズ:"
+msgstr "平面サイズ:"
 
 #: modules/process/anneal_synth.c:170
 msgid "Generates images by annealing a lattice gas model."
@@ -8680,47 +8636,39 @@ msgstr "ジェネレータ"
 
 #: modules/process/anneal_synth.c:401 modules/process/cpde_synth.c:407
 #: modules/process/domain_synth.c:455
-#, fuzzy
 msgid "Simulation Parameters"
-msgstr "シミュレーション パラメータ"
+msgstr "シミュレーションパラメータ"
 
 #: modules/process/anneal_synth.c:407 modules/process/cpde_synth.c:433
 #: modules/process/domain_synth.c:461
-#, fuzzy
 msgid "_Number of iterations:"
-msgstr "反復の_Number:"
+msgstr "回数:"
 
 #: modules/process/anneal_synth.c:414
-#, fuzzy
 msgid "_Initial temperature:"
-msgstr "_Initial温度:"
+msgstr "初期温度:"
 
 #: modules/process/anneal_synth.c:421
 msgid "Final _temperature:"
 msgstr "最終温度:"
 
 #: modules/process/anneal_synth.c:429
-#, fuzzy
 msgid "Component _fraction:"
-msgstr "コンポーネント_fraction:"
+msgstr "Component fraction:"
 
 #: modules/process/anneal_synth.c:436
-#, fuzzy
 msgid "Three Component Model"
-msgstr "3 つのコンポーネント モデル"
+msgstr "3コンポーネント モデル"
 
 #: modules/process/anneal_synth.c:441
-#, fuzzy
 msgid "Enable three components"
-msgstr "3 つのコンポーネントを有効にする"
+msgstr "3コンポーネントを有効にする"
 
 #: modules/process/anneal_synth.c:454
-#, fuzzy
 msgid "F_raction of B:"
-msgstr "BのF_raction:"
+msgstr "Fraction of B:"
 
 #: modules/process/anneal_synth.c:461
-#, fuzzy
 msgid "Mixing energy AB:"
 msgstr "エネルギー AB を混合する:"
 
@@ -8729,7 +8677,6 @@ msgid "Mixing energy AC:"
 msgstr "Mixing energy AC:"
 
 #: modules/process/anneal_synth.c:475
-#, fuzzy
 msgid "Mixing energy BC:"
 msgstr "エネルギーBCを混合:"
 
@@ -8742,9 +8689,8 @@ msgstr "出力オプション"
 
 #. TRANSLATORS: Average is verb here, `perform averaging'.
 #: modules/process/anneal_synth.c:494
-#, fuzzy
 msgid "_Average iterations:"
-msgstr "_Average反復:"
+msgstr "平均反復:"
 
 #: modules/process/anneal_synth.c:501 modules/process/bdep_synth.c:427
 #: modules/process/cpde_synth.c:450 modules/process/diff_synth.c:501
@@ -8755,7 +8701,7 @@ msgstr "_Average反復:"
 #: modules/process/obj_synth.c:611 modules/process/phase_synth.c:302
 #: modules/process/wave_synth.c:474
 msgid "_Like Current Image"
-msgstr "_Like Current Image"
+msgstr "Like Current Image"
 
 #: modules/process/anneal_synth.c:1344 modules/process/cpde_synth.c:661
 #: modules/process/deposit_synth.c:729 modules/process/domain_synth.c:989
@@ -8764,17 +8710,14 @@ msgid "Running computation..."
 msgstr "計算を実行しています…"
 
 #: modules/process/arithmetic.c:154
-#, fuzzy
 msgid "Simple arithmetic operations with data fields."
 msgstr "データ フィールドを使用した単純な算術演算。"
 
 #: modules/process/arithmetic.c:174
-#, fuzzy
 msgid "/M_ultidata/_Arithmetic..."
-msgstr "/_複数のデータ処理/_Arithmetic."
+msgstr "/複数データ/数値計算…"
 
 #: modules/process/arithmetic.c:178
-#, fuzzy
 msgid "Arithmetic operations on data"
 msgstr "データに対する算術演算"
 
@@ -8788,14 +8731,12 @@ msgid "Arithmetic"
 msgstr "数学"
 
 #: modules/process/arithmetic.c:293 modules/volume/volume_arithmetic.c:273
-#, fuzzy
 msgid "_Expression:"
-msgstr "_Expression:"
+msgstr "数式:"
 
 #: modules/process/arithmetic.c:318 modules/volume/volume_arithmetic.c:298
-#, fuzzy
 msgid "Operands"
-msgstr "オペランド"
+msgstr "演算子"
 
 #: modules/process/arithmetic.c:323 modules/process/dimensions.h:477
 #: modules/process/grain_stat.c:376 modules/volume/volume_arithmetic.c:303
@@ -8803,23 +8744,21 @@ msgid "Units"
 msgstr "単位"
 
 #: modules/process/arithmetic.c:358 modules/volume/volume_arithmetic.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "Take result units from data d%d"
 msgstr "データ d から結果単位を取得します%d"
 
 #: modules/process/arithmetic.c:376 modules/volume/volume_arithmetic.c:354
-#, fuzzy
 msgid "Specify un_its:"
-msgstr "un_itsを指定します。"
+msgstr "単位を指定:"
 
 #: modules/process/arithmetic.c:394 modules/volume/volume_arithmetic.c:373
 msgid "Specify result units explicitly"
 msgstr "結果単位を明示的に指定する"
 
 #: modules/process/arithmetic.c:406
-#, fuzzy
 msgid "_Fixed filler value:"
-msgstr "_Fixedフィラー値:"
+msgstr "固定フィラー値:"
 
 #: modules/process/arithmetic.c:498 modules/volume/volume_arithmetic.c:456
 msgid "Expression contains unknown identifiers"
@@ -8827,19 +8766,16 @@ msgstr "式に不明な識別子が含まれています"
 
 #: modules/process/arithmetic.c:630 modules/process/superresolution.c:299
 #: modules/volume/volume_arithmetic.c:568
-#, fuzzy
 msgid "Pixel dimensions differ"
 msgstr "ピクセル寸法が異なる"
 
 #: modules/process/arithmetic.c:632 modules/process/superresolution.c:301
 #: modules/volume/volume_arithmetic.c:570
-#, fuzzy
 msgid "Lateral dimensions are different physical quantities"
-msgstr "横次元は異なる現物数量です"
+msgstr "水平の次元が物理量と異なります"
 
 #: modules/process/arithmetic.c:635 modules/process/superresolution.c:304
 #: modules/volume/volume_arithmetic.c:573
-#, fuzzy
 msgid "Physical dimensions differ"
 msgstr "物理的な寸法が異なる"
 
@@ -8849,14 +8785,13 @@ msgstr "自己相関を用いた類似の構造の平均化"
 
 #: modules/process/averaging.c:67
 msgid "/_Correct Data/_Correlation Averaging..."
-msgstr "/_データ補正/_相関平均化…"
+msgstr "/データ補正/相関平均化…"
 
 #: modules/process/averaging.c:71
 msgid "Averaging of similar structures"
 msgstr "類似構造の平均化"
 
 #: modules/process/averaging.c:105
-#, fuzzy
 msgid "Averaged"
 msgstr "平均"
 
@@ -8865,12 +8800,10 @@ msgid "Averaging of Similar Structures"
 msgstr "類似構造の平均化"
 
 #: modules/process/averaging.c:141
-#, fuzzy
 msgid "Select the sample area below"
-msgstr "下のサンプル領域を選択してください"
+msgstr "下のサンプル領域を選択"
 
 #: modules/process/basicops.c:55
-#, fuzzy
 msgid ""
 "Basic operations like flipping, value inversion, and rotation by multiples "
 "of 90 degrees."
@@ -8878,106 +8811,94 @@ msgstr "反転、値反転、回転などの基本的な操作を 90 度の倍�
 
 #: modules/process/basicops.c:70
 msgid "/_Basic Operations/_Invert Value"
-msgstr "/_基本操作/_Invert値"
+msgstr "/基本操作/_Invert値"
 
 #: modules/process/basicops.c:74
-#, fuzzy
 msgid "Invert values about mean"
 msgstr "平均に関する値を反転する"
 
 #: modules/process/basicops.c:77
 msgid "/_Basic Operations/Flip _Horizontally"
-msgstr "/_基本操作/水平フリップ"
+msgstr "/基本操作/水平フリップ"
 
 #: modules/process/basicops.c:81
-#, fuzzy
 msgid "Flip data horizontally"
 msgstr "データを水平方向に反転する"
 
 #: modules/process/basicops.c:84
 msgid "/_Basic Operations/Flip _Vertically"
-msgstr "/_基本操作/垂直フリップ"
+msgstr "/基本操作/垂直フリップ"
 
 #: modules/process/basicops.c:88
-#, fuzzy
 msgid "Flip data vertically"
 msgstr "データを縦に反転する"
 
 #: modules/process/basicops.c:91
 msgid "/_Basic Operations/Flip Dia_gonally"
-msgstr "/_基本操作/_斜めフリップ"
+msgstr "/基本操作/_斜めフリップ"
 
 #: modules/process/basicops.c:95
-#, fuzzy
 msgid "Flip data diagonally"
 msgstr "データを斜めに反転"
 
 #: modules/process/basicops.c:98
 msgid "/_Basic Operations/Flip _Both"
-msgstr "/_基本操作/_両方フリップ"
+msgstr "/基本操作/_両方フリップ"
 
 #: modules/process/basicops.c:102
-#, fuzzy
 msgid "Flip data both horizontally and vertically"
 msgstr "データを水平および垂直に反転"
 
 #: modules/process/basicops.c:105
 msgid "/_Basic Operations/Rotate C_lockwise"
-msgstr "/_基本操作/時計回りに回転"
+msgstr "/基本操作/時計回りに回転"
 
 #: modules/process/basicops.c:109
-#, fuzzy
 msgid "Rotate data 90 degrees clockwise"
 msgstr "データを時計回りに 90 度回転する"
 
 #: modules/process/basicops.c:112
 msgid "/_Basic Operations/Rotate _Counterclockwise"
-msgstr "/_基本操作/反時計回りに回転"
+msgstr "/基本操作/反時計回りに回転"
 
 #: modules/process/basicops.c:116
-#, fuzzy
 msgid "Rotate data 90 degrees counterclockwise"
 msgstr "データを反時計回りに 90 度回転"
 
 #: modules/process/basicops.c:119
 msgid "/_Basic Operations/S_quare Samples"
-msgstr "/_基本操作/正方形にする"
+msgstr "/基本操作/正方形にする"
 
 #: modules/process/basicops.c:123
-#, fuzzy
 msgid "Resample data with non-1:1 aspect ratio to square samples"
 msgstr "正方形のサンプルに対する非 1:1 アスペクト比を持つデータのリサンプル"
 
 #: modules/process/basicops.c:127
 msgid "/_Basic Operations/_Null Offsets"
-msgstr "/_基本操作/_Nullオフセット"
+msgstr "/基本操作/_Nullオフセット"
 
 #: modules/process/basicops.c:131
 msgid "Null horizontal offsets, moving the origin to the upper left corner"
 msgstr "原点を左上隅に移動する、水平方向のオフセットを無効にする"
 
 #: modules/process/bdep_synth.c:152
-#, fuzzy
 msgid "Generates surfaces by ballistic deposition."
-msgstr "弾道堆積によってサーフェスを生成します。"
+msgstr "弾道堆積によってサーフェスを生成。"
 
 #: modules/process/bdep_synth.c:166
 msgid "/S_ynthetic/_Deposition/_Ballistic..."
 msgstr "/合成・生成/_Deposition/_Ballistic…"
 
 #: modules/process/bdep_synth.c:170
-#, fuzzy
 msgid "Generate surface by ballistic deposition"
 msgstr "弾道堆積によるサーフェスの生成"
 
 #: modules/process/bdep_synth.c:304 modules/process/col_synth.c:350
 #: modules/process/diff_synth.c:371
-#, fuzzy
 msgid "Mean deposited thickness"
 msgstr "平均堆積厚"
 
 #: modules/process/bdep_synth.c:340
-#, fuzzy
 msgid "Ballistic Deposition"
 msgstr "弾道堆積"
 
@@ -8986,9 +8907,8 @@ msgstr "弾道堆積"
 #: modules/process/fibre_synth.c:502 modules/process/lno_synth.c:1056
 #: modules/process/obj_synth.c:653 modules/process/pileup_synth.c:509
 #: modules/process/roddeposit_synth.c:556
-#, fuzzy
 msgid "Co_verage:"
-msgstr "Co_verage:"
+msgstr "被覆:"
 
 #: modules/process/bdep_synth.c:446 modules/process/col_synth.c:534
 #: modules/process/diff_synth.c:550
@@ -8997,7 +8917,6 @@ msgstr "Evolution"
 
 #: modules/process/bdep_synth.c:449 modules/process/col_synth.c:537
 #: modules/process/diff_synth.c:553
-#, fuzzy
 msgid "Plot graphs:"
 msgstr "プロットグラフ:"
 
@@ -9007,16 +8926,14 @@ msgid "Depositing particles..."
 msgstr "粒子を堆積させる…"
 
 #: modules/process/binning.c:113
-#, fuzzy
 msgid "Creates a smaller image using binning."
-msgstr "ビン分割を使用して小さいイメージを作成します。"
+msgstr "ビニングで小さいイメージを作成。"
 
 #: modules/process/binning.c:127
 msgid "/_Basic Operations/_Binning..."
-msgstr "/_基本操作/_ビニング…"
+msgstr "/基本操作/_ビニング…"
 
 #: modules/process/binning.c:131
-#, fuzzy
 msgid "Reduce size by binning"
 msgstr "ビニングによるサイズの縮小"
 
@@ -9033,41 +8950,36 @@ msgid "Bin Dimensions"
 msgstr "Binの次元"
 
 #: modules/process/binning.c:267
-#, fuzzy
 msgid "_Square bin"
-msgstr "_Squareビン"
+msgstr "正方形ビニング"
 
 #: modules/process/binning.c:284 modules/process/calcoefs_simple.c:371
 #: modules/process/calcoefs_view.c:491 modules/process/calibrate.c:545
 #: modules/process/crosscor.c:281 modules/volume/volume_calibrate.c:500
 msgid "_X offset:"
-msgstr "_Xオフセット:"
+msgstr "Xオフセット:"
 
 #: modules/process/binning.c:290 modules/process/calcoefs_simple.c:398
 #: modules/process/calcoefs_view.c:517 modules/process/calibrate.c:552
 #: modules/process/crosscor.c:289 modules/volume/volume_calibrate.c:507
 msgid "_Y offset:"
-msgstr "_Yオフセット:"
+msgstr "Yオフセット:"
 
 #: modules/process/binning.c:304
-#, fuzzy
 msgid "Trim _lowest:"
-msgstr "トリム_lowest:"
+msgstr "トリム最小値:"
 
 #: modules/process/binning.c:312
-#, fuzzy
 msgid "Trim hi_ghest:"
-msgstr "トリムhi_ghest:"
+msgstr "トリム最大値:"
 
 #: modules/process/binning.c:319 modules/process/trimmed-mean.c:287
-#, fuzzy
 msgid "_Trim symmetrically"
-msgstr "対称的に_Trim"
+msgstr "対称的なトリム"
 
 #: modules/process/binning.c:329
-#, fuzzy
 msgid "_Sum instead of averaging"
-msgstr "平均化の代わりに_Sum"
+msgstr "平均化の代わりに合計値"
 
 #: modules/process/binning.c:463
 #, c-format
@@ -9075,7 +8987,6 @@ msgid "New dimensions: %d × %d pixels"
 msgstr "新しいサイズ: %d × %dピクセル"
 
 #: modules/process/calcoefs_load.c:84
-#, fuzzy
 msgid "Load calibration data from text file"
 msgstr "テキストファイルからキャリブレーションデータを読み込む"
 
@@ -9084,22 +8995,20 @@ msgid "/Cali_bration/_Load From Text File..."
 msgstr "/キャリブレーション/_テキストファイルから読み込む…"
 
 #: modules/process/calcoefs_load.c:102
-#, fuzzy
 msgid "Load calibration data from text file."
 msgstr "テキストファイルからキャリブレーションデータをロードします。"
 
 #: modules/process/calcoefs_load.c:159
-#, fuzzy, c-format
+#, c-format
 msgid "Error loading file: %s\n"
 msgstr "ファイルの読み込み中にエラーが発生しました: %s\n"
 
 #: modules/process/calcoefs_load.c:190 modules/process/calcoefs_new.c:336
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot save preset: %s"
 msgstr "プリセットを保存できません: %s"
 
 #: modules/process/calcoefs_load.c:222
-#, fuzzy
 msgid "Load Calibration Data"
 msgstr "キャリブレーションデータの読み込み"
 
@@ -9109,13 +9018,12 @@ msgid "Calibration name:"
 msgstr "キャリブレーション名:"
 
 #: modules/process/calcoefs_load.c:253
-#, fuzzy
 msgid "No data loaded"
 msgstr "読み込まれたデータがありません"
 
 #: modules/process/calcoefs_load.c:306 modules/process/calcoefs_new.c:685
 #: modules/process/calcoefs_simple.c:539
-#, fuzzy, c-format
+#, c-format
 msgid "Calibration '%s' already exists"
 msgstr "キャリブレーション'%s'はすでに存在します"
 
@@ -9130,22 +9038,20 @@ msgid "Append"
 msgstr "追加"
 
 #: modules/process/calcoefs_load.c:348
-#, fuzzy
 msgid "Load calibration data"
 msgstr "キャリブレーションデータの読み込み"
 
 #: modules/process/calcoefs_load.c:363
-#, fuzzy, c-format
+#, c-format
 msgid "Error loading file '%s'"
 msgstr "ファイル '%s' の読み込み中にエラーが発生しました"
 
 #: modules/process/calcoefs_load.c:422
-#, fuzzy
 msgid "Error: not enough points."
 msgstr "エラー: ポイントが不足しています。"
 
 #: modules/process/calcoefs_load.c:449
-#, fuzzy, c-format
+#, c-format
 msgid "Loaded %d data points"
 msgstr "読み込まれた%dデータ ポイント"
 
@@ -9155,68 +9061,65 @@ msgstr "簡単なキャリブレーションデータを作成する"
 
 #: modules/process/calcoefs_new.c:185
 msgid "/Cali_bration/_Create..."
-msgstr "/キャリブレーション/_作成…"
+msgstr "/キャリブレーション/作成…"
 
 #: modules/process/calcoefs_new.c:189
-#, fuzzy
 msgid "Specify simple calibration data."
 msgstr "単純なキャリブレーションデータを指定します。"
 
 #: modules/process/calcoefs_new.c:370
-#, fuzzy
 msgid "Simple Calibration Data"
 msgstr "シンプルなキャリブレーションデータ"
 
 #: modules/process/calcoefs_new.c:388
 msgid "_X from:"
-msgstr "_Xの取得方法:"
+msgstr "Xの取得方法:"
 
 #: modules/process/calcoefs_new.c:415
 msgid "_X to:"
-msgstr "_X:"
+msgstr "X:"
 
 #: modules/process/calcoefs_new.c:428
 msgid "_Y from:"
-msgstr "_Y from:"
+msgstr "Y from:"
 
 #: modules/process/calcoefs_new.c:441
 msgid "_Y to:"
-msgstr "_Y:"
+msgstr "Y:"
 
 #: modules/process/calcoefs_new.c:455
 msgid "_Z from:"
-msgstr "_Z from:"
+msgstr "Z from:"
 
 #: modules/process/calcoefs_new.c:482
 msgid "_Z to:"
-msgstr "_Z:"
+msgstr "Z:"
 
 #: modules/process/calcoefs_new.c:495
 msgid "_X uncertainty:"
-msgstr "_X不確実性:"
+msgstr "X不確実性:"
 
 #: modules/process/calcoefs_new.c:516
 msgid "_Y uncertainty:"
-msgstr "_Y不確実性:"
+msgstr "Y不確実性:"
 
 #: modules/process/calcoefs_new.c:531
 msgid "_Z uncertainty:"
-msgstr "_Z不確実性:"
+msgstr "Z不確実性:"
 
 #: modules/process/calcoefs_new.c:553
 msgid "_X correction factor:"
-msgstr "_X補正係数:"
+msgstr "X補正係数:"
 
 #: modules/process/calcoefs_new.c:565
 msgid "_Y correction factor:"
-msgstr "_Y補正係数:"
+msgstr "Y補正係数:"
 
 #: modules/process/calcoefs_new.c:577
 msgid "_Z correction factor:"
-msgstr "_Z補正係数:"
+msgstr "Z補正係数:"
 
 #: modules/process/calcoefs_simple.c:168
-#, fuzzy
 msgid "Simple error map based on grating measurements"
 msgstr "グレーティング測定に基づく単純なエラーマップ"
 
@@ -9225,23 +9128,19 @@ msgid "/Cali_bration/_Get Simple Errop Map..."
 msgstr "/キャリブレーション/_シンプルなエラーマップ…"
 
 #: modules/process/calcoefs_simple.c:186
-#, fuzzy
 msgid "Simple error mapping"
 msgstr "単純なエラーマッピング"
 
 #: modules/process/calcoefs_simple.c:326
-#, fuzzy
 msgid "Simple Error Map"
 msgstr "単純なエラー マップ"
 
 #: modules/process/calcoefs_simple.c:343 modules/process/calcoefs_stage.c:142
 #: modules/process/superresolution.c:156
-#, fuzzy
 msgid "Operands:"
-msgstr "オペランド："
+msgstr "演算子:"
 
 #: modules/process/calcoefs_simple.c:349
-#, fuzzy
 msgid "Grating image"
 msgstr "グレーティング画像"
 
@@ -9251,19 +9150,18 @@ msgstr "詳細"
 
 #: modules/process/calcoefs_simple.c:411
 msgid "X _period:"
-msgstr "X _period:"
+msgstr "X周期:"
 
 #: modules/process/calcoefs_simple.c:424
 msgid "Y p_eriod:"
-msgstr "Y period:"
+msgstr "Y周期:"
 
 #: modules/process/calcoefs_simple.c:438 modules/process/calcoefs_view.c:529
 #: modules/volume/volume_calibrate.c:514
 msgid "_Z offset:"
-msgstr "_Zオフセット:"
+msgstr "Zオフセット:"
 
 #: modules/process/calcoefs_simple.c:487
-#, fuzzy
 msgid "No suggestion\n"
 msgstr "提案なし\n"
 
@@ -9289,12 +9187,10 @@ msgstr "検索が取り消されました"
 
 #: modules/process/calcoefs_simple.c:638 modules/process/crosscor.c:862
 #: modules/process/mcrop.c:316 modules/process/merge.c:1074
-#, fuzzy
 msgid "Correlating..."
 msgstr "相関..."
 
 #: modules/process/calcoefs_stage.c:72
-#, fuzzy
 msgid "Digital AFM data recalibration"
 msgstr "デジタルAFMデータの再校正"
 
@@ -9303,36 +9199,30 @@ msgid "/Cali_bration/_3D Calibration/_Get From Stage map..."
 msgstr "/キャリブレーション/_3Dキャリブレーション/Get From Stage map…"
 
 #: modules/process/calcoefs_stage.c:90
-#, fuzzy
 msgid "Stage error mapping"
 msgstr "ステージ エラーマッピング"
 
 #: modules/process/calcoefs_stage.c:127
-#, fuzzy
 msgid "Stage Error Map"
 msgstr "ステージ エラー マップ"
 
 #: modules/process/calcoefs_view.c:236
-#, fuzzy
 msgid "3D calibration/uncertainty"
 msgstr "3Dキャリブレーション/不確実性"
 
 #: modules/process/calcoefs_view.c:250
 msgid "/Cali_bration/_Apply to Data..."
-msgstr "/キャリブレーション/_データに適用…"
+msgstr "/キャリブレーション/データに適用…"
 
 #: modules/process/calcoefs_view.c:254
-#, fuzzy
 msgid "3D calibration and uncertainty"
 msgstr "3Dキャリブレーションと不確実性"
 
 #: modules/process/calcoefs_view.c:318
-#, fuzzy
 msgid "3D Calibration"
 msgstr "3Dキャリブレーション"
 
 #: modules/process/calcoefs_view.c:377
-#, fuzzy
 msgid "No data used."
 msgstr "データは使用されません。"
 
@@ -9341,7 +9231,6 @@ msgid "Used calibration data:"
 msgstr "使用されたキャリブレーションデータ:"
 
 #: modules/process/calcoefs_view.c:414
-#, fuzzy
 msgid "Shown planes:"
 msgstr "表示される平面:"
 
@@ -9350,7 +9239,6 @@ msgid "View:"
 msgstr "眺望:"
 
 #: modules/process/calcoefs_view.c:435
-#, fuzzy
 msgid "Plane:"
 msgstr "平面："
 
@@ -9386,17 +9274,16 @@ msgid "I_nstant updates"
 msgstr "すぐに更新"
 
 #: modules/process/calcoefs_view.c:682
-#, fuzzy
 msgid "Shown part has zero range."
 msgstr "表示された部分の範囲はゼロです。"
 
 #: modules/process/calcoefs_view.c:690
-#, fuzzy, c-format
+#, c-format
 msgid "Shown range (%.*f - %.*f) %s"
 msgstr "表示範囲 (%.*f - %.*f) %s"
 
 #: modules/process/calcoefs_view.c:738
-#, fuzzy, c-format
+#, c-format
 msgid "%d calibration data"
 msgstr "キャリブレーションデータ%d"
 
@@ -9416,7 +9303,6 @@ msgid "Z span: (%.*f - %.*f) %s"
 msgstr "Z スパン: (%.*f - %.*f) %s"
 
 #: modules/process/calcoefs_view.c:778
-#, fuzzy
 msgid "Error: out of range."
 msgstr "エラー: 範囲外です。"
 
@@ -9449,46 +9335,38 @@ msgid "Z uncertainty"
 msgstr "Z不確実性"
 
 #: modules/process/calcoefs_view.c:1137
-#, fuzzy
 msgid "Constant X"
 msgstr "定数 X"
 
 #: modules/process/calcoefs_view.c:1138
-#, fuzzy
 msgid "Constant Y"
 msgstr "定数 Y"
 
 #: modules/process/calcoefs_view.c:1139
-#, fuzzy
 msgid "Constant Z"
 msgstr "定数 Z"
 
 #: modules/process/calcoefs_view.c:1150
-#, fuzzy
 msgid "NNA 3D"
 msgstr "NNA 3D"
 
 #: modules/process/calcoefs_view.c:1151
-#, fuzzy
 msgid "Snap to planes"
 msgstr "平面にスナップ"
 
 #: modules/process/calcoefs_view.c:1152
-#, fuzzy
 msgid "Delaunay"
-msgstr "ドローネ"
+msgstr "Delaunay"
 
 #: modules/process/calibrate.c:173
-#, fuzzy
 msgid "Recalibrates scan lateral dimensions or value range."
 msgstr "スキャンの横軸または値の範囲を再調整します。"
 
 #: modules/process/calibrate.c:187
 msgid "/_Basic Operations/_Dimensions and Units..."
-msgstr "/_基本操作/_次元と単位…"
+msgstr "/基本操作/次元と単位…"
 
 #: modules/process/calibrate.c:191 modules/volume/volume_calibrate.c:193
-#, fuzzy
 msgid "Change physical dimensions, units or value scale"
 msgstr "物理寸法、単位、または値のスケールを変更する"
 
@@ -9497,7 +9375,6 @@ msgid "Recalibrated Data"
 msgstr "再調整されたデータ"
 
 #: modules/process/calibrate.c:374
-#, fuzzy
 msgid "Dimensions and Units"
 msgstr "寸法と単位"
 
@@ -9510,12 +9387,10 @@ msgid "Dimensions:"
 msgstr "サイズ:"
 
 #: modules/process/calibrate.c:426 modules/volume/volume_calibrate.c:383
-#, fuzzy
 msgid "Offsets:"
-msgstr "オフセット："
+msgstr "オフセット:"
 
 #: modules/process/calibrate.c:446 modules/volume/volume_calibrate.c:403
-#, fuzzy
 msgid "Value range:"
 msgstr "値の範囲:"
 
@@ -9524,22 +9399,20 @@ msgid "New Real Dimensions"
 msgstr "新しい実寸法"
 
 #: modules/process/calibrate.c:478 modules/process/resample.c:285
-#, fuzzy
 msgid "_Match pixel size:"
-msgstr "_Matchピクセルサイズ:"
+msgstr "ピクセルサイズを揃える:"
 
 #: modules/process/calibrate.c:510 modules/volume/volume_calibrate.c:434
 msgid "_X range:"
-msgstr "_X範囲:"
+msgstr "X範囲:"
 
 #: modules/process/calibrate.c:531 modules/volume/volume_calibrate.c:455
 msgid "_Y range:"
-msgstr "_Y範囲:"
+msgstr "Y範囲:"
 
 #: modules/process/calibrate.c:536 modules/process/resample.c:332
-#, fuzzy
 msgid "_Square samples"
-msgstr "_Squareサンプル"
+msgstr "正方形サンプル"
 
 #: modules/process/calibrate.c:561 modules/volume/volume_calibrate.c:523
 msgid "New Value Range"
@@ -9547,28 +9420,27 @@ msgstr "新しい値の範囲"
 
 #: modules/process/calibrate.c:567 modules/volume/volume_calibrate.c:476
 msgid "_Z range:"
-msgstr "_Z範囲:"
+msgstr "Z範囲:"
 
 #: modules/process/calibrate.c:590
 msgid "Z shi_ft:"
 msgstr "Z シフト:"
 
 #: modules/process/calibrate.c:599 modules/volume/volume_calibrate.c:561
-#, fuzzy
 msgid "Calibration Coefficients"
 msgstr "キャリブレーション係数"
 
 #: modules/process/calibrate.c:604 modules/volume/volume_calibrate.c:566
 msgid "_X calibration factor:"
-msgstr "_Xキャリブレーション係数:"
+msgstr "Xキャリブレーション係数:"
 
 #: modules/process/calibrate.c:611 modules/volume/volume_calibrate.c:573
 msgid "_Y calibration factor:"
-msgstr "_Yキャリブレーション係数:"
+msgstr "Yキャリブレーション係数:"
 
 #: modules/process/calibrate.c:618 modules/volume/volume_calibrate.c:580
 msgid "_Z calibration factor:"
-msgstr "_Zキャリブレーション係数:"
+msgstr "Zキャリブレーション係数:"
 
 #: modules/process/calibrate.c:633 modules/process/drift.c:378
 #: modules/process/extend.c:378 modules/process/mfm_recalc.c:317
@@ -9577,47 +9449,40 @@ msgid "Create new image"
 msgstr "新しいイメージを作成する"
 
 #: modules/process/classify.c:174
-#, fuzzy
 msgid "Classify data sets using multiple data fields."
 msgstr "複数のデータ フィールドを使用してデータ セットを分類する。"
 
 #: modules/process/classify.c:194
-#, fuzzy
 msgid "/M_ultidata/_Classify..."
-msgstr "/_複数のデータ処理/_Classify."
+msgstr "/複数のデータ処理/分類…"
 
 #: modules/process/classify.c:198
-#, fuzzy
 msgid "Classify data sets"
 msgstr "データ・セットの分類"
 
 #: modules/process/classify.c:244
-#, fuzzy
 msgid "Classify"
 msgstr "分類"
 
 #: modules/process/classify.c:247
-#, fuzzy
 msgid "_Execute"
-msgstr "_Execute"
+msgstr "実行"
 
 #: modules/process/classify.c:301 modules/process/classify.c:567
-#, fuzzy
 msgid "Mask A"
 msgstr "マスクA"
 
 #: modules/process/classify.c:306 modules/process/classify.c:568
-#, fuzzy
 msgid "Mask B"
 msgstr "マスクB"
 
 #: modules/process/classify.c:339
-#, fuzzy, c-format
+#, c-format
 msgid "Mask A is in data d%d"
 msgstr "マスク A はデータ d にあります%d"
 
 #: modules/process/classify.c:352
-#, fuzzy, c-format
+#, c-format
 msgid "Mask B is in data d%d"
 msgstr "マスク B はデータ d 内にあります%d"
 
@@ -9636,14 +9501,12 @@ msgid "Preview:"
 msgstr "プレビュー："
 
 #: modules/process/classify.c:471
-#, fuzzy
 msgid "Display mask:"
 msgstr "表示マスク:"
 
 #: modules/process/classify.c:552
-#, fuzzy
 msgid "LoG"
-msgstr "ログ"
+msgstr "LoG"
 
 #: modules/process/classify.c:569
 msgid "Result A"
@@ -9654,34 +9517,28 @@ msgid "Result B"
 msgstr "結果 B"
 
 #: modules/process/classify.c:858
-#, fuzzy
 msgid "No data are selected for any criterion (all IDs are 0)."
 msgstr "どの基準にもデータが選択されません(すべての ID は 0 です)。"
 
 #: modules/process/classify.c:877
-#, fuzzy
 msgid "Image A has no mask."
 msgstr "イメージ A にはマスクがありません。"
 
 #: modules/process/classify.c:894
-#, fuzzy
 msgid "Image B has no mask."
 msgstr "イメージ B にはマスクがありません。"
 
 #: modules/process/classify.c:925
-#, fuzzy
 msgid "Training classifier..."
-msgstr "トレーニング分類器."
+msgstr "トレーニング分類器…"
 
 #: modules/process/coerce.c:170
-#, fuzzy
 msgid "Transforms surfaces to have prescribed statistical properties."
 msgstr "サーフェスを、指定された統計的特性に変換します。"
 
 #: modules/process/coerce.c:184
-#, fuzzy
 msgid "/_Distortion/Co_erce..."
-msgstr "/_歪み/Co_erce."
+msgstr "/歪み/Coerce…"
 
 #: modules/process/coerce.c:188
 msgid "Enforce prescribed statistical properties"
@@ -9694,23 +9551,19 @@ msgstr "強制"
 #: modules/process/coerce.c:236 modules/process/coerce.c:338
 #: modules/process/fbm_synth.c:474 modules/process/lno_synth.c:256
 #: modules/process/noise_synth.c:181
-#, fuzzy
 msgid "distribution|Uniform"
 msgstr "配布|均一"
 
 #: modules/process/coerce.c:237 modules/process/fbm_synth.c:475
 #: modules/process/lno_synth.c:246 modules/process/noise_synth.c:171
-#, fuzzy
 msgid "distribution|Gaussian"
 msgstr "配布|ガウス"
 
 #: modules/process/coerce.c:238
-#, fuzzy
 msgid "distribution|Skew-normal"
 msgstr "配布|スキューノーマル"
 
 #: modules/process/coerce.c:239
-#, fuzzy
 msgid "As another data"
 msgstr "別のデータとして"
 
@@ -9719,7 +9572,6 @@ msgid "Discrete levels"
 msgstr "離散レベル"
 
 #: modules/process/coerce.c:244
-#, fuzzy
 msgid "Entire image"
 msgstr "画像全体"
 
@@ -9732,42 +9584,34 @@ msgid "Coerce Statistics"
 msgstr "Coerce Statistics"
 
 #: modules/process/coerce.c:301
-#, fuzzy
 msgid "Coerce value distribution to:"
-msgstr "値の分布を次の値に強制する:"
+msgstr "Coerce value distribution to:"
 
 #: modules/process/coerce.c:327
-#, fuzzy
 msgid "_Template:"
-msgstr "_Template:"
+msgstr "テンプレート:"
 
 #: modules/process/coerce.c:340
-#, fuzzy
 msgid "Same area"
 msgstr "同じエリア"
 
 #: modules/process/coerce.c:351
-#, fuzzy
 msgid "Number of _levels:"
-msgstr "_levels数:"
+msgstr "レベル数:"
 
 #: modules/process/coerce.c:360
-#, fuzzy
 msgid "_Skew:"
-msgstr "_Skew:"
+msgstr "スキュー:"
 
 #: modules/process/coerce.c:370
-#, fuzzy
 msgid "Data processing:"
 msgstr "データ処理:"
 
 #: modules/process/col_synth.c:170
-#, fuzzy
 msgid "Number of maxima"
-msgstr "マキシマの数"
+msgstr "極大値の数"
 
 #: modules/process/col_synth.c:196
-#, fuzzy
 msgid "Generates columnar surfaces by a simple growth algorithm."
 msgstr "単純な成長アルゴリズムによって、柱状サーフェスを生成します。"
 
@@ -9776,21 +9620,18 @@ msgid "/S_ynthetic/_Deposition/_Columnar..."
 msgstr "/合成・生成/_Deposition/_Columnar…"
 
 #: modules/process/col_synth.c:214
-#, fuzzy
 msgid "Generate columnar surface"
 msgstr "柱状サーフェスを生成する"
 
 #: modules/process/col_synth.c:390
-#, fuzzy
 msgid "Grow Columnar Surface"
 msgstr "柱状サーフェスを拡大する"
 
 #: modules/process/col_synth.c:472
 msgid "Particle Size"
-msgstr "パーティクル サイズ"
+msgstr "粒子サイズ"
 
 #: modules/process/col_synth.c:490
-#, fuzzy
 msgid "Incidence"
 msgstr "発生"
 
@@ -9804,14 +9645,12 @@ msgid "Direction"
 msgstr "方向"
 
 #: modules/process/col_synth.c:513
-#, fuzzy
 msgid "Relaxation type:"
-msgstr "リラクゼーションタイプ:"
+msgstr "緩和タイプ:"
 
 #: modules/process/col_synth.c:521
-#, fuzzy
 msgid "_Melting:"
-msgstr "_Melting:"
+msgstr "溶解:"
 
 #: modules/process/col_synth.c:598
 msgid "Weak"
@@ -9822,22 +9661,18 @@ msgid "Strong"
 msgstr "強い"
 
 #: modules/process/convolution_filter.c:123
-#, fuzzy
 msgid "symmetry|None"
 msgstr "対称性|なし"
 
 #: modules/process/convolution_filter.c:124
-#, fuzzy
 msgid "symmetry|Even"
-msgstr "対称性|も"
+msgstr "対称性|偶数"
 
 #: modules/process/convolution_filter.c:125
-#, fuzzy
 msgid "symmetry|Odd"
 msgstr "対称性|奇数"
 
 #: modules/process/convolution_filter.c:131
-#, fuzzy
 msgid "Generic convolution filter with a user-defined matrix."
 msgstr "ユーザー定義の行列を持つ汎用畳み込みフィルタ。"
 
@@ -9846,7 +9681,6 @@ msgid "/_Integral Transforms/Con_volution Filter..."
 msgstr "/積分変換/コンボリューションフィルタ…"
 
 #: modules/process/convolution_filter.c:160
-#, fuzzy
 msgid "General convolution filter"
 msgstr "一般畳み込みフィルタ"
 
@@ -9864,48 +9698,40 @@ msgid "Coefficient Matrix"
 msgstr "係数行列"
 
 #: modules/process/convolution_filter.c:385
-#, fuzzy
 msgid "_Divisor:"
-msgstr "_Divisor:"
+msgstr "Divisor:"
 
 #: modules/process/convolution_filter.c:390
-#, fuzzy
 msgid "_automatic"
-msgstr "_automatic"
+msgstr "自動"
 
 #: modules/process/convolution_filter.c:400
 msgid "Symmetry"
 msgstr "多重対称"
 
 #: modules/process/convolution_filter.c:560
-#, fuzzy
 msgid "HSym"
 msgstr "HSym"
 
 #: modules/process/convolution_filter.c:570
-#, fuzzy
 msgid "VSym"
 msgstr "VSym"
 
 #: modules/process/convolve.c:94
-#, fuzzy
 msgid "Convolves two images."
 msgstr "2つの画像を畳み込みます。"
 
 #: modules/process/convolve.c:108
-#, fuzzy
 msgid "/M_ultidata/_Convolve..."
-msgstr "/_複数のデータ処理/_Convolve."
+msgstr "/複数のデータ処理/コンボリューション…"
 
 #: modules/process/convolve.c:112
-#, fuzzy
 msgid "Convolve two images"
 msgstr "2つの画像を畳み込む"
 
 #: modules/process/convolve.c:148
-#, fuzzy
 msgid "Convolve"
-msgstr "コンボルヴェ"
+msgstr "コンボリューション"
 
 #: modules/process/convolve.c:172 modules/process/deconvolve.c:431
 msgid "Convolution _kernel:"
@@ -9914,51 +9740,43 @@ msgstr "畳み込みカーネル:"
 #: modules/process/convolve.c:177 modules/process/deconvolve.c:526
 #: modules/process/psf-fit.c:361 modules/process/psf.c:556
 #: modules/volume/volume_psf.c:595
-#, fuzzy
 msgid "Normalize as _integral"
-msgstr "_integralとして正規化"
+msgstr "Normalize as _integral"
 
 #: modules/process/convolve.c:190 modules/process/displfield.c:401
 #: modules/process/extend.c:351 modules/process/mask_shift.c:205
 #: modules/process/polydistort.c:259 modules/xyz/xyz_raster.c:647
-#, fuzzy
 msgid "exterior|Border"
-msgstr "外装|国境"
+msgstr "exterior|Border"
 
 #: modules/process/convolve.c:192 modules/process/displfield.c:403
 #: modules/process/extend.c:353 modules/process/mask_shift.c:207
 #: modules/process/polydistort.c:261 modules/xyz/xyz_raster.c:649
-#, fuzzy
 msgid "exterior|Mirror"
-msgstr "外装|ミラー"
+msgstr "exterior|Mirror"
 
 #: modules/process/convolve.c:194 modules/process/displfield.c:405
 #: modules/process/extend.c:355 modules/process/mask_shift.c:209
 #: modules/process/polydistort.c:263 modules/xyz/xyz_raster.c:651
-#, fuzzy
 msgid "exterior|Periodic"
-msgstr "外装|周期"
+msgstr "exterior|Periodic"
 
 #: modules/process/convolve.c:196 modules/process/displfield.c:407
 #: modules/process/extend.c:357
-#, fuzzy
 msgid "exterior|Laplace"
-msgstr "外装|ラプラス"
+msgstr "exterior|Laplace"
 
 #: modules/process/convolve.c:199 modules/process/displfield.c:410
 #: modules/process/extend.c:360 modules/process/mask_shift.c:212
 #: modules/process/polydistort.c:266 modules/xyz/xyz_raster.c:639
-#, fuzzy
 msgid "_Exterior type:"
-msgstr "_Exteriorタイプ:"
+msgstr "Exteriorタイプ:"
 
 #: modules/process/convolve.c:207
-#, fuzzy
 msgid "Crop to interior"
 msgstr "内部にトリミング"
 
 #: modules/process/convolve.c:209
-#, fuzzy
 msgid "Keep size"
 msgstr "サイズを維持する"
 
@@ -9974,43 +9792,37 @@ msgid "Convolved"
 msgstr "畳み込み"
 
 #: modules/process/correct_affine.c:220
-#, fuzzy
 msgid ""
 "Corrects affine distortion of images by matching image Bravais lattice to "
 "the true one."
 msgstr ""
-"イメージブラヴァイス ラティスを真のイメージに合わせて、画像のアフィン歪みを補"
-"正します。"
+"Corrects affine distortion of images by matching image Bravais lattice to "
+"the true one."
 
 #: modules/process/correct_affine.c:235
-#, fuzzy
 msgid "/_Distortion/_Affine..."
-msgstr "/_歪み/_Affine."
+msgstr "/歪み/アフィン変…"
 
 #: modules/process/correct_affine.c:239
-#, fuzzy
 msgid "Correct affine distortion"
-msgstr "アフィン歪みを修正"
+msgstr "アフィン歪みを補正"
 
 #: modules/process/correct_affine.c:309 modules/process/correct_affine.c:634
 #: modules/process/correct_perspective.c:174
 msgid "Corrected"
-msgstr "修正"
+msgstr "補正"
 
 #: modules/process/correct_affine.c:343
-#, fuzzy
 msgid "Affine Correction"
 msgstr "アフィン補正"
 
 #: modules/process/correct_affine.c:349 modules/process/facet_analysis.c:501
 #: modules/process/facet_measure.c:418 modules/process/measure_lattice.c:295
-#, fuzzy
 msgid "_Refine"
-msgstr "_Refine"
+msgstr "微調整"
 
 #: modules/process/correct_affine.c:399 modules/process/fft_filter_2d.c:530
 #: modules/process/psf.c:493 modules/volume/volume_psf.c:532
-#, fuzzy
 msgid "Preview Options"
 msgstr "プレビュー オプション"
 
@@ -10026,9 +9838,8 @@ msgstr "表示:"
 #: modules/process/correct_perspective.c:271
 #: modules/process/measure_lattice.c:365 modules/tools/grainremover.c:115
 #: modules/volume/volume_equiplane.c:205 modules/volume/volume_zposlevel.c:217
-#, fuzzy
 msgid "_Data"
-msgstr "_Data"
+msgstr "データ"
 
 #: modules/process/correct_affine.c:413
 msgid "2D _ACF"
@@ -10036,9 +9847,8 @@ msgstr "2D _ACF"
 
 #: modules/process/correct_affine.c:414
 #: modules/process/correct_perspective.c:272 modules/process/drift.c:353
-#, fuzzy
 msgid "Correc_ted data"
-msgstr "Correc_tedデータ"
+msgstr "補正データ"
 
 #: modules/process/correct_affine.c:425
 msgid "ACF zoom:"
@@ -10049,46 +9859,39 @@ msgid "Interpolate _horizontal ACF"
 msgstr "ACF水平補間"
 
 #: modules/process/correct_affine.c:452 modules/process/measure_lattice.c:418
-#, fuzzy
 msgid "Lattice Vectors"
-msgstr "ラティス ベクトル"
+msgstr "格子ベクトル"
 
 #. TRANSLATORS: Correct is an adjective here.
 #: modules/process/correct_affine.c:469
-#, fuzzy
 msgid "Correct Lattice"
-msgstr "正しい格子"
+msgstr "格子補正"
 
 #: modules/process/correct_affine.c:473 modules/process/facet_analysis.c:804
-#, fuzzy
 msgid "_Lattice type:"
-msgstr "_Latticeタイプ:"
+msgstr "格子タイプ:"
 
 #: modules/process/correct_affine.c:480
 msgid "User defined"
 msgstr "ユーザー定義"
 
 #: modules/process/correct_affine.c:495
-#, fuzzy
 msgid "_Different lengths"
-msgstr "_Different長さ"
+msgstr "長さの差"
 
 #: modules/process/correct_affine.c:524
 msgid "Image for _ACF:"
-msgstr "_ACFの画像:"
+msgstr "ACFの画像:"
 
 #: modules/process/correct_affine.c:551
-#, fuzzy
 msgid "_Scaling:"
-msgstr "_Scaling:"
+msgstr "スケール:"
 
 #: modules/process/correct_affine.c:558
-#, fuzzy
 msgid "Exactly as specified"
-msgstr "正確に指定されたとおり"
+msgstr "指定された通りに"
 
 #: modules/process/correct_affine.c:560
-#, fuzzy
 msgid "Preserve area"
 msgstr "保存領域"
 
@@ -10109,26 +9912,22 @@ msgid "angle"
 msgstr "角度"
 
 #: modules/process/correct_perspective.c:107
-#, fuzzy
 msgid "Corrects or applies perspective distortion of images."
 msgstr "画像の遠近歪を修正または適用します。"
 
 #: modules/process/correct_perspective.c:121
-#, fuzzy
 msgid "/_Distortion/_Perspective..."
-msgstr "/_歪み/_Perspective."
+msgstr "/歪み/遠近法…"
 
 #: modules/process/correct_perspective.c:125
-#, fuzzy
 msgid "Correct perspective distortion"
-msgstr "正しい遠近法の歪み"
+msgstr "遠近法の歪みを補正"
 
 #: modules/process/correct_perspective.c:218
 msgid "Projective Correction"
 msgstr "射出補正"
 
 #: modules/process/cpde_synth.c:169
-#, fuzzy
 msgid "Turing pattern"
 msgstr "チューリングパターン"
 
@@ -10150,76 +9949,63 @@ msgid "Coupled PDEs"
 msgstr "Coupled PDEs"
 
 #: modules/process/cpde_synth.c:412 modules/process/pat_synth.c:469
-#, fuzzy
 msgid "_Pattern:"
-msgstr "_Pattern:"
+msgstr "パターン:"
 
 #: modules/process/cpde_synth.c:426
-#, fuzzy
 msgid "Degree of _chaos:"
-msgstr "_chaosの程度:"
+msgstr "カオス度:"
 
 #: modules/process/crosscor.c:162
-#, fuzzy
 msgid "Calculates cross-correlation of two data fields."
 msgstr "2 つのデータ フィールドの相互相関を計算します。"
 
 #: modules/process/crosscor.c:176
-#, fuzzy
 msgid "/M_ultidata/_Cross-Correlation..."
-msgstr "/_複数のデータ処理/_Cross相関."
+msgstr "/複数のデータ処理/相互相関…"
 
 #: modules/process/crosscor.c:180
-#, fuzzy
 msgid "Cross-correlate two data fields"
 msgstr "2 つのデータ フィールドを相互に関連付ける"
 
 #: modules/process/crosscor.c:219
-#, fuzzy
 msgid "Cross-Correlation"
 msgstr "相互相関"
 
 #: modules/process/crosscor.c:243
-#, fuzzy
 msgid "Co_rrelate with:"
-msgstr "Co_rrelate:"
+msgstr "相関づけ先:"
 
 #: modules/process/crosscor.c:249
 msgid "Search size"
 msgstr "検索サイズ"
 
 #: modules/process/crosscor.c:272
-#, fuzzy
 msgid "_Guess"
-msgstr "_Guess"
+msgstr "推定"
 
 #: modules/process/crosscor.c:273
-#, fuzzy
 msgid "Global offset of 2nd channel"
 msgstr "第 2 チャネルのグローバル オフセット"
 
 #: modules/process/crosscor.c:297
-#, fuzzy
 msgid "Window size"
 msgstr "ウィンドウサイズ"
 
 #: modules/process/crosscor.c:305
-#, fuzzy
 msgid "W_idth:"
-msgstr "W_idth:"
+msgstr "幅:"
 
 #: modules/process/crosscor.c:313
-#, fuzzy
 msgid "Hei_ght:"
-msgstr "Hei_ght:"
+msgstr "高さ:"
 
 #: modules/process/crosscor.c:324 modules/process/fft.c:411
 #: modules/process/psdf2d.c:396 modules/process/psdf_logphi.c:268
 #: modules/process/psf-fit.c:331 modules/process/psf.c:446
 #: modules/volume/volume_psf.c:459
-#, fuzzy
 msgid "_Windowing type:"
-msgstr "_Windowingタイプ:"
+msgstr "ウィンドウタイプ:"
 
 #: modules/process/crosscor.c:332
 msgid "All"
@@ -10227,7 +10013,7 @@ msgstr "すべて"
 
 #: modules/process/crosscor.c:333
 msgid "Absolute"
-msgstr "絶対的な"
+msgstr "絶対値"
 
 #: modules/process/crosscor.c:334
 msgid "X Distance"
@@ -10249,23 +10035,19 @@ msgid "Output _type:"
 msgstr "出力タイプ:"
 
 #: modules/process/crosscor.c:345
-#, fuzzy
 msgid "Add _low score results mask"
-msgstr "スコア結果マスク_low追加"
+msgstr "低いスコアにマスクを追加"
 
 #: modules/process/crosscor.c:356 modules/process/grain_wshed.c:228
 #: modules/process/maskcor.c:239
-#, fuzzy
 msgid "T_hreshold:"
-msgstr "T_hreshold:"
+msgstr "しきい値:"
 
 #: modules/process/crosscor.c:364
-#, fuzzy
 msgid "Multichannel cross-corelation"
-msgstr "マルチチャネル相互相互関係"
+msgstr "マルチチャネル相互相関"
 
 #: modules/process/crosscor.c:382
-#, fuzzy
 msgid "Second _source data:"
 msgstr "2 番目の_sourceデータ:"
 
@@ -10274,33 +10056,28 @@ msgid "Correlate with:"
 msgstr "次の値と相関する:"
 
 #: modules/process/crosscor.c:405
-#, fuzzy
 msgid "Postprocess:"
-msgstr "ポストプロセッシング："
+msgstr "後処理："
 
 #: modules/process/crosscor.c:414
-#, fuzzy
 msgid "Apply Ga_ussian filter of width:"
-msgstr "幅Ga_ussianフィルタを適用します。"
+msgstr "適用Gaussian幅:"
 
 #: modules/process/crosscor.c:427
 msgid "Extend results to borders"
 msgstr "結果を罫線に拡張する"
 
 #: modules/process/crosscor.c:436
-#, fuzzy
 msgid "Create corrected data from 2nd channel"
 msgstr "第 2 チャネルから修正されたデータを作成する"
 
 #: modules/process/crosscor.c:860
-#, fuzzy
 msgid "Correlating first set..."
-msgstr "第1セットの相関."
+msgstr "第1セットの相関..."
 
 #: modules/process/crosscor.c:901
-#, fuzzy
 msgid "Correlating second set..."
-msgstr "第2セットを相関付ける."
+msgstr "第2セットを相関付ける…"
 
 #: modules/process/crosscor.c:1016
 msgid "Corrected 2nd channel"
@@ -10312,31 +10089,28 @@ msgstr "X差"
 
 #: modules/process/crosscor.c:1054
 msgid "Y difference"
-msgstr "Y difference"
+msgstr "Y 差"
 
 #: modules/process/crosscor.c:1067
-#, fuzzy
 msgid "Absolute difference"
-msgstr "絶対差"
+msgstr "絶対値差"
 
 #: modules/process/curvature.c:134
-#, fuzzy
 msgid "Calculates overall curvature."
 msgstr "全体の曲率を計算します。"
 
 #: modules/process/curvature.c:148
 msgid "/Measure _Features/_Curvature..."
-msgstr "/特徴抽出/_Curvature..."
+msgstr "/特徴抽出/曲率…"
 
 #: modules/process/curvature.c:152
-#, fuzzy
 msgid "Calculate overall curvature"
 msgstr "全体の曲率を計算する"
 
 #: modules/process/curvature.c:182 modules/process/facet-level.c:118
 #: modules/process/facet_analysis.c:367 modules/process/facet_measure.c:289
 #: modules/process/semsim.c:167
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Lateral dimensions and value must be the same physical quantity."
 msgstr "%s: 横寸法と値は、同じ現物数量である必要があります。"
 
@@ -10345,12 +10119,11 @@ msgid "Curvature Sections"
 msgstr "曲率断面"
 
 #: modules/process/curvature.c:428 modules/tools/profile.c:1001
-#, fuzzy, c-format
+#, c-format
 msgid "Profile %d"
 msgstr "プロファイル%d"
 
 #: modules/process/curvature.c:586
-#, fuzzy
 msgid "Center value"
 msgstr "中心値"
 
@@ -10363,12 +10136,10 @@ msgid "Curvature radius 2"
 msgstr "曲率半径 2"
 
 #: modules/process/curvature.c:593
-#, fuzzy
 msgid "Direction 1"
 msgstr "方向 1"
 
 #: modules/process/curvature.c:595
-#, fuzzy
 msgid "Direction 2"
 msgstr "方向 2"
 
@@ -10377,14 +10148,12 @@ msgid "Output Type"
 msgstr "アウトプットタイプ"
 
 #: modules/process/curvature.c:655
-#, fuzzy
 msgid "_Set selection"
-msgstr "_Set選択"
+msgstr "選択"
 
 #: modules/process/curvature.c:665
-#, fuzzy
 msgid "_Plot graph"
-msgstr "グラフ_Plot"
+msgstr "グラフプロット"
 
 #: modules/process/curvature.c:744
 msgid "Save Curvature"
@@ -10395,7 +10164,6 @@ msgid "Axes are outside the image."
 msgstr "軸はイメージの外側にあります。"
 
 #: modules/process/cwt.c:66
-#, fuzzy
 msgid "Two-dimensional CWT (Continuous Wavelet Transform)."
 msgstr "2 次元 CWT (連続ウェーブレット変換)。"
 
@@ -10408,9 +10176,8 @@ msgid "Compute continuous wavelet transform"
 msgstr "連続ウェーブレット変換の計算"
 
 #: modules/process/cwt.c:123
-#, fuzzy
 msgid "CWT"
-msgstr "Cwt"
+msgstr "CWT"
 
 #: modules/process/cwt.c:134
 msgid "2D CWT"
@@ -10418,29 +10185,25 @@ msgstr "2D CWT"
 
 #: modules/process/cwt.c:159 modules/process/dwt.c:185
 #: modules/process/dwtanisotropy.c:212
-#, fuzzy
 msgid "_Wavelet type:"
-msgstr "_Waveletタイプ:"
+msgstr "Waveletタイプ:"
 
 #: modules/process/deconvolve.c:177 modules/process/deconvolve.c:309
 #: modules/process/deconvolve.c:339
-#, fuzzy
 msgid "Deconvolved"
-msgstr "デコンボルブ"
+msgstr "デコンボリューション"
 
 #: modules/process/deconvolve.c:188
 msgid "Regularized image deconvolution."
 msgstr "規則化された画像デコンボリューション。"
 
 #: modules/process/deconvolve.c:202
-#, fuzzy
 msgid "/M_ultidata/_Deconvolve..."
-msgstr "/_複数のデータ処理/_Deconvolve."
+msgstr "/複数のデータ処理/デコンボリューション…"
 
 #: modules/process/deconvolve.c:206
-#, fuzzy
 msgid "Deconvolve image"
-msgstr "デコンボルブ画像"
+msgstr "デコンボリューション画像"
 
 #: modules/process/deconvolve.c:246
 #, c-format
@@ -10457,35 +10220,29 @@ msgid "Best estimate: unknown"
 msgstr "最良の見積もり: 不明"
 
 #: modules/process/deconvolve.c:347 modules/process/deconvolve.c:931
-#, fuzzy
 msgid "L-curve"
-msgstr "Lカーブ"
+msgstr "L-curve"
 
 #: modules/process/deconvolve.c:362
-#, fuzzy
 msgid "Deconvolve"
-msgstr "デコンボルブ"
+msgstr "デコンボリューション"
 
 #: modules/process/deconvolve.c:365
-#, fuzzy
 msgid "_Update L-curve"
-msgstr "l カーブ_Update"
+msgstr "L-curve更新"
 
 #: modules/process/deconvolve.c:450 modules/process/psf.c:436
 #: modules/volume/volume_psf.c:425
-#, fuzzy
 msgid "_Sigma:"
-msgstr "_Sigma:"
+msgstr "シグマ:"
 
 #: modules/process/deconvolve.c:484
-#, fuzzy
 msgid "_L-curve display:"
-msgstr "_L曲線表示:"
+msgstr "L-curve表示:"
 
 #: modules/process/deconvolve.c:493
-#, fuzzy
 msgid "_L-curve sigma range:"
-msgstr "_L曲線シグマ範囲:"
+msgstr "L-curve シグマ範囲:"
 
 #: modules/process/deconvolve.c:511 modules/process/domain_synth.c:529
 #: modules/process/fft_filter_2d.c:591 modules/process/freq_split.c:375
@@ -10498,28 +10255,25 @@ msgid "Output type:"
 msgstr "出力タイプ:"
 
 #: modules/process/deconvolve.c:979
-#, fuzzy
 msgid "Computing L-curve data..."
-msgstr "L曲線データの計算."
+msgstr "L-curve データ計算中…"
 
 #: modules/process/deposit_synth.c:161
-#, fuzzy
 msgid "Generates particles using simple dynamical model"
-msgstr "単純な動的モデルを使用してパーティクルを生成します。"
+msgstr "単純な動的モデルを使用してパーティクルを生成"
 
 #: modules/process/deposit_synth.c:175
 msgid "/S_ynthetic/_Deposition/_Particles..."
-msgstr "/合成・生成/_Deposition/_Particles..."
+msgstr "/合成・生成/Deposition/粒子…"
 
 #: modules/process/deposit_synth.c:179
-#, fuzzy
 msgid "Generate particles using dynamical model"
 msgstr "動的モデルを使用してパーティクルを生成する"
 
 #: modules/process/deposit_synth.c:276 modules/process/deposit_synth.c:736
 #: modules/process/roddeposit_synth.c:320
 #: modules/process/roddeposit_synth.c:1007
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Not all the particles could be deposited (%u),\n"
 "try more revise steps."
@@ -10528,115 +10282,97 @@ msgstr ""
 "より多くの修正手順を試してください。"
 
 #: modules/process/deposit_synth.c:336 modules/process/roddeposit_synth.c:382
-#, fuzzy
 msgid "Particle Generation"
-msgstr "パーティクル生成"
+msgstr "粒子生成"
 
 #: modules/process/deposit_synth.c:427 modules/process/roddeposit_synth.c:476
-#, fuzzy
 msgid "Particle r_adius:"
-msgstr "パーティクルr_adius:"
+msgstr "粒子半径:"
 
 #: modules/process/deposit_synth.c:439 modules/process/roddeposit_synth.c:488
-#, fuzzy
 msgid "Distribution _width:"
-msgstr "配布_width:"
+msgstr "分布幅:"
 
 #: modules/process/deposit_synth.c:460 modules/process/roddeposit_synth.c:564
-#, fuzzy
 msgid "_Relax steps:"
-msgstr "_Relax手順:"
+msgstr "緩和ステップ:"
 
 #: modules/process/deposit_synth.c:734 modules/process/roddeposit_synth.c:1005
-#, fuzzy, c-format
+#, c-format
 msgid "%d particles were deposited"
-msgstr "%d粒子が堆積した"
+msgstr "%d粒子が堆積されました"
 
 #: modules/process/deposit_synth.c:965
 msgid "Initial particle set..."
 msgstr "初期粒子設定…"
 
 #: modules/process/deposit_synth.c:1117
-#, fuzzy
 msgid "Running revise..."
-msgstr "改訂を実行しています。"
+msgstr "変更計算を実行しています。"
 
 #: modules/process/deposit_synth.c:1247 modules/process/roddeposit_synth.c:1935
-#, fuzzy
 msgid "Error: too many particles."
 msgstr "エラー: パーティクルが多すぎます。"
 
 #: modules/process/deposit_synth.c:1249 modules/process/roddeposit_synth.c:1937
-#, fuzzy
 msgid "Error: no particles."
 msgstr "エラー: パーティクルがありません。"
 
 #: modules/process/deposit_synth.c:1251 modules/process/roddeposit_synth.c:1939
-#, fuzzy
 msgid "Error: particles too large."
 msgstr "エラー: パーティクルが大きすぎます。"
 
 #: modules/process/deposit_synth.c:1253 modules/process/roddeposit_synth.c:1941
-#, fuzzy
 msgid "Error: particles too small."
 msgstr "エラー: パーティクルが小さすぎます。"
 
 #: modules/process/diff_synth.c:196
-#, fuzzy
 msgid "Number of islands"
 msgstr "島の数"
 
 #: modules/process/diff_synth.c:216
-#, fuzzy
 msgid "Generates surfaces by diffusion limited aggregation."
 msgstr "拡散限定集約によってサーフェスを生成します。"
 
 #: modules/process/diff_synth.c:230
 msgid "/S_ynthetic/_Deposition/_Diffusion..."
-msgstr "/合成・生成/_Deposition/_Diffusion…"
+msgstr "/合成・生成/Deposition/拡散…"
 
 #: modules/process/diff_synth.c:234
-#, fuzzy
 msgid "Generate surface by diffusion limited aggregation"
 msgstr "拡散限定凝集によるサーフェスの生成"
 
 #: modules/process/diff_synth.c:406
-#, fuzzy
 msgid "Diffusion Limited Aggregation"
 msgstr "拡散限定アグリゲーション"
 
 #: modules/process/diff_synth.c:489
-#, fuzzy
 msgid "_Flux:"
-msgstr "_Flux:"
+msgstr "Flux:"
 
 #: modules/process/diff_synth.c:510
 msgid "Probabilities"
 msgstr "確率"
 
 #: modules/process/diff_synth.c:518
-#, fuzzy
 msgid "_Sticking:"
-msgstr "_Sticking:"
+msgstr "Sticking:"
 
 #: modules/process/diff_synth.c:527
 msgid "_Activation:"
-msgstr "_Activation:"
+msgstr "Activation:"
 
 #: modules/process/diff_synth.c:536
-#, fuzzy
 msgid "Passing Sch_woebel:"
-msgstr "Sch_woebel渡す:"
+msgstr "Passing Schwoebel:"
 
 #: modules/process/dimensions.h:451
-#, fuzzy
 msgid "S_quare image"
-msgstr "S_quare画像"
+msgstr "Square画像"
 
 #: modules/process/dimensions.h:485
-#, fuzzy
 msgid "_Dimension units:"
-msgstr "_Dimension単位:"
+msgstr "次元単位:"
 
 #: modules/process/dimensions.h:500
 msgid "Current Image"
@@ -10655,70 +10391,58 @@ msgid "_Start from the current image"
 msgstr "現在のイメージから開始"
 
 #: modules/process/disc_synth.c:199
-#, fuzzy
 msgid "Generates random more or less touching discs."
-msgstr "ランダムな接触ディスクを生成します。"
+msgstr "ランダムな接触円板を生成します。"
 
 #: modules/process/disc_synth.c:213
 msgid "/S_ynthetic/D_iscs..."
 msgstr "/合成・生成/円板…"
 
 #: modules/process/disc_synth.c:217
-#, fuzzy
 msgid "Generate surface of random discs"
-msgstr "ランダムディスクのサーフェスを生成する"
+msgstr "ランダム円板の表面を生成"
 
 #: modules/process/disc_synth.c:265
-#, fuzzy
 msgid "Random Discs"
-msgstr "ランダムディスク"
+msgstr "ランダム円板"
 
 #: modules/process/disc_synth.c:339
-#, fuzzy
 msgid "Discs"
-msgstr "ディスク"
+msgstr "円板"
 
 #: modules/process/disc_synth.c:347
-#, fuzzy
 msgid "Starting _radius:"
-msgstr "_radiusを開始:"
+msgstr "開始半径:"
 
 #: modules/process/disc_synth.c:359
-#, fuzzy
 msgid "_Minimum radius:"
-msgstr "_Minimum半径:"
+msgstr "最小半径:"
 
 #: modules/process/disc_synth.c:368
-#, fuzzy
 msgid "_Separation:"
-msgstr "_Separation:"
+msgstr "分離:"
 
 #: modules/process/disc_synth.c:374
 msgid "Tiles"
 msgstr "タイル"
 
 #: modules/process/disc_synth.c:379
-#, fuzzy
 msgid "_Transform to tiles"
-msgstr "タイルに_Transform"
+msgstr "タイルに変形"
 
 #: modules/process/disc_synth.c:397
-#, fuzzy
 msgid "_Gap thickness:"
-msgstr "_Gap厚さ:"
+msgstr "ギャップ厚み:"
 
 #: modules/process/disc_synth.c:404
-#, fuzzy
 msgid "Apply opening _filter"
-msgstr "オープニング_filterの適用"
+msgstr "オープニングフィルターの適用"
 
 #: modules/process/disc_synth.c:1313
-#, fuzzy
 msgid "Generating discs..."
-msgstr "ディスクの生成."
+msgstr "円板の生成中…"
 
 #: modules/process/displfield.c:171
-#, fuzzy
 msgid ""
 "Distorts image or individual scan lines in plane using a displacement field."
 msgstr ""
@@ -10726,12 +10450,10 @@ msgstr ""
 "せます。"
 
 #: modules/process/displfield.c:186
-#, fuzzy
 msgid "/_Distortion/Displacement _Field..."
-msgstr "/_歪み/変位_Field。"
+msgstr "/歪み/変位フィールド…"
 
 #: modules/process/displfield.c:190
-#, fuzzy
 msgid "Deform image or scan lines in plane"
 msgstr "平面のイメージまたはスキャン ラインを変形する"
 
@@ -10740,79 +10462,67 @@ msgid "Distorted"
 msgstr "歪んだ"
 
 #: modules/process/displfield.c:247
-#, fuzzy
 msgid "Gaussian (scan lines)"
-msgstr "ガウス(スキャンライン)"
+msgstr "Gaussian (ライン)"
 
 #: modules/process/displfield.c:248
-#, fuzzy
 msgid "Gaussian (two-dimensional)"
-msgstr "ガウス(2次元)"
+msgstr "Gaussian (2次元)"
 
 #: modules/process/displfield.c:249
-#, fuzzy
 msgid "Tear scan lines"
-msgstr "ティアスキャンライン"
+msgstr "スキャンラインごと"
 
 #: modules/process/displfield.c:250
-#, fuzzy
 msgid "Image (scan lines)"
 msgstr "画像(スキャンライン)"
 
 #: modules/process/displfield.c:251
-#, fuzzy
 msgid "Images (two-dimensional)"
 msgstr "画像(2次元)"
 
 #: modules/process/displfield.c:267
-#, fuzzy
 msgid "Displacement Field"
-msgstr "変位場"
+msgstr "変位フィールド"
 
 #: modules/process/displfield.c:323 modules/process/fractal.c:276
 #: modules/process/psf.c:430 modules/volume/volume_psf.c:418
-#, fuzzy
 msgid "_Method:"
-msgstr "_Method:"
+msgstr "方法:"
 
 #: modules/process/displfield.c:336
 msgid "_X displacement:"
-msgstr "_X変位:"
+msgstr "X変位:"
 
 #: modules/process/displfield.c:348
 msgid "_Y displacement:"
-msgstr "_Y変位:"
+msgstr "Y変位:"
 
 #: modules/process/displfield.c:352 modules/process/synth.h:521
-#, fuzzy
 msgid "_Amplitude:"
-msgstr "_Amplitude:"
+msgstr "振幅:"
 
 #: modules/process/displfield.c:369 modules/process/synth.h:529
-#, fuzzy
 msgid "_Lateral scale:"
 msgstr "水平スケール:"
 
 #: modules/process/displfield.c:387 modules/process/fibre_synth.c:600
 #: modules/process/lno_synth.c:861 modules/process/lno_synth.c:1243
 #: modules/process/mask_noisify.c:177
-#, fuzzy
 msgid "Densi_ty:"
-msgstr "Densi_ty:"
+msgstr "密度:"
 
 #: modules/process/displfield.c:479 modules/process/synth.h:629
-#, fuzzy
 msgid "R_andom seed:"
-msgstr "R_andom種子:"
+msgstr "乱数の根:"
 
 #: modules/process/displfield.c:485 modules/process/synth.h:635
 msgid "seed|_New"
 msgstr "seed|_New"
 
 #: modules/process/displfield.c:496 modules/process/synth.h:647
-#, fuzzy
 msgid "Randomi_ze"
-msgstr "Randomi_ze"
+msgstr "乱数化"
 
 #: modules/process/domain_synth.c:164
 msgid "Discrete state"
@@ -10823,7 +10533,6 @@ msgid "Continuous inhibitor"
 msgstr "連続性阻害"
 
 #: modules/process/domain_synth.c:171
-#, fuzzy
 msgid "Generates domain images using a hybrid Ising model."
 msgstr "ハイブリッド Ising モデルを使用してドメイン イメージを生成します。"
 
@@ -10832,7 +10541,6 @@ msgid "/S_ynthetic/_Domains..."
 msgstr "/合成・生成/_Domains…"
 
 #: modules/process/domain_synth.c:189
-#, fuzzy
 msgid "Generate image with domains"
 msgstr "ドメインを含むイメージを生成する"
 
@@ -10841,95 +10549,79 @@ msgid "Domains"
 msgstr "ドメイン"
 
 #: modules/process/domain_synth.c:448
-#, fuzzy
 msgid "_Preview quantity:"
-msgstr "_Preview数量:"
+msgstr "量プレビュー:"
 
 #: modules/process/domain_synth.c:469
-#, fuzzy
 msgid "_Temperature:"
-msgstr "_Temperature:"
+msgstr "温度:"
 
 #: modules/process/domain_synth.c:477
-#, fuzzy
 msgid "_Inhibitor strength:"
-msgstr "_Inhibitor強度:"
+msgstr "Inhibitor強度:"
 
 #: modules/process/domain_synth.c:485
-#, fuzzy
 msgid "In_hibitor coupling:"
-msgstr "In_hibitorカップリング:"
+msgstr "Inhibitorカップリング:"
 
 #: modules/process/domain_synth.c:493
-#, fuzzy
 msgid "_Bias:"
-msgstr "_Bias:"
+msgstr "バイアス:"
 
 #: modules/process/domain_synth.c:501
-#, fuzzy
 msgid "_Monte Carlo time step:"
-msgstr "_Monteカルロ時間ステップ:"
+msgstr "モンテカルロ時間ステップ:"
 
 #: modules/process/drift.c:174
 msgid "Evaluates and/or correct thermal drift in fast scan axis."
 msgstr "高速スキャン軸の熱ドリフトを評価および/または修正します。"
 
 #: modules/process/drift.c:188
-#, fuzzy
 msgid "/_Distortion/Compensate _Drift..."
-msgstr "/_歪み/_Driftを補償します。"
+msgstr "/歪み/ドリフトを補償する…"
 
 #: modules/process/drift.c:192
 msgid "Evaluate/correct thermal drift in fast scan axis"
 msgstr "高速スキャン軸の熱ドリフトを評価/補正"
 
 #: modules/process/drift.c:238
-#, fuzzy
 msgid "Compensate Drift"
 msgstr "ドリフトを補正"
 
 #: modules/process/drift.c:288
-#, fuzzy
 msgid "_Search range:"
-msgstr "_Search範囲:"
+msgstr "検索範囲:"
 
 #: modules/process/drift.c:288
 msgid "rows"
 msgstr "行"
 
 #: modules/process/drift.c:306
-#, fuzzy
 msgid "Correct _data"
-msgstr "_dataを修正する"
+msgstr "データ補正"
 
 #: modules/process/drift.c:316
-#, fuzzy
 msgid "_Exclude linear skew"
-msgstr "_Exclude線形スキュー"
+msgstr "線形スキューの排除"
 
 #: modules/process/drift.c:326
-#, fuzzy
 msgid "Plot drift _graph"
-msgstr "プロットドリフト_graph"
+msgstr "ドリフトグラフをプロット"
 
 #: modules/process/drift.c:354
-#, fuzzy
 msgid "Drift _lines"
-msgstr "ドリフト_lines"
+msgstr "ドリフト線"
 
 #: modules/process/drift.c:559
-#, fuzzy
 msgid "Drift-corrected"
 msgstr "ドリフト補正"
 
 #: modules/process/drift.c:603
-#, fuzzy
 msgid "Drift"
 msgstr "ドリフト"
 
 #: modules/process/drift.c:604 modules/xyz/xyz_drift.c:392
 #: modules/xyz/xyz_drift.c:411 modules/xyz/xyz_drift.c:430
-#, fuzzy
 msgid "drift"
 msgstr "ドリフト"
 
@@ -10938,34 +10630,32 @@ msgid "x-axis drift"
 msgstr "x 軸ドリフト"
 
 #: modules/process/dwt.c:73
-#, fuzzy
 msgid "Two-dimensional DWT (Discrete Wavelet Transform)."
 msgstr "2 次元 DWT (離散ウェーブレット変換)"
 
 #: modules/process/dwt.c:87
 msgid "/_Integral Transforms/2D _DWT..."
-msgstr "/積分変換/2D _DWT…"
+msgstr "/積分変換/2D DWT…"
 
 #: modules/process/dwt.c:91
 msgid "Compute Discrete Wavelet Transform"
 msgstr "離散ウェーブレット変換の計算"
 
 #: modules/process/dwt.c:120 modules/process/dwtanisotropy.c:132
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Data must be square."
 msgstr "%s: データは正方形である必要があります。"
 
 #: modules/process/dwt.c:147
-#, fuzzy
 msgid "DWT"
-msgstr "Dwt"
+msgstr "DWT"
 
 #: modules/process/dwt.c:165
 msgid "2D DWT"
 msgstr "2D DWT"
 
 #: modules/process/dwt.c:191
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Size %d is not a power of 2,\n"
 "data will be resampled to %d×%d for DWT."
@@ -10982,12 +10672,10 @@ msgid "/_Integral Transforms/DWT _Anisotropy..."
 msgstr "/積分変換/DWT異方性…"
 
 #: modules/process/dwtanisotropy.c:98
-#, fuzzy
 msgid "DWT anisotropy detection"
 msgstr "DWT異方性検出"
 
 #: modules/process/dwtanisotropy.c:132
-#, fuzzy
 msgid "DWT Anisotropy"
 msgstr "DWT異方性"
 
@@ -11000,53 +10688,46 @@ msgid "X/Y ratio threshold:"
 msgstr "X/Y比のしきい値:"
 
 #: modules/process/dwtanisotropy.c:226
-#, fuzzy
 msgid "Low level exclude limit:"
-msgstr "低レベルの除外制限:"
+msgstr "Low level exclude limit:"
 
 #: modules/process/edge.c:67
-#, fuzzy
 msgid ""
 "Several edge detection methods (Laplacian of Gaussian, Canny, and some "
 "experimental), creates presentation."
 msgstr ""
-"いくつかのエッジ検出法(ガウス、カニー、およびいくつかの実験的なラプラシアン)"
-"がプレゼンテーションを作成します。"
+"いくつかのエッジ検出法(LoG、キャニー、およびいくつかの実験的なもの)でが画像を"
+"作成します。"
 
 #: modules/process/edge.c:82
-#, fuzzy
 msgid "/_Presentation/_Edge Detection/_Laplacian of Gaussian"
-msgstr "/_表現/_Edge ガウスの検出/_Laplacian"
+msgstr "/画像処理ツール/輪郭検出/ガウスのラプラシアン法(LoG)"
 
 #: modules/process/edge.c:86
-#, fuzzy
 msgid "Laplacian of Gaussian step detection presentation"
-msgstr "ガウスのラプラシアンのステップ検出プレゼンテーション"
+msgstr "ガウスのラプラシアンのステップ検出画像処理"
 
 #: modules/process/edge.c:90
-#, fuzzy
 msgid "/_Presentation/_Edge Detection/_Canny"
-msgstr "/_表現/_Edge検出/_Canny"
+msgstr "/画像処理ツール/輪郭検出/キャニー"
 
 #: modules/process/edge.c:94
-#, fuzzy
 msgid "Canny edge detection presentation"
-msgstr "おかしなエッジ検出プレゼンテーション"
+msgstr "キャニーエッジ検出画像処理"
 
 #: modules/process/edge.c:97
-#, fuzzy
 msgid "/_Presentation/_Edge Detection/_RMS"
-msgstr "/_表現/_Edge検出/_RMS"
+msgstr "/画像処理ツール/輪郭検出/RMS"
 
 #: modules/process/edge.c:101
 #, fuzzy
 msgid "Local RMS value based step detection presentation"
-msgstr "ローカル RMS 値ベースのステップ検出プレゼンテーション"
+msgstr "ローカル RMS 値ベースのステップ検出画像処理"
 
 #: modules/process/edge.c:105
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/RMS _Edge"
-msgstr "/_表現/_Edge検出/RMS _Edge"
+msgstr "/画像処理ツール/輪郭検出/RMS _Edge"
 
 #: modules/process/edge.c:109
 msgid "Local RMS value based step detection with postprocessing"
@@ -11055,47 +10736,47 @@ msgstr "後処理によるローカル RMS 値ベースのステップ検出"
 #: modules/process/edge.c:113
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/Local _Nonlinearity"
-msgstr "/_表現/_Edge検出/ローカル_Nonlinearity"
+msgstr "/画像処理ツール/輪郭検出/ローカル_Nonlinearity"
 
 #: modules/process/edge.c:117
 #, fuzzy
 msgid "Local nonlinearity based edge detection presentation"
-msgstr "ローカル非線形性ベースのエッジ検出プレゼンテーション"
+msgstr "ローカル非線形性ベースのエッジ検出画像処理"
 
 #: modules/process/edge.c:121
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Hough Lines"
-msgstr "/_表現/_Edge検出/_Houghライン"
+msgstr "/画像処理ツール/輪郭検出/_Houghライン"
 
 #: modules/process/edge.c:126
 #, fuzzy
 msgid "Hough lines presentation"
-msgstr "ハフラインプレゼンテーション"
+msgstr "ハフライン画像処理"
 
 #: modules/process/edge.c:129
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Harris Corner"
-msgstr "/_表現/_Edge検出/_Harrisコーナー"
+msgstr "/画像処理ツール/輪郭検出/_Harrisコーナー"
 
 #: modules/process/edge.c:134
 #, fuzzy
 msgid "Harris corner presentation"
-msgstr "ハリスコーナープレゼンテーション"
+msgstr "ハリスコーナー画像処理"
 
 #: modules/process/edge.c:137
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Inclination"
-msgstr "/_表現/_Edge検出/_Inclination"
+msgstr "/画像処理ツール/輪郭検出/_Inclination"
 
 #: modules/process/edge.c:141
 #, fuzzy
 msgid "Local inclination visualization presentation"
-msgstr "ローカル傾斜の視覚化プレゼンテーション"
+msgstr "ローカル傾斜の視覚化画像処理"
 
 #: modules/process/edge.c:145
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Step"
-msgstr "/_表現/_Edge検出/_Step"
+msgstr "/画像処理ツール/輪郭検出/_Step"
 
 #: modules/process/edge.c:149
 msgid "Fine step detection presentation"
@@ -11104,22 +10785,22 @@ msgstr "細かいステップ検出表示"
 #: modules/process/edge.c:152
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Sobel"
-msgstr "/_表現/_Edge検出/_Sobel"
+msgstr "/画像処理ツール/輪郭検出/_Sobel"
 
 #: modules/process/edge.c:156
 #, fuzzy
 msgid "Sobel edge presentation"
-msgstr "ソベル エッジプレゼンテーション"
+msgstr "ソベル エッジ画像処理"
 
 #: modules/process/edge.c:159
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Prewitt"
-msgstr "/_表現/_Edge検出/_Prewitt"
+msgstr "/画像処理ツール/輪郭検出/_Prewitt"
 
 #: modules/process/edge.c:163
 #, fuzzy
 msgid "Prewitt edge presentation"
-msgstr "プレウィット エッジプレゼンテーション"
+msgstr "プレウィット エッジ画像処理"
 
 #: modules/process/edge.c:166
 msgid "/_Integral Transforms/Local Slope"
@@ -11196,7 +10877,7 @@ msgstr "枠線を追加して画像を拡張します。"
 
 #: modules/process/extend.c:122
 msgid "/_Basic Operations/E_xtend..."
-msgstr "/_基本操作/_Extend…"
+msgstr "/基本操作/_Extend…"
 
 #: modules/process/extend.c:126
 msgid "Extend by adding borders"
@@ -11269,7 +10950,6 @@ msgid "Extract Path Selection"
 msgstr "パス選択の抽出"
 
 #: modules/process/extract_path.c:176
-#, fuzzy
 msgid "Number of path points:"
 msgstr "パス ポイントの数:"
 
@@ -11312,7 +10992,7 @@ msgstr "自動面方向に基づくレベリング。面が上を指すように
 
 #: modules/process/facet-level.c:80
 msgid "/_Level/_Facet Level"
-msgstr "/_レベリング/_多平面"
+msgstr "/レベリング/_多平面"
 
 #: modules/process/facet-level.c:84
 #, fuzzy
@@ -11349,9 +11029,8 @@ msgstr "ファセット分析"
 
 #. TRANSLATORS: Number is verb here.
 #: modules/process/facet_analysis.c:478
-#, fuzzy
 msgid "_Number points"
-msgstr "_Numberポイント"
+msgstr "ポイント数"
 
 #: modules/process/facet_analysis.c:489 modules/process/facet_measure.c:524
 #, fuzzy
@@ -11402,49 +11081,41 @@ msgid "Re_set Rotation"
 msgstr "Re_setローテーション"
 
 #: modules/process/facet_analysis.c:810
-#, fuzzy
 msgid "lattice|Cubic"
-msgstr "ラティス|立方"
+msgstr "格子|立方"
 
 #: modules/process/facet_analysis.c:812
 #, fuzzy
 msgid "lattice|Rhomohedral"
-msgstr "ラティス|モモヘドラル"
+msgstr "格子|モモヘドラル"
 
 #: modules/process/facet_analysis.c:814 modules/process/lat_synth.c:544
-#, fuzzy
 msgid "lattice|Hexagonal"
-msgstr "ラティス|六角 形"
+msgstr "格子|六角形"
 
 #: modules/process/facet_analysis.c:816
-#, fuzzy
 msgid "lattice|Tetragonal"
-msgstr "ラティス|正方 晶"
+msgstr "格子|正方晶系"
 
 #: modules/process/facet_analysis.c:818
-#, fuzzy
 msgid "lattice|Orthorhombic"
-msgstr "ラティス|オルソロビック"
+msgstr "格子|直方晶系"
 
 #: modules/process/facet_analysis.c:820
-#, fuzzy
 msgid "lattice|Monoclinic"
-msgstr "ラティス|モノクリニック"
+msgstr "格子|単斜晶系"
 
 #: modules/process/facet_analysis.c:822
-#, fuzzy
 msgid "lattice|Triclinic"
-msgstr "ラティス|トリクリニック"
+msgstr "格子|三斜晶系"
 
 #: modules/process/facet_analysis.c:862
-#, fuzzy
 msgid "Create _Points"
-msgstr "_Pointsの作成"
+msgstr "ポイントの作成"
 
 #: modules/process/facet_analysis.c:1220 modules/process/facet_measure.c:1000
-#, fuzzy
 msgid "Save Facet Vectors"
-msgstr "ファセット ベクトルを保存"
+msgstr "面ベクトルを保存"
 
 #: modules/process/facet_analysis.c:1382
 #, c-format
@@ -11456,93 +11127,77 @@ msgid "/Measure _Features/Facet _Measurement..."
 msgstr "/特徴抽出/Facet _Measurement..."
 
 #: modules/process/facet_measure.c:256
-#, fuzzy
 msgid "Measure facet angles"
-msgstr "ファセット角度を測定する"
+msgstr "面角度を測定する"
 
 #: modules/process/facet_measure.c:291 modules/process/facet_measure.c:325
-#, fuzzy
 msgid "Measure Facets"
-msgstr "ファセットを測定する"
+msgstr "面を測定する"
 
 #: modules/process/facet_measure.c:388
-#, fuzzy
 msgid "Selected ϑ:"
 msgstr "選択されたθ:"
 
 #: modules/process/facet_measure.c:401
-#, fuzzy
 msgid "Selected φ:"
 msgstr "選択したφ:"
 
 #: modules/process/facet_measure.c:430
-#, fuzzy
 msgid "Mea_sure"
-msgstr "Mea_sure"
+msgstr "測定"
 
 #: modules/process/facet_measure.c:648
 msgid "points"
 msgstr "ポイント"
 
 #: modules/process/fbm_synth.c:162
-#, fuzzy
 msgid "Generates random surfaces similar to fractional Brownian motion."
-msgstr "分数ブラウン運動に似たランダムなサーフェスを生成します。"
+msgstr "非整数ブラウン運動に似たランダムなサーフェスを生成します。"
 
 #: modules/process/fbm_synth.c:176
 msgid "/S_ynthetic/_Brownian..."
 msgstr "/合成・生成/_Brownian…"
 
 #: modules/process/fbm_synth.c:180
-#, fuzzy
 msgid "Generate fractional Brownian motion-like surface"
-msgstr "分数ブラウン運動のような表面を生成する"
+msgstr "非整数ブラウン運動のような表面を生成する"
 
 #: modules/process/fbm_synth.c:301
-#, fuzzy
 msgid "Fractional Brownian Motion"
-msgstr "フラクショナル ブラウンアン モーション"
+msgstr "非整数ブラウン運動"
 
 #: modules/process/fbm_synth.c:375
-#, fuzzy
 msgid "_Hurst exponent:"
-msgstr "_Hurst指数:"
+msgstr "Hurst指数:"
 
 #: modules/process/fbm_synth.c:383
-#, fuzzy
 msgid "_Stationarity scale:"
-msgstr "_Stationarityスケール:"
+msgstr "Stationarityスケール:"
 
 #: modules/process/fbm_synth.c:390 modules/process/lno_synth.c:510
 #: modules/process/noise_synth.c:407
-#, fuzzy
 msgid "_Distribution:"
-msgstr "_分布:"
+msgstr "分布:"
 
 #: modules/process/fbm_synth.c:396 modules/process/fft_synth.c:553
-#, fuzzy
 msgid "Po_wer:"
-msgstr "Po_wer:"
+msgstr "パワー:"
 
 #: modules/process/fbm_synth.c:407 modules/process/fft_synth.c:423
 #: modules/process/lno_synth.c:534 modules/process/noise_synth.c:431
-#, fuzzy
 msgid "_RMS:"
-msgstr "_RMS:"
+msgstr "RMS:"
 
 #: modules/process/fbm_synth.c:476 modules/process/lno_synth.c:251
 #: modules/process/noise_synth.c:176
-#, fuzzy
 msgid "distribution|Exponential"
-msgstr "配布|指数"
+msgstr "分布|指数"
 
 #: modules/process/fbm_synth.c:477
-#, fuzzy
 msgid "distribution|Power"
-msgstr "配布|電源"
+msgstr "分布|パワー"
 
 #: modules/process/fft.c:126
-#, fuzzy
 msgid "Two-dimensional FFT (Fast Fourier Transform)."
 msgstr "2 次元 FFT (高速フーリエ変換)。"
 
@@ -11555,107 +11210,90 @@ msgid "Compute Fast Fourier Transform"
 msgstr "高速フーリエ変換の計算"
 
 #: modules/process/fft.c:232
-#, fuzzy
 msgid "FFT Real"
-msgstr "FFTレアル"
+msgstr "FFT Real"
 
 #: modules/process/fft.c:236
-#, fuzzy
 msgid "FFT Imaginary"
-msgstr "FFTイマジナリー"
+msgstr "FFT Imaginary"
 
 #: modules/process/fft.c:241
-#, fuzzy
 msgid "FFT Modulus"
-msgstr "FFTモジュラス"
+msgstr "FFT Modulus"
 
 #: modules/process/fft.c:247
-#, fuzzy
 msgid "FFT Phase"
-msgstr "FFT フェーズ"
+msgstr "FFT Phase"
 
 #: modules/process/fft.c:330
-#, fuzzy
 msgid "Real + Imaginary"
-msgstr "リアル+ 想像上"
+msgstr "Real + Imaginary"
 
 #: modules/process/fft.c:331
-#, fuzzy
 msgid "Modulus + Phase"
-msgstr "モジュラス + 相"
+msgstr "Modulus + Phase"
 
 #: modules/process/fft.c:332
-#, fuzzy
 msgid "Real"
-msgstr "本当の"
+msgstr "Real"
 
 #: modules/process/fft.c:333
-#, fuzzy
 msgid "Imaginary"
-msgstr "架空"
+msgstr "Imaginary"
 
 #: modules/process/fft.c:334
 msgid "Modulus"
-msgstr "係数"
+msgstr "Modulus"
 
 #: modules/process/fft.c:335 modules/process/wave_synth.c:620
 msgid "Phase"
-msgstr "段階"
+msgstr "Phase"
 
 #: modules/process/fft.c:343
 msgid "2D FFT"
 msgstr "2D FFT"
 
 #: modules/process/fft.c:360
-#, fuzzy
 msgid "Ra_w transform"
-msgstr "Ra_w変換"
+msgstr "Raw transform"
 
 #: modules/process/fft.c:374
-#, fuzzy
 msgid "I_maginary part:"
-msgstr "I_maginary部:"
+msgstr "Imaginary part:"
 
 #: modules/process/fft.c:388
-#, fuzzy
 msgid "_Inverse transform"
-msgstr "_Inverse変換"
+msgstr "Inverse transform"
 
 #: modules/process/fft.c:417
-#, fuzzy
 msgid "Subtract mean _value beforehand"
-msgstr "_valueの平均値を差し引く"
+msgstr "事前に平均値を差し引く"
 
 #: modules/process/fft.c:428
-#, fuzzy
 msgid "_Preserve RMS"
-msgstr "RMS を_Preserveします。"
+msgstr "RMSを保存"
 
 #: modules/process/fft_filter_1d.c:118
-#, fuzzy
 msgid "FFT filtering"
 msgstr "FFT フィルタリング"
 
 #: modules/process/fft_filter_1d.c:132
 msgid "/_Correct Data/1D _FFT Filtering..."
-msgstr "/_データ補正/1D _FFTフィルタリング…"
+msgstr "/データ補正/1D FFTフィルタリング…"
 
 #: modules/process/fft_filter_1d.c:136
 msgid "1D FFT Filtering"
-msgstr "1D FFT フィルタリング"
+msgstr "1D FFTフィルタリング"
 
 #: modules/process/fft_filter_1d.c:166 modules/process/wpour_mark.c:394
-#, fuzzy
 msgid "Marked"
 msgstr "マーク"
 
 #: modules/process/fft_filter_1d.c:167
-#, fuzzy
 msgid "Unmarked"
-msgstr "覆面"
+msgstr "非マーク"
 
 #: modules/process/fft_filter_1d.c:170
-#, fuzzy
 msgid "Null"
 msgstr "Null"
 
@@ -11668,19 +11306,16 @@ msgid "1D FFT filter"
 msgstr "1D FFT フィルタ"
 
 #: modules/process/fft_filter_1d.c:271 modules/process/linematch.c:913
-#, fuzzy
 msgid "_Direction:"
-msgstr "_Direction:"
+msgstr "方向:"
 
 #: modules/process/fft_filter_1d.c:279
-#, fuzzy
 msgid "_Suppress type:"
-msgstr "_Suppressタイプ:"
+msgstr "低減方法:"
 
 #: modules/process/fft_filter_1d.c:287
-#, fuzzy
 msgid "_Filter type:"
-msgstr "_Filterタイプ:"
+msgstr "フィルタータイプ:"
 
 #: modules/process/fft_filter_1d.c:515
 msgid "1D FFT Filtered Data"
@@ -11692,129 +11327,105 @@ msgstr "2D FFT フィルタリング"
 
 #: modules/process/fft_filter_2d.c:172
 msgid "/_Correct Data/_2D FFT Filtering..."
-msgstr "/_データ補正/_2D FFT フィルタリング…"
+msgstr "/データ補正/2D FFT フィルタリング…"
 
 #: modules/process/fft_filter_2d.c:176
-#, fuzzy
 msgid "Two-dimensional FFT filtering"
 msgstr "2次元FFTフィルタリング"
 
 #: modules/process/fft_filter_2d.c:290
-#, fuzzy
 msgid "Filtered Data"
 msgstr "フィルタされたデータ"
 
 #: modules/process/fft_filter_2d.c:318
-#, fuzzy
 msgid "Filtered FFT"
 msgstr "フィルタリングされた FFT"
 
 #: modules/process/fft_filter_2d.c:342
-#, fuzzy
 msgid "Add an ellipse to the FFT mask"
 msgstr "FFT マスクに楕円を追加する"
 
 #: modules/process/fft_filter_2d.c:347
-#, fuzzy
 msgid "Add a rectangle to the FFT mask"
 msgstr "FFT マスクに長方形を追加する"
 
 #: modules/process/fft_filter_2d.c:352
-#, fuzzy
 msgid "Subtract an ellipse from the FFT mask"
 msgstr "FFT マスクから楕円を引く"
 
 #: modules/process/fft_filter_2d.c:357
-#, fuzzy
 msgid "Subtract a rectangle from the FFT mask"
 msgstr "FFT マスクから四角形を減算する"
 
 #: modules/process/fft_filter_2d.c:368
-#, fuzzy
 msgid "_FFT mask editor"
-msgstr "_FFTマスクエディタ"
+msgstr "FFTマスクエディタ"
 
 #: modules/process/fft_filter_2d.c:372 modules/process/zero_crossing.c:240
-#, fuzzy
 msgid "Original _image"
-msgstr "オリジナル_image"
+msgstr "元画像"
 
 #: modules/process/fft_filter_2d.c:376
-#, fuzzy
 msgid "Fi_ltered image"
-msgstr "Fi_ltered画像"
+msgstr "フィルタリング画像"
 
 #: modules/process/fft_filter_2d.c:380
-#, fuzzy
 msgid "Image _difference"
-msgstr "イメージ_difference"
+msgstr "画像の差"
 
 #: modules/process/fft_filter_2d.c:391
-#, fuzzy
 msgid "Filtered i_mage"
-msgstr "フィルタi_mage"
+msgstr "フィルタ画像"
 
 #: modules/process/fft_filter_2d.c:395
-#, fuzzy
 msgid "Ima_ge difference"
-msgstr "Ima_geの違い"
+msgstr "画像の差"
 
 #: modules/process/fft_filter_2d.c:399
-#, fuzzy
 msgid "Filtered FFT mo_dulus"
-msgstr "フィルタされた FFT mo_dulus"
+msgstr "フィルタリングしたFFT係数"
 
 #: modules/process/fft_filter_2d.c:455
 msgid "Filter Mask"
 msgstr "フィルタマスク"
 
 #: modules/process/fft_filter_2d.c:490
-#, fuzzy
 msgid "_Undo"
-msgstr "_Undo"
+msgstr "取り消し"
 
 #: modules/process/fft_filter_2d.c:507 modules/tools/maskedit.c:562
-#, fuzzy
 msgid "_Fill"
-msgstr "_Fill"
+msgstr "フィル"
 
 #: modules/process/fft_filter_2d.c:517
-#, fuzzy
 msgid "_Snap to origin"
-msgstr "_Snapから原産地へ"
+msgstr "原点にスナップ"
 
 #: modules/process/fft_filter_2d.c:1241
-#, fuzzy
 msgid "Draw ellipses on the mask"
 msgstr "マスクに楕円を描く"
 
 #: modules/process/fft_filter_2d.c:1243
-#, fuzzy
 msgid "Draw rectangles on the mask"
 msgstr "マスクに長方形を描く"
 
 #: modules/process/fft_filter_2d.c:1245
-#, fuzzy
 msgid "Undraw ellipses on the mask"
 msgstr "マスクの楕円を解除する"
 
 #: modules/process/fft_filter_2d.c:1247
-#, fuzzy
 msgid "Undraw rectangles on the mask"
 msgstr "マスク上の長方形の描画を解除する"
 
 #: modules/process/fft_filter_2d.c:1249
-#, fuzzy
 msgid "Undo the last change to the filter mask"
 msgstr "フィルタ マスクへの最後の変更を元に戻す"
 
 #: modules/process/fft_filter_2d.c:1251
-#, fuzzy
 msgid "Clear the entire filter mask"
 msgstr "フィルタマスク全体をクリアする"
 
 #: modules/process/fft_filter_2d.c:1253
-#, fuzzy
 msgid "Fill the entire filter mask"
 msgstr "フィルタマスク全体を塗りつぶす"
 
@@ -11823,7 +11434,6 @@ msgid "Force shapes to center around the origin"
 msgstr "原点を中心に図形を強制的に配置する"
 
 #: modules/process/fft_synth.c:188
-#, fuzzy
 msgid "Generates random surfaces using spectral synthesis."
 msgstr "スペクトル合成を使用してランダムサーフェスを生成します。"
 
@@ -11832,56 +11442,46 @@ msgid "/S_ynthetic/_Spectral..."
 msgstr "/合成・生成/_Spectral…"
 
 #: modules/process/fft_synth.c:206
-#, fuzzy
 msgid "Generate surface using spectral synthesis"
 msgstr "スペクトル合成を用いて表面を生成する"
 
 #: modules/process/fft_synth.c:348
-#, fuzzy
 msgid "Spectral Synthesis"
 msgstr "スペクトル合成"
 
 #: modules/process/fft_synth.c:439
-#, fuzzy
 msgid "M_inimum frequency:"
-msgstr "M_inimum周波数:"
+msgstr "最小周波数:"
 
 #: modules/process/fft_synth.c:439 modules/process/fft_synth.c:459
-#, fuzzy
 msgid "px<sup>-1</sup>"
 msgstr "px<sup>-1</sup>"
 
 #: modules/process/fft_synth.c:459
-#, fuzzy
 msgid "Ma_ximum frequency:"
-msgstr "Ma_ximum周波数:"
+msgstr "最大周波数:"
 
 #: modules/process/fft_synth.c:479
-#, fuzzy
 msgid "Enable _Gaussian multiplier"
-msgstr "_Gaussian乗数を有効にする"
+msgstr "Gaussian乗数を有効にする"
 
 #: modules/process/fft_synth.c:492 modules/process/fft_synth.c:531
-#, fuzzy
 msgid "_Autocorrelation length:"
-msgstr "_Autocorrelationの長さ:"
+msgstr "Autocorrelationの長さ:"
 
 #: modules/process/fft_synth.c:503
-#, fuzzy
 msgid "General power:"
-msgstr "一般的なパワー:"
+msgstr "General power:"
 
 #: modules/process/fft_synth.c:518
-#, fuzzy
 msgid "Enable _Lorentz multiplier"
-msgstr "_Lorentz乗数を有効にする"
+msgstr "Enable Lorentz multiplier"
 
 #: modules/process/fft_synth.c:542
 msgid "Enable _power multiplier"
 msgstr "乗数を有効にする"
 
 #: modules/process/fibre_synth.c:256
-#, fuzzy
 msgid "Semi-circle"
 msgstr "半円"
 
@@ -11894,73 +11494,60 @@ msgid "Rectangle"
 msgstr "四角"
 
 #: modules/process/fibre_synth.c:260
-#, fuzzy
 msgid "Quadratic spline"
 msgstr "二次スプライン"
 
 #: modules/process/fibre_synth.c:266
-#, fuzzy
 msgid "Generates surfaces composed from randomly placed fibers."
-msgstr "ランダムに配置されたファイバーから構成されるサーフェスを生成します。"
+msgstr "ランダムに配置された線から構成されるサーフェスを生成します。"
 
 #: modules/process/fibre_synth.c:280
 msgid "/S_ynthetic/_Deposition/_Fibers..."
-msgstr "/合成・生成/_Deposition/_Fibers…"
+msgstr "/合成・生成/Deposition/線…"
 
 #: modules/process/fibre_synth.c:284
-#, fuzzy
 msgid "Generate surface of randomly placed fibers"
-msgstr "ランダムに配置された繊維の表面を生成する"
+msgstr "ランダムに配置された線の表面を生成する"
 
 #: modules/process/fibre_synth.c:420
-#, fuzzy
 msgid "Random Fibers"
-msgstr "ランダムファイバー"
+msgstr "ランダム線"
 
 #: modules/process/fibre_synth.c:494 modules/process/obj_synth.c:565
 #: modules/process/pileup_synth.c:501
-#, fuzzy
 msgid "_Shape:"
-msgstr "_Shape:"
+msgstr "形状:"
 
 #: modules/process/fibre_synth.c:513 modules/process/obj_synth.c:664
 #: modules/process/pileup_synth.c:520
-#, fuzzy
 msgid "obj."
-msgstr "Obj。"
+msgstr "obj."
 
 #: modules/process/fibre_synth.c:553
-#, fuzzy
 msgid "Scales _with width"
-msgstr "幅_with拡大縮小"
+msgstr "幅でスケーリング"
 
 #: modules/process/fibre_synth.c:591 modules/process/synth.h:513
-#, fuzzy
 msgid "Deformation"
 msgstr "変形"
 
 #: modules/process/fibre_synth.c:607
-#, fuzzy
 msgid "_Lateral:"
 msgstr "水平:"
 
 #: modules/process/fibre_synth.c:614
-#, fuzzy
 msgid "Le_ngthwise:"
-msgstr "Le_ngthwise:"
+msgstr "長さによって:"
 
 #: modules/process/fibre_synth.c:819
-#, fuzzy
 msgid "Along fiber:"
-msgstr "繊維に沿って:"
+msgstr "線に沿って:"
 
 #: modules/process/fibre_synth.c:1180
-#, fuzzy
 msgid "Generating fibers..."
-msgstr "ファイバーの生成."
+msgstr "線の生成中…"
 
 #: modules/process/fit-shape.c:265
-#, fuzzy
 msgid "Fits predefined geometrical shapes to data."
 msgstr "定義済みの幾何学的形状をデータに適合します。"
 
@@ -11977,29 +11564,24 @@ msgid "/_Fit Shape..."
 msgstr "/形状のフィッティング…"
 
 #: modules/process/fit-shape.c:388
-#, fuzzy
 msgid "Fit Shape"
-msgstr "フィットシェイプ"
+msgstr "形状フィッティング"
 
 #: modules/process/fit-shape.c:395
-#, fuzzy
 msgid "verb|_Quick Fit"
-msgstr "動詞|_Quickフィット"
+msgstr "動詞|クイックフィッティング"
 
 #: modules/process/fit-shape.c:475 modules/process/fit-shape.c:2074
-#, fuzzy
 msgid "Derived Quantities"
 msgstr "派生数量"
 
 #: modules/process/fit-shape.c:480 modules/process/relate.c:411
-#, fuzzy
 msgid "Mean square difference:"
 msgstr "平均平方差:"
 
 #: modules/process/fit-shape.c:596 modules/process/fit-shape.c:642
 #: modules/process/fit-shape.c:673 modules/process/fit-shape.c:677
 #: modules/process/terracefit.c:279 modules/process/terracefit.c:706
-#, fuzzy
 msgid "Fitted shape"
 msgstr "フィット形状"
 
@@ -12010,39 +11592,32 @@ msgstr "どちらも"
 
 #: modules/process/fit-shape.c:696 modules/process/psf-fit.c:318
 #: modules/process/relate.c:389
-#, fuzzy
 msgid "_Function type:"
-msgstr "_Functionタイプ:"
+msgstr "関数タイプ:"
 
 #: modules/process/fit-shape.c:726
-#, fuzzy
 msgid "Show differences with _adapted color map"
-msgstr "カラー マップで相違点_adapted表示する"
+msgstr "適応カラーマップで差を表示"
 
 #: modules/process/fit-shape.c:756
-#, fuzzy
 msgid "Calculate differences for e_xcluded pixels"
-msgstr "e_xcludedピクセルの差を計算する"
+msgstr "排除ピクセルの差を計算"
 
 #: modules/process/fit-shape.c:803
-#, fuzzy
 msgid "_Recalculate Image"
-msgstr "_Recalculateイメージ"
+msgstr "再計算イメージ"
 
 #: modules/process/fit-shape.c:810
-#, fuzzy
 msgid "Revert to _Previous Values"
-msgstr "_Previous値に戻す"
+msgstr "前の値に戻す"
 
 #: modules/process/fit-shape.c:1855
-#, fuzzy
 msgid "Parameter estimation failed"
 msgstr "パラメータ推定に失敗しました"
 
 #: modules/process/fit-shape.c:1860
-#, fuzzy
 msgid "Fit was interrupted"
-msgstr "フィットが中断されました"
+msgstr "フィッティングが中断されました"
 
 #: modules/process/fit-shape.c:2037
 msgid "XYZ data"
@@ -12050,50 +11625,42 @@ msgstr "XYZ データ"
 
 #. TRANSLATORS: %{n}i and %{total}i are ids, do NOT translate them.
 #: modules/process/fit-shape.c:2042 modules/process/relate.c:1081
-#, fuzzy
 msgid "%{n}i of %{ntotal}i"
 msgstr "%{n}%{ntotal}のi"
 
 #: modules/process/fit-shape.c:2043 modules/process/relate.c:1082
-#, fuzzy
 msgid "Fitted function"
-msgstr "適合機能"
+msgstr "フィッティング関数"
 
 #: modules/process/flatten_base.c:44
-#, fuzzy
 msgid "Levels the flat base of a surface with positive features."
-msgstr "正のフィーチャを持つサーフェスのフラット ベースを水平にします。"
+msgstr "正の形状持つ表面の平坦な底面を水平にします。"
 
 #: modules/process/flatten_base.c:58
 msgid "/_Level/Flatten _Base"
-msgstr "/_レベリング/_平面化(フラットニング)"
+msgstr "/レベリング/平面化(フラットニング)"
 
 #: modules/process/flatten_base.c:62
-#, fuzzy
 msgid "Flatten base of surface with positive features"
-msgstr "正の特徴を持つサーフェスの底面を平坦化する"
+msgstr "正の形状を持つ表面の底面を平坦化する"
 
 #: modules/process/flatten_base.c:275
-#, fuzzy
 msgid "Polynomial leveling..."
-msgstr "多項式平準化."
+msgstr "多項式レベリング…"
 
 #: modules/process/fraccor.c:39
-#, fuzzy
 msgid "Removes data under mask using fractal interpolation."
 msgstr "フラクタル補間を使用してマスクの下のデータを削除します。"
 
 #: modules/process/fraccor.c:53
 msgid "/_Correct Data/_Fractal Correction"
-msgstr "/_データ補正/_フラクタル補正"
+msgstr "/データ補正/フラクタル補正"
 
 #: modules/process/fraccor.c:57
-#, fuzzy
 msgid "Interpolate data under mask with fractal interpolation"
 msgstr "フラクタル補間を使用してマスクの下でデータを補間する"
 
 #: modules/process/fractal.c:169
-#, fuzzy
 msgid ""
 "Calculates fractal dimension using several methods (partitioning, box "
 "counting, triangulation, power spectrum)."
@@ -12106,22 +11673,18 @@ msgid "/_Statistics/_Fractal Dimension..."
 msgstr "/統計処理/フラクタル次元…"
 
 #: modules/process/fractal.c:188
-#, fuzzy
 msgid "Calculate fractal dimension"
 msgstr "フラクタル寸法の計算"
 
 #: modules/process/fractal.c:228 modules/process/fractal.c:241
-#, fuzzy
 msgid "Fractal Dimension"
 msgstr "フラクタル次元"
 
 #: modules/process/fractal.c:233
-#, fuzzy
 msgid "Partitioning"
-msgstr "パーティション 分割"
+msgstr "パーティション分割"
 
 #: modules/process/fractal.c:234
-#, fuzzy
 msgid "Cube counting"
 msgstr "キューブカウント"
 
@@ -12130,12 +11693,10 @@ msgid "Triangulation"
 msgstr "Triangulation"
 
 #: modules/process/fractal.c:236
-#, fuzzy
 msgid "Power spectrum"
 msgstr "パワースペクトル"
 
 #: modules/process/fractal.c:292
-#, fuzzy
 msgid "Fit Area"
 msgstr "フィットエリア"
 
@@ -12158,47 +11719,38 @@ msgid "To:"
 msgstr "宛先:"
 
 #: modules/process/fractal.c:336
-#, fuzzy
 msgid "Save Fractal Dimension"
 msgstr "フラクタル寸法を保存"
 
 #: modules/process/fractal.c:522
-#, fuzzy
 msgid "Linear fit"
 msgstr "リニアフィット"
 
 #: modules/process/freq_split.c:143
-#, fuzzy
 msgid "Low-pass image"
 msgstr "ローパス画像"
 
 #: modules/process/freq_split.c:144
-#, fuzzy
 msgid "High-pass image"
 msgstr "ハイパス画像"
 
 #: modules/process/freq_split.c:154
-#, fuzzy
 msgid "Splits image into low and high frequency components."
 msgstr "画像を低周波数と高周波のコンポーネントに分割します。"
 
 #: modules/process/freq_split.c:168
-#, fuzzy
 msgid "/_Level/_Frequency Split..."
-msgstr "/_レベリング/_Frequency スプリット.."
+msgstr "/レベリング/周波数でスプリット…"
 
 #: modules/process/freq_split.c:172
-#, fuzzy
 msgid "Split into low and high frequencies"
 msgstr "低周波数と高周波数に分割"
 
 #: modules/process/freq_split.c:221 modules/process/freq_split.c:357
-#, fuzzy
 msgid "Low-pass"
 msgstr "ローパス"
 
 #: modules/process/freq_split.c:232 modules/process/freq_split.c:356
-#, fuzzy
 msgid "High-pass"
 msgstr "ハイパス"
 
@@ -12207,26 +11759,22 @@ msgid "Frequency Split"
 msgstr "周波数分割"
 
 #: modules/process/freq_split.c:299 modules/tools/roughness.c:580
-#, fuzzy
 msgid "C_ut-off:"
-msgstr "C_utオフ:"
+msgstr "カットオフ:"
 
 #: modules/process/freq_split.c:323
-#, fuzzy
 msgid "_Edge width:"
-msgstr "_Edge幅:"
+msgstr "エッジ幅:"
 
 #: modules/process/freq_split.c:335
 msgid "boundary-handling|None"
 msgstr "境界処理|なし"
 
 #: modules/process/freq_split.c:337
-#, fuzzy
 msgid "Laplace"
 msgstr "ラプラス"
 
 #: modules/process/freq_split.c:338
-#, fuzzy
 msgid "Smooth connect"
 msgstr "スムーズな接続"
 
@@ -12235,61 +11783,52 @@ msgid "Mirror"
 msgstr "鏡像反転"
 
 #: modules/process/freq_split.c:341 modules/process/merge.c:327
-#, fuzzy
 msgid "_Boundary treatment:"
-msgstr "_Boundary治療:"
+msgstr "境界処理:"
 
 #: modules/process/gaussian_step.c:89
-#, fuzzy
 msgid "Edge detection using a Gaussian step filter."
 msgstr "ガウスステップフィルタを使用したエッジ検出。"
 
 #: modules/process/gaussian_step.c:103
-#, fuzzy
 msgid "/_Presentation/_Edge Detection/_Gaussian Step..."
-msgstr "/_表現/_Edge検出/_Gaussianステップ."
+msgstr "/画像処理ツール/輪郭検出/ガウスステップ…"
 
 #: modules/process/gaussian_step.c:107
-#, fuzzy
 msgid "Detect edges using Gaussian step filter"
-msgstr "ガウスステップフィルタを使用してエッジを検出する"
+msgstr "ガウスステップフィルタを使用して輪郭を検出する"
 
 #: modules/process/gaussian_step.c:156
-#, fuzzy
 msgid "Gaussian Step Detection"
 msgstr "ガウスステップ検出"
 
 #: modules/process/gaussian_step.c:196 modules/process/zero_crossing.c:215
-#, fuzzy
 msgid "_Gaussian FWHM:"
-msgstr "_Gaussian FWHM:"
+msgstr "ガウス FWHM:"
 
 #: modules/process/good_profile.c:139
-#, fuzzy
 msgid ""
 "Calculates good average row from one or multiple images of repeated scanning "
 "of the same feature."
 msgstr ""
-"同じ機能の繰り返しスキャンの 1 つまたは複数の画像から良好な平均行を計算しま"
+"1つまたは複数の画像で繰り返される同じ形状から良い平均的なライン形状を計算しま"
 "す。"
 
 #: modules/process/good_profile.c:154
 msgid "/_Correct Data/_Good Mean Profile..."
-msgstr "/データ補正/_Good Mean Profile..."
+msgstr "/データ補正/平均的なライン形状…"
 
 #: modules/process/good_profile.c:158
 msgid "Calculate good mean profile"
-msgstr "良好な平均プロファイルを計算する"
+msgstr "良い平均的なライン形状を計算する"
 
 #: modules/process/good_profile.c:239
-#, fuzzy
 msgid "_Single image"
-msgstr "_Single画像"
+msgstr "一つの画像"
 
 #: modules/process/good_profile.c:240
-#, fuzzy
 msgid "_Multiple images"
-msgstr "_Multiple画像"
+msgstr "複数の画像"
 
 #: modules/process/good_profile.c:266
 msgid "Good Mean Profile"
@@ -12300,94 +11839,76 @@ msgid "Mode:"
 msgstr "モード:"
 
 #: modules/process/good_profile.c:365 modules/process/relate.c:361
-#, fuzzy
 msgid "Second _image:"
-msgstr "第2_image:"
+msgstr "第2画像:"
 
 #: modules/process/good_profile.c:372 modules/process/linematch.c:895
-#, fuzzy
 msgid "_Trim fraction:"
-msgstr "_Trim分数:"
+msgstr "Trim fraction:"
 
 #: modules/process/good_profile.c:379
 msgid "Variation:"
-msgstr "バリエーション："
+msgstr "分散:"
 
 #: modules/process/good_profile.c:397
-#, fuzzy
 msgid "Create _mask"
-msgstr "_maskの作成"
+msgstr "マスクの作成"
 
 #: modules/process/good_profile.c:790 modules/process/good_profile.c:796
-#, fuzzy
 msgid "Mean profile"
-msgstr "平均プロファイル"
+msgstr "平均形状"
 
 #: modules/process/gradient.c:43
-#, fuzzy
 msgid "Creates presentations with various gradients (Sobel, Prewitt)."
-msgstr ""
-"さまざまなグラデーション (Sobel、 Prewitt) を使用してプレゼンテーションを作成"
-"します。"
+msgstr "さまざまな勾配 (Sobel、 Prewitt) を使用して処理画像を作成します。"
 
 #: modules/process/gradient.c:58
-#, fuzzy
 msgid "/_Presentation/_Gradient/_Sobel (horizontal)"
-msgstr "/_表現/_Gradient/_Sobel(水平)"
+msgstr "/画像処理ツール/勾配/Sobel(水平)"
 
 #: modules/process/gradient.c:62
-#, fuzzy
 msgid "Horizontal Sobel gradient presentation"
-msgstr "水平ソベルグラデーションプレゼンテーション"
+msgstr "水平Sobelグラデーション画像処理"
 
 #: modules/process/gradient.c:65
-#, fuzzy
 msgid "/_Presentation/_Gradient/_Sobel (vertical)"
-msgstr "/_表現/_Gradient/_Sobel(垂直)"
+msgstr "/画像処理ツール/勾配/_Sobel(垂直)"
 
 #: modules/process/gradient.c:69
-#, fuzzy
 msgid "Vertical Sobel gradient presentation"
-msgstr "垂直ソベルグラデーションプレゼンテーション"
+msgstr "垂直Sobelグラデーション画像処理"
 
 #: modules/process/gradient.c:72
-#, fuzzy
 msgid "/_Presentation/_Gradient/_Prewitt (horizontal)"
-msgstr "/_表現/_Gradient/_Prewitt (水平)"
+msgstr "/画像処理ツール/勾配/_Prewitt (水平)"
 
 #: modules/process/gradient.c:76
-#, fuzzy
 msgid "Horizontal Prewitt gradient presentation"
-msgstr "水平プレウィットグラデーションプレゼンテーション"
+msgstr "水平Prewittグラデーション画像処理"
 
 #: modules/process/gradient.c:79
-#, fuzzy
 msgid "/_Presentation/_Gradient/_Prewitt (vertical)"
-msgstr "/_表現/_Gradient/_Prewitt(垂直)"
+msgstr "/画像処理ツール/勾配/_Prewitt(垂直)"
 
 #: modules/process/gradient.c:83
-#, fuzzy
 msgid "Vertical Prewitt gradient presentation"
-msgstr "垂直プリウィットグラデーションプレゼンテーション"
+msgstr "垂直Prewittグラデーション画像処理"
 
 #: modules/process/gradient.c:86
-#, fuzzy
 msgid "/_Presentation/_Gradient/_Azimuth"
-msgstr "/_表現/_Gradient/_Azimuth"
+msgstr "/画像処理ツール/勾配/_Azimuth"
 
 #: modules/process/gradient.c:90
 msgid "Local slope azimuth presentation"
-msgstr "Local slope azimuth presentation"
+msgstr "局所スロープAzimuth画像処理"
 
 #: modules/process/grain_cross.c:113
-#, fuzzy
 msgid "Plots one grain quantity as a function of another."
 msgstr "ある粒度を別の関数としてプロットします。"
 
 #: modules/process/grain_cross.c:127
-#, fuzzy
 msgid "/_Grains/_Correlate..."
-msgstr "/_粒子/_Correlate."
+msgstr "/粒子/相関…"
 
 #: modules/process/grain_cross.c:131
 msgid "Correlate grain characteristics"
@@ -12406,48 +11927,40 @@ msgid "Grain Correlations"
 msgstr "粒度相関"
 
 #: modules/process/grain_cross.c:252
-#, fuzzy
 msgid "_Abscissa"
-msgstr "_Abscissa"
+msgstr "横座標"
 
 #: modules/process/grain_cross.c:256
-#, fuzzy
 msgid "O_rdinate"
-msgstr "O_rdinate"
+msgstr "縦座標"
 
 #: modules/process/grain_cross.c:269
-#, fuzzy
 msgid "Ordinate data calculated from different image"
-msgstr "異なる画像から計算された累進データ"
+msgstr "異なる画像から計算された縦座標データ"
 
 #: modules/process/grain_cross.c:286
-#, fuzzy
 msgid "Ordinate _image:"
-msgstr "聖_image:"
+msgstr "縦座標画像:"
 
 #: modules/process/grain_dist.c:153
 msgid "Evaluates distribution of grains (continuous parts of mask)."
 msgstr "粒の分布を評価します (マスクの連続部分)。"
 
 #: modules/process/grain_dist.c:175
-#, fuzzy
 msgid "/_Grains/_Distributions..."
-msgstr "/_粒子/_分布s."
+msgstr "/粒子/_分布…"
 
 #: modules/process/grain_dist.c:179
-#, fuzzy
 msgid "Distributions of various grain characteristics"
 msgstr "各種粒特性分布"
 
 #: modules/process/grain_dist.c:223
-#, fuzzy
 msgid "_Export raw data"
-msgstr "生データの_Export"
+msgstr "生データのエクスポート"
 
 #: modules/process/grain_dist.c:224
-#, fuzzy
 msgid "Plot _graphs"
-msgstr "プロット_graphs"
+msgstr "グラフプロット"
 
 #: modules/process/grain_dist.c:241
 msgid "Grain Distributions"
@@ -12458,65 +11971,53 @@ msgid "count"
 msgstr "count"
 
 #: modules/process/grain_dist.c:611
-#, fuzzy
 msgid "Export Raw Grain Values"
-msgstr "生の粒子値をエクスポート"
+msgstr "元の粒子値をエクスポート"
 
 #: modules/process/grain_edge.c:99
-#, fuzzy
 msgid "Marks grains by edge detection method."
-msgstr "エッジ検出方法でグレインをマークします。"
+msgstr "エッジ検出方法で粒子をマークします。"
 
 #: modules/process/grain_edge.c:113
-#, fuzzy
 msgid "/_Grains/Mark by _Edge Detection..."
-msgstr "/_粒子/_Edge検出によってマーク."
+msgstr "/粒子/輪郭検出で粒子をマークする…"
 
 #: modules/process/grain_edge.c:117
-#, fuzzy
 msgid "Mark grains with edge detection mechanism"
 msgstr "エッジ検出機構を使用してグレインをマークする"
 
 #: modules/process/grain_edge.c:206
-#, fuzzy
 msgid "Mark Grains by Edge Detection"
-msgstr "エッジ検出によるマークグレイン"
+msgstr "エッジ検出による粒子のマーク"
 
 #: modules/process/grain_edge.c:244
 msgid "Threshold"
 msgstr "しきい値"
 
 #: modules/process/grain_edge.c:248
-#, fuzzy
 msgid "_Laplacian:"
-msgstr "_Laplacian:"
+msgstr "ラプラシアン:"
 
 #: modules/process/grain_filter.c:193
-#, fuzzy
 msgid ""
 "Filters grains by their properties, using logical expressions and thresholds."
-msgstr ""
-"論理式としきい値を使用して、プロパティ別にグレーンをフィルター処理します。"
+msgstr "論理式としきい値を使用して、プロパティ別に粒子をフィルター処理します。"
 
 #: modules/process/grain_filter.c:208
-#, fuzzy
 msgid "/_Grains/_Filter..."
-msgstr "/_粒子/_Filter."
+msgstr "/粒子/フィルタ…"
 
 #: modules/process/grain_filter.c:212
-#, fuzzy
 msgid "Filter grains by their properties"
 msgstr "プロパティによって粒子をフィルター処理する"
 
 #: modules/process/grain_filter.c:252
-#, fuzzy
 msgid "There are no grains to filter."
 msgstr "フィルターする粒子はありません。"
 
 #: modules/process/grain_filter.c:308
-#, fuzzy
 msgid "Filter Grains"
-msgstr "フィルターグレイン"
+msgstr "粒子フィルター"
 
 #: modules/process/grain_filter.c:403
 msgid "Set selected as:"
@@ -12527,7 +12028,6 @@ msgid "Keep grains satisfying:"
 msgstr "Keep grains satisfying:"
 
 #: modules/process/grain_filter.c:439 modules/process/lat_synth.c:733
-#, fuzzy
 msgid "Lower threshold:"
 msgstr "下限しきい値:"
 
@@ -12542,109 +12042,93 @@ msgid "Condition %c: %s"
 msgstr "条件%c: %s"
 
 #: modules/process/grain_mark.c:137
-#, fuzzy
 msgid "Marks grains by thresholding (height, slope, curvature)."
-msgstr "しきい値(高さ、勾配、曲率)でグレインをマークします。"
+msgstr "しきい値(高さ、勾配、曲率)で粒子をマークします。"
 
 #: modules/process/grain_mark.c:151
-#, fuzzy
 msgid "/_Grains/_Mark by Threshold..."
-msgstr "/_粒子/しきい値による_Mark。"
+msgstr "/粒子/しきい値による_Mark。"
 
 #: modules/process/grain_mark.c:155
-#, fuzzy
 msgid "Mark grains by threshold"
 msgstr "しきい値でグレインをマークする"
 
 #: modules/process/grain_mark.c:240
-#, fuzzy
 msgid "Mark Grains by Threshold"
 msgstr "しきい値でグレインをマーク"
 
 #: modules/process/grain_mark.c:283
-#, fuzzy
 msgid "Threshold by"
 msgstr "しきい値"
 
 #: modules/process/grain_mark.c:313
-#, fuzzy
 msgid "_Slope:"
-msgstr "_Slope:"
+msgstr "傾き:"
 
 #: modules/process/grain_mark.c:317
-#, fuzzy
 msgid "_Curvature:"
-msgstr "_Curvature:"
+msgstr "曲率:"
 
 #: modules/process/grain_mark.c:322 modules/process/grain_wshed.c:263
 #: modules/process/wpour_mark.c:361
-#, fuzzy
 msgid "_Invert height"
-msgstr "_Invert高さ"
+msgstr "高さ逆数"
 
 #: modules/process/grain_mark.c:331
 msgid "Criteria combination:"
 msgstr "基準の組み合わせ:"
 
 #: modules/process/grain_stat.c:134
-#, fuzzy
 msgid "Displays overall grain statistics."
 msgstr "全体の粒子統計量を表示します。"
 
 #: modules/process/grain_stat.c:149
-#, fuzzy
 msgid "/_Grains/S_ummary..."
-msgstr "/_粒子/S_ummary."
+msgstr "/粒子/要約…"
 
 #: modules/process/grain_stat.c:153
 msgid "Grain summary information"
 msgstr "粒子の要約情報"
 
 #: modules/process/grain_stat.c:156
-#, fuzzy
 msgid "/_Grains/S_tatistics..."
-msgstr "/_粒子/S_tatistics."
+msgstr "/粒子/統計…"
 
 #: modules/process/grain_stat.c:160
 msgid "Grain property statistics"
 msgstr "粒子特性統計"
 
 #: modules/process/grain_stat.c:163
-#, fuzzy
 msgid "/_Grains/Select _Inscribed Discs"
-msgstr "/_粒子/_Inscribedディスクを選択"
+msgstr "/粒子/内接円を選択"
 
 #: modules/process/grain_stat.c:167
 msgid "Create a selection visualizing discs inscribed into grains"
-msgstr "粒状に刻まれた円板を視覚化する選択を作成する"
+msgstr "粒子の内接円の選択範囲を作成する"
 
 #: modules/process/grain_stat.c:171
-#, fuzzy
 msgid "/_Grains/Select _Circumscribed Circles"
-msgstr "/_粒子/_Circumscribedサークルを選択"
+msgstr "/粒子/外接円を選択"
 
 #: modules/process/grain_stat.c:175
 msgid "Create a selection visualizing grain circumcircles"
-msgstr "粒界円を視覚化する選択を作成"
+msgstr "粒子の外接円の選択範囲を作成する"
 
 #: modules/process/grain_stat.c:179
-#, fuzzy
 msgid "/_Grains/Select Inscribed _Rectangles"
-msgstr "/_粒子/_Rectanglesを選択"
+msgstr "/粒子/内接四角形を選択"
 
 #: modules/process/grain_stat.c:183
 msgid "Create a selection visualizing rectangles inscribed into grains"
-msgstr "粒状に刻まれた長方形を視覚化する選択範囲を作成する"
+msgstr "粒子に内接する四角形の選択範囲を作成する"
 
 #: modules/process/grain_stat.c:187
-#, fuzzy
 msgid "/_Grains/Select _Bounding Boxes"
-msgstr "/_粒子/_Boundingボックスを選択"
+msgstr "/粒子/粒子の外接四角形"
 
 #: modules/process/grain_stat.c:191
-#, fuzzy
 msgid "Create a selection visualizing grain bounding boxes"
-msgstr "グレイン バウンディング ボックスを視覚化する選択を作成する"
+msgstr "粒子の外接四角形の選択範囲を作成する"
 
 #: modules/process/grain_stat.c:249 modules/process/grain_stat.c:322
 msgid "Grain Summary"
@@ -12655,51 +12139,42 @@ msgid "Number of grains"
 msgstr "粒子の数"
 
 #: modules/process/grain_stat.c:255
-#, fuzzy
 msgid "Total projected area (abs.)"
-msgstr "総投影面積(腹筋)"
+msgstr "総投影面積 (絶対値)"
 
 #: modules/process/grain_stat.c:259
-#, fuzzy
 msgid "Total projected area (rel.)"
-msgstr "総投影面積(rel."
+msgstr "総投影面積 (相対値)"
 
 #: modules/process/grain_stat.c:261
-#, fuzzy
 msgid "Mean grain area"
 msgstr "平均粒面積"
 
 #: modules/process/grain_stat.c:264
-#, fuzzy
 msgid "Mean grain size"
 msgstr "平均粒径"
 
 #: modules/process/grain_stat.c:266
-#, fuzzy
 msgid "Total grain volume (zero)"
-msgstr "総粒度(ゼロ)"
+msgstr "総粒子体積 (ゼロ)"
 
 #: modules/process/grain_stat.c:270
-#, fuzzy
 msgid "Total grain volume (minimum)"
-msgstr "総粒量(最小)"
+msgstr "総粒子体積 (最小)"
 
 #: modules/process/grain_stat.c:274
-#, fuzzy
 msgid "Total grain volume (Laplace)"
-msgstr "全粒量(ラプラス)"
+msgstr "総粒子体積 (ラプラス)"
 
 #: modules/process/grain_stat.c:278
 msgid "Total projected boundary length"
-msgstr "合計投影境界長"
+msgstr "総投影境界長さ"
 
 #: modules/process/grain_stat.c:357
-#, fuzzy
 msgid "Save Grain Summary"
-msgstr "グレイン サマリーの保存"
+msgstr "粒子情報の保存"
 
 #: modules/process/grain_stat.c:376
-#, fuzzy
 msgid "IQR"
 msgstr "IQR"
 
@@ -12708,7 +12183,6 @@ msgid "Grain Statistics"
 msgstr "粒子統計"
 
 #: modules/process/grain_stat.c:593
-#, fuzzy
 msgid "px<sup>2</sup>"
 msgstr "px<sup>2</sup>"
 
@@ -12721,9 +12195,8 @@ msgid "Marks grains by watershed algorithm."
 msgstr "Watershedアルゴリズムで粒子をマークします。"
 
 #: modules/process/grain_wshed.c:116
-#, fuzzy
 msgid "/_Grains/Mark by _Watershed..."
-msgstr "/_粒子/マーク・バイ・_Watershed."
+msgstr "/粒子/Watershedでマークする…"
 
 #: modules/process/grain_wshed.c:120
 msgid "Mark grains by watershed"
@@ -12734,34 +12207,28 @@ msgid "Mark Grains by Watershed"
 msgstr "Watershedで粒子をマーク"
 
 #: modules/process/grain_wshed.c:203
-#, fuzzy
 msgid "Grain Location"
-msgstr "グレインロケーション"
+msgstr "粒子位置"
 
 #: modules/process/grain_wshed.c:219
-#, fuzzy
 msgid "_Drop size:"
-msgstr "_Dropサイズ:"
+msgstr "しずくサイズ:"
 
 #: modules/process/grain_wshed.c:236
-#, fuzzy
 msgid "Segmentation"
 msgstr "セグメンテーション"
 
 #: modules/process/grain_wshed.c:242
-#, fuzzy
 msgid "Num_ber of steps:"
-msgstr "Num_ber手順:"
+msgstr "手順数:"
 
 #: modules/process/grain_wshed.c:251
-#, fuzzy
 msgid "Dr_op size:"
-msgstr "Dr_opサイズ:"
+msgstr "しずくサイズ:"
 
 #: modules/process/grain_wshed.c:442
-#, fuzzy
 msgid "Finding minima..."
-msgstr "ミニマを見つける."
+msgstr "極小値を検索中…"
 
 #: modules/process/grain_wshed.c:444
 msgid "Locating..."
@@ -12780,17 +12247,14 @@ msgid "/SPM M_odes/_Force and Indentation/_Hertz contact..."
 msgstr "/SPMモード/フォースインデンテーション/Hertzコンタクトモデル…"
 
 #: modules/process/hertz.c:148
-#, fuzzy
 msgid "Hertzian contact theory."
-msgstr "ヘルツィアン接触理論。"
+msgstr "ヘルツ接触モデル。"
 
 #: modules/process/hertz.c:204
-#, fuzzy
 msgid "Hertzian Contact Modulus"
-msgstr "ヘルツィアーノコンタクトモジュラス"
+msgstr "ヘルツの弾性率"
 
 #: modules/process/hertz.c:252
-#, fuzzy
 msgid ""
 "Values should be height (meters).\n"
 "The following results do not make much sense."
@@ -12799,39 +12263,32 @@ msgstr ""
 "次の結果はあまり意味がありません。"
 
 #: modules/process/hertz.c:264
-#, fuzzy
 msgid "_Contact modulus:"
-msgstr "_Contact弾性率:"
+msgstr "接触弾性率:"
 
 #: modules/process/hertz.c:272
-#, fuzzy
 msgid "_Tip radius:"
-msgstr "ティップ半径:"
+msgstr "先端の曲率半径:"
 
 #: modules/process/hertz.c:279
-#, fuzzy
 msgid "_Load applied:"
-msgstr "適用_Load:"
+msgstr "印加負荷:"
 
 #: modules/process/hertz.c:295
-#, fuzzy
 msgid "Mean _curvature"
-msgstr "平均_curvature"
+msgstr "平均曲率"
 
 #: modules/process/hertz.c:296
-#, fuzzy
 msgid "Gaussian c_urvature"
-msgstr "ガウスc_urvature"
+msgstr "ガウス曲率"
 
 #: modules/process/hertz.c:297
-#, fuzzy
 msgid "Contact _modulus"
-msgstr "お問い合わせ_modulus"
+msgstr "接触弾性率"
 
 #: modules/process/hertz.c:298
-#, fuzzy
 msgid "_Deformation"
-msgstr "_Deformation"
+msgstr "変形"
 
 #: modules/process/hertz.c:299
 msgid "Excluded _points"
@@ -12845,104 +12302,89 @@ msgid "_Instant updates"
 msgstr "すぐに更新"
 
 #: modules/process/hertz.c:711
-#, fuzzy
 msgid "Mean curvature"
 msgstr "平均曲率"
 
 #: modules/process/hertz.c:726
-#, fuzzy
 msgid "Gaussian curvature"
 msgstr "ガウス曲率"
 
 #: modules/process/hertz.c:740
-#, fuzzy
 msgid "Hertzian contact modulus"
-msgstr "ヘルツィア接触係数"
+msgstr "ヘルツの弾性率"
 
 #: modules/process/hertz.c:754
-#, fuzzy
 msgid "Hertzian theory deformation"
-msgstr "ヘルツィア理論変形"
+msgstr "ヘルツの変形モデル"
 
 #: modules/process/hough.c:76
-#, fuzzy
 msgid "Hough transform."
-msgstr "ハフ変換。"
+msgstr "Hough変換。"
 
 #: modules/process/hough.c:90
 msgid "/_Integral Transforms/_Hough..."
-msgstr "/積分変換/ヒュー…"
+msgstr "/積分変換/Hough…"
 
 #: modules/process/hough.c:94
-#, fuzzy
 msgid "Compute Hough transform"
-msgstr "ハフ変換の計算"
+msgstr "Hough変換の計算"
 
 #: modules/process/hough.c:137
-#, fuzzy
 msgid "Hough line"
-msgstr "ハフライン"
+msgstr "Houghライン"
 
 #: modules/process/hough.c:141
-#, fuzzy, c-format
+#, c-format
 msgid "Hough circle r=%d"
-msgstr "ハフサークル r=%d"
+msgstr "Houghサークル r=%d"
 
 #: modules/process/hough.c:173
-#, fuzzy
 msgid "Hough Transform"
-msgstr "ハフトランスフォーム"
+msgstr "Hough変換"
 
 #: modules/process/hough.c:195
-#, fuzzy
 msgid "_Transform type:"
-msgstr "_Transformタイプ:"
+msgstr "変換タイプ:"
 
 #: modules/process/hough.c:203
-#, fuzzy
 msgid "_Circle size:"
-msgstr "_Circleサイズ:"
+msgstr "円サイズ:"
 
 #: modules/process/immerse.c:163
 msgid "Immerse high resolution detail into overall image."
-msgstr "Immerse high resolution detail into overall image."
+msgstr "全体像の中に詳細な高分解の画像をはめ込みます。"
 
 #: modules/process/immerse.c:177
-#, fuzzy
 msgid "/M_ultidata/_Immerse Detail..."
-msgstr "/_複数のデータ処理/_Immerse 詳細."
+msgstr "/複数のデータ処理/詳細画像のはめ込み…"
 
 #: modules/process/immerse.c:181
 msgid "Immerse a detail into image"
-msgstr "Immerse a detail into image"
+msgstr "詳細画像を全体画像にはめ込み"
 
 #: modules/process/immerse.c:223
-#, fuzzy
 msgid "Immerse Detail"
-msgstr "ディテールを浸す"
+msgstr "詳細画像のはめ込み"
 
 #: modules/process/immerse.c:226
-#, fuzzy
 msgid "_Locate"
-msgstr "_Locate"
+msgstr "Locate"
 
 #: modules/process/immerse.c:228
 msgid "Locate detail by full image correlation search"
 msgstr "完全な画像相関検索で詳細を見つける"
 
 #: modules/process/immerse.c:230
-#, fuzzy
 msgid "_Improve"
-msgstr "_Improve"
+msgstr "Improve"
 
 #: modules/process/immerse.c:232
 msgid "Improve detail position by correlation search in neighborhood"
 msgstr "近傍の相関検索による詳細位置の改善"
 
 #: modules/process/immerse.c:291
-#, fuzzy
 msgid "_Detail image:"
-msgstr "_Detail画像:"
+msgstr "詳細画像:"
 
 #: modules/process/immerse.c:296
 msgid "Position:"
@@ -12953,49 +12395,42 @@ msgid "Result Sampling"
 msgstr "結果サンプリング"
 
 #: modules/process/immerse.c:324
-#, fuzzy
 msgid "_Upsample large image"
-msgstr "大きな画像_Upsample"
+msgstr "大きな画像をアップサンプリング"
 
 #: modules/process/immerse.c:326
-#, fuzzy
 msgid "_Downsample detail"
-msgstr "_Downsample詳細"
+msgstr "詳細画像をダウンサンプリング"
 
 #: modules/process/immerse.c:335
 msgid "Detail Leveling"
-msgstr "詳細平準化"
+msgstr "詳細画像レベリング"
 
 #: modules/process/immerse.c:345
-#, fuzzy
 msgid "levelling|_None"
-msgstr "平準化|_None"
+msgstr "レベリング|なし"
 
 #: modules/process/immerse.c:347
-#, fuzzy
 msgid "_Mean value"
-msgstr "_Mean値"
+msgstr "中央地値"
 
 #: modules/process/immerse.c:355
-#, fuzzy
 msgid "Show _frame"
-msgstr "_frameを表示する"
+msgstr "枠を表示"
 
 #: modules/process/immerse.c:793
 msgid "Immersed detail"
-msgstr "浸漬ディテール"
+msgstr "はめ込んだ詳細画像"
 
 #: modules/process/indent_analyze.c:246
 msgid "Do nothing"
 msgstr "何もしない"
 
 #: modules/process/indent_analyze.c:247
-#, fuzzy
 msgid "Plane level"
 msgstr "平面レベル"
 
 #: modules/process/indent_analyze.c:248
-#, fuzzy
 msgid "Plane rotate"
 msgstr "平面回転"
 
@@ -13032,9 +12467,8 @@ msgid "Below"
 msgstr "以下"
 
 #: modules/process/indent_analyze.c:264
-#, fuzzy
 msgid "Impression"
-msgstr "印象"
+msgstr "圧痕"
 
 #: modules/process/indent_analyze.c:265
 msgid "Inner Pile-up"
@@ -13045,49 +12479,42 @@ msgid "Outer Pile-up"
 msgstr "外側のパイルアップ"
 
 #: modules/process/indent_analyze.c:267
-#, fuzzy
 msgid "Special points"
-msgstr "特別なポイント"
+msgstr "Special points"
 
 #: modules/process/indent_analyze.c:268
 msgid "Faces border"
 msgstr "面境界線"
 
 #: modules/process/indent_analyze.c:272
-#, fuzzy
 msgid "Vickers"
-msgstr "ビッカース"
+msgstr "Vickers"
 
 #: modules/process/indent_analyze.c:273
 msgid "Berkovich"
-msgstr "ベルコビッチ"
+msgstr "Berkovich"
 
 #: modules/process/indent_analyze.c:274
 msgid "Berkovich (modified)"
-msgstr "ベルコビッチ (modified)"
+msgstr "Berkovich (modified)"
 
 #: modules/process/indent_analyze.c:275
-#, fuzzy
 msgid "Knoop"
-msgstr "ヌープ"
+msgstr "Knoop"
 
 #: modules/process/indent_analyze.c:276
-#, fuzzy
 msgid "Brinell"
-msgstr "ブリネル"
+msgstr "Brinell"
 
 #: modules/process/indent_analyze.c:277
-#, fuzzy
 msgid "Cube corner"
-msgstr "キューブコーナー"
+msgstr "Cube corner"
 
 #: modules/process/indent_analyze.c:278
-#, fuzzy
 msgid "Rockwell"
-msgstr "ロックウェル"
+msgstr "Rockwell"
 
 #: modules/process/indent_analyze.c:288
-#, fuzzy
 msgid "Analyses nanoindentation structure (volumes, surfaces, ...)."
 msgstr "ナノインデント構造(体積、表面、..)を分析します。"
 
@@ -13096,19 +12523,16 @@ msgid "/SPM M_odes/_Force and Indentation/_Analyze Imprint..."
 msgstr "/SPMモード/フォースインデンテーション/インプリント分析…"
 
 #: modules/process/indent_analyze.c:410
-#, fuzzy
 msgid "Marked _areas:"
-msgstr "マークされた_areas:"
+msgstr "マークされた面積:"
 
 #: modules/process/indent_analyze.c:419
-#, fuzzy
 msgid "_Indentor type:"
-msgstr "_Indentorタイプ:"
+msgstr "圧子タイプ:"
 
 #: modules/process/indent_analyze.c:428
-#, fuzzy
 msgid "_Mask creation type:"
-msgstr "_マスク作成タイプ:"
+msgstr "マスク作成タイプ:"
 
 #: modules/process/indent_analyze.c:434
 msgid "Ref. plane _tolerance:"
@@ -13116,10 +12540,9 @@ msgstr "参照平面較差:"
 
 #: modules/process/indent_analyze.c:438
 msgid "Angle _1 tolerance:"
-msgstr "角度 _1 許容値:"
+msgstr "角度 1 許容値:"
 
 #: modules/process/indent_analyze.c:456
-#, fuzzy
 msgid "Indent center at"
 msgstr "インデントの中心位置"
 
@@ -13140,24 +12563,20 @@ msgid "Expected A<sub>p</sub>:"
 msgstr "期待値 A<sub>p</sub>:"
 
 #: modules/process/indent_analyze.c:489
-#, fuzzy
 msgid "Volume above-below"
-msgstr "以下のボリューム"
+msgstr "上下の体積"
 
 #: modules/process/indent_analyze.c:494
-#, fuzzy
 msgid "Indent. volume"
-msgstr "インデント。ボリューム"
+msgstr "押し込み体積"
 
 #: modules/process/indent_analyze.c:502
-#, fuzzy
 msgid "Indent. A<sub>d</sub>"
-msgstr "インデント。A<sub>d</sub>"
+msgstr "Indent. A<sub>d</sub>"
 
 #: modules/process/indent_analyze.c:509
-#, fuzzy
 msgid "Indent. A<sub>p</sub>"
-msgstr "インデント。<sub>A p</sub>"
+msgstr "Indent. A<sub>p</sub>"
 
 #: modules/process/indent_analyze.c:517
 msgid "Inner Pile-Up A<sub>d</sub>"
@@ -13176,47 +12595,42 @@ msgid "Outer Pile-Up A<sub>p</sub>"
 msgstr "外側のパイルアップ<sub>A</sub>"
 
 #: modules/process/indent_analyze.c:569
-#, fuzzy
 msgid "Indentation statistics"
 msgstr "インデント統計"
 
 #: modules/process/indent_analyze.c:570
-#, fuzzy
 msgid "_Compute & mark"
-msgstr "_Computeとマーク"
+msgstr "計算してマークする"
 
 #: modules/process/indent_analyze.c:571
-#, fuzzy
 msgid "_Save statistics"
-msgstr "統計_Save"
+msgstr "統計を保存する"
 
 #: modules/process/indent_analyze.c:1392
-#, fuzzy
 msgid "No statistics has been computed yet."
 msgstr "統計はまだ計算されていません。"
 
 #: modules/process/indent_analyze.c:1400
-#, fuzzy
 msgid "Save Indentation Statistics"
 msgstr "インデント統計の保存"
 
 #: modules/process/indent_analyze.c:1438
-#, fuzzy, c-format
+#, c-format
 msgid "Indentor:  %s\n"
 msgstr "インデント: %s\n"
 
 #: modules/process/indent_analyze.c:1442
-#, fuzzy, c-format
+#, c-format
 msgid "Length units: %s\n"
 msgstr "長さの単位: %s\n"
 
 #: modules/process/indent_analyze.c:1444
-#, fuzzy, c-format
+#, c-format
 msgid "Indentation center at [%d, %d] px:      %lf\n"
 msgstr "[%d、%d]pxのインデントの中心: %lf\n"
 
 #: modules/process/indent_analyze.c:1446
-#, fuzzy, c-format
+#, c-format
 msgid "Maximum at [%d, %d] is:                 %lf\n"
 msgstr "[%d、%d]の最大値は次の%lf\n"
 
@@ -13226,27 +12640,27 @@ msgid "Difference max-min:                     %lf\n"
 msgstr "最大変位:%lf\n"
 
 #: modules/process/indent_analyze.c:1453
-#, fuzzy, c-format
+#, c-format
 msgid "Area (projected) above plane:             %g (%.1lf %%)\n"
 msgstr "平面上の面積(投影):%g(%.1lf %%)\n"
 
 #: modules/process/indent_analyze.c:1457
-#, fuzzy, c-format
+#, c-format
 msgid "Area (projected) below plane:             %g (%.1lf %%)\n"
 msgstr "平面下の面積(投影):%g(%.1lf %%)\n"
 
 #: modules/process/indent_analyze.c:1461
-#, fuzzy, c-format
+#, c-format
 msgid "Area (projected) of    plane:             %g (%.1lf %%)\n"
 msgstr "平面の面積(投影):%g(%.1lf %%)\n"
 
 #: modules/process/indent_analyze.c:1466
-#, fuzzy, c-format
+#, c-format
 msgid "Area (developed) above %g (+%.1f %%)\n"
 msgstr "%g上の領域(+%.1f %%)\n"
 
 #: modules/process/indent_analyze.c:1469
-#, fuzzy, c-format
+#, c-format
 msgid "Area (developed) below %g (+%.1lf %%)\n"
 msgstr "%g(+%.1lf %%)以下の地域(開発)\n"
 
@@ -13256,14 +12670,14 @@ msgid "Volume above:     %g\n"
 msgstr "%g を超える体積\n"
 
 #: modules/process/indent_analyze.c:1475
-#, fuzzy, c-format
+#, c-format
 msgid "Volume below:     %g\n"
-msgstr "以下のボリューム: %g\n"
+msgstr "表面下の体積: %g\n"
 
 #: modules/process/indent_analyze.c:1477
-#, fuzzy, c-format
+#, c-format
 msgid "Volume difference %g\n"
-msgstr "ボリュームの違い%g\n"
+msgstr "体積差%g\n"
 
 #: modules/process/indent_analyze.c:1481
 msgid ""
@@ -13274,9 +12688,9 @@ msgstr ""
 "インデント\n"
 
 #: modules/process/indent_analyze.c:1482
-#, fuzzy, c-format
+#, c-format
 msgid "Volume      %g\n"
-msgstr "ボリューム%g\n"
+msgstr "体積%g\n"
 
 #: modules/process/indent_analyze.c:1487
 msgid ""
@@ -13291,56 +12705,47 @@ msgid "Indentation - Outer Pile-Up\n"
 msgstr "インデント - 外側のパイルアップ\n"
 
 #: modules/process/laplace.c:43
-#, fuzzy
 msgid ""
 "Removes data under mask, interpolating them with Laplace equation solution."
 msgstr "マスクの下のデータを削除し、ラプラス方程式解で補間します。"
 
 #: modules/process/laplace.c:58
 msgid "/_Correct Data/_Interpolate Data Under Mask"
-msgstr "/_Correct Data/_Interpolate Data Under Mask"
+msgstr "/データ補正/Interpolate Data Under Mask"
 
 #: modules/process/laplace.c:62
-#, fuzzy
 msgid "Interpolate data under mask by solution of Laplace equation"
 msgstr "ラプラス方程式の解法によるマスク下のデータの補間"
 
 #: modules/process/laplace.c:66
 msgid "/_Correct Data/_Zero Data Under Mask"
-msgstr "/データ補正/_Zero Data Under Mask"
+msgstr "/データ補正/Zero Data Under Mask"
 
 #: modules/process/laplace.c:70
-#, fuzzy
 msgid "Fill data under mask with zeros"
 msgstr "マスクの下のデータをゼロで埋める"
 
 #: modules/process/lat_synth.c:373
-#, fuzzy
 msgid "Random constant"
 msgstr "ランダム定数"
 
 #: modules/process/lat_synth.c:374
-#, fuzzy
 msgid "Random linear"
 msgstr "ランダム線形"
 
 #: modules/process/lat_synth.c:375
-#, fuzzy
 msgid "Random bumpy"
 msgstr "ランダムでこぼこ"
 
 #: modules/process/lat_synth.c:376
-#, fuzzy
 msgid "Radial distance"
 msgstr "放射距離"
 
 #: modules/process/lat_synth.c:377
-#, fuzzy
 msgid "Segmented distance"
 msgstr "セグメント化された距離"
 
 #: modules/process/lat_synth.c:378
-#, fuzzy
 msgid "Segmented random"
 msgstr "セグメント化されたランダム"
 
@@ -13353,7 +12758,6 @@ msgid "Border random"
 msgstr "ボーダーランダム"
 
 #: modules/process/lat_synth.c:381
-#, fuzzy
 msgid "Second nearest distance"
 msgstr "2 番目に近い距離"
 
@@ -13366,168 +12770,140 @@ msgid "/S_ynthetic/_Lattice..."
 msgstr "/合成・生成/_格子…"
 
 #: modules/process/lat_synth.c:423
-#, fuzzy
 msgid "Generate lattice based surface"
-msgstr "ラティスベースのサーフェスを生成する"
+msgstr "格子ベースの表面を生成する"
 
 #: modules/process/lat_synth.c:542
-#, fuzzy
 msgid "lattice|Random"
-msgstr "ラティス|ランダム"
+msgstr "格子|ランダム"
 
 #: modules/process/lat_synth.c:543
-#, fuzzy
 msgid "lattice|Square"
-msgstr "ラティス|広場"
+msgstr "格子|正方形"
 
 #: modules/process/lat_synth.c:545
-#, fuzzy
 msgid "lattice|Triangular"
-msgstr "ラティス|三角 形"
+msgstr "格子|三角形"
 
 #: modules/process/lat_synth.c:546
-#, fuzzy
 msgid "lattice|Cairo"
-msgstr "ラティス|カイロ"
+msgstr "格子|Cairo(五角形)"
 
 #: modules/process/lat_synth.c:547
-#, fuzzy
 msgid "lattice|Snub square"
-msgstr "ラティス|スナッブ広場"
+msgstr "格子|Snub square(三角形x3 + 正方形x2)"
 
 #: modules/process/lat_synth.c:548
-#, fuzzy
 msgid "lattice|Truncated square"
-msgstr "ラティス|切り捨てられた四角形"
+msgstr "格子|Truncated square(正方形+八角形)"
 
 #: modules/process/lat_synth.c:549
-#, fuzzy
 msgid "Silicon 7x7"
 msgstr "シリコン 7x7"
 
 #: modules/process/lat_synth.c:550
-#, fuzzy
 msgid "lattice|Penrose (vertices)"
-msgstr "ラティス|ペンローズ(頂点)"
+msgstr "格子|ペンローズ(頂点)"
 
 #: modules/process/lat_synth.c:551
-#, fuzzy
 msgid "lattice|Penrose (centers)"
-msgstr "ラティス|ペンローズ (中央)"
+msgstr "格子|ペンローズ (中央)"
 
 #: modules/process/lat_synth.c:644
-#, fuzzy
 msgid "_Lattice:"
-msgstr "_Lattice:"
+msgstr "格子:"
 
 #: modules/process/lat_synth.c:662
-#, fuzzy
 msgid "Lattice rela_xation:"
-msgstr "ラティスrela_xation:"
+msgstr "格子緩和:"
 
 #: modules/process/lat_synth.c:674
-#, fuzzy
 msgid "_Height relaxation:"
-msgstr "_Heightリラクゼーション:"
+msgstr "高さ緩和:"
 
 #: modules/process/lat_synth.c:705
 msgid "Surface"
-msgstr "Surface"
+msgstr "表面"
 
 #: modules/process/lat_synth.c:726 modules/process/local_contrast.c:155
-#, fuzzy
 msgid "_Weight:"
-msgstr "_Weight:"
+msgstr "重さ:"
 
 #: modules/process/lat_synth.c:1167
-#, fuzzy
 msgid "Constructing lattice..."
-msgstr "ラティスを構築する."
+msgstr "格子を構築中…"
 
 #: modules/process/lat_synth.c:1194
-#, fuzzy
 msgid "Relaxing lattice..."
-msgstr "リラックス格子."
+msgstr "格子を緩和中…"
 
 #: modules/process/lat_synth.c:1209
-#, fuzzy
 msgid "Relaxing heights..."
-msgstr "リラックスした高さ."
+msgstr "高さを緩和中…"
 
 #: modules/process/latsim.c:76
-#, fuzzy
 msgid "Lateral force simulator"
-msgstr "横力シミュレータ"
+msgstr "水平力シミュレーター"
 
 #: modules/process/latsim.c:90
 msgid "/SPM M_odes/_Force and Indentation/_Lateral Force..."
-msgstr "/SPMモード/フォースインデンテーション/水平フォース…"
+msgstr "/SPMモード/フォースインデンテーション/水平力…"
 
 #: modules/process/latsim.c:94
-#, fuzzy
 msgid "Simulate topography artifacts in lateral force channels"
-msgstr "横力チャネルの地形アーチファクトをシミュレートする"
+msgstr "水平力チャンネルの形状アーチファクトをシミュレート"
 
 #: modules/process/latsim.c:136
-#, fuzzy
 msgid "Fw lateral force "
-msgstr "Fw横力"
+msgstr "Fw水平力"
 
 #: modules/process/latsim.c:145
-#, fuzzy
 msgid "Rev lateral force"
-msgstr "レヴ横力"
+msgstr "Rev水平力"
 
 #: modules/process/latsim.c:158
-#, fuzzy
 msgid "Lateral force simulation"
-msgstr "横力シミュレーション"
+msgstr "水平力シミュレーション"
 
 #: modules/process/latsim.c:175
-#, fuzzy
 msgid "_Friction coef.:"
-msgstr "_Frictionのです。"
+msgstr "摩擦係数:"
 
 #: modules/process/latsim.c:181
-#, fuzzy
 msgid "_Normal force:"
-msgstr "_Normal力:"
+msgstr "垂直力:"
 
 #: modules/process/latsim.c:187
 msgid "_Adhesion force:"
 msgstr "接着力:"
 
 #: modules/process/level.c:75
-#, fuzzy
 msgid ""
 "Levels data by simple plane subtraction or by rotation, and fixes minimal or "
 "mean value to zero."
 msgstr ""
-"単純な平面減算または回転によってデータをレベル設定し、最小値または平均値を 0 "
+"単純な平面減算または回転によってデータをレベリング氏、最小値または平均値を 0 "
 "に修正します。"
 
 #: modules/process/level.c:90
 msgid "/_Level/Plane _Level"
-msgstr "/_レベリング/平面_レベリング"
+msgstr "/レベリング/平面レベリング"
 
 #: modules/process/level.c:94
-#, fuzzy
 msgid "Level data by mean plane subtraction"
-msgstr "平均平面減算によるレベル データ"
+msgstr "平均平面減算によるレベリング"
 
 #: modules/process/level.c:97
-#, fuzzy
 msgid "/_Level/Level _Rotate"
-msgstr "/_レベリング/レベル_Rotate"
+msgstr "/レベリング/回転レベリングｚ"
 
 #: modules/process/level.c:101
-#, fuzzy
 msgid "Automatically level data by plane rotation"
 msgstr "平面の回転によってデータを自動的に平準化する"
 
 #: modules/process/level.c:104
 msgid "/_Level/Fix _Zero"
-msgstr "/_レベリング/最小値をゼロに"
+msgstr "/レベリング/最小値をゼロに"
 
 #: modules/process/level.c:108 modules/xyz/xyz_level.c:112
 msgid "Shift minimum data value to zero"
@@ -13535,35 +12911,31 @@ msgstr "最小データ値をゼロにシフトする"
 
 #: modules/process/level.c:111
 msgid "/_Level/Zero _Mean Value"
-msgstr "/_レベリング/平均値をゼロに"
+msgstr "/レベリング/平均値をゼロに"
 
 #: modules/process/level.c:115 modules/xyz/xyz_level.c:119
-#, fuzzy
 msgid "Shift mean data value to zero"
 msgstr "平均データ値をゼロにシフト"
 
 #: modules/process/level.c:118
 msgid "/_Level/Zero Ma_ximum Value"
-msgstr "/_レベリング/最大値をゼロに"
+msgstr "/レベリング/最大値をゼロに"
 
 #: modules/process/level.c:122
 msgid "Shift maximum data value to zero"
 msgstr "最大データ値をゼロにシフト"
 
 #: modules/process/level.c:154
-#, fuzzy
 msgid "Plane Level"
 msgstr "平面レベル"
 
 #: modules/process/level.c:156
-#, fuzzy
 msgid "Level Rotate"
-msgstr "レベル回転"
+msgstr "回転レベリング"
 
 #: modules/process/level.c:158
-#, fuzzy
 msgid "Zero Mean Value"
-msgstr "0 平均値"
+msgstr "平均値をゼロに"
 
 #: modules/process/level_grains.c:84
 msgid ""
@@ -13573,9 +12945,8 @@ msgstr ""
 "個々の粒子をレベルし、ラプラシアン補間法を使用する間のシフトを補間する。"
 
 #: modules/process/level_grains.c:99
-#, fuzzy
 msgid "/_Grains/_Level Grains..."
-msgstr "/_粒子/_レベリング粒子."
+msgstr "/粒子/レベリング粒子."
 
 #: modules/process/level_grains.c:103
 msgid ""
@@ -13592,30 +12963,26 @@ msgid "Background"
 msgstr "背景"
 
 #: modules/process/level_grains.c:203
-#, fuzzy
 msgid "Level Grains"
-msgstr "レベルグレイン"
+msgstr "粒子のレベリング"
 
 #: modules/process/level_grains.c:218
-#, fuzzy
 msgid "Quantity to level:"
-msgstr "レベルの数量:"
+msgstr "レベリング数:"
 
 #: modules/process/level_grains.c:231 modules/process/linematch.c:919
 #: modules/process/median-bg.c:214 modules/process/polylevel.c:487
 #: modules/process/sphere-revolve.c:372 modules/process/trimmed-mean.c:325
-#, fuzzy
 msgid "E_xtract background"
-msgstr "E_xtract背景"
+msgstr "背景抽出"
 
 #: modules/process/linecorrect.c:54
-#, fuzzy
 msgid "Corrects line defects (mostly experimental algorithms)."
 msgstr "ライン欠陥(主に実験的アルゴリズム)を修正します。"
 
 #: modules/process/linecorrect.c:68
 msgid "/_Correct Data/Ste_p Line Correction"
-msgstr "/_データ補正/Step Line補正"
+msgstr "/データ補正/Step Line補正"
 
 #: modules/process/linecorrect.c:72
 msgid "Correct steps in lines"
@@ -13623,10 +12990,9 @@ msgstr "行内のステップを修正する"
 
 #: modules/process/linecorrect.c:75
 msgid "/_Correct Data/Mark _Inverted Rows"
-msgstr "/_データ補正/_反転ラインをマーク"
+msgstr "/データ補正/反転ラインをマーク"
 
 #: modules/process/linecorrect.c:79
-#, fuzzy
 msgid "Mark lines with inverted sign"
 msgstr "線に反転記号を付けます"
 
@@ -13635,27 +13001,22 @@ msgid "Median of differences"
 msgstr "変位の中央値"
 
 #: modules/process/linematch.c:173
-#, fuzzy
 msgid "Modus"
 msgstr "モーダス"
 
 #: modules/process/linematch.c:174
-#, fuzzy
 msgid "linematch|Matching"
 msgstr "ラインマッチ|マッチング"
 
 #: modules/process/linematch.c:175
-#, fuzzy
 msgid "Facet-level tilt"
-msgstr "ファセットレベルの傾き"
+msgstr "面レベルの傾き"
 
 #: modules/process/linematch.c:176
-#, fuzzy
 msgid "linematch|Polynomial"
 msgstr "ラインマッチ|多項式"
 
 #: modules/process/linematch.c:177
-#, fuzzy
 msgid "Trimmed mean"
 msgstr "トリム平均"
 
@@ -13664,46 +13025,40 @@ msgid "Trimmed mean of differences"
 msgstr "範囲指定された変位平均"
 
 #: modules/process/linematch.c:184
-#, fuzzy
 msgid "Aligns rows by various methods."
-msgstr "さまざまな方法で行を整列します。"
+msgstr "さまざまな方法でスキャンラインを揃えます（レベリングします）。"
 
 #: modules/process/linematch.c:198
 msgid "/_Correct Data/_Align Rows..."
-msgstr "/_データ補正/_ライン揃え…"
+msgstr "/データ補正/スキャンラインを揃える…"
 
 #: modules/process/linematch.c:202
-#, fuzzy
 msgid "Align rows using various methods"
-msgstr "さまざまな方法を使用して行を整列する"
+msgstr "さまざまな方法を使用してスキャンを揃える"
 
 #: modules/process/linematch.c:253 modules/process/linematch.c:281
 msgid "Row background"
-msgstr "行の背景"
+msgstr "ライン背景"
 
 #: modules/process/linematch.c:282
-#, fuzzy
 msgid "Vertical position"
 msgstr "垂直位置"
 
 #: modules/process/linematch.c:283
-#, fuzzy
 msgid "Corrected offset"
 msgstr "補正されたオフセット"
 
 #: modules/process/linematch.c:828
 msgid "Align Rows"
-msgstr "行の整列"
+msgstr "スキャンライン揃え"
 
 #: modules/process/linematch.c:929
-#, fuzzy
 msgid "Plot background _graph"
-msgstr "背景_graphをプロットする"
+msgstr "背景グラフをプロット"
 
 #: modules/process/lno_synth.c:261 modules/process/noise_synth.c:186
-#, fuzzy
 msgid "distribution|Triangular"
-msgstr "配布|三角 形"
+msgstr "分布|三角形"
 
 #: modules/process/lno_synth.c:267 modules/process/pat_synth.c:220
 msgid "Steps"
@@ -13714,7 +13069,6 @@ msgid "Scars"
 msgstr "傷跡"
 
 #: modules/process/lno_synth.c:269 modules/process/pat_synth.c:221
-#, fuzzy
 msgid "Ridges"
 msgstr "尾根"
 
@@ -13724,21 +13078,18 @@ msgid "Tilt"
 msgstr "チルト"
 
 #: modules/process/lno_synth.c:276
-#, fuzzy
 msgid "Generates various kinds of line noise."
 msgstr "各種ラインノイズを発生させます。"
 
 #: modules/process/lno_synth.c:290
 msgid "/S_ynthetic/_Line Noise..."
-msgstr "/合成・生成/_ラインノイズ…"
+msgstr "/合成・生成/ラインノイズ…"
 
 #: modules/process/lno_synth.c:294
-#, fuzzy
 msgid "Generate line noise"
 msgstr "ライン ノイズを生成する"
 
 #: modules/process/lno_synth.c:432
-#, fuzzy
 msgid "Line Noise"
 msgstr "ラインノイズ"
 
@@ -13748,95 +13099,79 @@ msgstr "分布"
 
 #: modules/process/lno_synth.c:515 modules/process/mask_noisify.c:158
 #: modules/process/noise_synth.c:412
-#, fuzzy
 msgid "Noise type:"
 msgstr "ノイズタイプ:"
 
 #: modules/process/lno_synth.c:524 modules/process/mask_noisify.c:167
 #: modules/process/noise_synth.c:421
-#, fuzzy
 msgid "S_ymmetrical"
-msgstr "S_ymmetrical"
+msgstr "対称"
 
 #: modules/process/lno_synth.c:525 modules/process/mask_noisify.c:168
 #: modules/process/noise_synth.c:422
-#, fuzzy
 msgid "One-sided _positive"
-msgstr "片側_positive"
+msgstr "片側(正)"
 
 #: modules/process/lno_synth.c:526 modules/process/mask_noisify.c:169
 #: modules/process/noise_synth.c:423
-#, fuzzy
 msgid "One-sided _negative"
-msgstr "片側_negative"
+msgstr "片側(負)"
 
 #: modules/process/lno_synth.c:547
-#, fuzzy
 msgid "Noise Type"
 msgstr "ノイズタイプ"
 
 #: modules/process/lno_synth.c:552
-#, fuzzy
 msgid "_Noise type:"
-msgstr "_Noiseタイプ:"
+msgstr "ノイズタイプ:"
 
 #: modules/process/lno_synth.c:872 modules/process/lno_synth.c:1254
-#, fuzzy
 msgid "_Within line:"
-msgstr "_Within行:"
+msgstr "ライン内:"
 
 #: modules/process/lno_synth.c:879
-#, fuzzy
 msgid "C_umulative"
-msgstr "C_umulative"
+msgstr "積算"
 
 #: modules/process/lno_synth.c:1264
-#, fuzzy
 msgid "Wi_dth:"
-msgstr "Wi_dth:"
+msgstr "幅:"
 
 #: modules/process/lno_synth.c:1450
-#, fuzzy
 msgid "Offset _dispersion:"
-msgstr "オフセット_dispersion:"
+msgstr "分散オフセット:"
 
 #: modules/process/local_contrast.c:78
-#, fuzzy
 msgid "Maximizes local contrast."
-msgstr "ローカルのコントラストを最大化します。"
+msgstr "局所部分コントラストを最大化します。"
 
 #: modules/process/local_contrast.c:92
-#, fuzzy
 msgid "/_Presentation/Local _Contrast..."
-msgstr "/_表現/ローカル_Contrast."
+msgstr "/画像処理ツール/局所部分のコントラスト…"
 
 #: modules/process/local_contrast.c:96
-#, fuzzy
 msgid "Presentation with maximized local contrast"
-msgstr "ローカルコントラストを最大化したプレゼンテーション"
+msgstr "局所部分のコントラストを最大化"
 
 #: modules/process/local_contrast.c:129
-#, fuzzy
 msgid "Increase Local Contrast"
-msgstr "ローカルコントラストを上げる"
+msgstr "局所部分のコントラストを上げる"
 
 #: modules/process/local_contrast.c:147 modules/process/rank.c:190
-#, fuzzy
 msgid "Kernel _size:"
-msgstr "カーネル_size:"
+msgstr "カーネルサイズ:"
 
 #: modules/process/local_contrast.c:151
 msgid "Blending _depth:"
-msgstr "ブレンド_深さ:"
+msgstr "ブレンド深さ:"
 
 #: modules/process/logistic.c:122
 msgid "Trains logistic regression to mark grains."
 msgstr "Trains logistic regression to mark grains."
 
 #: modules/process/logistic.c:136
-#, fuzzy
 msgid "/_Grains/Logistic _Regression..."
-msgstr "/_粒子/ロジスティック_Regression."
+msgstr "/粒子/ロジスティック_Regression."
 
 #: modules/process/logistic.c:140
 #, fuzzy
@@ -13864,9 +13199,8 @@ msgid "_Gaussian blur"
 msgstr "_Gaussianぼかし"
 
 #: modules/process/logistic.c:285
-#, fuzzy
 msgid "_Number of Gaussians:"
-msgstr "ガウスの_Number:"
+msgstr "ガウシアン数:"
 
 #: modules/process/logistic.c:293
 #, fuzzy
@@ -13951,7 +13285,7 @@ msgstr "他のチャネルを使用してマスクを作成または変更しま
 #: modules/process/mark_with.c:153
 #, fuzzy
 msgid "/_Mask/Mark _With..."
-msgstr "/_マスク/マーク・_With.."
+msgstr "/マスク/マーク・_With.."
 
 #: modules/process/mark_with.c:157
 #, fuzzy
@@ -13964,28 +13298,24 @@ msgid "Mark With"
 msgstr "マーク・ウィズ"
 
 #: modules/process/mark_with.c:231 modules/process/mask_morph.c:244
-#, fuzzy
 msgid "Operation:"
 msgstr "操作："
 
 #: modules/process/mark_with.c:239
-#, fuzzy
 msgid "Se_t mask"
-msgstr "Se_tマスク"
+msgstr "セットマスク"
 
 #: modules/process/mark_with.c:240
 msgid "_Add mask"
-msgstr "マスクの追加"
+msgstr "追加マスク"
 
 #: modules/process/mark_with.c:241
-#, fuzzy
 msgid "_Subtract mask"
-msgstr "_Subtractマスク"
+msgstr "減算マスク"
 
 #: modules/process/mark_with.c:242
-#, fuzzy
 msgid "_Intersect masks"
-msgstr "_Intersectマスク"
+msgstr "交差マスク"
 
 #: modules/process/mark_with.c:248
 #, fuzzy
@@ -13995,7 +13325,7 @@ msgstr "マーク付き:"
 #: modules/process/mark_with.c:256
 #, fuzzy
 msgid "with|_Mask"
-msgstr "と|_マスク"
+msgstr "と|マスク"
 
 #: modules/process/mark_with.c:258
 #, fuzzy
@@ -14005,7 +13335,7 @@ msgstr "と一緒に|_Data"
 #: modules/process/mark_with.c:260
 #, fuzzy
 msgid "with|_Presentation"
-msgstr "と一緒に|_表現"
+msgstr "と一緒に|表現"
 
 #: modules/process/mark_with.c:297
 #, fuzzy
@@ -14034,7 +13364,7 @@ msgstr "マスクを他のチャンネルに分配します。"
 #: modules/process/mask_distribute.c:101
 #, fuzzy
 msgid "/_Mask/_Distribute..."
-msgstr "/_マスク/_Distribute."
+msgstr "/マスク/_Distribute."
 
 #: modules/process/mask_distribute.c:105
 #, fuzzy
@@ -14042,12 +13372,10 @@ msgid "Distribute mask to other channels"
 msgstr "マスクを他のチャンネルに分配する"
 
 #: modules/process/mask_distribute.c:141
-#, fuzzy
 msgid "Channels within the file"
 msgstr "ファイル内のチャネル"
 
 #: modules/process/mask_distribute.c:142
-#, fuzzy
 msgid "Channels in all files"
 msgstr "すべてのファイルのチャンネル"
 
@@ -14066,14 +13394,13 @@ msgid "Preserve existing masks"
 msgstr "既存のマスクを保持する"
 
 #: modules/process/mask_edt.c:89
-#, fuzzy
 msgid "Performs simple and true Euclidean distance transforms of masks."
 msgstr "マスクの単純で真のユークリッド距離変換を実行します。"
 
 #: modules/process/mask_edt.c:103
 #, fuzzy
 msgid "/_Mask/Distanc_e Transform..."
-msgstr "/_マスク/Distanc_e変換."
+msgstr "/マスク/Distanc_e変換."
 
 #: modules/process/mask_edt.c:107
 #, fuzzy
@@ -14083,7 +13410,7 @@ msgstr "マスクの距離変換"
 #: modules/process/mask_edt.c:110
 #, fuzzy
 msgid "/_Mask/Thi_n"
-msgstr "/_マスク/Thi_n"
+msgstr "/マスク/Thi_n"
 
 #: modules/process/mask_edt.c:114
 #, fuzzy
@@ -14117,14 +13444,13 @@ msgid "Shrink from _border"
 msgstr "_borderから縮小"
 
 #: modules/process/mask_morph.c:124
-#, fuzzy
 msgid "Performs basic morphological operations with masks."
-msgstr "マスクを使用して基本的な形態学的操作を実行します。"
+msgstr "マスクを使用して基本的な形状操作を実行します。"
 
 #: modules/process/mask_morph.c:138
 #, fuzzy
 msgid "/_Mask/Morpho_logical Operation..."
-msgstr "/_マスク/Morpho_logical操作."
+msgstr "/マスク/Morpho_logical操作."
 
 #: modules/process/mask_morph.c:142
 #, fuzzy
@@ -14140,28 +13466,24 @@ msgid "Dilation"
 msgstr "膨張"
 
 #: modules/process/mask_morph.c:183 modules/tools/filter.c:245
-#, fuzzy
 msgid "filter|Opening"
 msgstr "フィルター|開く"
 
 #: modules/process/mask_morph.c:184 modules/tools/filter.c:246
-#, fuzzy
 msgid "filter|Closing"
 msgstr "フィルター|終了"
 
 #: modules/process/mask_morph.c:185 modules/tools/filter.c:247
-#, fuzzy
 msgid "ASF Opening"
 msgstr "ASFオープニング"
 
 #: modules/process/mask_morph.c:186 modules/tools/filter.c:248
-#, fuzzy
 msgid "ASF Closing"
-msgstr "ASF クロージング"
+msgstr "ASFクロージング"
 
 #: modules/process/mask_morph.c:190
 msgid "Octagon"
-msgstr "オクタゴン"
+msgstr "八角形"
 
 #: modules/process/mask_morph.c:193
 msgid "Another mask"
@@ -14172,117 +13494,96 @@ msgid "Morphological Operation"
 msgstr "形態学的操作"
 
 #: modules/process/mask_morph.c:258
-#, fuzzy
 msgid "Structuring element:"
 msgstr "要素の構造化:"
 
 #: modules/process/mask_morph.c:272 modules/process/raveraging.c:175
 #: modules/tools/maskedit.c:528
-#, fuzzy
 msgid "_Radius:"
-msgstr "_Radius:"
+msgstr "半径:"
 
 #: modules/process/mask_morph.c:283
-#, fuzzy
 msgid "_Mask:"
-msgstr "_マスク:"
+msgstr "マスク:"
 
 #: modules/process/mask_morph.c:293
 msgid "_Trim empty borders"
-msgstr "空の罫線を_Trim"
+msgstr "空の罫線を切り捨て"
 
 #: modules/process/mask_noisify.c:83
-#, fuzzy
 msgid "Adds salt and/or pepper noise to mask."
-msgstr "マスクに塩やコショウのノイズを追加します。"
+msgstr "マスクにごま塩ノイズを追加します。"
 
 #: modules/process/mask_noisify.c:97
-#, fuzzy
 msgid "/_Mask/_Noisify..."
-msgstr "/_マスク/_Noisify."
+msgstr "/マスク/ノイズ追加…"
 
 #: modules/process/mask_noisify.c:101
-#, fuzzy
 msgid "Add noise to mask"
 msgstr "マスクにノイズを追加する"
 
 #: modules/process/mask_noisify.c:141
-#, fuzzy
 msgid "Noisify Mask"
-msgstr "ノイシスマスク"
+msgstr "ノイズ発生マスク"
 
 #: modules/process/mask_noisify.c:184
 msgid "_Alter only boundaries"
 msgstr "境界のみを変更する"
 
 #: modules/process/mask_shift.c:90
-#, fuzzy
 msgid "Shift mask with respect to the image."
-msgstr "画像に対するシフトマスク。"
+msgstr "画像に対してマスクを移動させる。"
 
 #: modules/process/mask_shift.c:104
-#, fuzzy
 msgid "/_Mask/_Shift..."
-msgstr "/_マスク/_Shift."
+msgstr "/マスク/移動…"
 
 #: modules/process/mask_shift.c:108
-#, fuzzy
 msgid "Shift mask"
-msgstr "シフトマスク"
+msgstr "マスク移動"
 
 #: modules/process/mask_shift.c:162
-#, fuzzy
 msgid "Shift Mask"
-msgstr "シフトマスク"
+msgstr "マスク移動"
 
 #: modules/process/mask_shift.c:201
-#, fuzzy
 msgid "exterior|Empty"
-msgstr "外装|空"
+msgstr "外の範囲|空"
 
 #: modules/process/mask_shift.c:203
-#, fuzzy
 msgid "exterior|Filled"
-msgstr "外装|いっぱい"
+msgstr "外の範囲|値埋め"
 
 #: modules/process/mask_shift.c:220
-#, fuzzy
 msgid "_Horizontal shift:"
-msgstr "_Horizontalシフト:"
+msgstr "水平移動:"
 
 #: modules/process/mask_shift.c:228
-#, fuzzy
 msgid "_Vertical shift:"
-msgstr "_Verticalシフト:"
+msgstr "垂直移動:"
 
 #: modules/process/maskcor.c:105
-#, fuzzy
 msgid "Searches for a detail in another image using correlation."
 msgstr "相関関係を使用して、別の画像の詳細を検索します。"
 
 #: modules/process/maskcor.c:119
-#, fuzzy
 msgid "/M_ultidata/Correlation _Search..."
-msgstr "/_複数のデータ処理/相関_Search."
+msgstr "/複数のデータ処理/相関探索…"
 
 #: modules/process/maskcor.c:123
-#, fuzzy
 msgid "Search for a detail using correlation"
 msgstr "相関を使用した詳細の検索"
 
 #: modules/process/maskcor.c:152
-#, fuzzy
 msgid "Correlation, raw"
 msgstr "相関、生"
 
 #: modules/process/maskcor.c:153
-#, fuzzy
 msgid "Correlation, leveled"
 msgstr "相関、平準化"
 
 #: modules/process/maskcor.c:154 modules/process/maskcor.c:223
 #: modules/process/maskcor.c:566
-#, fuzzy
 msgid "Correlation score"
 msgstr "相関スコア"
 
@@ -14299,7 +13600,6 @@ msgid "Height difference score"
 msgstr "高さ差スコア"
 
 #: modules/process/maskcor.c:170
-#, fuzzy
 msgid "Correlation Search"
 msgstr "相関検索"
 
@@ -14308,34 +13608,28 @@ msgid "_Detail to search:"
 msgstr "検索の詳細:"
 
 #: modules/process/maskcor.c:199
-#, fuzzy
 msgid "Use _mask"
-msgstr "_maskを使用する"
+msgstr "マスクを使用"
 
 #: modules/process/maskcor.c:208
-#, fuzzy
 msgid "_Plot mask"
-msgstr "_Plotマスク"
+msgstr "マスクをプロット"
 
 #: modules/process/maskcor.c:221
-#, fuzzy
 msgid "Objects marked"
 msgstr "マークされたオブジェクト"
 
 #: modules/process/maskcor.c:222
-#, fuzzy
 msgid "Correlation maxima"
 msgstr "相関最大"
 
 #: modules/process/maskcor.c:233
-#, fuzzy
 msgid "Correlation _method:"
-msgstr "相関_method:"
+msgstr "相関メソッド:"
 
 #: modules/process/maskcor.c:249
-#, fuzzy
 msgid "Regularization:"
-msgstr "調整："
+msgstr "Regularization:"
 
 #: modules/process/maskops.c:46
 #, fuzzy
@@ -14345,7 +13639,7 @@ msgstr "マスクによる基本的な操作:反転、除去、抽出。"
 #: modules/process/maskops.c:60
 #, fuzzy
 msgid "/_Mask/_Remove Mask"
-msgstr "/_マスク/_Removeマスク"
+msgstr "/マスク/_Removeマスク"
 
 #: modules/process/maskops.c:64
 #, fuzzy
@@ -14355,7 +13649,7 @@ msgstr "データからマスクを削除する"
 #: modules/process/maskops.c:67
 #, fuzzy
 msgid "/_Mask/_Invert Mask"
-msgstr "/_マスク/_Invertマスク"
+msgstr "/マスク/_Invertマスク"
 
 #: modules/process/maskops.c:71
 #, fuzzy
@@ -14365,16 +13659,15 @@ msgstr "マスクを反転"
 #: modules/process/maskops.c:74
 #, fuzzy
 msgid "/_Mask/_Extract Mask"
-msgstr "/_マスク/_Extractマスク"
+msgstr "/マスク/_Extractマスク"
 
 #: modules/process/maskops.c:78
 msgid "Extract mask to a new image"
 msgstr "新しいイメージにマスクを抽出する"
 
 #: modules/process/maskops.c:81
-#, fuzzy
 msgid "/_Grains/_Remove Edge-Touching"
-msgstr "/_粒子/_Removeエッジタッチ"
+msgstr "/粒子/_Removeエッジタッチ"
 
 #: modules/process/maskops.c:85
 #, fuzzy
@@ -14389,7 +13682,7 @@ msgstr "2 つのイメージの交差していない領域をトリミングし�
 #: modules/process/mcrop.c:74
 #, fuzzy
 msgid "/M_ultidata/Mutual C_rop..."
-msgstr "/_複数のデータ処理/ミューチュアルC_rop."
+msgstr "/複数のデータ処理/ミューチュアルC_rop."
 
 #: modules/process/mcrop.c:78
 #, fuzzy
@@ -14418,12 +13711,12 @@ msgstr "/特徴抽出/_Lattice..."
 #: modules/process/measure_lattice.c:183
 #, fuzzy
 msgid "Measure lattice"
-msgstr "ラティスを測定する"
+msgstr "格子を測定する"
 
 #: modules/process/measure_lattice.c:246 modules/process/measure_lattice.c:289
 #, fuzzy
 msgid "Measure Lattice"
-msgstr "ラティスを測定する"
+msgstr "格子を測定する"
 
 #: modules/process/measure_lattice.c:251
 msgid "First vector"
@@ -14459,7 +13752,7 @@ msgstr "_PSDF"
 #: modules/process/measure_lattice.c:402
 #, fuzzy
 msgid "Show lattice as:"
-msgstr "ラティスの表示方法:"
+msgstr "格子の表示方法:"
 
 #: modules/process/measure_lattice.c:411
 #, fuzzy
@@ -14478,7 +13771,7 @@ msgstr "ランクベースのアルゴリズムを使用して背景を減算し
 
 #: modules/process/median-bg.c:97
 msgid "/_Level/_Median Level..."
-msgstr "/_レベリング/_中央値…"
+msgstr "/レベリング/_中央値…"
 
 #: modules/process/median-bg.c:101
 #, fuzzy
@@ -14502,9 +13795,8 @@ msgstr "実際の半径:"
 
 #: modules/process/median-bg.c:206 modules/process/rank-filter.c:290
 #: modules/process/sphere-revolve.c:347 modules/process/trimmed-mean.c:257
-#, fuzzy
 msgid "_Pixel radius:"
-msgstr "_Pixel半径:"
+msgstr "ピクセル半径:"
 
 #: modules/process/merge.c:182
 msgid "Up"
@@ -14562,9 +13854,8 @@ msgid "Merges two images."
 msgstr "2 つのイメージをマージします。"
 
 #: modules/process/merge.c:229
-#, fuzzy
 msgid "/M_ultidata/_Merge..."
-msgstr "/_複数のデータ処理/_Merge."
+msgstr "/複数のデータ処理/結合…"
 
 #: modules/process/merge.c:233
 #, fuzzy
@@ -14626,9 +13917,8 @@ msgstr "シミュレートされたフィールド"
 
 #: modules/process/mfm_current.c:323 modules/process/mfm_field.c:289
 #: modules/process/mfm_parallel.c:323
-#, fuzzy
 msgid "Point charge"
-msgstr "ポイントチャージ"
+msgstr "Point charge"
 
 #: modules/process/mfm_current.c:324 modules/process/mfm_field.c:290
 #: modules/process/mfm_parallel.c:324
@@ -14641,9 +13931,8 @@ msgstr "Current Line Stray Field"
 
 #: modules/process/mfm_current.c:421 modules/process/mfm_field.c:343
 #: modules/process/mfm_parallel.c:414
-#, fuzzy
 msgid "_Output plane height:"
-msgstr "_Output平面の高さ:"
+msgstr "出力平面の高さ:"
 
 #: modules/process/mfm_current.c:429
 #, fuzzy
@@ -14656,9 +13945,8 @@ msgid "Stripe _current:"
 msgstr "ストライプ_current:"
 
 #: modules/process/mfm_current.c:445
-#, fuzzy
 msgid "_Position:"
-msgstr "_Position:"
+msgstr "位置:"
 
 #: modules/process/mfm_current.c:462
 msgid "Probe"
@@ -14707,9 +13995,8 @@ msgid "Compute stray field above perpendicular magnetic medium"
 msgstr "垂直磁気媒体の上の迷磁場を計算する"
 
 #: modules/process/mfm_field.c:298
-#, fuzzy
 msgid "Perpendicular Media Stray Field"
-msgstr "垂直メディアストレイフィールド"
+msgstr "Perpendicular Media Stray Field"
 
 #: modules/process/mfm_field.c:352 modules/process/mfm_parallel.c:422
 #, fuzzy
@@ -14808,9 +14095,8 @@ msgid "Simulate stray field above parallel magnetic medium"
 msgstr "平行磁気媒体の上の迷子場をシミュレートする"
 
 #: modules/process/mfm_parallel.c:330
-#, fuzzy
 msgid "Parallel Media Stray Field"
-msgstr "パラレルメディアストレイフィールド"
+msgstr "Parallel Media Stray Field"
 
 #: modules/process/mfm_parallel.c:430
 #, fuzzy
@@ -14855,12 +14141,10 @@ msgid "Recalculated MFM data"
 msgstr "再計算された MFM データ"
 
 #: modules/process/mfm_recalc.c:241 modules/volume/volume_mfmrecalc.c:256
-#, fuzzy
 msgid "Phase (radians)"
 msgstr "位相(ラジアン)"
 
 #: modules/process/mfm_recalc.c:242 modules/volume/volume_mfmrecalc.c:257
-#, fuzzy
 msgid "Phase (degrees)"
 msgstr "位相(度)"
 
@@ -14886,7 +14170,6 @@ msgid "MFM force gradient"
 msgstr "MFM 力勾配"
 
 #: modules/process/mfm_recalc.c:250 modules/volume/volume_mfmrecalc.c:266
-#, fuzzy
 msgid "Pixel area MFM force gradient"
 msgstr "ピクセル領域 MFM フォース グラデーション"
 
@@ -14953,9 +14236,8 @@ msgid ""
 msgstr "複数の画像から同時にスキャン線グラフを表示および抽出します。"
 
 #: modules/process/multiprofile.c:172
-#, fuzzy
 msgid "/M_ultidata/_Multiprofile..."
-msgstr "/_複数のデータ処理/_Multiprofile."
+msgstr "/複数のデータ処理/複数チャンネルのプロファイル…"
 
 #: modules/process/multiprofile.c:176
 #, fuzzy
@@ -15066,7 +14348,7 @@ msgstr "ニューラルネットワークSPMデータ処理"
 #: modules/process/neural.c:229
 #, fuzzy
 msgid "/M_ultidata/Neural Network _Training..."
-msgstr "/_複数のデータ処理/ニューラルネットワーク_Training."
+msgstr "/複数のデータ処理/ニューラルネットワーク_Training."
 
 #: modules/process/neural.c:233
 #, fuzzy
@@ -15076,7 +14358,7 @@ msgstr "画像処理のためのニューラル ネットワークのトレー�
 #: modules/process/neural.c:237
 #, fuzzy
 msgid "/M_ultidata/Apply _Neural Network..."
-msgstr "/_複数のデータ処理/_Neuralネットワークを適用します。"
+msgstr "/複数のデータ処理/_Neuralネットワークを適用します。"
 
 #: modules/process/neural.c:241
 msgid "Process data using a trained neural network"
@@ -15168,14 +14450,12 @@ msgid "Result Units"
 msgstr "結果の単位"
 
 #: modules/process/neural.c:653
-#, fuzzy
 msgid "Power of source _XY:"
-msgstr "電源_XYの力:"
+msgstr "XYの重み付け:"
 
 #: modules/process/neural.c:662
-#, fuzzy
 msgid "Power of source _Z:"
-msgstr "電源_Zの力:"
+msgstr "Zの重み付け:"
 
 #: modules/process/neural.c:671
 #, fuzzy
@@ -15315,7 +14595,6 @@ msgid "Doughnuts"
 msgstr "ドーナツ"
 
 #: modules/process/obj_synth.c:340
-#, fuzzy
 msgid "Parabolic bumps"
 msgstr "放物線バンプ"
 
@@ -15378,9 +14657,8 @@ msgid "Automated threshold using Otsu's method on heights."
 msgstr "高さにOtsuの方法を使用した自動しきい値。"
 
 #: modules/process/otsu_threshold.c:56
-#, fuzzy
 msgid "/_Grains/_Mark by Otsu's"
-msgstr "/_粒子/大津の_Mark"
+msgstr "/粒子/大津の_Mark"
 
 #: modules/process/outliers.c:41
 #, fuzzy
@@ -15388,9 +14666,8 @@ msgid "Creates mask of outliers."
 msgstr "外れ値のマスクを作成します。"
 
 #: modules/process/outliers.c:55
-#, fuzzy
 msgid "/_Correct Data/Mask of _Outliers"
-msgstr "/_データ補正/_Outliersのマスク"
+msgstr "/データ補正/はずれ値のマスク"
 
 #: modules/process/outliers.c:59
 #, fuzzy
@@ -15464,9 +14741,8 @@ msgid "_Distance:"
 msgstr "_Distance:"
 
 #: modules/process/pat_synth.c:2042
-#, fuzzy
 msgid "_Parabolicity:"
-msgstr "_Parabolicity:"
+msgstr "放物型性:"
 
 #: modules/process/pat_synth.c:2096 modules/process/pat_synth.c:2471
 #: modules/process/wave_synth.c:521
@@ -15483,9 +14759,8 @@ msgid "Segments"
 msgstr "セグメント"
 
 #: modules/process/pat_synth.c:2397
-#, fuzzy
 msgid "_Number:"
-msgstr "_Number:"
+msgstr "数:"
 
 #: modules/process/pat_synth.c:2409
 #, fuzzy
@@ -15545,27 +14820,22 @@ msgid "Simulate PID effects on measurement"
 msgstr "計測に対するPID効果のシミュレーション"
 
 #: modules/process/pid.c:157
-#, fuzzy
 msgid "PID FW result"
 msgstr "PID FW の結果"
 
 #: modules/process/pid.c:166
-#, fuzzy
 msgid "PID FW max. force"
 msgstr "PID FW 最大力"
 
 #: modules/process/pid.c:175
-#, fuzzy
 msgid "PID REV result"
 msgstr "PID REV の結果"
 
 #: modules/process/pid.c:184
-#, fuzzy
 msgid "PID REV max. force"
 msgstr "PID REV 最大強制"
 
 #: modules/process/pid.c:196
-#, fuzzy
 msgid "PID simulation"
 msgstr "PIDシミュレーション"
 
@@ -15590,9 +14860,8 @@ msgid "_Derivative:"
 msgstr "_Derivative:"
 
 #: modules/process/pid.c:240
-#, fuzzy
 msgid "PID/scan speed _ratio:"
-msgstr "PID/スキャン速度_ratio:"
+msgstr "PID/スキャン速度比:"
 
 #: modules/process/pid.c:255
 msgid "Force strength:"
@@ -15626,9 +14895,8 @@ msgid "Cylinders"
 msgstr "シリンダー"
 
 #: modules/process/pileup_synth.c:265
-#, fuzzy
 msgid "Nuggets"
-msgstr "ナゲット"
+msgstr "俵型"
 
 #: modules/process/pileup_synth.c:269
 msgid "Hexagonal rods"
@@ -15670,9 +14938,8 @@ msgid "Distort by Polynomial"
 msgstr "多項式による歪み"
 
 #: modules/process/polydistort.c:285
-#, fuzzy
 msgid "Ori_ginal"
-msgstr "Ori_ginal"
+msgstr "元データ"
 
 #: modules/process/polydistort.c:286
 #, fuzzy
@@ -15694,7 +14961,7 @@ msgstr "多項式背景を減算します。"
 
 #: modules/process/polylevel.c:158
 msgid "/_Level/_Polynomial Background..."
-msgstr "/_レベリング/_多項式…"
+msgstr "/レベリング/_多項式…"
 
 #: modules/process/polylevel.c:162
 #, fuzzy
@@ -15736,59 +15003,58 @@ msgid "_Same degrees"
 msgstr "_Same度"
 
 #: modules/process/polylevel.c:559
-#, fuzzy
 msgid "Polynomial Coefficients"
 msgstr "多項式係数"
 
 #: modules/process/presentationops.c:56
 #, fuzzy
 msgid "Basic operations with presentation: extraction, removal."
-msgstr "プレゼンテーションとの基本的な操作:抽出、除去。"
+msgstr "画像処理との基本的な操作:抽出、除去。"
 
 #: modules/process/presentationops.c:70
 #, fuzzy
 msgid "/_Presentation/_Remove Presentation"
-msgstr "/_表現/_Remove プレゼンテーション"
+msgstr "/画像処理ツール/_Remove 画像処理"
 
 #: modules/process/presentationops.c:74
 #, fuzzy
 msgid "Remove presentation from data"
-msgstr "プレゼンテーションをデータから削除する"
+msgstr "画像処理をデータから削除する"
 
 #: modules/process/presentationops.c:77
 #, fuzzy
 msgid "/_Presentation/E_xtract Presentation"
-msgstr "/_表現/E_xtract プレゼンテーション"
+msgstr "/画像処理ツール/E_xtract 画像処理"
 
 #: modules/process/presentationops.c:81
 #, fuzzy
 msgid "Extract presentation to a new image"
-msgstr "プレゼンテーションを新しいイメージに抽出する"
+msgstr "画像処理を新しいイメージに抽出する"
 
 #: modules/process/presentationops.c:84
 #, fuzzy
 msgid "/_Presentation/_Attach Presentation..."
-msgstr "/_表現/_Attach プレゼンテーション."
+msgstr "/画像処理ツール/_Attach 画像処理."
 
 #: modules/process/presentationops.c:88
 #, fuzzy
 msgid "Attach another data field as presentation"
-msgstr "別のデータ フィールドをプレゼンテーションとして添付する"
+msgstr "別のデータ フィールドを画像処理として添付する"
 
 #: modules/process/presentationops.c:91
 #, fuzzy
 msgid "/_Presentation/_Logscale"
-msgstr "/_表現/_Logscale"
+msgstr "/画像処理ツール/_Logscale"
 
 #: modules/process/presentationops.c:95
 #, fuzzy
 msgid "Creates a presentation with logarithmic color scale"
-msgstr "対数カラー スケールでプレゼンテーションを作成します。"
+msgstr "対数カラー スケールで画像処理を作成します。"
 
 #: modules/process/presentationops.c:216
 #, fuzzy
 msgid "Attach Presentation"
-msgstr "プレゼンテーションの添付"
+msgstr "画像処理の添付"
 
 #: modules/process/presentationops.c:230
 #, fuzzy
@@ -15833,7 +15099,6 @@ msgid "Calculate 2D power spectrum density"
 msgstr "2D パワースペクトル密度の計算"
 
 #: modules/process/psdf2d.c:274
-#, fuzzy
 msgid "Power Spectral Density"
 msgstr "パワースペクトル密度"
 
@@ -15848,7 +15113,6 @@ msgid "Texture direction index"
 msgstr "テクスチャ方向インデックス"
 
 #: modules/process/psdf2d.c:294
-#, fuzzy
 msgid "Power Spectrum Density"
 msgstr "パワースペクトル密度"
 
@@ -16058,9 +15322,8 @@ msgstr "ランク"
 
 #: modules/process/rank-filter.c:303 modules/process/rank-filter.c:330
 #: modules/process/trimmed-mean.c:270 modules/process/trimmed-mean.c:304
-#, fuzzy
 msgid "_Percentile:"
-msgstr "_Percentile:"
+msgstr "パーセンテージ:"
 
 #: modules/process/rank-filter.c:311 modules/process/rank-filter.c:338
 #, fuzzy
@@ -16085,12 +15348,11 @@ msgstr "ランク変換を使用して、ローカルのコントラストを強
 #: modules/process/rank.c:108
 #, fuzzy
 msgid "/_Presentation/_Rank..."
-msgstr "/_表現/_Rank."
+msgstr "/画像処理ツール/_Rank."
 
 #: modules/process/rank.c:112
-#, fuzzy
 msgid "Presentation with local contrast ehnanced using a rank transform"
-msgstr "ランク変換を使用したローカル コントラストによるプレゼンテーション"
+msgstr "ランク変換を使用したローカル コントラストによる画像処理"
 
 #: modules/process/rank.c:146
 #, fuzzy
@@ -16157,7 +15419,6 @@ msgid "Offset"
 msgstr "オフセット"
 
 #: modules/process/relate.c:242
-#, fuzzy
 msgid "Parabolic"
 msgstr "放物線"
 
@@ -16167,7 +15428,6 @@ msgid "Logarithm"
 msgstr "対数"
 
 #: modules/process/relate.c:267
-#, fuzzy
 msgid "Plots one image data as a function of another and finds relations."
 msgstr ""
 "ある画像データを別の画像データの関数としてプロットし、関係を検索します。"
@@ -16201,7 +15461,7 @@ msgstr "指定したピクセル サイズにデータを再サンプルしま�
 
 #: modules/process/resample.c:129
 msgid "/_Basic Operations/_Resample..."
-msgstr "/_基本操作/_リサンプリング…"
+msgstr "/基本操作/_リサンプリング…"
 
 #: modules/process/resample.c:133
 #, fuzzy
@@ -16287,9 +15547,8 @@ msgid "Counts"
 msgstr "カウント"
 
 #: modules/process/roddeposit_synth.c:705
-#, fuzzy
 msgid "Particle width"
-msgstr "パーティクル幅"
+msgstr "粒子幅"
 
 #: modules/process/roddeposit_synth.c:725
 msgid "Aspect ratio"
@@ -16316,7 +15575,7 @@ msgstr "任意の角度でデータを回転します。"
 
 #: modules/process/rotate.c:112
 msgid "/_Basic Operations/Rotate by _Angle..."
-msgstr "/_基本操作/_角度を指定して回転…"
+msgstr "/基本操作/_角度を指定して回転…"
 
 #: modules/process/rotate.c:116
 #, fuzzy
@@ -16373,7 +15632,7 @@ msgstr "任意の係数でデータをスケーリングします。"
 
 #: modules/process/scale.c:107
 msgid "/_Basic Operations/_Scale..."
-msgstr "/_基本操作/_スケール変更…"
+msgstr "/基本操作/_スケール変更…"
 
 #: modules/process/scale.c:111
 #, fuzzy
@@ -16414,7 +15673,7 @@ msgstr "傷跡(水平線形アーティファクト)をマークまたは削除�
 
 #: modules/process/scars.c:136
 msgid "/_Correct Data/M_ark Scars..."
-msgstr "/_データ補正/スカー(傷跡)をマーク…"
+msgstr "/データ補正/スカー(傷跡)をマーク…"
 
 #: modules/process/scars.c:140
 #, fuzzy
@@ -16423,7 +15682,7 @@ msgstr "水平傷跡をマークする (ストローク)"
 
 #: modules/process/scars.c:143
 msgid "/_Correct Data/Remove _Scars"
-msgstr "/_データ補正/_スカーの削除"
+msgstr "/データ補正/スカーの削除"
 
 #: modules/process/scars.c:147
 #, fuzzy
@@ -16465,7 +15724,7 @@ msgstr "地形から簡単なSEM画像シミュレーション。"
 #: modules/process/semsim.c:134
 #, fuzzy
 msgid "/_Presentation/_SEM Image..."
-msgstr "/_表現/_SEM 画像."
+msgstr "/画像処理ツール/_SEM 画像."
 
 #: modules/process/semsim.c:138
 #, fuzzy
@@ -16509,7 +15768,7 @@ msgstr "データのシェーディング表示を作成します。"
 #: modules/process/shade.c:108
 #, fuzzy
 msgid "/_Presentation/_Shading..."
-msgstr "/_表現/_Shading."
+msgstr "/画像処理ツール/_Shading."
 
 #: modules/process/shade.c:112
 #, fuzzy
@@ -16592,7 +15851,7 @@ msgstr "円弧または球の回転で背景を減算します。"
 #: modules/process/sphere-revolve.c:126
 #, fuzzy
 msgid "/_Level/Revolve _Arc..."
-msgstr "/_レベリング/回転_Arc."
+msgstr "/レベリング/回転_Arc."
 
 #: modules/process/sphere-revolve.c:130
 msgid "Level data by arc revolution"
@@ -16601,7 +15860,7 @@ msgstr "アーク回転によるデータのレベル"
 #: modules/process/sphere-revolve.c:133
 #, fuzzy
 msgid "/_Level/Revolve _Sphere..."
-msgstr "/_レベリング/回転_Sphere."
+msgstr "/レベリング/回転_Sphere."
 
 #: modules/process/sphere-revolve.c:137
 msgid "Level data by sphere revolution"
@@ -16649,7 +15908,7 @@ msgstr "原点のオフセットに基づいて複数の画像をステッチし
 #: modules/process/stitch.c:148
 #, fuzzy
 msgid "/M_ultidata/_Stitch..."
-msgstr "/_複数のデータ処理/_Stitch."
+msgstr "/複数のデータ処理/_Stitch."
 
 #: modules/process/stitch.c:152
 #, fuzzy
@@ -16723,7 +15982,7 @@ msgstr ""
 #: modules/process/superresolution.c:98
 #, fuzzy
 msgid "/M_ultidata/_Super-resolution..."
-msgstr "/_複数のデータ処理/_Super解像度."
+msgstr "/複数のデータ処理/_Super解像度."
 
 #: modules/process/superresolution.c:102
 #, fuzzy
@@ -16765,9 +16024,8 @@ msgid "Orientation"
 msgstr "方向"
 
 #: modules/process/synth.h:438
-#, fuzzy
 msgid "Orien_tation:"
-msgstr "Orien_tation:"
+msgstr "方向:"
 
 #: modules/process/synth.h:464
 #, fuzzy
@@ -16804,7 +16062,7 @@ msgstr "下限/上限しきい値を使用してデータ範囲を制限しま�
 
 #: modules/process/threshold.c:142
 msgid "/_Basic Operations/Li_mit Range..."
-msgstr "/_基本操作/範囲…"
+msgstr "/基本操作/範囲…"
 
 #: modules/process/threshold.c:146
 #, fuzzy
@@ -16868,7 +16126,7 @@ msgstr "指定した量だけ画像を傾けます。"
 
 #: modules/process/tilt.c:90
 msgid "/_Basic Operations/_Tilt..."
-msgstr "/_基本操作/_傾き…"
+msgstr "/基本操作/_傾き…"
 
 #: modules/process/tilt.c:94
 msgid "Tilt by specified amount"
@@ -16933,9 +16191,8 @@ msgid "_Same resolution"
 msgstr "_Same解像度"
 
 #: modules/process/tip_blind.c:376
-#, fuzzy
 msgid "Noise suppression t_hreshold:"
-msgstr "ノイズ対策t_hreshold:"
+msgstr "ノイズ抑制しきい値:"
 
 #: modules/process/tip_blind.c:384
 #, fuzzy
@@ -16957,9 +16214,8 @@ msgid "_Preview stripe:"
 msgstr "_Previewストライプ:"
 
 #: modules/process/tip_blind.c:420
-#, fuzzy
 msgid "Plot size _graph"
-msgstr "印刷サイズ_graph"
+msgstr "サイズグラフをプロット"
 
 #: modules/process/tip_blind.c:430
 #, fuzzy
@@ -17006,9 +16262,8 @@ msgid "Tip _type:"
 msgstr "ヒント_type:"
 
 #: modules/process/tip_model.c:228
-#, fuzzy
 msgid "_Number of sides:"
-msgstr "側面の_Number:"
+msgstr "側面の数:"
 
 #: modules/process/tip_model.c:234
 #, fuzzy
@@ -17189,9 +16444,8 @@ msgid "Trim Lowest"
 msgstr "トリム最低"
 
 #: modules/process/trimmed-mean.c:278 modules/process/trimmed-mean.c:312
-#, fuzzy
 msgid "_Number of values:"
-msgstr "値の_Number:"
+msgstr "値の個数:"
 
 #: modules/process/trimmed-mean.c:297
 msgid "Trim Highest"
@@ -17205,7 +16459,7 @@ msgstr "データを回転して、特性方向を x 軸または y 軸と平行
 
 #: modules/process/unrotate.c:98
 msgid "/_Correct Data/_Unrotate..."
-msgstr "/_データ補正/_自動回転補正…"
+msgstr "/データ補正/自動回転補正…"
 
 #: modules/process/unrotate.c:102
 #, fuzzy
@@ -17242,7 +16496,7 @@ msgstr "データフィールドを 3D ボリュームデータに変換しま�
 
 #: modules/process/volumize.c:56
 msgid "/_Basic Operations/Volumize"
-msgstr "/_基本操作/Volumize"
+msgstr "/基本操作/Volumize"
 
 #: modules/process/volumize.c:60
 #, fuzzy
@@ -17256,7 +16510,7 @@ msgstr "すべてのデータフィールドを 3D ボリュームデータに�
 
 #: modules/process/volumize_layers.c:100
 msgid "/_Basic Operations/Volumize Layers..."
-msgstr "/_基本操作/レイヤーをVolumize…"
+msgstr "/基本操作/レイヤーをVolumize…"
 
 #: modules/process/volumize_layers.c:104
 #, fuzzy
@@ -17310,9 +16564,8 @@ msgid "Waves"
 msgstr "波"
 
 #: modules/process/wave_synth.c:450
-#, fuzzy
 msgid "_Number of waves:"
-msgstr "波の_Number:"
+msgstr "波形の数:"
 
 #: modules/process/wave_synth.c:457 modules/process/wave_synth.c:619
 #: modules/tools/roughness.c:362
@@ -17367,9 +16620,8 @@ msgid "Segments image using watershed with pre- and postprocessing."
 msgstr "前処理と後処理を使用した集水域を使用した画像のセグメント。"
 
 #: modules/process/wpour_mark.c:203
-#, fuzzy
 msgid "/_Grains/_Mark by Segmentation..."
-msgstr "/_粒子/セグメンテーションで_Mark。"
+msgstr "/粒子/セグメンテーションで_Mark。"
 
 #: modules/process/wpour_mark.c:207
 msgid "Segment using watershed "
@@ -17380,7 +16632,6 @@ msgid "Segment by Watershed"
 msgstr "Watershedによる領域"
 
 #: modules/process/wpour_mark.c:315
-#, fuzzy
 msgid "Preprocessing"
 msgstr "前処理"
 
@@ -17400,14 +16651,12 @@ msgid "_Barrier level:"
 msgstr "_Barrierレベル:"
 
 #: modules/process/wpour_mark.c:342
-#, fuzzy
 msgid "Prefill _level:"
-msgstr "プレフィル_level:"
+msgstr "埋めるレベルl:"
 
 #: modules/process/wpour_mark.c:346
-#, fuzzy
 msgid "Pre_fill from minima:"
-msgstr "ミニマからのPre_fill:"
+msgstr "最小値で埋める:"
 
 #: modules/process/wpour_mark.c:351
 msgid "Postprocessing"
@@ -17418,7 +16667,6 @@ msgid "Original image"
 msgstr "元の画像"
 
 #: modules/process/wpour_mark.c:382
-#, fuzzy
 msgid "Preprocessed image"
 msgstr "前処理された画像"
 
@@ -17428,7 +16676,6 @@ msgid "_Image preview:"
 msgstr "_Imageプレビュー:"
 
 #: modules/process/wpour_mark.c:392
-#, fuzzy
 msgid "No mask"
 msgstr "マスクなし"
 
@@ -17439,19 +16686,17 @@ msgstr "後処理済み"
 #: modules/process/wpour_mark.c:399
 #, fuzzy
 msgid "_Mask preview:"
-msgstr "_マスクプレビュー:"
+msgstr "マスクプレビュー:"
 
 #: modules/process/wpour_mark.c:406
 msgid "No updates"
 msgstr "更新しない"
 
 #: modules/process/wpour_mark.c:408
-#, fuzzy
 msgid "Preprocess image"
-msgstr "イメージの前処理"
+msgstr "画像の前処理"
 
 #: modules/process/wpour_mark.c:410
-#, fuzzy
 msgid "Preprocess and mark"
 msgstr "前処理とマーク"
 
@@ -17461,7 +16706,7 @@ msgstr "周期値を別の範囲にラップします。"
 
 #: modules/process/wrapvalue.c:127
 msgid "/_Basic Operations/_Wrap Value..."
-msgstr "/_基本操作/_値の連続化…"
+msgstr "/基本操作/_値の連続化…"
 
 #: modules/process/wrapvalue.c:131
 msgid "Rewrap periodic values"
@@ -17509,9 +16754,8 @@ msgid "_Range:"
 msgstr "_Range:"
 
 #: modules/process/wrapvalue.c:314
-#, fuzzy
 msgid "O_ffset:"
-msgstr "O_ffset:"
+msgstr "オフセット:"
 
 #: modules/process/xydenoise.c:58
 #, fuzzy
@@ -17521,7 +16765,7 @@ msgstr "2つの直交スキャンに基づいてノイズ除去測定。"
 #: modules/process/xydenoise.c:72
 #, fuzzy
 msgid "/M_ultidata/_XY Denoise..."
-msgstr "/_複数のデータ処理/_XYデノイズ."
+msgstr "/複数のデータ処理/_XYデノイズ."
 
 #: modules/process/xydenoise.c:76
 #, fuzzy
@@ -17563,7 +16807,7 @@ msgstr "3 つのチャネルを XYZ データに変換します。"
 
 #: modules/process/xyz_channels.c:82
 msgid "/_Basic Operations/XYZ from C_hannels..."
-msgstr "/_基本操作/3チャンネルからXYZ作成…"
+msgstr "/基本操作/3チャンネルからXYZ作成…"
 
 #: modules/process/xyz_channels.c:86
 #, fuzzy
@@ -17593,7 +16837,7 @@ msgstr "データ フィールドを XYZ データに変換します。"
 
 #: modules/process/xyzize.c:55
 msgid "/_Basic Operations/_XYZize..."
-msgstr "/_基本操作/_画像からXYZデータへ…"
+msgstr "/基本操作/_画像からXYZデータへ…"
 
 #: modules/process/xyzize.c:59
 msgid "Convert to XYZ data"
@@ -17607,12 +16851,12 @@ msgstr "ゼロ交差エッジ検出。"
 #: modules/process/zero_crossing.c:124
 #, fuzzy
 msgid "/_Presentation/_Edge Detection/_Zero Crossing..."
-msgstr "/_表現/_Edge検出/_Zeroクロッシング."
+msgstr "/画像処理ツール/輪郭検出/_Zeroクロッシング."
 
 #: modules/process/zero_crossing.c:128
 #, fuzzy
 msgid "Zero crossing step detection presentation"
-msgstr "ゼロ交差ステップ検出プレゼンテーション"
+msgstr "ゼロ交差ステップ検出画像処理"
 
 #: modules/process/zero_crossing.c:176
 #, fuzzy
@@ -17620,7 +16864,6 @@ msgid "Zero Crossing Step Detection"
 msgstr "ゼロクロッシングステップ検出"
 
 #: modules/process/zero_crossing.c:224
-#, fuzzy
 msgid "NRMS"
 msgstr "NRMS"
 
@@ -17648,7 +16891,6 @@ msgid "Pygwy Console"
 msgstr "ピグウィコンソール"
 
 #: modules/pygwy/pygwy-console.c:179
-#, fuzzy
 msgid "Open script in Python language (Ctrl-O)"
 msgstr "Python 言語でスクリプトを開く (Ctrl-O)"
 
@@ -17686,7 +16928,6 @@ msgid "Save Python Script as"
 msgstr "Python スクリプトの保存方法"
 
 #: modules/pygwy/pygwy-console.c:421
-#, fuzzy
 msgid "Open Python Script"
 msgstr "Python スクリプトを開く"
 
@@ -17864,9 +17105,8 @@ msgstr "距離テーブルの保存"
 #. TRANSLATORS: Number is verb here.
 #: modules/tools/distance.c:264 modules/tools/profile.c:489
 #: modules/tools/rprofile.c:419
-#, fuzzy
 msgid "_Number lines"
-msgstr "_Number行"
+msgstr "行数"
 
 #: modules/tools/filter.c:131
 #, fuzzy
@@ -17926,7 +17166,7 @@ msgstr "粒子除去ツールは、マスクや基礎データの連続部分を
 #: modules/tools/grainremover.c:114
 #, fuzzy
 msgid "_Mask"
-msgstr "_マスク"
+msgstr "マスク"
 
 #: modules/tools/grainremover.c:120 modules/tools/spotremove.c:293
 #, fuzzy
@@ -18025,7 +17265,7 @@ msgstr "_Unmaskedに設定"
 #: modules/tools/icolorange.c:400
 #, fuzzy
 msgid "Set to _Masked"
-msgstr "_マスクedに設定"
+msgstr "マスクedに設定"
 
 #: modules/tools/icolorange.c:412
 #, fuzzy
@@ -18257,14 +17497,14 @@ msgid "_Prevent grain merging by growing"
 msgstr "_Prevent成長による粒子の融合"
 
 #: modules/tools/pathlevel.c:111
-#, fuzzy
 msgid "Path level tool, performs row leveling along on user-set lines."
-msgstr "パスレベルツールは、ユーザが設定した行に沿って行の平準化を実行します。"
+msgstr ""
+"パスレベリングツールは、ユーザが設定したパスに沿ってスキャンラインを揃えてレ"
+"ベリングします。"
 
 #: modules/tools/pathlevel.c:144
-#, fuzzy
 msgid "Path Level"
-msgstr "パスレベル"
+msgstr "パスレベリング"
 
 #: modules/tools/pathlevel.c:145
 msgid "Level rows using intersections with given lines"
@@ -18351,7 +17591,6 @@ msgid "calib-data|None"
 msgstr "キャリブデータ|なし"
 
 #: modules/tools/readvalue.c:168
-#, fuzzy
 msgid "Pointer tool, reads value under pointer."
 msgstr "ポインタツールは、ポインタの下の値を読み取ります。"
 
@@ -18529,7 +17768,6 @@ msgid "Root mean square (RMS) wavelength of the profile"
 msgstr "プロファイルの二乗平均平方根 (RMS) 波長"
 
 #: modules/tools/roughness.c:457 modules/tools/stats.c:408
-#, fuzzy
 msgid "parameters|Hybrid"
 msgstr "パラメーター|ハイブリッド"
 
@@ -18572,9 +17810,8 @@ msgid "BRC"
 msgstr "Brc"
 
 #: modules/tools/roughness.c:512 modules/tools/roughness.c:1236
-#, fuzzy
 msgid "Peak Count"
-msgstr "ピークカウント"
+msgstr "ピーク数"
 
 #: modules/tools/roughness.c:551
 #, fuzzy
@@ -18587,7 +17824,6 @@ msgid "_Graph:"
 msgstr "_Graph:"
 
 #: modules/tools/roughness.c:1025
-#, fuzzy
 msgid "No profile selected."
 msgstr "プロファイルが選択されていません。"
 
@@ -18726,14 +17962,12 @@ msgid "_Separate uncertainty"
 msgstr "不確実性_Separate"
 
 #: modules/tools/spectro.c:154
-#, fuzzy
 msgid "Point Spectrum, extracts point spectra to a graph."
-msgstr "ポイントスペクトルは、グラフに点スペクトルを抽出します。"
+msgstr "ポイントスペクトロスコピーは、グラフに点スペクトルを抽出します。"
 
 #: modules/tools/spectro.c:193
-#, fuzzy
 msgid "Point Spectroscopy"
-msgstr "ポイント分光法"
+msgstr "ポイントスペクトロスコピー"
 
 #: modules/tools/spectro.c:194
 #, fuzzy
@@ -18793,7 +18027,6 @@ msgid "Ellipse"
 msgstr "楕円"
 
 #: modules/tools/spotremove.c:814
-#, fuzzy
 msgid "No point in the image selected."
 msgstr "画像内のポイントが選択されていません。"
 
@@ -18865,9 +18098,8 @@ msgid "Moment-Based"
 msgstr "モーメントベース"
 
 #: modules/tools/stats.c:406
-#, fuzzy
 msgid "Order-Based"
-msgstr "注文ベース"
+msgstr "次数ベース"
 
 #: modules/tools/stats.c:410
 msgid "Other"
@@ -18925,7 +18157,7 @@ msgstr "ボリューム データのディメンションまたは値の範囲�
 
 #: modules/volume/volume_calibrate.c:189
 msgid "/_Dimensions and Units..."
-msgstr "/_次元と単位…"
+msgstr "/次元と単位…"
 
 #: modules/volume/volume_calibrate.c:326
 #, fuzzy
@@ -19028,7 +18260,6 @@ msgid "Z scale"
 msgstr "Zスケール"
 
 #: modules/volume/volume_extract.c:356
-#, fuzzy
 msgid "Opacity scale"
 msgstr "不透明度スケール"
 
@@ -19134,9 +18365,8 @@ msgid "K-means"
 msgstr "K-平均"
 
 #: modules/volume/volume_kmeans.c:170 modules/volume/volume_kmedians.c:163
-#, fuzzy
 msgid "_Number of clusters:"
-msgstr "クラスタの_Number:"
+msgstr "クラスタ数:"
 
 #: modules/volume/volume_kmeans.c:177 modules/volume/volume_kmedians.c:170
 msgid "Convergence _precision digits:"
@@ -19158,9 +18388,8 @@ msgid "_Remove outliers"
 msgstr "外れ値を_Remove"
 
 #: modules/volume/volume_kmeans.c:202
-#, fuzzy
 msgid "Outliers _threshold:"
-msgstr "外れ値_threshold:"
+msgstr "外れ値しきい値:"
 
 #: modules/volume/volume_kmeans.c:425
 #, fuzzy
@@ -19178,7 +18407,7 @@ msgid "K-means error of %s"
 msgstr "k-平均%s誤差"
 
 #: modules/volume/volume_kmeans.c:664 modules/volume/volume_kmedians.c:512
-#, fuzzy, c-format
+#, c-format
 msgid "Pre-normalized intensity of %s"
 msgstr "%sの正規化された強度"
 
@@ -19402,9 +18631,8 @@ msgid "_Z:"
 msgstr "_Z:"
 
 #: modules/volume/volume_rephase.c:405
-#, fuzzy
 msgid "Place second curve to the _right"
-msgstr "2 番目のカーブを_rightに配置する"
+msgstr "2 番目のカーブを右に配置する"
 
 #: modules/volume/volume_rephase.c:414
 #, fuzzy
@@ -19412,12 +18640,10 @@ msgid "_Invert second curve"
 msgstr "2 番目_Invertカーブ"
 
 #: modules/volume/volume_rephase.c:816
-#, fuzzy
 msgid "Phase adjusted result A"
 msgstr "位相調整結果A"
 
 #: modules/volume/volume_rephase.c:825
-#, fuzzy
 msgid "Phase adjusted result B"
 msgstr "位相調整結果B"
 
@@ -19437,9 +18663,8 @@ msgid "Extracts image planes and line graphs from volume data."
 msgstr "ボリューム データからイメージ プレーンと線グラフを抽出します。"
 
 #: modules/volume/volume_slice.c:213
-#, fuzzy
 msgid "/Cut and _Slice..."
-msgstr "/カットと_Slice."
+msgstr "/カットとスライス…"
 
 #: modules/volume/volume_slice.c:217
 #, fuzzy
@@ -19517,7 +18742,6 @@ msgid "Single value evolution"
 msgstr "単一値の進化"
 
 #: modules/volume/volume_strayfield.c:133
-#, fuzzy
 msgid "Plane variance"
 msgstr "平面分散"
 
@@ -19722,7 +18946,6 @@ msgid "Analyze and/or remove drift"
 msgstr "ドリフトの分析および/または削除"
 
 #: modules/xyz/xyz_drift.c:362
-#, fuzzy
 msgid ""
 "No timestamp channel found, either called 'Timestamp' or having units in "
 "seconds."
@@ -19849,7 +19072,6 @@ msgid "No neighbors found"
 msgstr "隣接するものが見つかりません"
 
 #: modules/xyz/xyz_drift.c:2269 modules/xyz/xyz_raster.c:1004
-#, fuzzy
 msgid "Physical dimensions are invalid."
 msgstr "物理寸法が無効です。"
 
@@ -19859,7 +19081,6 @@ msgid "Simple XYZ data leveling."
 msgstr "シンプルな XYZ データの平準化。"
 
 #: modules/xyz/xyz_level.c:108
-#, fuzzy
 msgid "/Fix _Zero"
 msgstr "/_Zeroを修正"
 
@@ -19878,7 +19099,6 @@ msgid "Level data by mean plane correction"
 msgstr "平均平面補正によるレベルデータ"
 
 #: modules/xyz/xyz_level.c:225
-#, fuzzy
 msgid "Plane subtraction"
 msgstr "平面減算"
 
@@ -19929,10 +19149,10 @@ msgstr "フィールド"
 
 #: modules/xyz/xyz_raster.c:660
 msgid "_Mask empty regions"
-msgstr "空の領域を_マスク"
+msgstr "空の領域をマスク"
 
 #: modules/xyz/xyz_raster.c:968
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Number of points: %u\n"
 "Merged as too close: %u\n"
@@ -20014,6 +19234,5 @@ msgid "_Average coincident points"
 msgstr "一致ポイント_Average"
 
 #: modules/xyz/xyzops.c:309
-#, fuzzy
 msgid "Merged"
 msgstr "マージ"
