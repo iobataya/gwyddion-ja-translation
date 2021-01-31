@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Gwyddion\n"
 "Report-Msgid-Bugs-To: yeti@gwyddion.net\n"
 "POT-Creation-Date: 2021-01-18 02:14+0100\n"
-"PO-Revision-Date: 2021-01-25 10:45+0900\n"
+"PO-Revision-Date: 2021-01-31 16:10+0900\n"
 "Language-Team: https://github.com/iobataya/gwyddion-ja-translation\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -767,19 +767,19 @@ msgstr "イメージ全体を使用する (マスクを無視)"
 
 #: libprocess/gwyprocessenums.c:625
 msgid "distance|City-block"
-msgstr "シティブロック"
+msgstr "マンハッタン距離"
 
 #: libprocess/gwyprocessenums.c:626
 msgid "distance|Chess"
-msgstr "チェス"
+msgstr "チェス盤距離"
 
 #: libprocess/gwyprocessenums.c:627
 msgid "distance|Octagonal 4,8"
-msgstr "八角形 4,8"
+msgstr "八角形距離 4,8"
 
 #: libprocess/gwyprocessenums.c:628
 msgid "distance|Octagonal 8,4"
-msgstr "八角形 8,4"
+msgstr "八角形距離 8,4"
 
 #: libprocess/gwyprocessenums.c:629
 msgid "distance|Octagonal"
@@ -791,7 +791,7 @@ msgstr "ユークリッド"
 
 #: libprocess/gwyshapefitpreset.c:506 modules/process/indent_analyze.c:263
 msgid "Plane"
-msgstr "飛行機"
+msgstr "平面"
 
 #: libprocess/gwyshapefitpreset.c:507
 msgid "Step (one-sided)"
@@ -2306,7 +2306,7 @@ msgstr "ログのエクスポート"
 
 #: app/menu.c:555 gwyddion/toolbox.c:625
 msgid "_Data Process"
-msgstr "データプロセス"
+msgstr "データ処理"
 
 #: app/menu.c:597 gwyddion/toolbox.c:628
 msgid "_Graph"
@@ -2453,7 +2453,7 @@ msgstr "3D-brick%dが%sに存在しません"
 #: app/validate.c:443
 #, c-format
 msgid "no surface %d exists for %s"
-msgstr "サーフェス%dが%sに存在しません"
+msgstr "表面%dが%sに存在しません"
 
 #: app/validate.c:498
 #, c-format
@@ -2712,8 +2712,8 @@ msgid ""
 "not change the underlying data.  All subsequent operations still apply to "
 "the underlying data."
 msgstr ""
-"データ プロセス→画像処理ツールよって作成された画像処理では、基になるデータは"
-"変更されません。 後続のすべての操作は、引き続き基になるデータに適用されます。"
+"データ処理→画像処理ツールよって作成された画像処理では、基になるデータは変更さ"
+"れません。 後続のすべての操作は、引き続き基になるデータに適用されます。"
 
 #: gwyddion/tips.c:88
 msgid ""
@@ -2989,22 +2989,22 @@ msgid ""
 msgstr ""
 "ファセット レベルでは、多くの場合、標準平面の平準化を使用できない大きなフィー"
 "チャを使用してデータを平準化できます。 平坦な領域の法線を上向きにすることで、"
-"サーフェスを水平にします。"
+"表面を水平にします。"
 
 #: gwyddion/tips.c:291
 msgid ""
 "Flatten Base performs automated leveling of base flat surface with positive "
 "features."
 msgstr ""
-"[ベースを平坦化]は、正のフィーチャを持つベース フラット サーフェスの自動平準"
-"化を実行します。"
+"[ベースを平坦化]は、正のフィーチャを持つベース フラット 表面の自動平準化を実"
+"行します。"
 
 #: gwyddion/tips.c:296
 msgid ""
 "Too small grains can be filtered out with Data Process → Grains → Filter."
 msgstr ""
-"データ プロセス → 粒子→ フィルタを使用すると、小さすぎる粒度をフィルタで除外"
-"できます。"
+"データ処理 → 粒子→ フィルタを使用すると、小さすぎる粒度をフィルタで除外できま"
+"す。"
 
 #: gwyddion/tips.c:301
 msgid ""
@@ -3019,8 +3019,8 @@ msgid ""
 "Data Process → Basic Operations → Dimensions and Units changes scales, "
 "offsets and even lateral and value units."
 msgstr ""
-"データプロセス→寸法と単位→基本的な操作によって、スケール、オフセット、横方向"
-"および値単位が変更されます。"
+"データ処理→寸法と単位→基本的な操作によって、スケール、オフセット、横方向およ"
+"び値単位が変更されます。"
 
 #: gwyddion/tips.c:311
 msgid ""
@@ -3177,7 +3177,7 @@ msgstr "Gwyddionは数学の申し子です。"
 
 #: gwyddion/tips.c:483
 msgid "Gwyddion Tip of the Day"
-msgstr "Gwyddion Tip of the Day"
+msgstr "Gwyddion 今日のヒント"
 
 #: gwyddion/tips.c:496
 msgid "_Previous Tip"
@@ -3276,7 +3276,7 @@ msgstr "組み込み"
 
 #: gwyddion/toolbox-editor.c:1005 gwyddion/toolbox.c:113
 msgid "Data Process"
-msgstr "データプロセス"
+msgstr "データ処理"
 
 #: gwyddion/toolbox-editor.c:1007
 msgid "Volume Data"
@@ -3309,7 +3309,7 @@ msgstr "非インタラクティブ"
 
 #: gwyddion/toolbox-editor.c:1033
 msgid "Use _icon from:"
-msgstr "ここからアイコン使用:"
+msgstr "アイコン一覧:"
 
 #: gwyddion/toolbox-editor.c:1067
 msgid "Functions"
@@ -3337,7 +3337,7 @@ msgstr "組み込み"
 
 #: gwyddion/toolbox-spec.c:48
 msgid "proc"
-msgstr "proc"
+msgstr "処理"
 
 #: gwyddion/toolbox-spec.c:49
 msgid "graph"
@@ -3433,7 +3433,7 @@ msgstr "/ユーザーガイド"
 
 #: gwyddion/toolbox.c:871
 msgid "/_Tip of the Day"
-msgstr "/Tip of the Day"
+msgstr "/今日のヒント"
 
 #: gwyddion/toolbox.c:879
 msgid "/_About Gwyddion"
@@ -4693,7 +4693,7 @@ msgstr "単位の変更"
 #: modules/process/calibrate.c:1100 modules/process/dimensions.h:191
 #: modules/process/volumize_layers.c:331 modules/volume/volume_calibrate.c:1030
 msgid "New _units:"
-msgstr "新しい_units:"
+msgstr "新しい単位:"
 
 #: modules/file/hitachi-afm.c:107
 msgid "Imports Hitachi AFM files."
@@ -4738,7 +4738,7 @@ msgstr ""
 
 #: modules/file/igorfile.c:211
 msgid "Imports Igor binary waves (.ibw)."
-msgstr "Imports Igor binary waves (.ibw)."
+msgstr "Igorのバイナリ波形(.ibw)をインポートします。"
 
 #: modules/file/igorfile.c:224
 msgid "Igor binary waves (.ibw)"
@@ -6242,7 +6242,7 @@ msgstr "値 (最大)"
 
 #: modules/file/pixmap.c:203
 msgid "RGB sum"
-msgstr "RGB の合計"
+msgstr "RGB合計"
 
 #: modules/file/pixmap.c:204
 msgid "Luma"
@@ -6254,7 +6254,7 @@ msgstr "色相"
 
 #: modules/file/pixmap.c:206
 msgid "Alpha"
-msgstr "Alpha"
+msgstr "アルファ値"
 
 #: modules/file/pixmap.c:250
 msgid "Graphics Interchange Format GIF (.gif)"
@@ -8085,7 +8085,7 @@ msgstr "テラス(理想的)"
 #: modules/graph/graph_terraces.c:1432 modules/process/terracefit.c:282
 #: modules/process/terracefit.c:709
 msgid "Leveled surface"
-msgstr "サーフェスのレベリング"
+msgstr "表面のレベリング"
 
 #: modules/graph/graph_terraces.c:263 modules/graph/graph_terraces.c:579
 #: modules/graph/graph_terraces.c:1447 modules/process/terracefit.c:283
@@ -8147,7 +8147,7 @@ msgstr "アンケート"
 
 #: modules/graph/graph_terraces.c:520 modules/process/terracefit.c:651
 msgid "_Step detection kernel:"
-msgstr "_Step検出カーネル:"
+msgstr "ステップ検出カーネル:"
 
 #: modules/graph/graph_terraces.c:528 modules/process/terracefit.c:659
 msgid "Step detection _threshold:"
@@ -8553,7 +8553,7 @@ msgstr "格子ガスモデルをアニーリングして画像を生成します
 
 #: modules/process/anneal_synth.c:184
 msgid "/S_ynthetic/_Anneal..."
-msgstr "/合成・生成/_Anneal…"
+msgstr "/合成・生成/アニーリング…"
 
 #: modules/process/anneal_synth.c:188
 msgid "Generate image by annealing a lattice gas"
@@ -8601,7 +8601,7 @@ msgstr "初期化しています…"
 #: modules/process/roddeposit_synth.c:651
 #: modules/process/roddeposit_synth.c:664 modules/process/wave_synth.c:344
 msgid "Generated"
-msgstr "Generated"
+msgstr "生成画像"
 
 #: modules/process/anneal_synth.c:328
 msgid "Anneal"
@@ -8811,7 +8811,7 @@ msgstr "反転、値反転、回転などの基本的な操作を 90 度の倍�
 
 #: modules/process/basicops.c:70
 msgid "/_Basic Operations/_Invert Value"
-msgstr "/基本操作/_Invert値"
+msgstr "/基本操作/値反転"
 
 #: modules/process/basicops.c:74
 msgid "Invert values about mean"
@@ -8835,7 +8835,7 @@ msgstr "データを縦に反転する"
 
 #: modules/process/basicops.c:91
 msgid "/_Basic Operations/Flip Dia_gonally"
-msgstr "/基本操作/_斜めフリップ"
+msgstr "/基本操作/斜めフリップ"
 
 #: modules/process/basicops.c:95
 msgid "Flip data diagonally"
@@ -8843,7 +8843,7 @@ msgstr "データを斜めに反転"
 
 #: modules/process/basicops.c:98
 msgid "/_Basic Operations/Flip _Both"
-msgstr "/基本操作/_両方フリップ"
+msgstr "/基本操作/両方フリップ"
 
 #: modules/process/basicops.c:102
 msgid "Flip data both horizontally and vertically"
@@ -8875,15 +8875,15 @@ msgstr "正方形のサンプルに対する非 1:1 アスペクト比を持つ�
 
 #: modules/process/basicops.c:127
 msgid "/_Basic Operations/_Null Offsets"
-msgstr "/基本操作/_Nullオフセット"
+msgstr "/基本操作/オフセットをリセット"
 
 #: modules/process/basicops.c:131
 msgid "Null horizontal offsets, moving the origin to the upper left corner"
-msgstr "原点を左上隅に移動する、水平方向のオフセットを無効にする"
+msgstr "原点を左上隅に移動し、水平方向のオフセットを無効にする"
 
 #: modules/process/bdep_synth.c:152
 msgid "Generates surfaces by ballistic deposition."
-msgstr "弾道堆積によってサーフェスを生成。"
+msgstr "弾道堆積によって表面を生成。"
 
 #: modules/process/bdep_synth.c:166
 msgid "/S_ynthetic/_Deposition/_Ballistic..."
@@ -8891,7 +8891,7 @@ msgstr "/合成・生成/堆積/弾道…"
 
 #: modules/process/bdep_synth.c:170
 msgid "Generate surface by ballistic deposition"
-msgstr "弾道堆積によるサーフェスの生成"
+msgstr "弾道堆積による表面の生成"
 
 #: modules/process/bdep_synth.c:304 modules/process/col_synth.c:350
 #: modules/process/diff_synth.c:371
@@ -8913,7 +8913,7 @@ msgstr "被覆:"
 #: modules/process/bdep_synth.c:446 modules/process/col_synth.c:534
 #: modules/process/diff_synth.c:550
 msgid "Evolution"
-msgstr "Evolution"
+msgstr "進行プロット"
 
 #: modules/process/bdep_synth.c:449 modules/process/col_synth.c:537
 #: modules/process/diff_synth.c:553
@@ -8931,7 +8931,7 @@ msgstr "ビニングで小さいイメージを作成。"
 
 #: modules/process/binning.c:127
 msgid "/_Basic Operations/_Binning..."
-msgstr "/基本操作/_ビニング…"
+msgstr "/基本操作/ビニング…"
 
 #: modules/process/binning.c:131
 msgid "Reduce size by binning"
@@ -8992,7 +8992,7 @@ msgstr "テキストファイルからキャリブレーションデータを読
 
 #: modules/process/calcoefs_load.c:98
 msgid "/Cali_bration/_Load From Text File..."
-msgstr "/キャリブレーション/_テキストファイルから読み込む…"
+msgstr "/キャリブレーション/テキストファイルから読み込む…"
 
 #: modules/process/calcoefs_load.c:102
 msgid "Load calibration data from text file."
@@ -9125,7 +9125,7 @@ msgstr "グレーティング測定に基づく単純なエラーマップ"
 
 #: modules/process/calcoefs_simple.c:182
 msgid "/Cali_bration/_Get Simple Errop Map..."
-msgstr "/キャリブレーション/_シンプルなエラーマップ…"
+msgstr "/キャリブレーション/シンプルなエラーマップ…"
 
 #: modules/process/calcoefs_simple.c:186
 msgid "Simple error mapping"
@@ -9196,15 +9196,15 @@ msgstr "デジタルAFMデータの再校正"
 
 #: modules/process/calcoefs_stage.c:86
 msgid "/Cali_bration/_3D Calibration/_Get From Stage map..."
-msgstr "/キャリブレーション/_3Dキャリブレーション/Get From Stage map…"
+msgstr "/キャリブレーション/3Dキャリブレーション/ステージマッピングから…"
 
 #: modules/process/calcoefs_stage.c:90
 msgid "Stage error mapping"
-msgstr "ステージ エラーマッピング"
+msgstr "ステージエラーマッピング"
 
 #: modules/process/calcoefs_stage.c:127
 msgid "Stage Error Map"
-msgstr "ステージ エラー マップ"
+msgstr "ステージエラーマップ"
 
 #: modules/process/calcoefs_view.c:236
 msgid "3D calibration/uncertainty"
@@ -9244,7 +9244,7 @@ msgstr "平面："
 
 #: modules/process/calcoefs_view.c:454
 msgid "X position:"
-msgstr "X 位置:"
+msgstr "X位置:"
 
 #: modules/process/calcoefs_view.c:461
 msgid "Y position:"
@@ -9534,7 +9534,7 @@ msgstr "トレーニング分類器…"
 
 #: modules/process/coerce.c:170
 msgid "Transforms surfaces to have prescribed statistical properties."
-msgstr "サーフェスを、指定された統計的特性に変換します。"
+msgstr "表面を指定された統計的特性に変換します。"
 
 #: modules/process/coerce.c:184
 msgid "/_Distortion/Co_erce..."
@@ -9561,7 +9561,7 @@ msgstr "ガウス"
 
 #: modules/process/coerce.c:238
 msgid "distribution|Skew-normal"
-msgstr "スキューノーマル"
+msgstr "Skew Normal"
 
 #: modules/process/coerce.c:239
 msgid "As another data"
@@ -9613,7 +9613,7 @@ msgstr "極大値の数"
 
 #: modules/process/col_synth.c:196
 msgid "Generates columnar surfaces by a simple growth algorithm."
-msgstr "単純な成長アルゴリズムによって、柱状サーフェスを生成します。"
+msgstr "単純な成長アルゴリズムによって、柱状表面を生成します。"
 
 #: modules/process/col_synth.c:210
 msgid "/S_ynthetic/_Deposition/_Columnar..."
@@ -9621,11 +9621,11 @@ msgstr "/合成・生成/堆積/柱状…"
 
 #: modules/process/col_synth.c:214
 msgid "Generate columnar surface"
-msgstr "柱状サーフェスを生成する"
+msgstr "柱状表面を生成する"
 
 #: modules/process/col_synth.c:390
 msgid "Grow Columnar Surface"
-msgstr "柱状サーフェスを拡大する"
+msgstr "柱状表面を拡大する"
 
 #: modules/process/col_synth.c:472
 msgid "Particle Size"
@@ -9795,13 +9795,11 @@ msgstr "畳み込み"
 msgid ""
 "Corrects affine distortion of images by matching image Bravais lattice to "
 "the true one."
-msgstr ""
-"Corrects affine distortion of images by matching image Bravais lattice to "
-"the true one."
+msgstr "元の像をブラべー格子像に適合させ、アフィン変換で補正します。"
 
 #: modules/process/correct_affine.c:235
 msgid "/_Distortion/_Affine..."
-msgstr "/歪み/アフィン変…"
+msgstr "/歪み/アフィン変換…"
 
 #: modules/process/correct_affine.c:239
 msgid "Correct affine distortion"
@@ -9824,7 +9822,7 @@ msgstr "微調整"
 #: modules/process/correct_affine.c:399 modules/process/fft_filter_2d.c:530
 #: modules/process/psf.c:493 modules/volume/volume_psf.c:532
 msgid "Preview Options"
-msgstr "プレビュー オプション"
+msgstr "プレビューオプション"
 
 #: modules/process/correct_affine.c:404
 #: modules/process/correct_perspective.c:263
@@ -9843,7 +9841,7 @@ msgstr "データ"
 
 #: modules/process/correct_affine.c:413
 msgid "2D _ACF"
-msgstr "2D _ACF"
+msgstr "2D ACF"
 
 #: modules/process/correct_affine.c:414
 #: modules/process/correct_perspective.c:272 modules/process/drift.c:353
@@ -10049,7 +10047,7 @@ msgstr "マルチチャネル相互相関"
 
 #: modules/process/crosscor.c:382
 msgid "Second _source data:"
-msgstr "2 番目の_sourceデータ:"
+msgstr "2番目の元データ:"
 
 #: modules/process/crosscor.c:397
 msgid "Correlate with:"
@@ -10169,7 +10167,7 @@ msgstr "2 次元 CWT (連続ウェーブレット変換)。"
 
 #: modules/process/cwt.c:80
 msgid "/_Integral Transforms/2D _CWT..."
-msgstr "/積分変換/2D _CWT…"
+msgstr "/積分変換/2D CWT…"
 
 #: modules/process/cwt.c:84
 msgid "Compute continuous wavelet transform"
@@ -10260,7 +10258,7 @@ msgstr "L-curve データ計算中…"
 
 #: modules/process/deposit_synth.c:161
 msgid "Generates particles using simple dynamical model"
-msgstr "単純な動的モデルを使用してパーティクルを生成"
+msgstr "単純な動的モデルを使用して粒子を生成"
 
 #: modules/process/deposit_synth.c:175
 msgid "/S_ynthetic/_Deposition/_Particles..."
@@ -10268,7 +10266,7 @@ msgstr "/合成・生成/堆積/粒子…"
 
 #: modules/process/deposit_synth.c:179
 msgid "Generate particles using dynamical model"
-msgstr "動的モデルを使用してパーティクルを生成する"
+msgstr "動的モデルを使用して粒子を生成する"
 
 #: modules/process/deposit_synth.c:276 modules/process/deposit_synth.c:736
 #: modules/process/roddeposit_synth.c:320
@@ -10312,19 +10310,19 @@ msgstr "変更計算を実行しています。"
 
 #: modules/process/deposit_synth.c:1247 modules/process/roddeposit_synth.c:1935
 msgid "Error: too many particles."
-msgstr "エラー: パーティクルが多すぎます。"
+msgstr "エラー: 粒子が多すぎます。"
 
 #: modules/process/deposit_synth.c:1249 modules/process/roddeposit_synth.c:1937
 msgid "Error: no particles."
-msgstr "エラー: パーティクルがありません。"
+msgstr "エラー: 粒子がありません。"
 
 #: modules/process/deposit_synth.c:1251 modules/process/roddeposit_synth.c:1939
 msgid "Error: particles too large."
-msgstr "エラー: パーティクルが大きすぎます。"
+msgstr "エラー: 粒子が大きすぎます。"
 
 #: modules/process/deposit_synth.c:1253 modules/process/roddeposit_synth.c:1941
 msgid "Error: particles too small."
-msgstr "エラー: パーティクルが小さすぎます。"
+msgstr "エラー: 粒子が小さすぎます。"
 
 #: modules/process/diff_synth.c:196
 msgid "Number of islands"
@@ -10332,7 +10330,7 @@ msgstr "島の数"
 
 #: modules/process/diff_synth.c:216
 msgid "Generates surfaces by diffusion limited aggregation."
-msgstr "拡散限定凝集によってサーフェスを生成します。"
+msgstr "拡散限定凝集によって表面を生成します。"
 
 #: modules/process/diff_synth.c:230
 msgid "/S_ynthetic/_Deposition/_Diffusion..."
@@ -10340,7 +10338,7 @@ msgstr "/合成・生成/堆積/拡散…"
 
 #: modules/process/diff_synth.c:234
 msgid "Generate surface by diffusion limited aggregation"
-msgstr "拡散限定凝集によるサーフェスの生成"
+msgstr "拡散限定凝集による表面の生成"
 
 #: modules/process/diff_synth.c:406
 msgid "Diffusion Limited Aggregation"
@@ -10518,7 +10516,7 @@ msgstr "乱数の根:"
 
 #: modules/process/displfield.c:485 modules/process/synth.h:635
 msgid "seed|_New"
-msgstr "_New"
+msgstr "新規"
 
 #: modules/process/displfield.c:496 modules/process/synth.h:647
 msgid "Randomi_ze"
@@ -10534,11 +10532,11 @@ msgstr "連続性阻害"
 
 #: modules/process/domain_synth.c:171
 msgid "Generates domain images using a hybrid Ising model."
-msgstr "ハイブリッド Ising モデルを使用してドメイン イメージを生成します。"
+msgstr "ハイブリッドイジングモデルを使用してドメインイメージを生成します。"
 
 #: modules/process/domain_synth.c:185
 msgid "/S_ynthetic/_Domains..."
-msgstr "/合成・生成/_Domains…"
+msgstr "/合成・生成/ドメイン…"
 
 #: modules/process/domain_synth.c:189
 msgid "Generate image with domains"
@@ -10574,7 +10572,7 @@ msgstr "モンテカルロ時間ステップ:"
 
 #: modules/process/drift.c:174
 msgid "Evaluates and/or correct thermal drift in fast scan axis."
-msgstr "高速スキャン軸の熱ドリフトを評価および/または修正します。"
+msgstr "高速スキャン軸の熱ドリフトを評価・補正します。"
 
 #: modules/process/drift.c:188
 msgid "/_Distortion/Compensate _Drift..."
@@ -10582,7 +10580,7 @@ msgstr "/歪み/ドリフトを補償する…"
 
 #: modules/process/drift.c:192
 msgid "Evaluate/correct thermal drift in fast scan axis"
-msgstr "高速スキャン軸の熱ドリフトを評価/補正"
+msgstr "高速スキャン軸の熱ドリフトを評価・補正"
 
 #: modules/process/drift.c:238
 msgid "Compensate Drift"
@@ -10594,7 +10592,7 @@ msgstr "検索範囲:"
 
 #: modules/process/drift.c:288
 msgid "rows"
-msgstr "行"
+msgstr "ライン"
 
 #: modules/process/drift.c:306
 msgid "Correct _data"
@@ -10956,7 +10954,7 @@ msgstr "自動面方向に基づくレベリング。面が上を指すように
 
 #: modules/process/facet-level.c:80
 msgid "/_Level/_Facet Level"
-msgstr "/レベリング/_多平面"
+msgstr "/レベリング/多平面レベリング"
 
 #: modules/process/facet-level.c:84
 msgid "Level data to make facets point upward"
@@ -10964,11 +10962,11 @@ msgstr "各面が上向きになるようにレベリング"
 
 #: modules/process/facet-level.c:120 modules/process/facet-level.c:131
 msgid "Facet Level"
-msgstr "面レベリング"
+msgstr "多平面レベリング"
 
 #: modules/process/facet-level.c:144 modules/process/flatten_base.c:251
 msgid "Facet-leveling..."
-msgstr "面レベリング…"
+msgstr "多平面レベリング…"
 
 #: modules/process/facet_analysis.c:315 modules/process/facet_measure.c:238
 msgid "Visualizes, marks and measures facet orientation."
@@ -10976,7 +10974,7 @@ msgstr "面の向きを視覚化、マーク、測定します。"
 
 #: modules/process/facet_analysis.c:329
 msgid "/Measure _Features/Facet _Analysis..."
-msgstr "/特徴抽出/面(Facet)の分析…"
+msgstr "/特徴抽出/面分析…"
 
 #: modules/process/facet_analysis.c:333
 msgid "Mark areas by 2D slope"
@@ -10984,7 +10982,7 @@ msgstr "2D 勾配でエリアをマークする"
 
 #: modules/process/facet_analysis.c:369 modules/process/facet_analysis.c:417
 msgid "Facet Analysis"
-msgstr "面(Facet)分析"
+msgstr "面分析"
 
 #. TRANSLATORS: Number is verb here.
 #: modules/process/facet_analysis.c:478
@@ -11009,7 +11007,7 @@ msgstr "面"
 
 #: modules/process/facet_analysis.c:575 modules/xyz/xyz_level.c:226
 msgid "Rotation"
-msgstr "ローテーション"
+msgstr "回転"
 
 #: modules/process/facet_analysis.c:655 modules/process/facet_measure.c:372
 msgid "Facet plane size:"
@@ -11074,7 +11072,7 @@ msgstr "θ = %.2f deg, φ = %.2f deg"
 
 #: modules/process/facet_measure.c:252
 msgid "/Measure _Features/Facet _Measurement..."
-msgstr "/特徴抽出/Facet _Measurement..."
+msgstr "/特徴抽出/面の解析…"
 
 #: modules/process/facet_measure.c:256
 msgid "Measure facet angles"
@@ -11102,11 +11100,11 @@ msgstr "ポイント"
 
 #: modules/process/fbm_synth.c:162
 msgid "Generates random surfaces similar to fractional Brownian motion."
-msgstr "非整数ブラウン運動に似たランダムなサーフェスを生成します。"
+msgstr "非整数ブラウン運動に似たランダムな表面を生成します。"
 
 #: modules/process/fbm_synth.c:176
 msgid "/S_ynthetic/_Brownian..."
-msgstr "/合成・生成/_Brownian…"
+msgstr "/合成・生成/ブラウン運動…"
 
 #: modules/process/fbm_synth.c:180
 msgid "Generate fractional Brownian motion-like surface"
@@ -11118,7 +11116,7 @@ msgstr "非整数ブラウン運動"
 
 #: modules/process/fbm_synth.c:375
 msgid "_Hurst exponent:"
-msgstr "Hurst指数:"
+msgstr "ハースト指数:"
 
 #: modules/process/fbm_synth.c:383
 msgid "_Stationarity scale:"
@@ -11131,7 +11129,7 @@ msgstr "分布:"
 
 #: modules/process/fbm_synth.c:396 modules/process/fft_synth.c:553
 msgid "Po_wer:"
-msgstr "パワー:"
+msgstr "べき乗:"
 
 #: modules/process/fbm_synth.c:407 modules/process/fft_synth.c:423
 #: modules/process/lno_synth.c:534 modules/process/noise_synth.c:431
@@ -11145,7 +11143,7 @@ msgstr "指数"
 
 #: modules/process/fbm_synth.c:477
 msgid "distribution|Power"
-msgstr "パワー"
+msgstr "べき乗数"
 
 #: modules/process/fft.c:126
 msgid "Two-dimensional FFT (Fast Fourier Transform)."
@@ -11153,7 +11151,7 @@ msgstr "2 次元 FFT (高速フーリエ変換)。"
 
 #: modules/process/fft.c:140
 msgid "/_Integral Transforms/2D _FFT..."
-msgstr "/積分変換/2D _FFT…"
+msgstr "/積分変換/2D FFT…"
 
 #: modules/process/fft.c:144
 msgid "Compute Fast Fourier Transform"
@@ -11161,11 +11159,11 @@ msgstr "高速フーリエ変換の計算"
 
 #: modules/process/fft.c:232
 msgid "FFT Real"
-msgstr "FFT Real"
+msgstr "FFT 実部"
 
 #: modules/process/fft.c:236
 msgid "FFT Imaginary"
-msgstr "FFT Imaginary"
+msgstr "FFT 虚部"
 
 #: modules/process/fft.c:241
 msgid "FFT Modulus"
@@ -11177,7 +11175,7 @@ msgstr "FFT Phase"
 
 #: modules/process/fft.c:330
 msgid "Real + Imaginary"
-msgstr "Real + Imaginary"
+msgstr "実部+虚部"
 
 #: modules/process/fft.c:331
 msgid "Modulus + Phase"
@@ -11185,11 +11183,11 @@ msgstr "Modulus + Phase"
 
 #: modules/process/fft.c:332
 msgid "Real"
-msgstr "Real"
+msgstr "実部"
 
 #: modules/process/fft.c:333
 msgid "Imaginary"
-msgstr "Imaginary"
+msgstr "虚部"
 
 #: modules/process/fft.c:334
 msgid "Modulus"
@@ -11209,11 +11207,11 @@ msgstr "Raw transform"
 
 #: modules/process/fft.c:374
 msgid "I_maginary part:"
-msgstr "Imaginary part:"
+msgstr "虚部:"
 
 #: modules/process/fft.c:388
 msgid "_Inverse transform"
-msgstr "Inverse transform"
+msgstr "逆変換"
 
 #: modules/process/fft.c:417
 msgid "Subtract mean _value beforehand"
@@ -11385,11 +11383,11 @@ msgstr "原点を中心に図形を強制的に配置する"
 
 #: modules/process/fft_synth.c:188
 msgid "Generates random surfaces using spectral synthesis."
-msgstr "スペクトル合成を使用してランダムサーフェスを生成します。"
+msgstr "スペクトル合成を使用してランダム表面を生成します。"
 
 #: modules/process/fft_synth.c:202
 msgid "/S_ynthetic/_Spectral..."
-msgstr "/合成・生成/_Spectral…"
+msgstr "/合成・生成/スペクトル…"
 
 #: modules/process/fft_synth.c:206
 msgid "Generate surface using spectral synthesis"
@@ -11425,11 +11423,11 @@ msgstr "General power:"
 
 #: modules/process/fft_synth.c:518
 msgid "Enable _Lorentz multiplier"
-msgstr "Enable Lorentz multiplier"
+msgstr "ローレンツ乗算を有効にする"
 
 #: modules/process/fft_synth.c:542
 msgid "Enable _power multiplier"
-msgstr "乗数を有効にする"
+msgstr "べき乗を有効にする"
 
 #: modules/process/fibre_synth.c:256
 msgid "Semi-circle"
@@ -11499,19 +11497,19 @@ msgstr "線の生成中…"
 
 #: modules/process/fit-shape.c:265
 msgid "Fits predefined geometrical shapes to data."
-msgstr "定義済みの幾何学的形状をデータに適合します。"
+msgstr "定義済みの幾何学的形状をデータにフィッティングします。"
 
 #: modules/process/fit-shape.c:279
 msgid "/Measure _Features/_Fit Shape..."
-msgstr "/特徴抽出/_Fit Shape..."
+msgstr "/特徴抽出/形状フィッティング…"
 
 #: modules/process/fit-shape.c:283 modules/process/fit-shape.c:290
 msgid "Fit geometrical shapes"
-msgstr "幾何学的形状にフィット"
+msgstr "幾何学的形状にフィッティング"
 
 #: modules/process/fit-shape.c:286
 msgid "/_Fit Shape..."
-msgstr "/形状のフィッティング…"
+msgstr "/形状フィッティング…"
 
 #: modules/process/fit-shape.c:388
 msgid "Fit Shape"
@@ -11657,7 +11655,7 @@ msgstr "最小"
 
 #: modules/process/fractal.c:297
 msgid "From:"
-msgstr "送信元:"
+msgstr "ここから:"
 
 #: modules/process/fractal.c:302 modules/process/fractal.c:564
 #: modules/process/fractal.c:588
@@ -11666,7 +11664,7 @@ msgstr "最大"
 
 #: modules/process/fractal.c:303
 msgid "To:"
-msgstr "宛先:"
+msgstr "ここまで:"
 
 #: modules/process/fractal.c:336
 msgid "Save Fractal Dimension"
@@ -11822,7 +11820,7 @@ msgstr "水平Sobelグラデーション画像処理"
 
 #: modules/process/gradient.c:65
 msgid "/_Presentation/_Gradient/_Sobel (vertical)"
-msgstr "/画像処理ツール/勾配/_Sobel(垂直)"
+msgstr "/画像処理ツール/勾配/Sobel(垂直)"
 
 #: modules/process/gradient.c:69
 msgid "Vertical Sobel gradient presentation"
@@ -11830,7 +11828,7 @@ msgstr "垂直Sobelグラデーション画像処理"
 
 #: modules/process/gradient.c:72
 msgid "/_Presentation/_Gradient/_Prewitt (horizontal)"
-msgstr "/画像処理ツール/勾配/_Prewitt (水平)"
+msgstr "/画像処理ツール/勾配/Prewitt (水平)"
 
 #: modules/process/gradient.c:76
 msgid "Horizontal Prewitt gradient presentation"
@@ -11838,7 +11836,7 @@ msgstr "水平Prewittグラデーション画像処理"
 
 #: modules/process/gradient.c:79
 msgid "/_Presentation/_Gradient/_Prewitt (vertical)"
-msgstr "/画像処理ツール/勾配/_Prewitt(垂直)"
+msgstr "/画像処理ツール/勾配/Prewitt(垂直)"
 
 #: modules/process/gradient.c:83
 msgid "Vertical Prewitt gradient presentation"
@@ -11846,7 +11844,7 @@ msgstr "垂直Prewittグラデーション画像処理"
 
 #: modules/process/gradient.c:86
 msgid "/_Presentation/_Gradient/_Azimuth"
-msgstr "/画像処理ツール/勾配/_Azimuth"
+msgstr "/画像処理ツール/勾配/Azimuth"
 
 #: modules/process/gradient.c:90
 msgid "Local slope azimuth presentation"
@@ -11898,7 +11896,7 @@ msgstr "粒の分布を評価します (マスクの連続部分)。"
 
 #: modules/process/grain_dist.c:175
 msgid "/_Grains/_Distributions..."
-msgstr "/粒子/_分布…"
+msgstr "/粒子/分布…"
 
 #: modules/process/grain_dist.c:179
 msgid "Distributions of various grain characteristics"
@@ -11918,7 +11916,7 @@ msgstr "粒子分布"
 
 #: modules/process/grain_dist.c:547
 msgid "count"
-msgstr "count"
+msgstr "数"
 
 #: modules/process/grain_dist.c:611
 msgid "Export Raw Grain Values"
@@ -11951,19 +11949,19 @@ msgstr "ラプラシアン:"
 #: modules/process/grain_filter.c:193
 msgid ""
 "Filters grains by their properties, using logical expressions and thresholds."
-msgstr "論理式としきい値を使用して、プロパティ別に粒子をフィルター処理します。"
+msgstr "論理式としきい値を使用して、プロパティ別に粒子をフィルタリングします。"
 
 #: modules/process/grain_filter.c:208
 msgid "/_Grains/_Filter..."
-msgstr "/粒子/フィルタ…"
+msgstr "/粒子/フィルタリング…"
 
 #: modules/process/grain_filter.c:212
 msgid "Filter grains by their properties"
-msgstr "プロパティによって粒子をフィルター処理する"
+msgstr "プロパティによって粒子をフィルタリング"
 
 #: modules/process/grain_filter.c:252
 msgid "There are no grains to filter."
-msgstr "フィルターする粒子はありません。"
+msgstr "フィルタリングする粒子はありません。"
 
 #: modules/process/grain_filter.c:308
 msgid "Filter Grains"
@@ -11997,7 +11995,7 @@ msgstr "しきい値(高さ、勾配、曲率)で粒子をマークします。"
 
 #: modules/process/grain_mark.c:151
 msgid "/_Grains/_Mark by Threshold..."
-msgstr "/粒子/しきい値による_Mark。"
+msgstr "/粒子/しきい値でマーク…"
 
 #: modules/process/grain_mark.c:155
 msgid "Mark grains by threshold"
@@ -12390,15 +12388,15 @@ msgstr "New"
 
 #: modules/process/indent_analyze.c:253
 msgid "AND"
-msgstr "かつ"
+msgstr "AND"
 
 #: modules/process/indent_analyze.c:254
 msgid "OR"
-msgstr "または"
+msgstr "OR"
 
 #: modules/process/indent_analyze.c:255
 msgid "NOT"
-msgstr "ではない"
+msgstr "NOT"
 
 #: modules/process/indent_analyze.c:256
 msgid "XOR"
@@ -12410,11 +12408,11 @@ msgstr "なし"
 
 #: modules/process/indent_analyze.c:261
 msgid "Above"
-msgstr "上記の"
+msgstr "より上"
 
 #: modules/process/indent_analyze.c:262
 msgid "Below"
-msgstr "以下"
+msgstr "より下"
 
 #: modules/process/indent_analyze.c:264
 msgid "Impression"
@@ -12713,11 +12711,11 @@ msgstr "2 番目に近い距離"
 
 #: modules/process/lat_synth.c:405
 msgid "Generates surfaces based on regular or random lattices."
-msgstr "規則的またはランダムな格子に基づいてサーフェスを生成します。"
+msgstr "規則的またはランダムな格子に基づいて表面を生成します。"
 
 #: modules/process/lat_synth.c:419
 msgid "/S_ynthetic/_Lattice..."
-msgstr "/合成・生成/_格子…"
+msgstr "/合成・生成/格子…"
 
 #: modules/process/lat_synth.c:423
 msgid "Generate lattice based surface"
@@ -12932,11 +12930,11 @@ msgstr "ライン欠陥(主に実験的アルゴリズム)を修正します。"
 
 #: modules/process/linecorrect.c:68
 msgid "/_Correct Data/Ste_p Line Correction"
-msgstr "/データ補正/Step Line補正"
+msgstr "/データ補正/ステップライン補正"
 
 #: modules/process/linecorrect.c:72
 msgid "Correct steps in lines"
-msgstr "行内のステップを修正する"
+msgstr "ライン内のステップを修正する"
 
 #: modules/process/linecorrect.c:75
 msgid "/_Correct Data/Mark _Inverted Rows"
@@ -12976,15 +12974,15 @@ msgstr "範囲指定された変位平均"
 
 #: modules/process/linematch.c:184
 msgid "Aligns rows by various methods."
-msgstr "さまざまな方法でスキャンラインを揃えます（レベリングします）。"
+msgstr "さまざまな方法でスキャンラインをレベリングします。"
 
 #: modules/process/linematch.c:198
 msgid "/_Correct Data/_Align Rows..."
-msgstr "/データ補正/スキャンラインを揃える…"
+msgstr "/データ補正/ラインレベリング…"
 
 #: modules/process/linematch.c:202
 msgid "Align rows using various methods"
-msgstr "さまざまな方法を使用してスキャンを揃える"
+msgstr "種々の方法によるラインレベリング"
 
 #: modules/process/linematch.c:253 modules/process/linematch.c:281
 msgid "Row background"
@@ -13117,7 +13115,7 @@ msgstr "ブレンド深さ:"
 
 #: modules/process/logistic.c:122
 msgid "Trains logistic regression to mark grains."
-msgstr "Trains logistic regression to mark grains."
+msgstr "粒子をマークするロジスティック回帰を訓練します。"
 
 #: modules/process/logistic.c:136
 msgid "/_Grains/Logistic _Regression..."
@@ -13668,7 +13666,7 @@ msgstr "中央値減算によるレベリング"
 
 #: modules/process/median-bg.c:133
 msgid "Median-leveling..."
-msgstr "中央値レベリング"
+msgstr "中央値レベリング…"
 
 #: modules/process/median-bg.c:176
 msgid "Median Level"
@@ -13826,7 +13824,7 @@ msgstr "プローブタイプ:"
 #: modules/process/mfm_current.c:476 modules/process/mfm_field.c:440
 #: modules/process/mfm_parallel.c:481
 msgid "Tip _magnetization:"
-msgstr "Tip magnetization:"
+msgstr "プローブ磁化:"
 
 #: modules/process/mfm_current.c:485 modules/process/mfm_field.c:448
 #: modules/process/mfm_parallel.c:490
@@ -13949,11 +13947,11 @@ msgstr "Remanent magnetization:"
 
 #: modules/process/mfm_parallel.c:438
 msgid "Size _A (dir. left):"
-msgstr "Size _A (dir. left):"
+msgstr "Size A (dir. left):"
 
 #: modules/process/mfm_parallel.c:446
 msgid "Size _B (dir. right):"
-msgstr "Size _B (dir. right):"
+msgstr "Size B (dir. right):"
 
 #: modules/process/mfm_parallel.c:454
 msgid "_Gap size:"
@@ -14164,7 +14162,7 @@ msgstr "/複数のデータ処理/ニューラルネットワークの訓練…"
 
 #: modules/process/neural.c:233
 msgid "Train a neural network for image processing"
-msgstr "画像処理のためのニューラル ネットワークの訓練…"
+msgstr "画像処理のためのNN訓練"
 
 #: modules/process/neural.c:237
 msgid "/M_ultidata/Apply _Neural Network..."
@@ -14453,7 +14451,7 @@ msgstr "Siemens star"
 
 #: modules/process/pat_synth.c:230
 msgid "Generates surfaces representing simple patterns (steps, ridges, ...)."
-msgstr "単純なパターン(ステップ、リッジ、..)を表すサーフェスを生成します。"
+msgstr "単純なパターン(ステップ、リッジ、..)を表す表面を生成します。"
 
 #: modules/process/pat_synth.c:245
 msgid "/S_ynthetic/_Pattern..."
@@ -14461,7 +14459,7 @@ msgstr "/合成・生成/パターン…"
 
 #: modules/process/pat_synth.c:249
 msgid "Generate patterned surface"
-msgstr "パターンサーフェスを生成する"
+msgstr "パターン表面を生成する"
 
 #: modules/process/pat_synth.c:394
 msgid "Pattern"
@@ -14564,7 +14562,7 @@ msgstr "シンプルなPIDシミュレータ"
 
 #: modules/process/pid.c:109
 msgid "/SPM M_odes/_Force and Indentation/_PID Simulation..."
-msgstr "/SPMモード/フォースインデンテーション/_PIDシミュレーション…"
+msgstr "/SPMモード/フォースインデンテーション/PIDシミュレーション…"
 
 #: modules/process/pid.c:113
 msgid "Simulate PID effects on measurement"
@@ -14656,7 +14654,7 @@ msgstr "/合成・生成/堆積/積み上げ..."
 
 #: modules/process/pileup_synth.c:296
 msgid "Generate surface of randomly piled up shapes"
-msgstr "ランダムに積み重ねられた形状のサーフェスを生成"
+msgstr "ランダムに積み重ねられた形状の表面を生成"
 
 #: modules/process/pileup_synth.c:420
 msgid "Pile Up Shapes"
@@ -14696,7 +14694,7 @@ msgstr "Y 係数"
 
 #: modules/process/polylevel.c:144
 msgid "Subtracts polynomial background."
-msgstr "多項式で背景を減算します。"
+msgstr "多項式で背景を減算してレベリングします。"
 
 #: modules/process/polylevel.c:158
 msgid "/_Level/_Polynomial Background..."
@@ -14708,11 +14706,11 @@ msgstr "多項式で背景を削除する"
 
 #: modules/process/polylevel.c:359
 msgid "Independent degrees"
-msgstr "Independent degrees"
+msgstr "別々の次数"
 
 #: modules/process/polylevel.c:360
 msgid "Limited total degree"
-msgstr "Limited total degree"
+msgstr "次数を制限"
 
 #: modules/process/polylevel.c:373
 msgid "Remove Polynomial Background"
@@ -14732,7 +14730,7 @@ msgstr "垂直方向の多項式次数:"
 
 #: modules/process/polylevel.c:460
 msgid "_Same degrees"
-msgstr "Same degrees"
+msgstr "同じ次数"
 
 #: modules/process/polylevel.c:559
 msgid "Polynomial Coefficients"
@@ -14982,7 +14980,7 @@ msgstr ""
 
 #: modules/process/rank-filter.c:131
 msgid "/_Integral Transforms/_Rank Filter..."
-msgstr "/積分変換/Rankフィルタ…"
+msgstr "/積分変換/ランクフィルタ…"
 
 #: modules/process/rank-filter.c:135
 msgid "K-th rank filter"
@@ -15130,11 +15128,11 @@ msgstr "2 番目の画像"
 
 #: modules/process/resample.c:115
 msgid "Resamples data to specified pixel size."
-msgstr "指定したピクセル サイズにデータを再サンプルします。"
+msgstr "指定したピクセル サイズにデータをリサンプリングします。"
 
 #: modules/process/resample.c:129
 msgid "/_Basic Operations/_Resample..."
-msgstr "/基本操作/_リサンプリング…"
+msgstr "/基本操作/リサンプリング…"
 
 #: modules/process/resample.c:133
 msgid "Resample to pixel size"
@@ -15162,7 +15160,7 @@ msgstr "新しいピクセル次元:"
 
 #: modules/process/roddeposit_synth.c:203
 msgid "Generates rod-like particles using simple dynamical model"
-msgstr "単純な動的モデルを使用してロッド状のパーティクルを生成"
+msgstr "単純な動的モデルを使用してロッド状の微小構造を生成"
 
 #: modules/process/roddeposit_synth.c:217
 msgid "/S_ynthetic/_Deposition/_Rods..."
@@ -15170,7 +15168,7 @@ msgstr "/合成・生成/堆積/ロッド…"
 
 #: modules/process/roddeposit_synth.c:221
 msgid "Generate rod-like particles using dynamical model"
-msgstr "動的モデルを使用してロッド状のパーティクルを生成する"
+msgstr "動的モデルを使用してロッド状の微小構造を生成する"
 
 #: modules/process/roddeposit_synth.c:513
 msgid "A_spect ratio variance:"
@@ -15439,7 +15437,7 @@ msgstr "2次元分布"
 
 #: modules/process/slope_dist.c:251
 msgid "Directional (φ) _graph"
-msgstr "方向 (φ) _graph"
+msgstr "方向 (φ) グラフ"
 
 #: modules/process/slope_dist.c:252
 msgid "_Inclination (θ) graph"
@@ -15803,7 +15801,7 @@ msgstr "ティップ画像の作成"
 #: modules/process/tip_blind.c:807
 #, c-format
 msgid "Stripe %u: "
-msgstr "ストライプ%u:"
+msgstr "ストライプ%u: "
 
 #: modules/process/tip_blind.c:919 modules/process/tip_blind.c:943
 msgid "Estimated tip"
@@ -17012,7 +17010,7 @@ msgstr "ゼロ設定"
 
 #: modules/tools/readvalue.c:412
 msgid "Shift plane z=0 to pass through the selected point"
-msgstr "選択した点を通過する平面Zをゼロにシフトします。"
+msgstr "選択した点を通過する平面Zをゼロにシフト"
 
 #: modules/tools/readvalue.c:420
 msgid "Facet"
@@ -17796,7 +17794,7 @@ msgstr "すべての XY 平面をレベリングする"
 
 #: modules/volume/volume_planelevel.c:58
 msgid "/_XY Plane Level"
-msgstr "/_XY平面レベリング"
+msgstr "/XY平面レベリング"
 
 #: modules/volume/volume_planelevel.c:62
 msgid "Level all XY planes"
@@ -17872,7 +17870,7 @@ msgstr "ユーザーの選択に基づいて連続データのフェーズを入
 
 #: modules/volume/volume_rephase.c:164
 msgid "/_Adjust Phase..."
-msgstr "/_位相の調整..."
+msgstr "/位相の調整..."
 
 #: modules/volume/volume_rephase.c:168
 msgid "Change phase in continuous data"
@@ -18015,7 +18013,7 @@ msgstr "ボリュームデータの軸を入れ替えます。"
 
 #: modules/volume/volume_swaxes.c:118
 msgid "/S_wap Axes..."
-msgstr "/軸の入れ替え"
+msgstr "/軸の入れ替え…"
 
 #: modules/volume/volume_swaxes.c:122
 msgid "Swap axes"
@@ -18169,7 +18167,7 @@ msgstr "XYZデータのドリフトを分析します。"
 
 #: modules/xyz/xyz_drift.c:281
 msgid "/Analyze _Drift..."
-msgstr "/_ドリフト分析…"
+msgstr "/ドリフト分析…"
 
 #: modules/xyz/xyz_drift.c:285
 msgid "Analyze and/or remove drift"
@@ -18254,7 +18252,7 @@ msgstr "詳細検索"
 
 #: modules/xyz/xyz_drift.c:1014
 msgid "_Neighbors used:"
-msgstr "_Neighbors used:"
+msgstr "使用隣接線:"
 
 #: modules/xyz/xyz_drift.c:1031
 msgid "_Length threshold:"
@@ -18279,7 +18277,7 @@ msgstr "Xドリフト:"
 #: modules/xyz/xyz_drift.c:1103 modules/xyz/xyz_drift.c:1121
 #: modules/xyz/xyz_drift.c:1138
 msgid "to inits"
-msgstr "to inits"
+msgstr "初期値に"
 
 #: modules/xyz/xyz_drift.c:1113
 msgid "Y drift:"
@@ -18299,7 +18297,7 @@ msgstr "物理寸法が無効です。"
 
 #: modules/xyz/xyz_level.c:94
 msgid "Simple XYZ data leveling."
-msgstr "シンプルな XYZ データのレベリング"
+msgstr "シンプルなXYZデータレベリング…"
 
 #: modules/xyz/xyz_level.c:108
 msgid "/Fix _Zero"
